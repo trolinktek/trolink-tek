@@ -5,9 +5,9 @@
   "scripts": {
     "seo:sitemap": "node scripts/generate-sitemap.mjs",
     "site:sync": "node scripts/prepare-next-site.mjs",
-    "predev": "npm run seo:sitemap && npm run site:sync",
+    "predev": "npm run site:sync && npm run seo:sitemap",
     "dev": "next dev --hostname 127.0.0.1",
-    "prebuild": "npm run seo:sitemap && npm run site:sync",
+    "prebuild": "npm run site:sync && npm run seo:sitemap",
     "build": "next build",
     "start": "next start --hostname 0.0.0.0"
   },
