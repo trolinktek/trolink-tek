@@ -8,7 +8,6 @@ export const products = [
     "image": "/assets/products/2699/detail-01.jpg",
     "gallery": [
       "/assets/products/2699/detail-01.jpg",
-      "/assets/products/2699.jpg",
       "/assets/products/2699/detail-02.jpg",
       "/assets/products/2699/detail-03.jpg",
       "/assets/products/2699/detail-04.jpg",
@@ -41,7 +40,6 @@ export const products = [
     "image": "/assets/products/2698/detail-02.jpg",
     "gallery": [
       "/assets/products/2698/detail-02.jpg",
-      "/assets/products/2698.jpg",
       "/assets/products/2698/detail-01.jpg",
       "/assets/products/2698/detail-03.jpg",
       "/assets/products/2698/detail-04.jpg",
@@ -100,9 +98,8 @@ export const products = [
     "local_url": "/products/catalog/car-monitor-hp702-2696/",
     "title": "Car Monitor :HP702",
     "category": "Smart Car Screens",
-    "image": "/assets/products/2696.jpg",
+    "image": "/assets/products/2696/detail-01.jpg",
     "gallery": [
-      "/assets/products/2696.jpg",
       "/assets/products/2696/detail-01.jpg",
       "/assets/products/2696/detail-02.jpg",
       "/assets/products/2696/detail-03.jpg",
@@ -168,9 +165,8 @@ export const products = [
     "local_url": "/products/catalog/car-monitor-hm051-2694/",
     "title": "Car Monitor :HM051",
     "category": "Smart Car Screens",
-    "image": "/assets/products/2694.jpg",
+    "image": "/assets/products/2694/detail-01.jpg",
     "gallery": [
-      "/assets/products/2694.jpg",
       "/assets/products/2694/detail-01.jpg",
       "/assets/products/2694/detail-02.jpg",
       "/assets/products/2694/detail-03.jpg",
@@ -203,7 +199,6 @@ export const products = [
     "image": "/assets/products/2693/detail-02.jpg",
     "gallery": [
       "/assets/products/2693/detail-02.jpg",
-      "/assets/products/2693.jpg",
       "/assets/products/2693/detail-01.jpg",
       "/assets/products/2693/detail-03.jpg",
       "/assets/products/2693/detail-04.jpg",
@@ -234,9 +229,8 @@ export const products = [
     "local_url": "/products/catalog/carplay-box-hg3-2692/",
     "title": "Carplay Box :HG3",
     "category": "CarPlay AI Boxes",
-    "image": "/assets/products/2692.jpg",
+    "image": "/assets/products/2692/detail-01.jpg",
     "gallery": [
-      "/assets/products/2692.jpg",
       "/assets/products/2692/detail-01.jpg",
       "/assets/products/2692/detail-02.jpg",
       "/assets/products/2692/detail-03.jpg",

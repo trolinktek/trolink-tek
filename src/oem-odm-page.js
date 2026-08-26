@@ -14,11 +14,11 @@ const projectSteps=[
   ['01','Requirement brief','Market, user, vehicle, function, appearance, quantity and schedule requirements.','oem-process-design.webp'],
   ['02','Feasibility review','Platform fit, technical boundaries, customization scope and sample plan.','oem-odm-engineering-hero-v2.png?v=20260803-2'],
   ['03','Solution proposal','Recommended product route, configuration, deliverables and commercial assumptions.','oem-process-branding.webp'],
-  ['04','Prototype evaluation','Sample preparation, representative vehicle testing and issue feedback.','oem-process-prototype-evaluation.png?v=20260730-1'],
+  ['04','Prototype evaluation','Sample preparation, representative vehicle testing and issue feedback.','oem-process-design.webp'],
   ['05','Version confirmation','Approved hardware, firmware, appearance, accessories, packaging and documentation.','oem-process-packaging.webp'],
-  ['06','Pilot production','Production preparation and review against the approved sample and inspection checklist.','oem-process-pilot-production.png?v=20260730-1'],
+  ['06','Pilot production','Production preparation and review against the approved sample and inspection checklist.','oem-process-firmware.webp'],
   ['07','Inspection & shipment','Functional, appearance, packing and shipment documentation review.','oem-process-delivery.webp'],
-  ['08','After-sales loop','Keep model, batch, firmware, logs and corrective actions connected after delivery.','oem-process-after-sales.png?v=20260730-1']
+  ['08','After-sales loop','Keep model, batch, firmware, logs and corrective actions connected after delivery.','oem-process-delivery.webp']
 ];
 
 document.querySelector('#oem-app').innerHTML=`
