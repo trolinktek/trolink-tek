@@ -1,0 +1,20 @@
+{
+  "name": "trolink-tek",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "seo:sitemap": "node scripts/generate-sitemap.mjs",
+    "site:sync": "node scripts/prepare-next-site.mjs",
+    "predev": "npm run seo:sitemap && npm run site:sync",
+    "dev": "next dev --hostname 127.0.0.1",
+    "prebuild": "npm run seo:sitemap && npm run site:sync",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0"
+  },
+  "dependencies": {
+    "next": "^15.5.9",
+    "nodemailer": "^7.0.11",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

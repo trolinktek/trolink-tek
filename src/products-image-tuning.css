@@ -1,0 +1,44 @@
+.catalog-image img[src="/assets/products/carplay-ai-boxes/2518.jpg"] {
+  transform: scale(1.06);
+  transform-origin: center;
+}
+
+.catalog-image img[src="/assets/products/carplay-ai-boxes/2519.jpg"] {
+  transform: scale(1.08);
+  transform-origin: center;
+}
+
+.catalog-image img[src="/assets/products/carplay-ai-boxes/2705.png"] {
+  transform: scale(1.66);
+  transform-origin: center;
+}
+
+.catalog-image img[src="/assets/products/carplay-ai-boxes/2704.png"] {
+  transform: scale(1.65);
+  transform-origin: center;
+}
+
+.catalog-image img[src="/assets/products/carplay-ai-boxes/2641.jpg"] {
+  transform: scale(1.52);
+  transform-origin: center;
+}
+
+.catalog-card:hover .catalog-image img[src="/assets/products/carplay-ai-boxes/2518.jpg"] {
+  transform: scale(1.10);
+}
+
+.catalog-card:hover .catalog-image img[src="/assets/products/carplay-ai-boxes/2519.jpg"] {
+  transform: scale(1.12);
+}
+
+.catalog-card:hover .catalog-image img[src="/assets/products/carplay-ai-boxes/2705.png"] {
+  transform: scale(1.70);
+}
+
+.catalog-card:hover .catalog-image img[src="/assets/products/carplay-ai-boxes/2704.png"] {
+  transform: scale(1.69);
+}
+
+.catalog-card:hover .catalog-image img[src="/assets/products/carplay-ai-boxes/2641.jpg"] {
+  transform: scale(1.56);
+}

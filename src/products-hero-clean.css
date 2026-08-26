@@ -1,0 +1,4 @@
+.catalog-hero{display:block;min-height:0;height:auto;background:#030e1c;overflow:visible}
+.catalog-hero>img{display:block;width:100%;height:auto;max-width:100%;max-height:none;object-fit:contain;object-position:center;clip-path:none}
+@media(max-width:800px){.catalog-hero>img{width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;clip-path:none}}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.catalog-hero{height:auto}.catalog-hero>img{width:100%;height:auto;max-height:none}}

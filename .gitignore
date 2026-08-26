@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+.vercel
+node_modules
+dist
+.next
+public/
+
+# Local package/cache directories
+.pnpm-store/
+.vite/
+
+# Local diagnostics, logs, and visual QA artifacts
+*.log
+.qa-*/
+qa-prelaunch/
+output/
+temp/
+research/
+source-materials/
+*.png
+!assets/**/*.png
+!public/assets/**/*.png
+
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

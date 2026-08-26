@@ -1,0 +1,92 @@
+.about-hero{display:grid;grid-template-columns:.9fr 1.1fr;min-height:650px;background:#07182d;color:#fff}.about-hero-copy{display:flex;flex-direction:column;justify-content:center;padding:80px max(42px,calc((100vw - 1180px)/2)) 80px max(42px,calc((100vw - 1180px)/2))}.crumb{display:flex;gap:12px;margin-bottom:40px;color:#8ea3bd;font-size:13px}.crumb a{color:#8ea3bd}.about-hero h1{max-width:620px;margin:0 0 25px;font-size:clamp(48px,5vw,76px);line-height:.98;letter-spacing:-.055em}.about-hero-copy>p{max-width:580px;margin:0 0 34px;color:#b7c6d8;font-size:18px;line-height:1.7}.about-hero-copy .btn{align-self:flex-start}.about-hero-image{min-width:0;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#e9eef4;position:relative}.about-hero-image::before{content:"";position:absolute;inset:-24px;background:url("/assets/trolinktek-global-partnership-team.png") center/cover no-repeat;filter:blur(18px);opacity:.3}.about-hero-image::after{content:"";position:absolute;inset:0;background:rgba(7,24,45,.08)}.about-hero-image img{width:100%;height:auto;max-height:100%;object-fit:contain;object-position:center;position:relative;z-index:1}.about-belief{display:grid;grid-template-columns:1.45fr .55fr;gap:70px;padding:100px max(40px,calc((100vw - 1180px)/2));align-items:end}.about-belief blockquote{margin:0;color:#0a1830;font-size:clamp(35px,4vw,58px);font-weight:700;line-height:1.12;letter-spacing:-.045em}.about-belief p{margin:0;color:#61708a;line-height:1.8}.about-founder{display:grid;grid-template-columns:.8fr 1.2fr;background:#f3f7fc;align-items:center}.founder-portrait{height:720px;overflow:hidden;background:#dfe8f4}.founder-portrait img{width:100%;height:100%;object-fit:contain;object-position:center bottom}.about-founder>div:last-child{padding:80px max(45px,calc((100vw - 1180px)/2)) 80px 8vw}.about-founder span,.about-capabilities span,.about-team span{display:block;margin-bottom:22px;color:#0869ff;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.about-founder h2,.about-capabilities h2,.about-team h2{max-width:650px;margin:0 0 28px;font-size:clamp(38px,4vw,60px);line-height:1.05;letter-spacing:-.045em}.about-founder p,.about-capabilities p,.about-team p{max-width:660px;color:#61708a;font-size:17px;line-height:1.75}.about-founder .text-link{display:inline-flex;margin-top:22px;color:#0869ff;font-weight:800}.about-capabilities{display:grid;grid-template-columns:1.1fr .9fr}.capability-media{min-height:720px;overflow:hidden;background:#e8eef5}.capability-media img{display:block;width:100%;height:100%;min-height:720px;object-fit:cover;object-position:58% center}.capability-copy{padding:90px max(42px,calc((100vw - 1180px)/2)) 90px 7vw}.capability-copy dl{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin:38px 0}.capability-copy dl div{padding-top:18px;border-top:1px solid #cad5e4}.capability-copy dt{font-size:32px;font-weight:800;letter-spacing:-.035em}.capability-copy dd{margin:7px 0 0;color:#61708a;font-size:12px}.capability-copy small{display:block;margin-bottom:32px;color:#7c899b;line-height:1.5}.about-team{padding:110px max(40px,calc((100vw - 1180px)/2))}.team-copy{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:end;margin-bottom:50px}.team-copy>p{margin:0}.about-team img{width:100%;max-height:650px;object-fit:cover}.about-visit{display:flex;justify-content:space-between;align-items:center;gap:50px;padding:80px max(40px,calc((100vw - 1180px)/2));background:#0869ff;color:#fff}.about-visit h2{max-width:780px;margin:0 0 15px;font-size:clamp(34px,4vw,54px);line-height:1.05;letter-spacing:-.04em}.about-visit p{margin:0;color:#dce9ff}.about-visit .btn{flex:0 0 auto;background:#fff;color:#07182d}
+@media(max-width:900px){.about-hero,.about-founder,.about-capabilities{grid-template-columns:1fr}.about-hero{min-height:0}.about-hero-copy{padding:70px 24px}.about-hero-image{height:400px}.about-belief{grid-template-columns:1fr;padding:75px 24px;gap:30px}.founder-portrait{height:520px}.about-founder>div:last-child,.capability-copy{padding:70px 24px}.capability-media{min-height:400px;height:56vw;max-height:540px}.capability-media img{min-height:0;object-position:center 48%}.team-copy{grid-template-columns:1fr;gap:15px}.about-team{padding:75px 24px}.about-visit{align-items:flex-start;flex-direction:column;padding:65px 24px}}@media(max-width:560px){.about-hero h1{font-size:43px}.about-hero-image{height:300px}.founder-portrait{height:430px}.capability-media{height:72vw;min-height:300px}.capability-media img{object-position:55% center}.capability-copy dl{grid-template-columns:1fr}.about-team img{height:310px}.about-visit .btn{width:100%;justify-content:center}}
+
+/* Balance the company introduction and keep the partnership photo visually full. */
+@media(min-width:901px){.about-hero{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);min-height:590px}.about-hero-copy{padding-right:48px}.about-hero h1{font-size:clamp(46px,4vw,64px)}.about-hero-copy>p{font-size:16px}.about-hero-image img{width:100%;height:100%;max-height:none;object-fit:contain;object-position:center}}
+
+/* Let the partnership photograph set the desktop hero height so every person
+   remains visible without letterboxing above or below the image. */
+@media(min-width:1000px){
+  .about-hero{grid-template-columns:minmax(0,34%) minmax(0,66%);min-height:0;height:35.2vw;max-height:680px}
+  .about-hero-copy{height:100%;padding-top:28px;padding-bottom:28px;padding-right:36px}
+  .about-hero .crumb{margin-bottom:22px}
+  .about-hero h1{margin-bottom:18px;font-size:clamp(36px,3.7vw,56px);line-height:.98}
+  .about-hero-copy>p{margin-bottom:20px;font-size:14px;line-height:1.55}
+  .about-hero-image{height:100%;background:none}
+  .about-hero-image::before,.about-hero-image::after{display:none}
+  .about-hero-image img{width:100%;height:100%;max-height:none;object-fit:contain;object-position:center}
+}
+.about-location{display:grid;grid-template-columns:.78fr 1.22fr;min-height:590px;background:#f3f7fc}.location-copy{padding:90px 7vw 90px max(40px,calc((100vw - 1180px)/2))}.location-copy>span{display:block;margin-bottom:22px;color:#0869ff;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.location-copy h2{margin:0 0 26px;font-size:clamp(38px,4vw,58px);line-height:1.05;letter-spacing:-.045em}.location-copy>p{max-width:570px;color:#61708a;font-size:16px;line-height:1.75}.location-copy dl{margin:32px 0}.location-copy dl div{padding:15px 0;border-top:1px solid #cad5e4}.location-copy dt{font-size:10px}.location-copy dd{font-size:13px}.location-copy dd a{color:#0869ff}.location-map{min-height:590px;background:#dfe8f4}.location-map iframe{width:100%;height:100%;min-height:590px;border:0;display:block}
+@media(max-width:900px){.about-location{grid-template-columns:1fr}.location-copy{padding:70px 24px}.location-map,.location-map iframe{min-height:430px}}@media(max-width:560px){.location-map,.location-map iframe{min-height:340px}.location-copy .btn{width:100%;justify-content:center}}
+
+/* Certificate gallery */
+.about-certificates{display:grid;grid-template-columns:minmax(320px,.72fr) minmax(520px,1.28fr);min-height:760px;background:#f3f7fc;color:#0a1830}
+.certificate-copy{display:flex;flex-direction:column;justify-content:center;padding:86px 6vw 86px max(42px,calc((100vw - 1180px)/2));background:#092c5d;color:#fff}
+.certificate-copy>span{display:block;margin-bottom:22px;color:#78adff;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.certificate-copy h2{max-width:520px;margin:0 0 26px;font-size:clamp(40px,4vw,60px);line-height:1.02;letter-spacing:-.045em}
+.certificate-copy>p{max-width:520px;margin:0 0 40px;color:#c7d8ec;font-size:16px;line-height:1.75}
+.certificate-meta{display:flex;justify-content:space-between;gap:20px;align-items:center;max-width:420px;padding:19px 0;border-top:1px solid rgba(255,255,255,.22);border-bottom:1px solid rgba(255,255,255,.22)}
+.certificate-meta strong{font-size:22px}.certificate-meta span{color:#92b8e6;font-size:12px;letter-spacing:.1em}
+.certificate-controls{display:flex;gap:10px;margin:22px 0 28px}
+.certificate-controls button{display:grid;width:52px;height:52px;place-items:center;border:1px solid rgba(255,255,255,.38);border-radius:50%;background:transparent;color:#fff;font-size:21px;cursor:pointer;transition:background .2s,border-color .2s,transform .2s}
+.certificate-controls button:hover{border-color:#fff;background:#0869ff;transform:translateY(-2px)}
+.certificate-copy .text-link{align-self:flex-start;color:#fff;font-weight:800}
+.certificate-stage{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:70px clamp(36px,6vw,100px);overflow:hidden;background:radial-gradient(circle at 50% 42%,#fff 0,#eef4fb 52%,#dce7f3 100%)}
+.certificate-frame{position:relative;width:min(100%,440px);aspect-ratio:.72;padding:27px;border:10px solid #13243a;background:linear-gradient(145deg,#c99b45,#f6db91 24%,#936829 55%,#efd487 78%,#a8792f);box-shadow:0 24px 60px rgba(7,24,45,.22),inset 0 0 0 2px #fff0b5}
+.certificate-frame::before{content:"";position:absolute;inset:10px;border:2px solid rgba(255,244,197,.9);pointer-events:none}
+.certificate-frame::after{content:"TROLINKTEK";position:absolute;left:50%;bottom:5px;transform:translateX(-50%);color:#f9e9b2;font-size:9px;font-weight:800;letter-spacing:.25em}
+.certificate-frame img{display:block;width:100%;height:100%;object-fit:contain;background:#fff;opacity:1;transition:opacity .14s ease}
+.certificate-frame img.is-changing{opacity:.15}
+#certificate-description{max-width:560px;min-height:48px;margin:24px 0 17px;color:#61708a;text-align:center;font-size:14px;line-height:1.65}
+.certificate-dots{display:flex;flex-wrap:wrap;justify-content:center;gap:9px}
+.certificate-dots button{width:25px;height:4px;padding:0;border:0;border-radius:99px;background:#aabbd0;cursor:pointer;transition:width .2s,background .2s}
+.certificate-dots button[aria-selected="true"]{width:44px;background:#0869ff}
+@media(max-width:900px){.about-certificates{grid-template-columns:1fr}.certificate-copy{padding:70px 24px}.certificate-stage{padding:58px 24px}.certificate-frame{width:min(100%,380px)}}
+@media(max-width:560px){.about-certificates{min-height:0}.certificate-copy h2{font-size:39px}.certificate-stage{padding:42px 18px}.certificate-frame{width:min(92vw,330px);padding:20px;border-width:8px}}
+@media(prefers-reduced-motion:reduce){.certificate-frame img,.certificate-controls button,.certificate-dots button{transition:none}}
+
+/* Balance the real SMT floor photo against the capability copy. */
+.about-capabilities{grid-template-columns:1.08fr .92fr;min-height:700px}
+.capability-media{min-height:700px;background:#eef3f7}
+.capability-media{position:relative}
+.capability-media img{min-height:700px;object-fit:cover;object-position:50% center;opacity:1;transition:opacity .36s ease,transform .7s ease}
+.capability-media img.is-panorama{object-fit:contain;object-position:center;background:#dfe8f2}
+.capability-media.has-panorama{background-image:linear-gradient(rgba(7,24,45,.34),rgba(7,24,45,.34)),var(--factory-panorama);background-position:center;background-size:cover}
+.capability-media.has-panorama::before{content:"";position:absolute;inset:0;background:rgba(225,234,243,.38);backdrop-filter:blur(12px)}
+.capability-media.has-panorama img{position:relative;z-index:1;background:transparent}
+.capability-media img.is-changing{opacity:.18;transform:scale(1.008)}
+.factory-carousel-controls{position:absolute;z-index:2;right:28px;top:28px;display:flex;gap:10px}
+.factory-carousel-controls button{display:flex;width:48px;height:48px;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.72);border-radius:50%;background:rgba(6,23,45,.72);color:#fff;font-size:20px;cursor:pointer;backdrop-filter:blur(8px);transition:background .2s,transform .2s}
+.factory-carousel-controls button:hover,.factory-carousel-controls button:focus-visible{background:#0869ff;transform:translateY(-2px);outline:2px solid #fff;outline-offset:2px}
+.factory-carousel-status{position:absolute;z-index:2;right:28px;bottom:26px;left:28px;display:flex;align-items:center;gap:18px;padding:13px 16px;background:rgba(6,23,45,.76);color:#fff;backdrop-filter:blur(8px)}
+.factory-carousel-status>span{flex:0 0 auto;margin:0;color:#fff;font-size:11px;font-weight:800;letter-spacing:.14em}
+.factory-carousel-dots{display:flex;flex:1;gap:7px}
+.factory-carousel-dots button{height:4px;flex:1;padding:0;border:0;border-radius:99px;background:rgba(255,255,255,.38);cursor:pointer;transition:background .2s,transform .2s}
+.factory-carousel-dots button[aria-selected="true"]{background:#fff;transform:scaleY(1.5)}
+@media(max-width:900px){.about-capabilities{grid-template-columns:1fr;min-height:0}.capability-media{min-height:400px}.capability-media img{min-height:0;object-position:center 48%}}
+@media(max-width:900px){.capability-media img.is-panorama{object-position:center}}
+@media(max-width:560px){.capability-media{min-height:300px}.capability-media img{object-position:center}.factory-carousel-controls{top:16px;right:16px}.factory-carousel-controls button{width:42px;height:42px}.factory-carousel-status{right:16px;bottom:16px;left:16px;gap:12px;padding:11px 12px}.factory-carousel-dots{gap:4px}}
+@media(prefers-reduced-motion:reduce){.capability-media img,.factory-carousel-controls button,.factory-carousel-dots button{transition:none}}
+
+/* Cross-browser certificate layout: Flexbox and explicit frame dimensions are
+   used as the baseline so Chrome, Edge IE mode and legacy IE do not depend on
+   CSS Grid, aspect-ratio, place-items, min() or clamp() for the core layout. */
+.about-certificates{display:-ms-flexbox;display:flex;min-height:760px}
+.certificate-copy{-ms-flex:0 0 36%;flex:0 0 36%;width:36%;padding:86px 6vw;box-sizing:border-box}
+.certificate-copy h2{font-size:60px}
+.certificate-stage{-ms-flex:1 1 64%;flex:1 1 64%;width:64%;padding:70px 6vw;box-sizing:border-box}
+.certificate-frame{width:440px;max-width:100%;height:611px;aspect-ratio:auto;box-sizing:border-box}
+.certificate-controls button{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}
+@media(max-width:900px){.about-certificates{display:block;min-height:0}.certificate-copy,.certificate-stage{width:100%;max-width:none;padding:70px 24px}.certificate-frame{width:380px;height:528px}}
+@media(max-width:560px){.certificate-copy h2{font-size:39px}.certificate-stage{padding:42px 18px}.certificate-frame{width:330px;max-width:92vw;height:458px}}
+
+/* Exhibition history uses the former certificate carousel structure, with a
+   landscape presentation that preserves people, booths and product displays. */
+.about-exhibitions{min-height:720px}
+.about-exhibitions .certificate-stage{padding:58px clamp(28px,5vw,82px)}
+.about-exhibitions .certificate-frame{width:min(100%,760px);max-width:760px;height:auto;aspect-ratio:4/3;padding:0;border:0;border-radius:2px;background:#dce7f3;box-shadow:0 24px 60px rgba(7,24,45,.2);overflow:hidden}
+.about-exhibitions .certificate-frame::before,.about-exhibitions .certificate-frame::after{display:none}
+.about-exhibitions .certificate-frame img{width:100%;height:100%;object-fit:cover;object-position:center}
+.about-exhibitions #certificate-description{max-width:700px;margin-top:22px}
+@media(max-width:900px){.about-exhibitions .certificate-stage{padding:48px 24px}.about-exhibitions .certificate-frame{width:min(100%,760px);height:auto}}
+@media(max-width:560px){.about-exhibitions .certificate-stage{padding:28px 18px 36px}.about-exhibitions .certificate-frame{width:100%;max-width:100%;height:auto;aspect-ratio:4/3}.about-exhibitions #certificate-description{min-height:72px}}

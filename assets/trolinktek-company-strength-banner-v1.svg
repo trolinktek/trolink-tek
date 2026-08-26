@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="960" viewBox="0 0 2000 960" role="img" aria-labelledby="title desc">
+  <title id="title">Shenzhen TrolinkTek company strength</title>
+  <desc id="desc">More than 20 years focused on wireless technology, over 100 employees, a 4,000 square metre production facility, monthly capacity above 400,000 pieces, raw material stock above 300,000 pieces and ready inventory above 40,000 pieces.</desc>
+  <defs>
+    <linearGradient id="sceneShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#03142c" stop-opacity=".90"/>
+      <stop offset=".38" stop-color="#03142c" stop-opacity=".54"/>
+      <stop offset=".72" stop-color="#03142c" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#03142c" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03142c" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#03142c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="metricBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03142c" stop-opacity="0"/>
+      <stop offset=".32" stop-color="#03142c" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#03142c" stop-opacity=".78"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1677ff"/>
+      <stop offset="1" stop-color="#5bdcff"/>
+    </linearGradient>
+  </defs>
+
+  <image href="trolinktek-company-strength-factory-v2.png" width="2000" height="960" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="2000" height="620" fill="url(#sceneShade)"/>
+  <rect width="2000" height="250" fill="url(#topShade)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="100" font-size="25" font-weight="700" letter-spacing="6" fill="#66d1ff">COMPANY STRENGTH</text>
+    <text x="78" y="200" font-size="67" font-weight="800" fill="#ffffff">SHENZHEN TROLINKTEK</text>
+    <text x="80" y="267" font-size="42" font-weight="600" fill="#c9eaff">TECHNOLOGY CO., LTD.</text>
+    <rect x="82" y="306" width="178" height="8" rx="4" fill="url(#accent)"/>
+    <text x="80" y="390" font-size="34" font-weight="600" fill="#ffffff">Wireless expertise. Engineering support.</text>
+    <text x="80" y="438" font-size="30" fill="#b9d7f2">Scalable manufacturing for global connected-car programs.</text>
+  </g>
+
+  <rect y="500" width="2000" height="460" fill="url(#metricBg)"/>
+  <g transform="translate(0 620)" font-family="Arial, Helvetica, sans-serif">
+
+    <g transform="translate(0 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="50" font-weight="800" fill="#ffffff">20+ YEARS</text>
+      <text x="166" y="164" font-size="20" font-weight="700" letter-spacing="1" fill="#5bd4ff">WIRELESS EXPERIENCE</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Focused on wireless</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">technology</text>
+    </g>
+
+    <g transform="translate(333 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="54" font-weight="800" fill="#ffffff">100+</text>
+      <text x="166" y="164" font-size="20" font-weight="700" letter-spacing="1" fill="#5bd4ff">EMPLOYEES</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Engineering, production</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">and customer service</text>
+    </g>
+
+    <g transform="translate(666 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="48" font-weight="800" fill="#ffffff">4,000+ m²</text>
+      <text x="166" y="164" font-size="19" font-weight="700" letter-spacing=".5" fill="#5bd4ff">PRODUCTION FACILITY</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Manufacturing and</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">inspection space</text>
+    </g>
+
+    <g transform="translate(999 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="48" font-weight="800" fill="#ffffff">400K+ PCS</text>
+      <text x="166" y="164" font-size="19" font-weight="700" letter-spacing=".5" fill="#5bd4ff">MONTHLY CAPACITY</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Scalable supply for</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">global programs</text>
+    </g>
+
+    <g transform="translate(1332 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="54" font-weight="800" fill="#ffffff">300K+</text>
+      <text x="166" y="164" font-size="20" font-weight="700" letter-spacing="1" fill="#5bd4ff">RAW MATERIALS</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Prepared for responsive</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">production planning</text>
+    </g>
+
+    <g transform="translate(1665 0)" text-anchor="middle">
+      <rect x="14" y="28" width="305" height="252" rx="18" fill="#061a36" fill-opacity=".62" stroke="#62bfff" stroke-opacity=".34"/>
+      <text x="166" y="112" font-size="54" font-weight="800" fill="#ffffff">40K+</text>
+      <text x="166" y="164" font-size="20" font-weight="700" letter-spacing="1" fill="#5bd4ff">READY INVENTORY</text>
+      <text x="166" y="211" font-size="20" fill="#bcd4ec">Faster response for</text>
+      <text x="166" y="239" font-size="20" fill="#bcd4ec">qualified orders</text>
+    </g>
+  </g>
+</svg>
