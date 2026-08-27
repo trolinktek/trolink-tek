@@ -23,13 +23,13 @@ const banners = [
   ['/assets/motorcycle-carplay-banner.jpg?v=20260813-assets-reload2','Motorcycle smart navigation with CarPlay']
 ];
 const certificates=[
-  ['ISO 9001','/assets/certificates/iso-9001.jpg'],
-  ['CE','/assets/certificates/ce.jpg'],
-  ['FCC','/assets/certificates/fcc.jpg'],
-  ['SRRC','/assets/certificates/srrc.jpg'],
-  ['RoHS','/assets/certificates/rohs.jpg'],
-  ['MiCOM Labs','/assets/certificates/micom-labs.jpg'],
-  ['BCTC TEST','/assets/certificates/bctc-test.jpg']
+  ['ISO 9001','/assets/certificates/iso-9001-web.jpg?v=20260827-1'],
+  ['CE','/assets/certificates/ce-web.jpg?v=20260827-1'],
+  ['FCC','/assets/certificates/fcc-web.jpg?v=20260827-1'],
+  ['SRRC','/assets/certificates/srrc-web.jpg?v=20260827-1'],
+  ['RoHS','/assets/certificates/rohs-web.jpg?v=20260827-1'],
+  ['MiCOM Labs','/assets/certificates/micom-labs-web.jpg?v=20260827-1'],
+  ['BCTC TEST','/assets/certificates/bctc-test-web.jpg?v=20260827-1']
 ];
 const certificateCards=certificates.map(([name,image])=>`<article class="home-certificate-card"><div class="home-certificate-frame"><img src="${image}" alt="${name} certificate issued to TrolinkTek" loading="lazy"></div><h3>${name}</h3></article>`).join('');
 

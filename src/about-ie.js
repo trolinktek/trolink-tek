@@ -1,11 +1,11 @@
 (function(){
   var app=document.getElementById('about-app');
   var exhibitions=[
-    ['Connected-car showcase','/assets/exhibitions/trolinktek-exhibition-team-booth.jpg?v=20260821-1','TrolinkTek exhibition team at a connected-car product booth','Our team presents wireless CarPlay adapters, AI boxes and display platforms to visiting buyers and channel partners.'],
-    ['Live product demonstration','/assets/exhibitions/trolinktek-exhibition-product-demo.jpg?v=20260821-1','TrolinkTek team demonstrating an electronics platform to exhibition visitors','Face-to-face demonstrations help buyers review platform functions, hardware options and potential application routes.'],
-    ['International partner meeting','/assets/exhibitions/trolinktek-exhibition-partner-meeting.jpg?v=20260821-1','TrolinkTek representative meeting an international buyer at a trade show','Exhibitions create a practical setting to discuss target markets, customization requirements and OEM or ODM project scope.'],
-    ['Distributor engagement','/assets/exhibitions/trolinktek-exhibition-customer-engagement.jpg?v=20260821-1','TrolinkTek exhibition team with an international visitor','In-person conversations help our team understand regional demand, sales channels and after-sales expectations.'],
-    ['Regional CarPlay showcase','/assets/exhibitions/trolinktek-exhibition-carplay-booth.jpg?v=20260821-1','TrolinkTek team at a regional CarPlay product exhibition booth','Product-focused exhibition displays give buyers a direct view of available platforms, form factors and connected-car applications.']
+    ['Connected-car showcase','/assets/exhibitions/trolinktek-exhibition-team-booth-web.jpg?v=20260827-1','TrolinkTek exhibition team at a connected-car product booth','Our team presents wireless CarPlay adapters, AI boxes and display platforms to visiting buyers and channel partners.'],
+    ['Live product demonstration','/assets/exhibitions/trolinktek-exhibition-product-demo-web.jpg?v=20260827-1','TrolinkTek team demonstrating an electronics platform to exhibition visitors','Face-to-face demonstrations help buyers review platform functions, hardware options and potential application routes.'],
+    ['International partner meeting','/assets/exhibitions/trolinktek-exhibition-partner-meeting-web.jpg?v=20260827-1','TrolinkTek representative meeting an international buyer at a trade show','Exhibitions create a practical setting to discuss target markets, customization requirements and OEM or ODM project scope.'],
+    ['Distributor engagement','/assets/exhibitions/trolinktek-exhibition-customer-engagement-web.jpg?v=20260827-1','TrolinkTek exhibition team with an international visitor','In-person conversations help our team understand regional demand, sales channels and after-sales expectations.'],
+    ['Regional CarPlay showcase','/assets/exhibitions/trolinktek-exhibition-carplay-booth-web.jpg?v=20260827-1','TrolinkTek team at a regional CarPlay product exhibition booth','Product-focused exhibition displays give buyers a direct view of available platforms, form factors and connected-car applications.']
   ];
   var factoryImages=[
     ['/assets/trolinktek-real-smt-production-line.jpg','TrolinkTek SMT production floor with automated equipment and technicians'],
