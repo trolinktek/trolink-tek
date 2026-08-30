@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-purchase-order-checklist',category:'OEM / ODM',date:'August 30, 2026',publishAt:'2026-08-30T19:06:00+08:00',updatedAt:'2026-08-30T19:06:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Purchase Order Checklist: What to Lock Before Production',metaTitle:'Wireless CarPlay Adapter Purchase Order Checklist | TrolinkTek',
+    excerpt:'Use this B2B purchase order checklist to lock the approved wireless CarPlay adapter configuration, commercial terms, inspection evidence, delivery and after-sales responsibilities before production.',
+    image:'/assets/blog/wireless-carplay-adapter-purchase-order-checklist.png',imageAlt:'Wireless CarPlay adapter, approval checklist and blue production status light on a deep-blue automotive electronics sourcing bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-purchase-order-checklist.md',
+    intro:'A production-ready purchase order connects one approved wireless CarPlay adapter configuration to the commercial, quality, delivery and support obligations needed to supply it consistently.',
+    sections:[['Authorize one controlled commercial configuration','Reference the approved specification, firmware, accessories, packaging and release evidence so the quantity being ordered is unmistakable.']],
+    checklist:['Approved configuration referenced','Quantity split defined','Commercial scope confirmed','Release evidence agreed','Change control stated','After-sales route assigned'],
+    faq:[
+      ['What is the most important item to put on a wireless CarPlay adapter PO?','Reference the controlled approved configuration that connects the commercial SKU to the hardware, firmware, accessories, packaging and documentation authorized for production.'],
+      ['Is a supplier quotation enough to place an order?','No. A quotation is a proposal; the order should also confirm configuration, commercial scope, delivery assumptions, quality evidence, change control and after-sales responsibilities.'],
+      ['Should firmware be named on the purchase order?','When firmware is part of the approved configuration or affects setup, compatibility, support or validation, reference its build or controlled configuration record instead of using an untraceable latest-version label.'],
+      ['Can a supplier replace a cable or accessory if the product still powers on?','Not without the agreed approval process. Cables and accessories can affect data behavior, connector fit, package contents, setup and support.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-usb-cable-plug-cycle-testing',category:'Technical insight',date:'August 30, 2026',publishAt:'2026-08-30T14:06:47+08:00',updatedAt:'2026-08-30T14:06:47+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter USB Cable Testing: Data, Power and Plug-Cycle Evidence',metaTitle:'Wireless CarPlay Adapter USB Cable Testing | TrolinkTek',
     excerpt:'Plan a repeatable USB cable and connector validation method for wireless CarPlay adapters, covering data continuity, power behavior, retention, plug cycles and traceable evidence.',
