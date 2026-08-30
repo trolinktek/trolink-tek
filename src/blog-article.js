@@ -1,10 +1,10 @@
 import {blogPosts} from './blog-data.js';
 import {initGlobalNav} from './global-nav.js?v=20260729-arabic-nav1';
-import './blog-longform.css';
 
 const slug=location.pathname.split('/').filter(Boolean).pop();
 const post=blogPosts.find(item=>item.slug===slug);
 if(!post){location.replace('/blog/');throw new Error('Unknown article')}
+if(!document.head.querySelector('link[href^="/src/blog-longform.css"]')){const longformStyles=document.createElement('link');longformStyles.rel='stylesheet';longformStyles.href='/src/blog-longform.css?v=20260830-article-style1';document.head.appendChild(longformStyles)}
 
 const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const inline=s=>esc(s)
@@ -29,9 +29,7 @@ function markdownToHtml(markdown){
   }close();flush();return html;
 }
 
-let body='';
-if(post.contentPath){const response=await fetch(post.contentPath);if(response.ok)body=markdownToHtml(await response.text())}
-if(!body)body=`<p class="article-intro">${post.intro}</p>${post.sections.map((s,i)=>`<section><span>0${i+1}</span><h2>${s[0]}</h2><p>${s[1]}</p></section>`).join('')}`;
+let body=`<p class="article-intro">${post.intro}</p>${post.sections.map((s,i)=>`<section><span>0${i+1}</span><h2>${s[0]}</h2><p>${s[1]}</p></section>`).join('')}`;
 
 document.title=post.metaTitle||`${post.title} | TrolinkTek Blog`;
 let meta=document.head.querySelector('meta[name="description"]')||document.head.appendChild(Object.assign(document.createElement('meta'),{name:'description'}));meta.content=post.excerpt;
@@ -54,4 +52,5 @@ document.querySelector('#article-app').innerHTML=`
 <section class="article-related"><div class="section-head"><div><p class="section-label light">Continue researching</p><h2>Related buyer insights.</h2></div><a href="/blog/">View all Blog posts &rarr;</a></div><div>${related.map(item=>`<article><span>${item.category}</span><h3>${item.title}</h3><a href="/blog/${item.slug}/">Read article &rarr;</a></article>`).join('')}</div></section>
 <section class="blog-cta"><div><p class="section-label light">From research to RFQ</p><h2>Evaluate a product for your market.</h2><p>Tell us the target vehicle segment, sales channel and customization requirements.</p></div><a class="btn" href="/#quote">Start Your Project</a></section></main>
 <footer><div class="footer-brand"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"><p>Connected-drive products engineered for your market.</p></div><div><b>Blog</b><a href="/blog/">All posts</a><a href="/blog/">Buying guides</a></div><div><b>Products</b><a href="/products/">Product Center</a><a href="/downloads/">Downloads</a></div><div><b>Contact</b><a href="mailto:sales03@trolinkiot.com">sales03@trolinkiot.com</a></div><p class="copyright">Shenzhen TrolinkTek Technology Co., Ltd. &copy; All Rights Reserved.</p></footer>`;
+if(post.contentPath){fetch(post.contentPath).then(async response=>{if(!response.ok)return;const article=document.querySelector('.article-longform');if(article)article.innerHTML=markdownToHtml(await response.text())}).catch(()=>{});}
 initGlobalNav();const header=document.querySelector('.header');document.querySelector('.menu').onclick=()=>header.classList.toggle('open');

@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-vs-portable-carplay-screen',category:'Product comparison',date:'August 30, 2026',publishAt:'2026-08-30T09:02:34+08:00',updatedAt:'2026-08-30T09:02:34+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter vs Portable CarPlay Screen: Which Should You Sell?',metaTitle:'Wireless CarPlay Adapter vs Portable Screen | TrolinkTek',
+    excerpt:'Compare wireless CarPlay adapters and portable CarPlay screens by compatibility, installation, audio, support needs and channel fit before choosing a product route.',
+    image:'/assets/blog/wireless-carplay-adapter-vs-portable-carplay-screen.png',imageAlt:'Wireless CarPlay adapter and portable CarPlay screen shown as two car-upgrade routes in deep-blue automotive technology lighting',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-vs-portable-carplay-screen.md',
+    intro:'A wireless adapter retains an existing wired CarPlay display, while a portable screen supplies an independent display when that factory host is absent.',
+    sections:[['Choose from the dashboard architecture','Prove direct wired CarPlay before recommending an adapter; evaluate mounting, power and audio when an independent screen is the more suitable route.']],
+    checklist:['Vehicle and head unit identified','Wired baseline tested','Category matched','Audio route defined','Controls checked','Configuration recorded'],
+    faq:[
+      ['Is a wireless CarPlay adapter the same as a portable CarPlay screen?','No. An adapter normally converts an existing wired CarPlay connection to wireless use, while a portable screen is a separate display product.'],
+      ['Can an adapter add CarPlay to a car with only Bluetooth or a USB charging port?','Normally no. Test direct wired CarPlay through the intended USB data port first.'],
+      ['Does a portable CarPlay screen work with every car?','No. Mounting, power, audio routing, phone compatibility and safety constraints still need evaluation for the actual vehicle and product.'],
+      ['Can either product guarantee factory-control or reverse-camera behavior?','No. Those functions depend on the vehicle, head unit and exact configuration, so test the required functions before making a compatibility claim.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-incoming-quality-inspection',category:'Technical insight',date:'August 17, 2026',publishAt:'2026-08-17T14:00:00+08:00',updatedAt:'2026-08-17T14:00:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Incoming Quality Inspection Guide',metaTitle:'CarPlay Adapter Incoming Quality Inspection | TrolinkTek',
     excerpt:'Build an incoming quality inspection plan for wireless CarPlay adapters using lot identity, sampling, visual, dimensional, functional and evidence checks.',
