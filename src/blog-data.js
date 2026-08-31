@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-distributor-agreement-checklist',category:'OEM / ODM',date:'August 31, 2026',publishAt:'2026-08-31T19:03:16+08:00',updatedAt:'2026-08-31T19:03:16+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Distributor Agreement Checklist',metaTitle:'CarPlay Adapter Distributor Agreement Checklist | TrolinkTek',
+    excerpt:'Use an evidence-based distributor agreement checklist to align territory, controlled SKUs, claims, supply, channel content, support and product-change responsibilities.',
+    image:'/assets/blog/wireless-carplay-adapter-distributor-agreement-checklist.png',imageAlt:'Wireless CarPlay adapter, unbranded product carton and distribution-planning documents on a deep-blue automotive electronics worktable',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-distributor-agreement-checklist.md',
+    intro:'A distributor agreement should link commercial rights and obligations to a controlled product configuration, approved claims, supply rules and a defined customer-support route.',
+    sections:[['Make the agreement product-aware','Attach controlled SKU and claims schedules so territory, channel and support commitments refer to the actual shipped configuration.']],
+    checklist:['Territory and channels defined','SKU schedule controlled','Claims approved','Supply rules clear','Content ownership assigned','Support escalation agreed','Changes governed'],
+    faq:[
+      ['Is a distributor agreement the same as a purchase order?','No. The agreement sets the continuing commercial and operating rules, while a purchase order releases a defined quantity, configuration, price and delivery scope.'],
+      ['Should a distributor receive exclusive rights automatically?','Not automatically. Exclusivity is a negotiated commercial choice that should define territory, channels, conditions, review dates, exceptions and remedies.'],
+      ['How should a distributor describe wireless CarPlay adapter compatibility?','State the compatible factory wired-CarPlay and intended USB data-path prerequisite, the validated scope and a route to assess uncertain vehicles; avoid universal claims.'],
+      ['What should happen when firmware changes?','The parties should allocate notice, impact review, validation, documentation, inventory identification and support responsibilities before a changed configuration is supplied.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-heat-soak-recovery-testing',category:'Technical insight',date:'August 31, 2026',publishAt:'2026-08-31T14:04:21+08:00',updatedAt:'2026-08-31T14:04:21+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Heat-Soak and Recovery Testing Guide',metaTitle:'CarPlay Adapter Heat-Soak Testing Guide | TrolinkTek',
     excerpt:'Plan wireless CarPlay adapter heat-soak and recovery testing with controlled thermal exposure, connection milestones, functional checks and evidence-based reporting.',
