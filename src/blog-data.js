@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-heat-soak-recovery-testing',category:'Technical insight',date:'August 31, 2026',publishAt:'2026-08-31T14:04:21+08:00',updatedAt:'2026-08-31T14:04:21+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Heat-Soak and Recovery Testing Guide',metaTitle:'CarPlay Adapter Heat-Soak Testing Guide | TrolinkTek',
+    excerpt:'Plan wireless CarPlay adapter heat-soak and recovery testing with controlled thermal exposure, connection milestones, functional checks and evidence-based reporting.',
+    image:'/assets/blog/wireless-carplay-adapter-heat-soak-recovery-testing.png',imageAlt:'Wireless CarPlay adapter on an automotive heat-soak test bench with a vehicle dashboard and thermal chamber in deep-blue manufacturing lighting',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-heat-soak-recovery-testing.md',
+    intro:'Heat-soak testing evaluates a defined adapter configuration after controlled thermal exposure, then records whether connection, CarPlay functions and recovery meet the agreed test plan.',
+    sections:[['Make the thermal question specific','Define whether the work investigates operating heat, parked-vehicle exposure, transition recovery or a comparison between controlled product configurations.']],
+    checklist:['Scope and criteria approved','Configuration frozen','Wired baseline proven','Thermal condition controlled','Milestones recorded','Recovery and inspection completed'],
+    faq:[
+      ['What is heat-soak testing for a wireless CarPlay adapter?','It is a controlled test in which a defined adapter configuration is exposed to a planned thermal condition and its startup, connection, functions and recovery are recorded against agreed criteria.'],
+      ['What temperature should a wireless CarPlay adapter be tested at?','There is no universal temperature. Use the approved product specification, intended installation and market risk assessment to define the condition and acceptance criteria.'],
+      ['Does a successful heat-soak test prove an adapter works in every hot climate?','No. The result supports only the samples, configuration, host, phone, test method and conditions that were actually recorded.'],
+      ['Should the adapter be powered during heat soak?','That depends on whether the plan evaluates stored heat, active operation or recovery after exposure. These states should be tested and reported separately.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-toyota-compatibility-guide',category:'Compatibility',date:'August 31, 2026',publishAt:'2026-08-31T09:03:34+08:00',updatedAt:'2026-08-31T09:03:34+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Toyota: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Toyota | Compatibility Guide',
     excerpt:'Check whether a wireless CarPlay adapter fits a Toyota vehicle by proving wired CarPlay, identifying the head unit and USB data port, then testing the full connection path.',
