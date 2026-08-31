@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-toyota-compatibility-guide',category:'Compatibility',date:'August 31, 2026',publishAt:'2026-08-31T09:03:34+08:00',updatedAt:'2026-08-31T09:03:34+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Toyota: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Toyota | Compatibility Guide',
+    excerpt:'Check whether a wireless CarPlay adapter fits a Toyota vehicle by proving wired CarPlay, identifying the head unit and USB data port, then testing the full connection path.',
+    image:'/assets/blog/wireless-carplay-adapter-toyota-compatibility-guide.png',imageAlt:'Wireless CarPlay adapter connected to a Japanese-style sedan USB data port in a deep-blue automotive technology environment',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-toyota-compatibility-guide.md',
+    intro:'Toyota compatibility starts with a functioning wired Apple CarPlay connection on the exact head unit and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, head unit, data port, phone and desired functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Head unit recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Toyota?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Toyota USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Toyota Bluetooth mean the car supports a wireless CarPlay adapter?','No. Bluetooth calling or music does not prove the wired CarPlay host the adapter needs.'],
+      ['Can an adapter add CarPlay to an older Toyota without CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless use.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-purchase-order-checklist',category:'OEM / ODM',date:'August 30, 2026',publishAt:'2026-08-30T19:06:00+08:00',updatedAt:'2026-08-30T19:06:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Purchase Order Checklist: What to Lock Before Production',metaTitle:'Wireless CarPlay Adapter Purchase Order Checklist | TrolinkTek',
     excerpt:'Use this B2B purchase order checklist to lock the approved wireless CarPlay adapter configuration, commercial terms, inspection evidence, delivery and after-sales responsibilities before production.',
