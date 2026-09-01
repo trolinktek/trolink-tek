@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-first-shipment-acceptance-checklist',category:'OEM / ODM',date:'September 1, 2026',publishAt:'2026-09-01T19:02:12+08:00',updatedAt:'2026-09-01T19:02:12+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter First Shipment Acceptance Checklist',metaTitle:'CarPlay Adapter First Shipment Acceptance | TrolinkTek',
+    excerpt:'Receive a first wireless CarPlay adapter order with controlled identity, condition, pack-out, release records, exceptions and after-sales readiness.',
+    image:'/assets/blog/wireless-carplay-adapter-first-shipment-acceptance-checklist.png',imageAlt:'Wireless CarPlay adapter, shipping cartons, scanner and receiving checklist on a deep-blue automotive electronics logistics bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-first-shipment-acceptance-checklist.md',
+    intro:'First shipment acceptance connects the delivered lot to the approved order, configuration, pack-out, evidence and support route before inventory reaches a reseller or customer.',
+    sections:[['Accept a delivered lot against a controlled record','Separate carrier receipt from product acceptance, then reconcile the physical delivery, release evidence and any exceptions before stock is released.']],
+    checklist:['Acceptance pack ready','Transit condition recorded','SKU and pack-out reconciled','Configuration identified','Incoming checks controlled','Samples retained','Exceptions disposed','Support handover complete'],
+    faq:[
+      ['Is a carrier receipt the same as product acceptance?','No. A carrier receipt records delivery and visible condition; product acceptance compares the delivered lot with the agreed commercial, configuration and quality-release scope.'],
+      ['Should an importer open every carton in the first shipment?','Not necessarily. Use the agreed receiving method, risk level and evidence pack; document the plan before arrival.'],
+      ['What if the manual or cable differs from the approved pack-out?','Record a discrepancy, assess its channel and support impact, and obtain a written disposition before release.'],
+      ['Does an incoming functional screen prove broad vehicle compatibility?','No. It supports only the recorded adapter, vehicle host, USB path, phone, software and method.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-honda-compatibility-guide',category:'Compatibility',date:'September 1, 2026',publishAt:'2026-09-01T09:02:32+08:00',updatedAt:'2026-09-01T09:02:32+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Honda: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Honda | Compatibility Guide',
     excerpt:'Check whether a wireless CarPlay adapter fits a Honda vehicle by proving wired CarPlay, identifying the head unit and USB data port, then testing the exact configuration.',
