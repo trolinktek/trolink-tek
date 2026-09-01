@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-honda-compatibility-guide',category:'Compatibility',date:'September 1, 2026',publishAt:'2026-09-01T09:02:32+08:00',updatedAt:'2026-09-01T09:02:32+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Honda: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Honda | Compatibility Guide',
+    excerpt:'Check whether a wireless CarPlay adapter fits a Honda vehicle by proving wired CarPlay, identifying the head unit and USB data port, then testing the exact configuration.',
+    image:'/assets/blog/wireless-carplay-adapter-honda-compatibility-guide.png',imageAlt:'Wireless CarPlay adapter connected to a vehicle USB data port in a deep-blue automotive electronics validation environment',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-honda-compatibility-guide.md',
+    intro:'Honda compatibility starts with a functioning wired Apple CarPlay connection on the exact head unit and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Head unit recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Honda?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Honda USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Honda Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host the adapter needs.'],
+      ['Can an adapter add CarPlay to a Honda that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-distributor-agreement-checklist',category:'OEM / ODM',date:'August 31, 2026',publishAt:'2026-08-31T19:03:16+08:00',updatedAt:'2026-08-31T19:03:16+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Distributor Agreement Checklist',metaTitle:'CarPlay Adapter Distributor Agreement Checklist | TrolinkTek',
     excerpt:'Use an evidence-based distributor agreement checklist to align territory, controlled SKUs, claims, supply, channel content, support and product-change responsibilities.',
