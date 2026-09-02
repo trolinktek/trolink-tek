@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-bmw-compatibility-guide',category:'Compatibility',date:'September 2, 2026',publishAt:'2026-09-02T09:04:28+08:00',updatedAt:'2026-09-02T09:04:28+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for BMW: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for BMW | Compatibility Guide',
+    excerpt:'Check whether a wireless CarPlay adapter fits a BMW by proving wired CarPlay, identifying the installed head unit and USB data port, then testing the exact configuration.',
+    image:'/assets/blog/wireless-carplay-adapter-bmw-compatibility-guide.png',imageAlt:'Wireless CarPlay adapter connected to a vehicle USB data port during a deep-blue automotive electronics compatibility inspection',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-bmw-compatibility-guide.md',
+    intro:'BMW compatibility starts with a functioning wired Apple CarPlay connection on the exact installed head unit and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, installed head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Head unit recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every BMW?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a BMW USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does BMW Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host the adapter needs.'],
+      ['Can an adapter add CarPlay to a BMW that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-first-shipment-acceptance-checklist',category:'OEM / ODM',date:'September 1, 2026',publishAt:'2026-09-01T19:02:12+08:00',updatedAt:'2026-09-01T19:02:12+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter First Shipment Acceptance Checklist',metaTitle:'CarPlay Adapter First Shipment Acceptance | TrolinkTek',
     excerpt:'Receive a first wireless CarPlay adapter order with controlled identity, condition, pack-out, release records, exceptions and after-sales readiness.',
