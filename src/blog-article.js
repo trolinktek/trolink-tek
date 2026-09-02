@@ -33,7 +33,7 @@ let body=`<p class="article-intro">${post.intro}</p>${post.sections.map((s,i)=>`
 
 document.title=post.metaTitle||`${post.title} | TrolinkTek Blog`;
 let meta=document.head.querySelector('meta[name="description"]')||document.head.appendChild(Object.assign(document.createElement('meta'),{name:'description'}));meta.content=post.excerpt;
-const canonicalUrl=`https://www.trolinktek.com/blog/${post.slug}/`;
+const canonicalUrl=`https://trolink-tek.com/blog/${post.slug}/`;
 let canonical=document.head.querySelector('link[rel="canonical"]')||document.head.appendChild(Object.assign(document.createElement('link'),{rel:'canonical'}));canonical.href=canonicalUrl;
 const schema={
   '@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,
