@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-supplier-transition-checklist',category:'OEM / ODM',date:'September 2, 2026',publishAt:'2026-09-02T19:05:22+08:00',updatedAt:'2026-09-02T19:05:22+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Supplier Transition Checklist',metaTitle:'CarPlay Adapter Supplier Transition Checklist | TrolinkTek',
+    excerpt:'Move or dual-source a wireless CarPlay adapter with controlled configuration, comparison evidence, inventory cutover, packaging and after-sales continuity.',
+    image:'/assets/blog/wireless-carplay-adapter-supplier-transition-checklist.png',imageAlt:'Wireless CarPlay adapter, controlled sample trays, diagnostic fixture and inspection caliper on a deep-blue automotive electronics manufacturing bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-supplier-transition-checklist.md',
+    intro:'A supplier transition starts with a controlled sellable configuration and ends only when the buyer can trace, release, sell and support the transitioned SKU without unmanaged differences.',
+    sections:[['Control the change, not just the factory','Define the approved configuration, comparison scope, release evidence, stock cutover and escalation route before moved or dual-sourced units enter a channel.']],
+    checklist:['Transition brief approved','Baseline sample retained','Configuration identified','Comparison scope defined','Release gate controlled','Inventory cutover mapped','Channel claims reviewed','After-sales route ready'],
+    faq:[
+      ['Is a supplier transition the same as qualifying a second source?','Not always. A transition may replace an existing source, while second-source qualification may keep both sources available. Both need a controlled product definition, evidence boundary, release rule and support plan.'],
+      ['Can matching housings prove two wireless CarPlay adapters are equivalent?','No. Similar housings do not establish the same hardware, firmware, cable, pack-out, test method or supported configuration. Compare the documented configuration and agreed validation scope.'],
+      ['Should a buyer change the SKU when production moves?','It depends on the buyer’s traceability and channel process. The key requirement is that the buyer can distinguish relevant configuration or source differences when receiving stock, investigating an issue or authorizing a corrective action.'],
+      ['Does one successful vehicle test approve a supplier transition?','No. It supports only the recorded adapter, host, USB path, phone, software, method and conditions. Use a defined comparison plan that fits the actual commercial and technical decision.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-bmw-compatibility-guide',category:'Compatibility',date:'September 2, 2026',publishAt:'2026-09-02T09:04:28+08:00',updatedAt:'2026-09-02T09:04:28+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for BMW: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for BMW | Compatibility Guide',
     excerpt:'Check whether a wireless CarPlay adapter fits a BMW by proving wired CarPlay, identifying the installed head unit and USB data port, then testing the exact configuration.',
