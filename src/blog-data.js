@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-issue-reproduction-guide',category:'Technical insight',date:'September 3, 2026',publishAt:'2026-09-03T14:07:26+08:00',updatedAt:'2026-09-03T14:07:26+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Issue Reproduction Guide for B2B Support',metaTitle:'Wireless CarPlay Adapter Issue Reproduction Guide | TrolinkTek',
+    excerpt:'Build a repeatable wireless CarPlay adapter issue record with symptom stages, controlled variables, evidence and a safe escalation path.',
+    image:'/assets/blog/wireless-carplay-adapter-issue-reproduction-guide.png',imageAlt:'Technician documenting a wireless CarPlay adapter connection case beside a vehicle USB data port in a deep-blue automotive electronics workshop',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-issue-reproduction-guide.md',
+    intro:'A support case becomes actionable when the team can repeat the recorded symptom, identify the first missing connection milestone and preserve evidence before changing the configuration.',
+    sections:[['Reproduce the case before changing it','Record the complete adapter, vehicle host, USB path and phone configuration, then repeat the reported sequence with one planned variable change at a time.']],
+    checklist:['Configuration recorded','Wired baseline checked','Starting state preserved','First missing milestone identified','Comparison controlled','Recovery documented','Escalation decision requested'],
+    faq:[
+      ['Is one customer video enough to reproduce a wireless CarPlay adapter issue?','It can preserve an observation, but it rarely identifies the complete configuration, starting state, repeated method and recovery behavior. Link it to a written case record.'],
+      ['What if the issue cannot be repeated?','Keep the original evidence and record that the symptom did not repeat under the documented attempt. Review whether the start state or configuration differed rather than treating that result as proof the original report was invalid.'],
+      ['Should support reset the adapter before collecting details?','A reset may be an appropriate recovery step, but it can remove pairing and state information needed for investigation. Preserve the original configuration and symptom sequence first when practical.'],
+      ['Does a successful reference-adapter comparison prove the reported unit is defective?','No. It supports a comparison only within the recorded vehicle, port, phone, method and state. Confirm product identity and configuration before drawing a unit-level conclusion.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-hyundai-compatibility-guide',category:'Compatibility',date:'September 3, 2026',publishAt:'2026-09-03T09:03:53+08:00',updatedAt:'2026-09-03T09:03:53+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Hyundai: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Hyundai | Compatibility Guide',
     excerpt:'Check a Hyundai wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the infotainment host and USB data port, then validating the exact setup.',
