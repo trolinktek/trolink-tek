@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-product-discontinuation-planning',category:'OEM / ODM',date:'September 3, 2026',publishAt:'2026-09-03T19:04:27+08:00',updatedAt:'2026-09-03T19:04:27+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Product Discontinuation Planning for Distributors',metaTitle:'CarPlay Adapter Product Discontinuation Planning | TrolinkTek',
+    excerpt:'Plan a controlled wireless CarPlay adapter product discontinuation with SKU scope, inventory, channel notices, service stock, replacement decisions and support continuity.',
+    image:'/assets/blog/wireless-carplay-adapter-product-discontinuation-planning.png',imageAlt:'Unbranded wireless CarPlay adapter, sample tray, carton and barcode scanner on a deep-blue automotive electronics distribution planning desk',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-product-discontinuation-planning.md',
+    intro:'A responsible adapter discontinuation separates last-buy, last-ship and support decisions, then connects each one to an identified configuration, inventory rule and customer route.',
+    sections:[['Plan a controlled product exit','Define the outgoing configuration, stock and service boundaries, successor decision, channel language and after-sales route before the final order or notice.']],
+    checklist:['Outgoing scope identified','Last-buy rule owned','Last-ship boundary clear','Service stock planned','Documents retained','Replacement scope controlled','Channel language reviewed','Support route ready'],
+    faq:[
+      ['Is end of sale the same as end of support?','No. End of sale stops new commercial orders, while end of support concerns the planned handling of documents, warranty, returns, updates and technical escalation.'],
+      ['Can a newer adapter be described as a direct replacement?','Only when the buyer has defined what that statement means and the documented scope supports it. Similar appearance does not prove the same configuration or vehicle behavior.'],
+      ['How much service stock should a distributor retain?','There is no universal quantity. Base the decision on actual warranty commitments, installed base, lead time, repair or replacement route and the buyer\'s risk assessment.'],
+      ['Should old and new adapter inventory use the same SKU?','It depends on the buyer\'s traceability and channel process. Teams need a practical way to identify relevant configuration or packaging differences when they affect a case.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-issue-reproduction-guide',category:'Technical insight',date:'September 3, 2026',publishAt:'2026-09-03T14:07:26+08:00',updatedAt:'2026-09-03T14:07:26+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Issue Reproduction Guide for B2B Support',metaTitle:'Wireless CarPlay Adapter Issue Reproduction Guide | TrolinkTek',
     excerpt:'Build a repeatable wireless CarPlay adapter issue record with symptom stages, controlled variables, evidence and a safe escalation path.',
