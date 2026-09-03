@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-hyundai-compatibility-guide',category:'Compatibility',date:'September 3, 2026',publishAt:'2026-09-03T09:03:53+08:00',updatedAt:'2026-09-03T09:03:53+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Hyundai: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Hyundai | Compatibility Guide',
+    excerpt:'Check a Hyundai wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the infotainment host and USB data port, then validating the exact setup.',
+    image:'/assets/blog/wireless-carplay-adapter-hyundai-compatibility-guide.png',imageAlt:'Wireless CarPlay adapter connected to a vehicle USB data port during a deep-blue automotive electronics compatibility inspection',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-hyundai-compatibility-guide.md',
+    intro:'Hyundai compatibility starts with a functioning wired Apple CarPlay connection on the exact installed infotainment host and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, installed head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Infotainment recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Hyundai?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Hyundai USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Hyundai Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host an adapter needs.'],
+      ['Can an adapter add CarPlay to a Hyundai that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-supplier-transition-checklist',category:'OEM / ODM',date:'September 2, 2026',publishAt:'2026-09-02T19:05:22+08:00',updatedAt:'2026-09-02T19:05:22+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Supplier Transition Checklist',metaTitle:'CarPlay Adapter Supplier Transition Checklist | TrolinkTek',
     excerpt:'Move or dual-source a wireless CarPlay adapter with controlled configuration, comparison evidence, inventory cutover, packaging and after-sales continuity.',
