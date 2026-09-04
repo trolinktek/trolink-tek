@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-demo-program-checklist',category:'OEM / ODM',date:'September 4, 2026',publishAt:'2026-09-04T19:07:03+08:00',updatedAt:'2026-09-04T19:07:03+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Demo Program Checklist for Distributors',metaTitle:'Wireless CarPlay Adapter Demo Program Checklist | TrolinkTek',
+    excerpt:'Plan a controlled wireless CarPlay adapter demo program with identified demo kits, staged vehicle validation, approved channel claims, evidence and commercial handover.',
+    image:'/assets/blog/wireless-carplay-adapter-demo-program-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, demo-kit tray, USB cable, carton and diagnostic tablet on a deep-blue automotive electronics workbench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-demo-program-checklist.md',
+    intro:'A controlled demo program lets distributors show one identified adapter configuration in a documented vehicle-and-phone setup, while keeping its compatibility and performance scope accurate.',
+    sections:[['Control the demo before the sales conversation','Define the kit identity, wired-CarPlay prerequisite, tested setup, channel message, evidence and commercial follow-up route before a partner receives the unit.']],
+    checklist:['Program purpose defined','Demo kit identified','Wired baseline confirmed','Vehicle setup recorded','Claims approved','Observations preserved','Commercial next step owned','Return route clear'],
+    faq:[
+      ['Is a demo unit the same as an approved supplier sample?','No. Sample approval controls commercial release of a defined configuration, while a demo unit is a channel or buyer tool that should reference that approved scope.'],
+      ['Can one dealership demo prove compatibility for a whole vehicle brand?','No. It supports only the recorded vehicle, infotainment host, USB data path, phone, software state and method.'],
+      ['What should a reseller do if wired CarPlay does not launch first?','Stop the adapter demonstration and identify the wired baseline, phone, cable and intended USB data path; a standard adapter needs a compatible factory wired-CarPlay host.'],
+      ['Should distributors give demo kits to every partner?','Not automatically. Allocate them where a defined sales, training or buyer question justifies custody, support and follow-up effort.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-product-discontinuation-planning',category:'OEM / ODM',date:'September 3, 2026',publishAt:'2026-09-03T19:04:27+08:00',updatedAt:'2026-09-03T19:04:27+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Product Discontinuation Planning for Distributors',metaTitle:'CarPlay Adapter Product Discontinuation Planning | TrolinkTek',
     excerpt:'Plan a controlled wireless CarPlay adapter product discontinuation with SKU scope, inventory, channel notices, service stock, replacement decisions and support continuity.',
