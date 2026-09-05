@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-firmware-build-identification',category:'Technical insight',date:'September 5, 2026',publishAt:'2026-09-05T14:05:52+08:00',updatedAt:'2026-09-05T14:05:52+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Firmware Build Identification Guide',metaTitle:'Identify Wireless CarPlay Adapter Firmware Builds | TrolinkTek',
+    excerpt:'Identify the installed firmware build on a wireless CarPlay adapter before testing, updates, receiving inspection or technical escalation by tying it to the hardware and configuration record.',
+    image:'/assets/blog/wireless-carplay-adapter-firmware-build-identification.png',imageAlt:'Unbranded wireless CarPlay adapter with a blank identification tag and sample tray on a deep-blue automotive electronics firmware-validation bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-firmware-build-identification.md',
+    intro:'Firmware build identification connects the software value shown on a physical adapter to its hardware, accessories, vehicle test path and supplier-controlled release scope before a buyer makes a technical decision.',
+    sections:[['Create an identity record before testing','Record the physical adapter, hardware revision, installed build, release scope, USB path, vehicle host and phone state before comparing results or applying an update.']],
+    checklist:['Physical unit identified','Hardware scope recorded','Installed build verified','Release scope linked','USB path documented','Vehicle and phone state recorded','Evidence stored'],
+    faq:[
+      ['Is a firmware filename enough to identify the build on an adapter?','No. A filename describes a package, not necessarily the software installed on the observed unit. Use the supplier-approved method to record the displayed build value.'],
+      ['Can the same adapter model use more than one firmware build?','Yes. Sample, production and support units can differ, so record the installed identity and applicable hardware scope rather than relying on the retail model name.'],
+      ['Does a successful connection prove the correct firmware was installed?','No. It is one result in a documented setup. The installed build, hardware, vehicle host, phone and USB path still need to be recorded.'],
+      ['What should a distributor request for a firmware update?','Ask for applicable hardware, supported starting versions, package identity, method, verification route, change purpose, limitations and recovery instructions.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-ford-compatibility-guide',category:'Compatibility',date:'September 5, 2026',publishAt:'2026-09-05T09:06:46+08:00',updatedAt:'2026-09-05T09:06:46+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Ford: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Ford | Compatibility Guide',
     excerpt:'Check a Ford wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the installed infotainment host and USB data port, then validating the exact setup.',
