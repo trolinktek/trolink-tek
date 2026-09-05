@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-ford-compatibility-guide',category:'Compatibility',date:'September 5, 2026',publishAt:'2026-09-05T09:06:46+08:00',updatedAt:'2026-09-05T09:06:46+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Ford: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Ford | Compatibility Guide',
+    excerpt:'Check a Ford wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the installed infotainment host and USB data port, then validating the exact setup.',
+    image:'/assets/blog/wireless-carplay-adapter-ford-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a vehicle USB data port beside a diagnostic tablet on a deep-blue automotive electronics compatibility bench',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-ford-compatibility-guide.md',
+    intro:'Ford compatibility starts with a functioning wired Apple CarPlay connection on the exact installed infotainment host and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, installed head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Infotainment recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Ford?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Ford USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Ford Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host an adapter needs.'],
+      ['Can an adapter add CarPlay to a Ford that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-demo-program-checklist',category:'OEM / ODM',date:'September 4, 2026',publishAt:'2026-09-04T19:07:03+08:00',updatedAt:'2026-09-04T19:07:03+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Demo Program Checklist for Distributors',metaTitle:'Wireless CarPlay Adapter Demo Program Checklist | TrolinkTek',
     excerpt:'Plan a controlled wireless CarPlay adapter demo program with identified demo kits, staged vehicle validation, approved channel claims, evidence and commercial handover.',
