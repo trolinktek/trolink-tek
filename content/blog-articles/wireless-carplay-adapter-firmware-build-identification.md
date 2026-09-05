@@ -43,7 +43,7 @@ An update package can be copied, renamed or forwarded outside its original conte
 
 Then use the supplier-approved method to read the installed firmware identity. Depending on the product, that may be an in-app information screen, a diagnostic page, a controlled support instruction or a factory record. Do not invent a reset sequence or install an unknown file merely to obtain a version. If the value cannot be read, record that limitation and ask the supplier which approved method applies to the exact configuration.
 
-The [wireless CarPlay adapter test report guide](/blog/wireless-carplay-adapter-test-report-guide/) explains why a result needs an identifiable configuration. The [incoming quality inspection guide](/blog/wireless-carplay-adapter-incoming-quality-inspection/) shows how that identity connects to a received lot rather than an anonymous sample.
+The [long-duration stability testing guide](/blog/wireless-carplay-adapter-long-duration-stability-testing/) explains why a result needs an identifiable configuration. The [incoming quality inspection guide](/blog/wireless-carplay-adapter-incoming-quality-inspection/) shows how that identity connects to a received lot rather than an anonymous sample.
 
 ## Build an identity record before a test starts
 
