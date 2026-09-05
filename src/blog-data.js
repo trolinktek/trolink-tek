@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'private-label-wireless-carplay-adapter-brand-asset-handoff',category:'OEM / ODM',date:'September 5, 2026',publishAt:'2026-09-05T19:03:08+08:00',updatedAt:'2026-09-05T19:03:08+08:00',author:'TrolinkTek Editorial Team',
+    title:'Private-Label Wireless CarPlay Adapter Brand Asset Handoff Checklist',metaTitle:'Private-Label CarPlay Adapter Brand Asset Handoff | TrolinkTek',
+    excerpt:'Control private-label wireless CarPlay adapter brand assets with defined product scope, source files, version ownership, proof review and approved handoff routes.',
+    image:'/assets/blog/wireless-carplay-adapter-private-label-brand-asset-handoff.png',imageAlt:'Unbranded wireless CarPlay adapter, blank product carton, blank card and metal sample tray on a deep-navy automotive electronics brand-asset handoff bench',readTime:'12 min read',contentPath:'/content/blog-articles/private-label-wireless-carplay-adapter-brand-asset-handoff.md',
+    intro:'A controlled brand-asset handoff ties approved names, identity files, copy and visual rules to one defined private-label adapter project before artwork, packaging and channel materials begin.',
+    sections:[['Connect identity inputs to the defined product','Record the project scope, asset sources, permitted placements, copy owners, proof versions and final approver so branding stays connected to a controlled commercial configuration.']],
+    checklist:['Project scope identified','Asset register controlled','Brand owner named','Copy boundary approved','Proof route defined','Versions traceable','Final approver assigned'],
+    faq:[
+      ['Is a logo file enough to begin private-label production?','No. A logo file can support a proof, but it does not establish the product configuration, approved placement, target market, copy owner, final approver or production-release conditions.'],
+      ['Can a supplier use a sample\'s branding on saleable stock?','Not automatically. Confirm that the branded proof applies to the actual sellable configuration, target market, pack-out and approved project scope.'],
+      ['Should the product name promise compatibility with a vehicle brand?','Only use a claim the buyer can support within its documented scope. A standard wireless adapter generally needs an existing compatible factory wired Apple CarPlay route.'],
+      ['Who should approve translated private-label copy?','Assign an owner who can review target-language copy in its product and market context, then record the approved version.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-firmware-build-identification',category:'Technical insight',date:'September 5, 2026',publishAt:'2026-09-05T14:05:52+08:00',updatedAt:'2026-09-05T14:05:52+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Firmware Build Identification Guide',metaTitle:'Identify Wireless CarPlay Adapter Firmware Builds | TrolinkTek',
     excerpt:'Identify the installed firmware build on a wireless CarPlay adapter before testing, updates, receiving inspection or technical escalation by tying it to the hardware and configuration record.',
