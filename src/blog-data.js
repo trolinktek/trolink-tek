@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-distributor-price-list-checklist',category:'OEM / ODM',date:'September 6, 2026',publishAt:'2026-09-06T19:06:21+08:00',updatedAt:'2026-09-06T19:06:21+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Distributor Price List Checklist',metaTitle:'Wireless CarPlay Adapter Distributor Price List | TrolinkTek',
+    excerpt:'Build a controlled wireless CarPlay adapter distributor price list by tying each commercial line to a sellable SKU, pack-out, quantity basis, quotation terms and approval route.',
+    image:'/assets/blog/wireless-carplay-adapter-distributor-price-list-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, blank carton, blank quotation sheet, metal sample tray and digital caliper on a deep-navy automotive electronics commercial-planning bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-distributor-price-list-checklist.md',
+    intro:'A distributor price list becomes decision-ready when every commercial line is tied to an identified sellable configuration, pack-out, quantity basis, terms context, validity window and accountable owner.',
+    sections:[['Connect commercial figures to a defined sellable configuration','Record the SKU, supplier reference, pack-out, accessory and market scope before comparing commercial lines or preparing a channel offer.']],
+    checklist:['SKU and supplier reference identified','Pack-out defined','Quantity basis recorded','Currency and trade-term context clear','Validity visible','Inclusions and exclusions stated','Channel owner assigned','Change version controlled'],
+    faq:[
+      ['Is a wireless CarPlay adapter distributor price list a firm offer?','Not necessarily. Its status depends on the wording and the parties\' commercial process. Make the validity, assumptions, open conditions and owner clear.'],
+      ['Can one price-list SKU cover every package option?','Only when the included configuration is unambiguous. Different cable types, cartons, language inserts, branding or accessory bundles can be commercially different items.'],
+      ['Does a lower unit figure mean the better distributor decision?','No. Compare the identified pack-out, quantity basis, trade-term context, customization work, support model, channel fit and buyer-side landed-cost assumptions.'],
+      ['Should a price list promise that an adapter works with every vehicle?','No. A standard wireless adapter normally needs a functioning compatible factory wired Apple CarPlay connection through the intended USB data path.']
+    ]
+  },
+  {
     slug:'private-label-wireless-carplay-adapter-brand-asset-handoff',category:'OEM / ODM',date:'September 5, 2026',publishAt:'2026-09-05T19:03:08+08:00',updatedAt:'2026-09-05T19:03:08+08:00',author:'TrolinkTek Editorial Team',
     title:'Private-Label Wireless CarPlay Adapter Brand Asset Handoff Checklist',metaTitle:'Private-Label CarPlay Adapter Brand Asset Handoff | TrolinkTek',
     excerpt:'Control private-label wireless CarPlay adapter brand assets with defined product scope, source files, version ownership, proof review and approved handoff routes.',
