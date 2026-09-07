@@ -1,6 +1,6 @@
 export const blogPosts=[
   {
-    slug:'wireless-carplay-adapter-channel-onboarding-checklist',category:'OEM / ODM',date:'September 7, 2026',publishAt:'2026-09-07T19:10:00+08:00',updatedAt:'2026-09-07T19:10:00+08:00',author:'TrolinkTek Editorial Team',
+    slug:'wireless-carplay-adapter-channel-onboarding-checklist',category:'OEM / ODM',date:'September 7, 2026',publishAt:'2026-09-07T19:11:50+08:00',updatedAt:'2026-09-07T19:11:50+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Channel Onboarding Checklist for Distributors',metaTitle:'Wireless CarPlay Adapter Channel Onboarding Checklist | TrolinkTek',
     excerpt:'Prepare dealers, installers and resellers with a controlled wireless CarPlay adapter SKU, claims, assets, ordering route and after-sales handover before commercial launch.',
     image:'/assets/blog/wireless-carplay-adapter-channel-onboarding-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, blank carton, USB cable, blank approval card and barcode scanner on a deep-navy automotive electronics channel-onboarding bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-channel-onboarding-checklist.md',

@@ -4,8 +4,8 @@ meta_description: "Use this wireless CarPlay adapter channel onboarding checklis
 slug: "wireless-carplay-adapter-channel-onboarding-checklist"
 primary_keyword: "wireless CarPlay adapter channel onboarding checklist"
 author: "TrolinkTek Editorial Team"
-published: "2026-09-07T19:10:00+08:00"
-updated: "2026-09-07T19:10:00+08:00"
+published: "2026-09-07T19:11:50+08:00"
+updated: "2026-09-07T19:11:50+08:00"
 ---
 
 # Wireless CarPlay Adapter Channel Onboarding Checklist for Distributors
