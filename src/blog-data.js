@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-channel-onboarding-checklist',category:'OEM / ODM',date:'September 7, 2026',publishAt:'2026-09-07T19:10:00+08:00',updatedAt:'2026-09-07T19:10:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Channel Onboarding Checklist for Distributors',metaTitle:'Wireless CarPlay Adapter Channel Onboarding Checklist | TrolinkTek',
+    excerpt:'Prepare dealers, installers and resellers with a controlled wireless CarPlay adapter SKU, claims, assets, ordering route and after-sales handover before commercial launch.',
+    image:'/assets/blog/wireless-carplay-adapter-channel-onboarding-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, blank carton, USB cable, blank approval card and barcode scanner on a deep-navy automotive electronics channel-onboarding bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-channel-onboarding-checklist.md',
+    intro:'Channel onboarding gives each dealer, installer or reseller one controlled starting point: the active product configuration, accurate qualification language, current assets, commercial route and after-sales handover.',
+    sections:[['Turn an approved SKU into a partner-ready offer','Connect the active configuration, claims, assets, ordering contact and support process before a channel partner creates listings or customer commitments.']],
+    checklist:['Active SKU identified','Pack-out clear','Qualification language supplied','Assets versioned','Commercial route named','Support handover ready','Change owner assigned'],
+    faq:[
+      ['Is channel onboarding the same as approving a sample?','No. Sample approval is a buyer project-control decision; channel onboarding equips a partner to represent the approved sellable scope accurately.'],
+      ['Should every partner receive full factory test material?','Not automatically. Share material appropriate to the partner role and agreed claims, while retaining internal release evidence in the proper process.'],
+      ['Can a reseller publish its own compatibility list?','It can contribute carefully scoped observations through an approval process, but entries should not imply vehicle-brand-wide or universal compatibility.'],
+      ['Does onboarding authorize OEM or private-label changes?','No. It should provide the route to request them; branding, packaging, accessory, firmware and market changes need the defined OEM/ODM review.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-distributor-price-list-checklist',category:'OEM / ODM',date:'September 6, 2026',publishAt:'2026-09-06T19:06:21+08:00',updatedAt:'2026-09-06T19:06:21+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Distributor Price List Checklist',metaTitle:'Wireless CarPlay Adapter Distributor Price List | TrolinkTek',
     excerpt:'Build a controlled wireless CarPlay adapter distributor price list by tying each commercial line to a sellable SKU, pack-out, quantity basis, quotation terms and approval route.',
