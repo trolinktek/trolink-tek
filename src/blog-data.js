@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-sales-forecast-planning',category:'OEM / ODM',date:'September 8, 2026',publishAt:'2026-09-08T19:04:06+08:00',updatedAt:'2026-09-08T19:04:06+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Sales Forecast Planning for Distributors',metaTitle:'Wireless CarPlay Adapter Sales Forecast Planning | TrolinkTek',
+    excerpt:'Plan wireless CarPlay adapter demand with a controlled SKU scope, evidence bands, supply constraints, allocation rules and channel-update process.',
+    image:'/assets/blog/wireless-carplay-adapter-sales-forecast-planning.png',imageAlt:'Unbranded wireless CarPlay adapter, USB cable, blank carton and abstract supply-allocation board on a deep-navy automotive electronics planning desk',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-sales-forecast-planning.md',
+    intro:'Sales forecast planning separates evidence-backed demand signals, product scope, supply inputs and allocation decisions so a distributor can prepare a controlled commercial conversation without turning a forecast into a promise.',
+    sections:[['Turn demand signals into a traceable supply conversation','Forecast one identified sellable configuration at a time, separate demand bands from confirmed orders and define how material changes are reviewed.']],
+    checklist:['Sellable SKU identified','Demand bands defined','Evidence sources named','Supply buckets separated','Allocation owner assigned','Change triggers set','Versions traceable'],
+    faq:[
+      ['Is a sales forecast the same as a wireless CarPlay adapter purchase order?','No. A forecast is a buyer planning view of possible demand; a purchase order is a commercial release for a defined quantity and configuration under the parties\' process.'],
+      ['Can a supplier treat a distributor forecast as a binding commitment?','Only if the parties explicitly agree that treatment for a defined portion and document it. Otherwise, record the forecast as a demand signal with stated assumptions.'],
+      ['Should a new private-label project use the same forecast confidence as a repeat SKU?','Not automatically. A new project may depend on configuration, branding, packaging, validation or channel milestones that do not apply to an established reorder.'],
+      ['Does a forecast prove compatibility with every vehicle in a target market?','No. A standard adapter generally requires working factory wired Apple CarPlay through the intended USB data port, and compatibility remains configuration-specific.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-channel-onboarding-checklist',category:'OEM / ODM',date:'September 7, 2026',publishAt:'2026-09-07T19:11:50+08:00',updatedAt:'2026-09-07T19:11:50+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Channel Onboarding Checklist for Distributors',metaTitle:'Wireless CarPlay Adapter Channel Onboarding Checklist | TrolinkTek',
     excerpt:'Prepare dealers, installers and resellers with a controlled wireless CarPlay adapter SKU, claims, assets, ordering route and after-sales handover before commercial launch.',
