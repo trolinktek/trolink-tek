@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-kia-compatibility-guide',category:'Compatibility',date:'September 9, 2026',publishAt:'2026-09-09T09:05:44+08:00',updatedAt:'2026-09-09T09:05:44+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Kia: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Kia | Compatibility Guide',
+    excerpt:'Check a Kia wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the installed infotainment host and USB data port, then validating the exact setup.',
+    image:'/assets/blog/wireless-carplay-adapter-kia-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a vehicle USB data port beside a generic diagnostic tablet on a deep-blue automotive electronics compatibility bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-kia-compatibility-guide.md',
+    intro:'Kia compatibility starts with a functioning wired Apple CarPlay connection on the exact installed infotainment host and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, installed head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Infotainment recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Kia?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Kia USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Kia Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host an adapter needs.'],
+      ['Can an adapter add CarPlay to a Kia that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-sales-forecast-planning',category:'OEM / ODM',date:'September 8, 2026',publishAt:'2026-09-08T19:04:06+08:00',updatedAt:'2026-09-08T19:04:06+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Sales Forecast Planning for Distributors',metaTitle:'Wireless CarPlay Adapter Sales Forecast Planning | TrolinkTek',
     excerpt:'Plan wireless CarPlay adapter demand with a controlled SKU scope, evidence bands, supply constraints, allocation rules and channel-update process.',
