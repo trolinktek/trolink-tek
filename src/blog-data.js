@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-call-audio-microphone-testing',category:'Technical insight',date:'September 11, 2026',publishAt:'2026-09-11T14:05:27+08:00',updatedAt:'2026-09-11T14:05:27+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Call Audio and Microphone Testing Guide',metaTitle:'Wireless CarPlay Adapter Microphone Testing | TrolinkTek',
+    excerpt:'Test wireless CarPlay adapter call audio and microphone behavior with a controlled wired baseline, repeatable call route, evidence record and clear decision boundary.',
+    image:'/assets/blog/wireless-carplay-adapter-call-audio-microphone-testing.png',imageAlt:'Unbranded wireless CarPlay adapter, vehicle infotainment test display, headset microphone and audio test fixture on a deep-navy automotive electronics validation bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-call-audio-microphone-testing.md',
+    intro:'Call-audio testing separates the vehicle host, phone, call route, vehicle microphone and adapter session so a B2B buyer can document what was actually observed before making a support or channel decision.',
+    sections:[['Validate two-way call behavior with controlled evidence','Confirm direct wired calling first, then hold the vehicle, USB data path, phone and configuration constant while recording downlink, microphone uplink, controls and recovery behavior.']],
+    checklist:['Wired call baseline proven','Adapter and firmware identified','Vehicle host recorded','Phone state documented','Call route repeated','Two-way observations retained','Controls tested in scope','Conclusion bounded'],
+    faq:[
+      ['Does music playback prove that a wireless CarPlay adapter microphone works?','No. Music playback is not a two-way call. Confirm the remote party\'s received speech, the tester\'s received call audio and the active route in the documented configuration.'],
+      ['Can one successful call prove compatibility for a vehicle brand?','No. It supports the recorded adapter, firmware, vehicle host, USB path, phone, operating-system state, accessories and method. Other trims or head-unit versions can differ.'],
+      ['Why should wired calling be tested before wireless calling?','It establishes whether the vehicle\'s factory CarPlay host, intended USB data port, phone and core call path work before the wireless adapter is added to the configuration.'],
+      ['What should be included in a technical escalation?','Send the adapter and firmware identity, cable and accessory path, vehicle host, USB port, phone and OS, starting state, repeatable sequence, observations, timestamps and linked evidence.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-kia-compatibility-guide',category:'Compatibility',date:'September 9, 2026',publishAt:'2026-09-09T09:05:44+08:00',updatedAt:'2026-09-09T09:05:44+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Kia: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Kia | Compatibility Guide',
     excerpt:'Check a Kia wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the installed infotainment host and USB data port, then validating the exact setup.',
