@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-mazda-compatibility-guide',category:'Compatibility',date:'September 13, 2026',publishAt:'2026-09-13T09:04:11+08:00',updatedAt:'2026-09-13T09:04:11+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Mazda: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Mazda | Compatibility Guide',
+    excerpt:'Check a Mazda wireless CarPlay adapter fit by proving wired Apple CarPlay, identifying the installed infotainment host and USB data port, then validating the exact setup.',
+    image:'/assets/blog/wireless-carplay-adapter-mazda-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a generic vehicle USB data-port fixture beside a diagnostic tablet on a deep-blue automotive electronics validation bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-mazda-compatibility-guide.md',
+    intro:'Mazda compatibility starts with a functioning wired Apple CarPlay connection on the exact installed infotainment host and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired baseline before selecting an adapter','Record the exact vehicle, installed head unit, data port, phone and expected functions, then validate the wireless session in that controlled configuration.']],
+    checklist:['Vehicle identified','Infotainment recorded','Wired CarPlay proven','Data port confirmed','Wireless session tested','Configuration documented'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Mazda?','No. The exact vehicle needs a functioning compatible wired Apple CarPlay host through the intended USB data port.'],
+      ['Does a Mazda USB port prove a wireless CarPlay adapter will work?','No. A port can support charging, media or service functions without hosting wired CarPlay.'],
+      ['Does Mazda Bluetooth prove adapter compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host an adapter needs.'],
+      ['Can an adapter add CarPlay to a Mazda that has no CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-call-audio-microphone-testing',category:'Technical insight',date:'September 11, 2026',publishAt:'2026-09-11T14:05:27+08:00',updatedAt:'2026-09-11T14:05:27+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Call Audio and Microphone Testing Guide',metaTitle:'Wireless CarPlay Adapter Microphone Testing | TrolinkTek',
     excerpt:'Test wireless CarPlay adapter call audio and microphone behavior with a controlled wired baseline, repeatable call route, evidence record and clear decision boundary.',
