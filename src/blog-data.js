@@ -1,5 +1,20 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-service-stock-planning',category:'OEM / ODM',date:'September 15, 2026',publishAt:'2026-09-15T19:07:15+08:00',updatedAt:'2026-09-15T19:07:15+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Service Stock Planning for Distributors',metaTitle:'Wireless CarPlay Adapter Service Stock Planning | TrolinkTek',
+    excerpt:'Plan wireless CarPlay adapter service stock with defined warranty scope, configuration control, demand evidence, replenishment triggers and a clear after-sales route.',
+    image:'/assets/blog/wireless-carplay-adapter-service-stock-planning.png',imageAlt:'Unbranded wireless CarPlay adapters in controlled service-stock trays with a barcode scanner and abstract inventory board on a deep-navy automotive electronics warehouse bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-service-stock-planning.md',
+    intro:'Service stock planning turns a distributor’s after-sales promise into a controlled pool of identified adapter configurations, release rules and replenishment decisions rather than an untracked reserve.',
+    sections:[['Reserve stock for a defined after-sales decision','Separate service units from sales, samples and returns; then connect each authorized release to the approved SKU, configuration, case record and replenishment trigger.']],
+    checklist:['Supported SKU identified','Service purpose defined','Inventory buckets separated','Configuration traceable','Release authority named','Case evidence retained','Review trigger set','Replenishment route owned'],
+    faq:[
+      ['How much wireless CarPlay adapter service stock should a distributor hold?','There is no universal quantity. Review the supported configuration, service commitment, authorized case evidence, active program scope, replenishment exposure and the buyer’s risk tolerance.'],
+      ['Can service stock be sold when normal inventory is low?','Only under the buyer’s controlled inventory and service policy. Releasing reserved units for sales can affect the planned response to eligible after-sales cases.'],
+      ['Is a returned adapter automatically suitable for service stock?','No. It needs the applicable receipt, condition, configuration and disposition checks before it can be considered for any future use.'],
+      ['Can a newer adapter replace old service stock?','Only after a controlled decision defines the relevant product, configuration and support scope. Similar appearance does not prove the same hardware, firmware, cable, pack-out or vehicle behavior.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-volkswagen-compatibility-guide',category:'Compatibility',date:'September 15, 2026',publishAt:'2026-09-15T09:06:13+08:00',updatedAt:'2026-09-15T09:06:13+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Volkswagen: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Volkswagen | Compatibility Guide',
     excerpt:'Check a Volkswagen wireless CarPlay adapter fit by proving wired Apple CarPlay, recording the installed infotainment host and USB data port, then validating the exact setup.',
