@@ -1,5 +1,37 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-audio-source-switching-testing',category:'Technical insight',date:'September 17, 2026',publishAt:'2026-09-17T16:46:00+08:00',updatedAt:'2026-09-17T16:46:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Audio Source Switching and Recovery Testing',metaTitle:'CarPlay Adapter Audio Source Switching Test | TrolinkTek',
+    excerpt:'Test recovery when switching among CarPlay, FM radio, native media and vehicle screens with a controlled source-state matrix and observable milestones.',
+    image:'/assets/blog/wireless-carplay-adapter-audio-source-switching-testing.png',imageAlt:'Unbranded wireless CarPlay adapter connected to an infotainment validation bench showing three controlled audio paths for source-switching recovery tests',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-audio-source-switching-testing.md',
+    intro:'Audio source-switching tests define the starting source, switch action, expected display and audio route, then compare wired and wireless recovery milestone by milestone.',
+    sections:[['Separate display return from audio recovery','Record the selected vehicle source, phone playback state, CarPlay session, controls and first audible milestone instead of treating a visible screen as a complete pass.']],
+    checklist:['Wired baseline recorded','Sources listed','Configuration frozen','Start state defined','Transitions repeated','Recovery milestones separated','Volume contexts checked','Interruptions classified','Exceptions owned','Claims bounded'],
+    faq:[
+      ['Should CarPlay music resume automatically after switching back from FM?','It depends on the vehicle, phone media state and workflow. Compare the same transition in direct wired CarPlay and document whether a play action is normally required.'],
+      ['Why is CarPlay visible while FM remains audible?','Some head units separate the displayed interface from the selected audio source. Confirm the vehicle source and compare the wired baseline.'],
+      ['Does source switching prove call audio works?','No. Calls can use a different audio and microphone route and need a separate controlled test.'],
+      ['How many repetitions are enough?','Define repetitions from program risk and acceptance scope; do not create a reliability claim from a few demonstrations.'],
+      ['What evidence should be sent to a supplier?','Send configuration identity, wired baseline, exact transition steps, expected milestones, first observed failure and relevant timestamps or media.']
+    ]
+  },
+  {
+    slug:'wireless-carplay-adapter-nissan-compatibility-guide',category:'Compatibility',date:'September 17, 2026',publishAt:'2026-09-17T16:45:00+08:00',updatedAt:'2026-09-17T16:45:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Nissan: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Nissan | Compatibility Guide',
+    excerpt:'Check Nissan adapter compatibility by proving factory wired Apple CarPlay, identifying the installed infotainment host and validating the exact USB data path.',
+    image:'/assets/blog/wireless-carplay-adapter-nissan-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter on a deep-navy vehicle compatibility validation bench with a generic infotainment display, phone and checklist',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-nissan-compatibility-guide.md',
+    intro:'Nissan compatibility begins with functioning wired Apple CarPlay on the exact installed infotainment host and USB data port, not the vehicle badge alone.',
+    sections:[['Prove the wired host before selecting an adapter','Record the vehicle, installed head unit, working data port, phone and expected functions, then validate the wireless session on that controlled path.']],
+    checklist:['Vehicle identified','Infotainment recorded','Wired CarPlay proven','Data port confirmed','Adapter identity retained','Functions tested','Limits documented','Listing controlled'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Nissan?','No. The exact installed host and intended USB data port must already provide compatible wired Apple CarPlay.'],
+      ['Does Nissan Bluetooth prove compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host required by a standard adapter.'],
+      ['Does a Nissan USB port prove CarPlay support?','No. Confirm that the exact port launches direct wired Apple CarPlay with the intended phone.'],
+      ['Can an adapter add CarPlay to an older Nissan without CarPlay?','A standard adapter normally cannot create a missing CarPlay host; another upgrade architecture may be required.'],
+      ['What compatibility evidence should a distributor publish?','Publish the tested host, port, adapter, phone/software baseline, observed functions, date and limits rather than a make-wide promise.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-service-stock-planning',category:'OEM / ODM',date:'September 15, 2026',publishAt:'2026-09-15T19:07:15+08:00',updatedAt:'2026-09-15T19:07:15+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Service Stock Planning for Distributors',metaTitle:'Wireless CarPlay Adapter Service Stock Planning | TrolinkTek',
     excerpt:'Plan wireless CarPlay adapter service stock with defined warranty scope, configuration control, demand evidence, replenishment triggers and a clear after-sales route.',
