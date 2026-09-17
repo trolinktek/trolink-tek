@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'oem-wireless-carplay-adapter-specification-freeze-checklist',category:'OEM / ODM',date:'September 17, 2026',publishAt:'2026-09-17T19:03:23+08:00',updatedAt:'2026-09-17T19:03:23+08:00',author:'TrolinkTek Editorial Team',
+    title:'OEM Wireless CarPlay Adapter Specification Freeze Checklist',metaTitle:'OEM CarPlay Adapter Specification Freeze Checklist | TrolinkTek',
+    excerpt:'Freeze an OEM adapter baseline before samples or production by controlling hardware, firmware, accessories, packaging, acceptance criteria and change approval.',
+    image:'/assets/blog/oem-wireless-carplay-adapter-specification-freeze-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, cable, PCB reference, packaging sample, calipers and approval checklist on a deep-navy engineering bench',readTime:'12 min read',contentPath:'/content/blog-articles/oem-wireless-carplay-adapter-specification-freeze-checklist.md',
+    intro:'A specification freeze turns buyer and supplier decisions into one controlled baseline before samples, pilot production or purchase release.',
+    sections:[['Freeze decisions, not unresolved assumptions','Identify the exact configuration, evidence, acceptance method, owner and change route while keeping unresolved items on a separate controlled register.']],
+    checklist:['SKU and revision identified','Hardware recorded','Firmware build verifiable','Feature scope bounded','Validation method defined','Accessories listed','Branding approved','Packaging linked','Open items owned','Change route approved'],
+    faq:[
+      ['When should an OEM wireless CarPlay adapter specification be frozen?','Before the stage it controls, such as approval samples, pilot production or production purchase release, with the stage and any open blockers stated explicitly.'],
+      ['Can an approved sample replace the written specification?','No. A sample supports physical comparison but cannot define every hardware, firmware, packaging, validation and change-control requirement.'],
+      ['What if firmware must change after the freeze?','Use a controlled change record identifying both builds, reason, risk, retest scope, approval and effective production point.'],
+      ['Should price and MOQ be included in the specification?','They are usually controlled in commercial records that cross-reference the same SKU and specification revision.'],
+      ['Does specification freeze guarantee compatibility with every vehicle?','No. Compatibility remains bounded to the validated vehicle, head unit, phone, software and operating conditions.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-audio-source-switching-testing',category:'Technical insight',date:'September 17, 2026',publishAt:'2026-09-17T16:46:00+08:00',updatedAt:'2026-09-17T16:46:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Audio Source Switching and Recovery Testing',metaTitle:'CarPlay Adapter Audio Source Switching Test | TrolinkTek',
     excerpt:'Test recovery when switching among CarPlay, FM radio, native media and vehicle screens with a controlled source-state matrix and observable milestones.',
