@@ -1,19 +1,13 @@
 export const blogPosts=[
   {
-    slug:'wireless-carplay-adapter-supplier-corrective-action',category:'OEM / ODM',date:'September 18, 2026',publishAt:'2026-09-18T19:02:47+08:00',updatedAt:'2026-09-18T19:02:47+08:00',author:'TrolinkTek Editorial Team',
-    title:'Wireless CarPlay Adapter Supplier Corrective Action Guide',metaTitle:'CarPlay Adapter Supplier Corrective Action Guide | TrolinkTek',
-    excerpt:'Manage supplier corrective action with clear containment, traceable configurations, root-cause evidence, controlled changes, validation and closure criteria.',
-    image:'/assets/blog/wireless-carplay-adapter-supplier-corrective-action.png',imageAlt:'Unbranded wireless CarPlay adapters under supplier-quality review with one isolated unit, magnifier, barcode scanner, defect evidence and a corrective-action workflow',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-supplier-corrective-action.md',
-    intro:'A supplier corrective action turns a confirmed adapter nonconformity into controlled containment, evidence-led investigation, validated action and traceable closure.',
-    sections:[['Close the cause, not only the returned unit','Define the problem and affected scope, protect inventory, distinguish correction from corrective action, then verify the solution against the original failure and relevant regressions.']],
-    checklist:['Problem confirmed','Configuration identified','Scope traced','Containment owned','Samples preserved','Causes evidenced','Changes controlled','Validation completed','Effectiveness checked','Closure approved'],
-    faq:[
-      ['Is a refund or replacement a corrective action?','Usually not. It corrects or commercially resolves a case; corrective action addresses the supported cause and recurrence risk.'],
-      ['How quickly should a supplier respond to a SCAR?','Use the agreed quality terms and risk level; immediate containment may precede the full investigation.'],
-      ['What if the supplier cannot reproduce the issue?','Confirm configuration and steps, preserve the sample, compare baselines and agree on the next diagnostic action.'],
-      ['Can a firmware update close the corrective action?','Only after controlled identification, original-failure retest, regression checks and agreed effectiveness evidence.'],
-      ['Should every customer complaint create a SCAR?','No. Triage evidence, severity, recurrence, scope and contractual rules before escalation.']
-    ]
+    slug:'wireless-carplay-adapter-esd-test-planning',category:'Technical insight',date:'September 19, 2026',publishAt:'2026-09-19T14:02:04+08:00',updatedAt:'2026-09-19T14:02:04+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter ESD Handling and Test Planning Guide',metaTitle:'Wireless CarPlay Adapter ESD Test Planning | TrolinkTek',
+    excerpt:'Plan ESD handling and pre-compliance evaluation with a controlled adapter configuration, mapped discharge points, functional monitoring, recovery rules and traceable evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-esd-test-planning.png',imageAlt:'Unbranded wireless CarPlay adapter on a grounded deep-navy ESD laboratory bench with test gun, oscilloscope, wrist strap and infotainment fixture',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-esd-test-planning.md',
+    intro:'ESD test planning separates safe handling from product immunity evaluation and connects every disturbance to the exact configuration, operating mode, observed response and recovery path.',
+    sections:[['Test the complete operating state','Freeze hardware, firmware, cable, phone and host identity; map accessible points; then monitor USB, wireless, display, audio and controls.']],
+    checklist:['Requirement identified','Qualified owner assigned','Configuration frozen','Modes defined','Points mapped','Baseline proven','Functions monitored','Recovery classified','Evidence retained','Claims bounded'],
+    faq:[['Is ESD-safe packaging proof of immunity testing?','No. Protective handling and product immunity testing are separate controls.'],['What is contact versus air discharge?','They are different methods selected by the applicable plan and surface.'],['Can one report cover every model?','Not automatically; product configuration and report scope must match.'],['Does automatic reconnect mean a pass?','Only when it meets the approved criteria.'],['Should an office perform ESD testing?','Qualified personnel, suitable equipment and a controlled safety plan are required.']]
   },
   {
     slug:'oem-wireless-carplay-adapter-specification-freeze-checklist',category:'OEM / ODM',date:'September 17, 2026',publishAt:'2026-09-17T19:03:23+08:00',updatedAt:'2026-09-17T19:03:23+08:00',author:'TrolinkTek Editorial Team',
