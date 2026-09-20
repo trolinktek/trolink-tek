@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-subaru-compatibility-guide',category:'Compatibility',date:'September 20, 2026',publishAt:'2026-09-20T09:01:45+08:00',updatedAt:'2026-09-20T09:01:45+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Subaru: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Subaru | Compatibility Guide',
+    excerpt:'Check Subaru adapter compatibility by proving factory wired Apple CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-subaru-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to the center-console USB data port in a deep-navy crossover infotainment evaluation bay',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-subaru-compatibility-guide.md',
+    intro:'Subaru compatibility starts with the exact installed head unit and USB data path: prove direct wired CarPlay first, then compare the adapter on the same controlled setup.',
+    sections:[['Prove the host before evaluating the adapter','Record the market, model, year, trim, head unit, USB port, phone and software; then compare wired and wireless function on the same path.']],
+    checklist:['Vehicle and trim recorded','Infotainment host identified','Wired CarPlay proven','Exact data port confirmed','Native wireless status checked','Adapter configuration recorded','Audio and calls checked','Controls verified','Recovery observed','Claims bounded'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Subaru?','No. The exact installed infotainment host and intended USB port must already provide compatible wired Apple CarPlay.'],
+      ['Does Subaru Bluetooth prove compatibility?','No. Bluetooth calling or music does not prove the wired CarPlay host required by a standard adapter.'],
+      ['Does any Subaru USB port support an adapter?','No. Confirm that the exact port launches direct wired Apple CarPlay with the intended phone.'],
+      ['Can an adapter add CarPlay to an older Subaru without CarPlay?','A standard adapter normally cannot create a missing CarPlay host; another upgrade architecture may be required.'],
+      ['What evidence should a distributor publish?','Publish the tested vehicle, host, port, adapter, phone and software baseline, observed functions, date and limits.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-esd-test-planning',category:'Technical insight',date:'September 19, 2026',publishAt:'2026-09-19T14:02:04+08:00',updatedAt:'2026-09-19T14:02:04+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter ESD Handling and Test Planning Guide',metaTitle:'Wireless CarPlay Adapter ESD Test Planning | TrolinkTek',
     excerpt:'Plan ESD handling and pre-compliance evaluation with a controlled adapter configuration, mapped discharge points, functional monitoring, recovery rules and traceable evidence.',
