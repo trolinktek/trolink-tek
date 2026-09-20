@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-usb-power-sleep-state-testing',category:'Technical insight',date:'September 20, 2026',publishAt:'2026-09-20T14:02:10+08:00',updatedAt:'2026-09-20T14:02:10+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter USB Power Consumption and Sleep-State Testing',metaTitle:'CarPlay Adapter USB Power and Sleep-State Testing | TrolinkTek',
+    excerpt:'Measure adapter USB voltage, current and power across boot, pairing, connected use, shutdown delay and retained-power states with controlled evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-usb-power-sleep-state-testing.png',imageAlt:'Unbranded wireless CarPlay adapter connected through a USB power analyzer to an infotainment test fixture on a deep-navy measurement bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-usb-power-sleep-state-testing.md',
+    intro:'State-based USB power testing connects every voltage and current trace to the exact adapter configuration, host, phone, cable, event and operating condition.',
+    sections:[['Measure states, not one average','Separate power-off, boot, discovery, pairing, connected idle, active functions, shutdown delay, retained power and verified source-off.']],
+    checklist:['Question defined','Configuration frozen','Instrument identified','Measurement point stated','Data path proven','States separated','Events timestamped','Shutdown behavior recorded','Invalid runs labeled','Raw evidence retained'],
+    faq:[
+      ['What is a normal USB current for a wireless CarPlay adapter?','There is no universal value; compare the exact configuration and state against its approved specification and method.'],
+      ['Is the highest current value the adapter power consumption?','Not by itself. A brief peak, sustained active window and accumulated energy answer different questions.'],
+      ['Does low current prove sleep mode?','No. Verify the product and vehicle state; low current may be idle, scanning, retained operation or an artifact.'],
+      ['Can a USB analyzer change behavior?','Yes. It can add resistance or affect data integrity, so prove the instrumented path before relying on results.'],
+      ['Does this prove the vehicle battery will not drain?','No. Vehicle power strategy, other awake modules, battery condition and parking duration also matter.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-subaru-compatibility-guide',category:'Compatibility',date:'September 20, 2026',publishAt:'2026-09-20T09:01:45+08:00',updatedAt:'2026-09-20T09:01:45+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Subaru: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Subaru | Compatibility Guide',
     excerpt:'Check Subaru adapter compatibility by proving factory wired Apple CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
