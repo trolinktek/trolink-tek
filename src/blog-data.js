@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-quotation-comparison-checklist',category:'OEM / ODM',date:'September 20, 2026',publishAt:'2026-09-20T19:02:21+08:00',updatedAt:'2026-09-20T19:02:21+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Quotation Comparison Checklist for Importers',metaTitle:'CarPlay Adapter Quotation Comparison Checklist | TrolinkTek',
+    excerpt:'Compare supplier quotations on the same adapter configuration, MOQ, private-label scope, Incoterm, evidence, lead time, payment and after-sales basis.',
+    image:'/assets/blog/wireless-carplay-adapter-quotation-comparison-checklist.png',imageAlt:'Three unbranded wireless CarPlay adapter samples, neutral packaging and abstract quotation comparison sheets on a deep-navy sourcing desk',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-quotation-comparison-checklist.md',
+    intro:'A decision-ready quotation comparison normalizes configuration, quantity, customization, delivery responsibilities, evidence and after-sales scope before ranking commercial totals.',
+    sections:[['Normalize the offer before ranking the price','Compare one defined sellable configuration and one quantity scenario, separating recurring, one-time, conditional and buyer-arranged items.']],
+    checklist:['Configuration identified','Pack-out aligned','Charges separated','MOQ layers visible','Incoterm and place recorded','Evidence scoped','Lead-time boundaries defined','Payment terms compared','After-sales route clear','Open items owned'],
+    faq:[
+      ['Should buyers choose the lowest wireless CarPlay adapter quotation?','Not automatically. First confirm that every offer covers the same configuration, quantity, packaging, delivery basis, evidence and after-sales scope.'],
+      ['Can quotations using different Incoterms be compared?','Yes, after the buyer normalizes responsibilities and costs to the same defined decision point and records the named place.'],
+      ['Does a detailed quotation prove product quality?','No. Quality confidence requires configuration-matched samples, validation, process evidence, inspection and controlled production records.'],
+      ['How should a private-label packaging MOQ be shown?','Show the print quantity, order consumption, remaining balance, ownership, storage assumptions and obsolete-artwork treatment.'],
+      ['What should an importer send before requesting a final quotation?','Send one controlled scope covering market, configuration, branding, packaging, quantities, validation, delivery, timing and after-sales expectations.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-usb-power-sleep-state-testing',category:'Technical insight',date:'September 20, 2026',publishAt:'2026-09-20T14:02:10+08:00',updatedAt:'2026-09-20T14:02:10+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter USB Power Consumption and Sleep-State Testing',metaTitle:'CarPlay Adapter USB Power and Sleep-State Testing | TrolinkTek',
     excerpt:'Measure adapter USB voltage, current and power across boot, pairing, connected use, shutdown delay and retained-power states with controlled evidence.',
