@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-voice-assistant-siri-testing',category:'Technical insight',date:'September 21, 2026',publishAt:'2026-09-21T14:04:00+08:00',updatedAt:'2026-09-21T14:04:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Voice Assistant and Siri Testing Guide',metaTitle:'CarPlay Adapter Siri and Voice Assistant Testing | TrolinkTek',
+    excerpt:'Test trigger recognition, microphone uplink, audio ducking, response playback and recovery with a controlled wired baseline and traceable evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-voice-assistant-siri-testing.png',imageAlt:'Unbranded wireless CarPlay adapter connected to an infotainment voice-assistant validation bench with steering-wheel control, microphone waveform and audio-path instruments',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-voice-assistant-siri-testing.md',
+    intro:'Voice-assistant approval should prove the complete transaction: trigger, opening, microphone capture, response playback, exit and return to the previous state.',
+    sections:[['Test the complete voice transaction','Freeze the host, phone, adapter, trigger, network and cabin baseline; then observe every milestone and compare it with direct wired CarPlay.']],
+    checklist:['Configuration frozen','Wired baseline proven','Safe request defined','Trigger paths checked','Microphone isolated','Playback verified','Ducking observed','Recovery confirmed','Network classified','Evidence retained'],
+    faq:[
+      ['Does the assistant opening prove the adapter passed?','No. A complete pass also requires microphone capture, request handling, response playback, clean exit and state recovery.'],
+      ['Should every vehicle voice button behave the same way?','No. Press behavior and control mapping depend on the exact vehicle and infotainment host.'],
+      ['Can mobile-network problems look like adapter failures?','Yes. Separate activation, speech recognition, request completion and playback before assigning the cause.'],
+      ['Is call microphone testing enough for voice-assistant approval?','No. Voice-assistant use adds trigger, listening, audio-ducking, response and recovery states.'],
+      ['When should firmware be changed during troubleshooting?','After the original configuration and evidence are recorded; then rerun the same controlled matrix as a new baseline.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-quotation-comparison-checklist',category:'OEM / ODM',date:'September 20, 2026',publishAt:'2026-09-20T19:02:21+08:00',updatedAt:'2026-09-20T19:02:21+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Quotation Comparison Checklist for Importers',metaTitle:'CarPlay Adapter Quotation Comparison Checklist | TrolinkTek',
     excerpt:'Compare supplier quotations on the same adapter configuration, MOQ, private-label scope, Incoterm, evidence, lead time, payment and after-sales basis.',
