@@ -149,7 +149,7 @@ A useful report lets another team reproduce the same condition. Include:
 - recovery action and whether the issue returned;
 - raw logs or media with privacy-sensitive information removed.
 
-For buyers, this evidence can become part of sample approval, incoming comparison or firmware regression review. It does not prove compatibility beyond the recorded configuration. To scope a controlled validation plan, [contact TrolinkTek](/contact/) with the target markets, vehicle-host matrix, phone baseline and required trigger paths.
+For buyers, this evidence can become part of sample approval, incoming comparison or firmware regression review. It does not prove compatibility beyond the recorded configuration. To scope a controlled validation plan, [contact TrolinkTek](/#quote) with the target markets, vehicle-host matrix, phone baseline and required trigger paths.
 
 ## Voice-assistant test checklist
 
