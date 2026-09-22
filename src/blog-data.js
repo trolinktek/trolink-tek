@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-bluetooth-wifi-identity-testing',category:'Technical insight',date:'September 22, 2026',publishAt:'2026-09-22T14:05:00+08:00',updatedAt:'2026-09-22T14:05:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Bluetooth and Wi-Fi Identity Testing Guide',metaTitle:'CarPlay Adapter Bluetooth and Wi-Fi Identity Testing | TrolinkTek',
+    excerpt:'Test Bluetooth names, Wi-Fi identities, address behavior and persistence across units, resets and firmware changes with privacy-safe evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-bluetooth-wifi-identity-testing.png',imageAlt:'Unbranded wireless CarPlay adapter on a deep-navy validation bench with Bluetooth and Wi-Fi symbols, abstract radio waveforms and blank identity tags',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-bluetooth-wifi-identity-testing.md',
+    intro:'Wireless identity testing verifies customer-visible names, unit distinction, persistence and traceability without confusing correct labels with radio performance.',
+    sections:[['Verify identity as a controlled configuration','Freeze hardware, firmware, host and phone state; then compare names, network behavior and persistence across units and transitions.']],
+    checklist:['Baseline recorded','Name rule defined','Wi-Fi behavior defined','Uniqueness scoped','Phone state controlled','First pairing observed','Units compared','Persistence tested','RF separated','Evidence redacted'],
+    faq:[
+      ['Is a Bluetooth name the same as a device address?','No. The name is a user-visible label while the address is a lower-level identifier.'],
+      ['Must every adapter have a unique visible name?','Not always; the approved workflow and lower-level identity must still prevent unintended selection.'],
+      ['Can firmware change the pairing name?','Yes. Control the change, verify the final build and update support instructions.'],
+      ['Does correct Wi-Fi identity prove stable performance?','No. Stability needs separate connection, interference, power and duration testing.'],
+      ['Should device addresses appear publicly?','Usually not; redact unnecessary technical and personal identifiers from shared evidence.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-mercedes-benz-compatibility-guide',category:'Compatibility',date:'September 22, 2026',publishAt:'2026-09-22T09:28:00+08:00',updatedAt:'2026-09-22T09:28:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Mercedes-Benz: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Mercedes-Benz | Compatibility Guide',
     excerpt:'Check compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
