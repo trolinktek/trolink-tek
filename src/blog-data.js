@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-mercedes-benz-compatibility-guide',category:'Compatibility',date:'September 22, 2026',publishAt:'2026-09-22T09:28:00+08:00',updatedAt:'2026-09-22T09:28:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Mercedes-Benz: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Mercedes-Benz | Compatibility Guide',
+    excerpt:'Check compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-mercedes-benz-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port in a generic premium sedan with blank compatibility checklist',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-mercedes-benz-compatibility-guide.md',
+    intro:'Mercedes-Benz compatibility depends on the exact installed infotainment host and USB data path, not the vehicle badge or model year alone.',
+    sections:[['Prove wired CarPlay on the exact host','Record the vehicle, infotainment system, port, phone and adapter configuration, then compare wired and wireless behavior on the same path.']],
+    checklist:['Vehicle recorded','Host identified','Wired CarPlay proven','Data port confirmed','Phone baseline saved','Adapter build recorded','Controls tested','Audio checked','Recovery observed','Claims bounded'],
+    faq:[
+      ['Will an adapter work with every Mercedes-Benz?','No. The exact vehicle needs a compatible factory wired CarPlay host and USB data path.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Bluetooth audio prove compatibility?','No. Bluetooth audio does not prove the required wired CarPlay session.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended phone.'],
+      ['What evidence should distributors keep?','Keep the vehicle, host, port, phone, adapter build, wired baseline, results, exceptions and date.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-voice-assistant-siri-testing',category:'Technical insight',date:'September 21, 2026',publishAt:'2026-09-21T14:04:00+08:00',updatedAt:'2026-09-21T14:04:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Voice Assistant and Siri Testing Guide',metaTitle:'CarPlay Adapter Siri and Voice Assistant Testing | TrolinkTek',
     excerpt:'Test trigger recognition, microphone uplink, audio ducking, response playback and recovery with a controlled wired baseline and traceable evidence.',
