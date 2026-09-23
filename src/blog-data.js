@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'private-label-wireless-carplay-adapter-sku-variant-planning',category:'OEM / ODM',date:'September 23, 2026',publishAt:'2026-09-23T19:05:12+08:00',updatedAt:'2026-09-23T19:05:12+08:00',author:'TrolinkTek Editorial Team',
+    title:'Private-Label Wireless CarPlay Adapter SKU and Variant Planning Guide',metaTitle:'Private-Label CarPlay Adapter SKU Planning | TrolinkTek',
+    excerpt:'Plan sellable adapter SKUs by controlling hardware, firmware, cables, packaging, channel variants, MOQ, inventory and lifecycle evidence.',
+    image:'/assets/blog/private-label-wireless-carplay-adapter-sku-variant-planning.png',imageAlt:'Four unbranded wireless CarPlay adapter variants with blank packaging, cable kits and geometric family diagram on a deep-navy product planning bench',readTime:'11 min read',contentPath:'/content/blog-articles/private-label-wireless-carplay-adapter-sku-variant-planning.md',
+    intro:'A durable SKU plan turns only controlled, orderable differences into sellable variants and links each one to a specification, evidence set and lifecycle status.',
+    sections:[['Create SKUs from operational differences','Use a separate sellable SKU when a difference must be ordered, stocked, priced, fulfilled or supported independently.']],
+    checklist:['Channel purpose defined','Master configuration frozen','Identity layers separated','Variant matrix completed','Hardware and firmware explicit','Pack-out linked','MOQ layers separated','Residual stock calculated','Evidence attached','Lifecycle controlled','Systems checked','Release approved'],
+    faq:[
+      ['How many SKUs should a new private-label brand launch?','Start with the smallest range that covers proven channel needs and can be forecast, validated, stocked and supported clearly.'],
+      ['Should USB-A and USB-C versions use different SKUs?','Usually yes when the customer pack-out, use guidance or warehouse handling differs.'],
+      ['Can packaging languages share one SKU?','Only when channel and fulfillment controls can reliably handle the difference; market-specific packs often need separate SKUs.'],
+      ['Does every firmware build need a new sellable SKU?','No. It needs a controlled change decision; create a new SKU when versions coexist or differ materially for ordering or support.'],
+      ['What should a multi-variant RFQ include?','Include a row-based matrix, quantity by SKU, branding, packaging, markets, validation, timing, MOQ layers and after-sales scope.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-barcode-label-verification',category:'Quality control',date:'September 23, 2026',publishAt:'2026-09-23T14:05:06+08:00',updatedAt:'2026-09-23T14:05:06+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Barcode and Label Verification Guide',metaTitle:'CarPlay Adapter Barcode & Label Verification | TrolinkTek',
     excerpt:'Verify encoded data, SKU mapping, print quality, placement, scanner methods, sampling and traceable evidence on adapter labels and cartons.',
