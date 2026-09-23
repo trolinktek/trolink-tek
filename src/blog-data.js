@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-barcode-label-verification',category:'Quality control',date:'September 23, 2026',publishAt:'2026-09-23T14:05:06+08:00',updatedAt:'2026-09-23T14:05:06+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Barcode and Label Verification Guide',metaTitle:'CarPlay Adapter Barcode & Label Verification | TrolinkTek',
+    excerpt:'Verify encoded data, SKU mapping, print quality, placement, scanner methods, sampling and traceable evidence on adapter labels and cartons.',
+    image:'/assets/blog/wireless-carplay-adapter-barcode-label-verification.png',imageAlt:'Unbranded wireless CarPlay adapters and blank retail cartons at a deep-navy quality station with a handheld scanner and abstract barcode labels',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-barcode-label-verification.md',
+    intro:'Barcode approval must prove the encoded value, SKU mapping, production print, placement, scan method and lot evidence—not merely produce one successful scanner beep.',
+    sections:[['Separate scanning from verification','Operational scanning tests decode performance; verification evaluates defined symbol and print-quality conditions with a controlled method.']],
+    checklist:['SKU frozen','Barcode master approved','Symbology confirmed','Encoded data matched','Artwork geometry checked','Production print used','Scan method defined','Lot sampled','Label levels reconciled','Defects recorded','Rework controlled','Evidence released'],
+    faq:[
+      ['Is one successful scan enough?','No. Also verify the value, SKU mapping, production print, placement, sample coverage and acceptance rule.'],
+      ['Is a verifier the same as a scanner?','No. A scanner decodes operationally; a verifier evaluates defined symbol and print-quality properties.'],
+      ['Should product and box use the same barcode?','Not automatically; define each label level and map the retail code to the complete sellable pack.'],
+      ['Can a PDF replace a printed-sample test?','No. It cannot reproduce substrate, finish, folding, glare, abrasion or production drift.'],
+      ['What if the decoded value is wrong?','Stop release, segregate the scope, confirm the master and control relabeling and reinspection.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-audi-compatibility-guide',category:'Compatibility',date:'September 23, 2026',publishAt:'2026-09-23T09:04:31+08:00',updatedAt:'2026-09-23T09:04:31+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Audi: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Audi | Compatibility Guide',
     excerpt:'Check Audi adapter compatibility by proving factory wired CarPlay, identifying the installed MMI host and validating the exact USB data port.',
