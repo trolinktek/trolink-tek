@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-audi-compatibility-guide',category:'Compatibility',date:'September 23, 2026',publishAt:'2026-09-23T09:04:31+08:00',updatedAt:'2026-09-23T09:04:31+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Audi: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Audi | Compatibility Guide',
+    excerpt:'Check Audi adapter compatibility by proving factory wired CarPlay, identifying the installed MMI host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-audi-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port in a generic premium European sedan with a blank compatibility checklist',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-audi-compatibility-guide.md',
+    intro:'Audi compatibility depends on the exact installed MMI host and USB data path, not the vehicle badge, model year, Bluetooth support or a charging port alone.',
+    sections:[['Prove wired CarPlay on the exact MMI host','Record the vehicle, infotainment system, port, phone and adapter configuration, then compare wired and wireless behavior on the same path.']],
+    checklist:['Vehicle recorded','MMI identified','Wired CarPlay proven','Data port confirmed','Native wireless checked','Phone baseline saved','Adapter build recorded','Controls tested','Audio checked','Recovery observed'],
+    faq:[
+      ['Will an adapter work with every Audi?','No. The exact vehicle needs a compatible factory wired CarPlay host and USB data path.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Audi Bluetooth prove compatibility?','No. Bluetooth audio and calling do not prove the required wired CarPlay USB host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor send?','Send the vehicle, MMI host, port, phone, adapter build, wired result, symptom and repeatable steps.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-bluetooth-wifi-identity-testing',category:'Technical insight',date:'September 22, 2026',publishAt:'2026-09-22T14:05:00+08:00',updatedAt:'2026-09-22T14:05:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Bluetooth and Wi-Fi Identity Testing Guide',metaTitle:'CarPlay Adapter Bluetooth and Wi-Fi Identity Testing | TrolinkTek',
     excerpt:'Test Bluetooth names, Wi-Fi identities, address behavior and persistence across units, resets and firmware changes with privacy-safe evidence.',
