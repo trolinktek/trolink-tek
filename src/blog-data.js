@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-volvo-compatibility-guide',category:'Compatibility',date:'September 24, 2026',publishAt:'2026-09-24T09:04:55+08:00',updatedAt:'2026-09-24T09:04:55+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Volvo: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Volvo | Compatibility Guide',
+    excerpt:'Check Volvo adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-volvo-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port beside a portrait infotainment display and blank checklist in a generic Scandinavian-style vehicle',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-volvo-compatibility-guide.md',
+    intro:'Volvo compatibility depends on the exact Sensus, Google built-in or other installed host and USB data path—not the badge, portrait display or Bluetooth support.',
+    sections:[['Prove wired CarPlay on the exact host','Record the vehicle, infotainment system, port, phone and adapter build, then compare wired and wireless behavior on the same path.']],
+    checklist:['Vehicle recorded','Host identified','Wired CarPlay proven','Data port confirmed','Native wireless checked','Phone recorded','Adapter build recorded','Portrait display tested','Audio checked','Recovery observed'],
+    faq:[
+      ['Will an adapter work with every Volvo?','No. The exact vehicle needs a compatible factory wired CarPlay host and USB data path.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Volvo Bluetooth prove compatibility?','No. Bluetooth audio and calls do not prove the required wired CarPlay USB host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor provide?','Provide the vehicle, host, port, phone, adapter build, wired baseline, result and exceptions.']
+    ]
+  },
+  {
     slug:'private-label-wireless-carplay-adapter-sku-variant-planning',category:'OEM / ODM',date:'September 23, 2026',publishAt:'2026-09-23T19:05:12+08:00',updatedAt:'2026-09-23T19:05:12+08:00',author:'TrolinkTek Editorial Team',
     title:'Private-Label Wireless CarPlay Adapter SKU and Variant Planning Guide',metaTitle:'Private-Label CarPlay Adapter SKU Planning | TrolinkTek',
     excerpt:'Plan sellable adapter SKUs by controlling hardware, firmware, cables, packaging, channel variants, MOQ, inventory and lifecycle evidence.',
