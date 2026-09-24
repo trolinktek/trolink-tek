@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-packaging-drop-transport-testing',category:'Quality control',date:'September 24, 2026',publishAt:'2026-09-24T14:05:18+08:00',updatedAt:'2026-09-24T14:05:18+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Packaging Drop and Transport Testing Guide',metaTitle:'CarPlay Adapter Packaging Drop Testing | TrolinkTek',
+    excerpt:'Plan packaging drop and transport tests with controlled pack-outs, orientations, inspections, functional retests and traceable evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-packaging-drop-transport-testing.png',imageAlt:'Unbranded wireless CarPlay adapter in a fitted retail carton beside packaging drop and vibration test fixtures on a deep-navy quality-control bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-packaging-drop-transport-testing.md',
+    intro:'Packaging transport testing links a production-equivalent pack to a defined handling sequence, layer-by-layer inspection and post-test adapter function.',
+    sections:[['Protect the exact shipping configuration','Freeze the adapter, cable, insert, retail carton and master-carton pack-out before selecting a risk-based drop or transport method.']],
+    checklist:['Channel defined','Pack-out frozen','Samples identified','Conditioning recorded','Sequence approved','Orientations mapped','Events logged','Layers inspected','Function retested','Defects classified','Revision controlled','Decision retained'],
+    faq:[
+      ['What drop height should an adapter package use?','There is no universal height; select the method from package weight, shipping channel, applicable protocol and buyer requirement.'],
+      ['Is an undamaged retail box enough for a pass?','No. Inspect internal layers and complete the approved post-test functional sequence.'],
+      ['Should retail packs and master cartons be tested separately?','They answer different questions about direct handling and the grouped shipping configuration.'],
+      ['Can one result cover every adapter SKU?','Not automatically; mass, cable pack-out, insert geometry, carton material and assembly can change performance.'],
+      ['What happens after a packaging failure?','Preserve evidence, identify the mechanism, control the revision and repeat the relevant tests before release.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-volvo-compatibility-guide',category:'Compatibility',date:'September 24, 2026',publishAt:'2026-09-24T09:04:55+08:00',updatedAt:'2026-09-24T09:04:55+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Volvo: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Volvo | Compatibility Guide',
     excerpt:'Check Volvo adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
