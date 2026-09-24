@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'private-label-wireless-carplay-adapter-pilot-order-planning',category:'OEM / ODM',date:'September 24, 2026',publishAt:'2026-09-24T19:05:49+08:00',updatedAt:'2026-09-24T19:05:49+08:00',author:'TrolinkTek Editorial Team',
+    title:'Private-Label Wireless CarPlay Adapter Pilot Order Planning Guide',metaTitle:'CarPlay Adapter Pilot Order Planning | TrolinkTek',
+    excerpt:'Plan a private-label adapter pilot order with controlled scope, quantity, validation, packaging, acceptance gates and mass-production release.',
+    image:'/assets/blog/private-label-wireless-carplay-adapter-pilot-order-planning.png',imageAlt:'Small controlled batch of unbranded wireless CarPlay adapters, blank retail cartons and approval checklist on a deep-navy pilot-production planning bench',readTime:'12 min read',contentPath:'/content/blog-articles/private-label-wireless-carplay-adapter-pilot-order-planning.md',
+    intro:'A pilot order verifies whether the intended production system can reproduce the approved adapter, firmware, pack-out and evidence before commercial scale.',
+    sections:[['Bridge approval and mass production','Freeze the configuration, allocate a learning-based quantity and close engineering, quality, packaging, commercial and channel gates explicitly.']],
+    checklist:['Pilot purpose clear','Configuration frozen','Open items owned','Quantity allocated','Acceptance matrix approved','Production flow exercised','Defects retained','Pack-out checked','Units reconciled','Gates closed','Release scoped','Evidence archived'],
+    faq:[
+      ['How many units should a pilot include?','Base the quantity on production learning, validation, packaging, buyer approvals, channel preparation and acceptable exposure.'],
+      ['Is a pilot the same as an approval sample?','No. The sample defines the accepted configuration; the pilot tests production reproduction.'],
+      ['Can pilot units be sold?','Only units explicitly released as saleable should enter the channel.'],
+      ['Does a passing pilot approve mass production?','No. Record an explicit release with the approved revision, scope and remaining actions.'],
+      ['What if the pilot reveals defects?','Contain the scope, verify corrective action and decide whether to release, conditionally release, repeat or re-scope.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-packaging-drop-transport-testing',category:'Quality control',date:'September 24, 2026',publishAt:'2026-09-24T14:05:18+08:00',updatedAt:'2026-09-24T14:05:18+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Packaging Drop and Transport Testing Guide',metaTitle:'CarPlay Adapter Packaging Drop Testing | TrolinkTek',
     excerpt:'Plan packaging drop and transport tests with controlled pack-outs, orientations, inspections, functional retests and traceable evidence.',
