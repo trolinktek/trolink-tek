@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-navigation-position-route-guidance-testing',category:'Technical insight',date:'September 25, 2026',publishAt:'2026-09-25T14:04:41+08:00',updatedAt:'2026-09-25T14:04:41+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Navigation Position and Route-Guidance Testing',metaTitle:'CarPlay Adapter Navigation and GPS Testing | TrolinkTek',
+    excerpt:'Test navigation position, route updates, guidance audio and recovery with a controlled wired baseline and traceable event evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-navigation-position-route-guidance-testing.png',imageAlt:'Unbranded wireless CarPlay adapter connected to an infotainment navigation validation bench with abstract route, position and signal test displays',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-navigation-position-route-guidance-testing.md',
+    intro:'Navigation validation separates phone position, map logic, wireless projection, guidance audio, vehicle inputs and recovery before assigning a cause.',
+    sections:[['Test navigation as a layered transaction','Freeze the host, phone, app and adapter, prove direct wired behavior, then repeat defined turn, reroute, audio and recovery events with synchronized evidence.']],
+    checklist:['Host and port recorded','Phone and iOS recorded','Map app identified','Adapter build identified','Wired baseline passed','Route events defined','Guidance audio checked','Recovery checked','Displays compared','Evidence redacted','Claims bounded'],
+    faq:[
+      ['Does a wireless CarPlay adapter contain GPS?','A standard adapter normally relies on the CarPlay system, phone and vehicle architecture rather than acting as a standalone navigation receiver.'],
+      ['Why does the map position drift?','Compare the phone display and direct wired CarPlay under the same route and signal conditions before assigning the cause.'],
+      ['How should navigation lag be measured?','Define synchronized start and end events, repeat the method and report the full tested configuration and sample set.'],
+      ['Why is the map visible but guidance audio missing?','Display and audio have separate states; check app settings, vehicle guidance volume, active source and the wired baseline.'],
+      ['Can one route prove compatibility for every vehicle?','No. The result applies only to the recorded host, phone, app, adapter build, route conditions and method.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-lexus-compatibility-guide',category:'Compatibility',date:'September 25, 2026',publishAt:'2026-09-25T09:02:57+08:00',updatedAt:'2026-09-25T09:02:57+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Lexus: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Lexus | Compatibility Guide',
     excerpt:'Check Lexus adapter compatibility by proving factory wired CarPlay, identifying the installed multimedia host and validating the exact USB data port.',
