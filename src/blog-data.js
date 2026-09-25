@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-lexus-compatibility-guide',category:'Compatibility',date:'September 25, 2026',publishAt:'2026-09-25T09:02:57+08:00',updatedAt:'2026-09-25T09:02:57+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Lexus: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Lexus | Compatibility Guide',
+    excerpt:'Check Lexus adapter compatibility by proving factory wired CarPlay, identifying the installed multimedia host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-lexus-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port beside a landscape infotainment display and blank checklist in a generic premium crossover',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-lexus-compatibility-guide.md',
+    intro:'Lexus compatibility depends on the exact installed multimedia host and wired-CarPlay USB data path, not the badge, screen shape or Bluetooth support.',
+    sections:[['Prove the wired host before selecting an adapter','Record the market, vehicle, multimedia system, USB port, phone and adapter build, then compare wired and wireless behavior on the same path.']],
+    checklist:['Vehicle recorded','Host identified','Wired CarPlay proven','Data port confirmed','Native wireless checked','Phone recorded','Adapter build recorded','Inputs tested','Audio checked','Recovery observed'],
+    faq:[
+      ['Will an adapter work with every Lexus?','No. The exact vehicle needs a compatible factory wired CarPlay host and USB data path.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Lexus Bluetooth prove compatibility?','No. Bluetooth audio and calls do not prove the required wired CarPlay USB host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor publish?','Publish the tested vehicle, host, port, phone, adapter build, date, functions and limitations.']
+    ]
+  },
+  {
     slug:'private-label-wireless-carplay-adapter-pilot-order-planning',category:'OEM / ODM',date:'September 24, 2026',publishAt:'2026-09-24T19:05:49+08:00',updatedAt:'2026-09-24T19:05:49+08:00',author:'TrolinkTek Editorial Team',
     title:'Private-Label Wireless CarPlay Adapter Pilot Order Planning Guide',metaTitle:'CarPlay Adapter Pilot Order Planning | TrolinkTek',
     excerpt:'Plan a private-label adapter pilot order with controlled scope, quantity, validation, packaging, acceptance gates and mass-production release.',
