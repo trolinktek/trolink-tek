@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-product-listing-claims-approval-checklist',category:'OEM / ODM',date:'September 25, 2026',publishAt:'2026-09-25T19:04:09+08:00',updatedAt:'2026-09-25T19:04:09+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Product Listing and Claims Approval Checklist',metaTitle:'CarPlay Adapter Product Listing Approval Checklist | TrolinkTek',
+    excerpt:'Approve product listings with controlled SKU identity, compatibility claims, evidence, images, specifications and channel release records.',
+    image:'/assets/blog/wireless-carplay-adapter-product-listing-claims-approval-checklist.png',imageAlt:'Unbranded wireless CarPlay adapter, blank package and product sample beside an abstract claims and image approval board in a deep-navy showroom',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-product-listing-claims-approval-checklist.md',
+    intro:'A listing is ready only when its product identity, claims, images, setup and support route all map to the same approved sellable configuration.',
+    sections:[['Release a controlled listing package','Freeze the SKU and pack-out, connect every claim to evidence, approve channel-specific versions and define how obsolete content will be replaced.']],
+    checklist:['SKU mapped','Configuration controlled','Title bounded','Prerequisite visible','Claims evidenced','Specifications matched','Images approved','Setup current','Support approved','Alt text bounded','Channels aligned','Release recorded'],
+    faq:[
+      ['What is the most important listing claim?','State that the vehicle needs a compatible, functioning factory wired CarPlay host through the intended USB data port.'],
+      ['Can a listing say compatible with all cars with USB?','No. A USB port does not prove wired CarPlay support; qualify the exact host and data path.'],
+      ['Who should approve technical claims?','Product or engineering should confirm technical facts and evidence within the buyer’s cross-functional approval workflow.'],
+      ['Should every marketplace use identical copy?','Formats may differ, but every version should preserve the same identity, prerequisite, contents, facts and support route.'],
+      ['When should a listing be reviewed again?','Review it when configuration, firmware, accessories, packaging, instructions, evidence, warranty or channel rules change.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-navigation-position-route-guidance-testing',category:'Technical insight',date:'September 25, 2026',publishAt:'2026-09-25T14:04:41+08:00',updatedAt:'2026-09-25T14:04:41+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Navigation Position and Route-Guidance Testing',metaTitle:'CarPlay Adapter Navigation and GPS Testing | TrolinkTek',
     excerpt:'Test navigation position, route updates, guidance audio and recovery with a controlled wired baseline and traceable event evidence.',
