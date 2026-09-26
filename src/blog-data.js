@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-led-status-indicator-testing',category:'Technical insight',date:'September 26, 2026',publishAt:'2026-09-26T14:04:21+08:00',updatedAt:'2026-09-26T14:04:21+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter LED Status Indicator Testing Guide',metaTitle:'CarPlay Adapter LED Status Indicator Testing | TrolinkTek',
+    excerpt:'Validate LED states across boot, pairing, connection, update, fault and recovery with synchronized functional evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-led-status-indicator-testing.png',imageAlt:'Four unbranded wireless CarPlay adapters showing dark, steady, halo and multi-dot cyan indicator states on a deep-navy optical validation bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-led-status-indicator-testing.md',
+    intro:'An LED becomes diagnostic evidence only when its color, sequence and transition match the defined firmware state, actual function and customer instructions.',
+    sections:[['Validate the state map, not only the light','Freeze hardware, firmware and enclosure optics; synchronize every visible pattern with boot, wireless, CarPlay, update, fault and recovery milestones.']],
+    checklist:['Configuration identified','State map defined','Boot tested','Pairing tested','Connected state verified','Timing measured','Recovery repeated','Update protected','Faults documented','Visibility checked','Production aligned','Manual aligned'],
+    faq:[
+      ['Does a lit LED mean the adapter is connected?','Not necessarily; it may indicate power, boot, discovery or another firmware-defined state.'],
+      ['Why is the adapter light blinking?','Blinking may represent discovery, pairing, update, recovery or a fault; use the approved model-specific state map.'],
+      ['Can LED timing be measured with phone video?','It can support evidence when video settings are controlled; precise timing needs an appropriate optical method.'],
+      ['Should every firmware build use the same sequence?','Not automatically; any change needs controlled scope, regression, production and documentation updates.'],
+      ['Is LED inspection enough for factory release?','No. USB recognition, wireless identity, session launch, functions and configuration require separate checks.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-porsche-compatibility-guide',category:'Compatibility',date:'September 26, 2026',publishAt:'2026-09-26T09:03:29+08:00',updatedAt:'2026-09-26T09:03:29+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Porsche: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Porsche | Compatibility Guide',
     excerpt:'Check Porsche compatibility by proving factory wired CarPlay, identifying the installed PCM host and validating the exact USB data port.',
