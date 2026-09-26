@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-porsche-compatibility-guide',category:'Compatibility',date:'September 26, 2026',publishAt:'2026-09-26T09:03:29+08:00',updatedAt:'2026-09-26T09:03:29+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Porsche: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Porsche | Compatibility Guide',
+    excerpt:'Check Porsche compatibility by proving factory wired CarPlay, identifying the installed PCM host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-porsche-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port beside a landscape infotainment display and blank checklist in a generic premium sports crossover',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-porsche-compatibility-guide.md',
+    intro:'Porsche compatibility depends on the exact installed PCM or infotainment host and wired-CarPlay USB data path, not the badge, model year or Bluetooth support.',
+    sections:[['Prove the wired host before selecting an adapter','Record the market, vehicle, installed host, USB port, phone and adapter build, then compare wired and wireless behavior on the same path.']],
+    checklist:['Vehicle recorded','PCM/host identified','Wired CarPlay proven','Data port confirmed','Native wireless checked','Phone recorded','Adapter build recorded','Controls tested','Audio checked','Recovery observed'],
+    faq:[
+      ['Will an adapter work with every Porsche?','No. The exact vehicle needs a compatible factory wired CarPlay host and USB data path.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Porsche Bluetooth prove compatibility?','No. Bluetooth audio and calls do not prove the required wired CarPlay USB host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor publish?','Publish the tested vehicle, host, port, phone, adapter build, date, functions and limitations.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-product-listing-claims-approval-checklist',category:'OEM / ODM',date:'September 25, 2026',publishAt:'2026-09-25T19:04:09+08:00',updatedAt:'2026-09-25T19:04:09+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Product Listing and Claims Approval Checklist',metaTitle:'CarPlay Adapter Product Listing Approval Checklist | TrolinkTek',
     excerpt:'Approve product listings with controlled SKU identity, compatibility claims, evidence, images, specifications and channel release records.',
