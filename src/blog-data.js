@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-quality-agreement-checklist',category:'OEM / ODM',date:'September 26, 2026',publishAt:'2026-09-26T19:03:17+08:00',updatedAt:'2026-09-26T19:03:17+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Quality Agreement Checklist for OEM/ODM Buyers',metaTitle:'CarPlay Adapter Quality Agreement Checklist | TrolinkTek',
+    excerpt:'Build an enforceable quality framework covering specifications, defects, inspection, traceability, changes, CAPA and field claims.',
+    image:'/assets/blog/wireless-carplay-adapter-quality-agreement-checklist.png',imageAlt:'Buyer and quality engineer reviewing a blank quality agreement beside unbranded wireless CarPlay adapter samples and inspection tools',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-quality-agreement-checklist.md',
+    intro:'A quality agreement turns the approved adapter program into shared rules for release evidence, traceability, changes, nonconformance and field feedback.',
+    sections:[['Turn requirements into operating rules','Identify the controlled product and document hierarchy, then define defect, inspection, release, change, CAPA and field-claim responsibilities.']],
+    checklist:['Scope identified','Documents controlled','Configuration referenced','Defects classified','Inspection agreed','Traceability defined','Changes gated','Nonconformance controlled','CAPA routed','Field claims linked','Records retained','Review owned'],
+    faq:[
+      ['Is a quality agreement the same as a specification?','No. The specification defines the product; the agreement defines the control and decision process.'],
+      ['What AQL should be used?','There is no universal value; qualified personnel should define the plan from risk, maturity and contract context.'],
+      ['Can an approved sample replace controlled records?','No. It cannot fully identify hardware, firmware, components, packaging and test-method revisions.'],
+      ['Which changes require approval?','List the relevant hardware, firmware, component, site, process, packaging and document categories explicitly.'],
+      ['Should every return trigger CAPA?','Not automatically; verify scope and use defined severity, recurrence, concentration and contract triggers.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-led-status-indicator-testing',category:'Technical insight',date:'September 26, 2026',publishAt:'2026-09-26T14:04:21+08:00',updatedAt:'2026-09-26T14:04:21+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter LED Status Indicator Testing Guide',metaTitle:'CarPlay Adapter LED Status Indicator Testing | TrolinkTek',
     excerpt:'Validate LED states across boot, pairing, connection, update, fault and recovery with synchronized functional evidence.',
