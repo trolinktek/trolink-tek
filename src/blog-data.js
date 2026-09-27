@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'oem-wireless-carplay-adapter-nre-tooling-asset-ownership',category:'OEM / ODM',date:'September 27, 2026',publishAt:'2026-09-27T19:04:28+08:00',updatedAt:'2026-09-27T19:04:28+08:00',author:'TrolinkTek Editorial Team',
+    title:'OEM Wireless CarPlay Adapter NRE, Tooling and Project Asset Ownership Checklist',metaTitle:'CarPlay Adapter NRE & Tooling Ownership | TrolinkTek',
+    excerpt:'Define NRE deliverables, tooling custody, firmware and file access, acceptance, maintenance and handover before approving an OEM/ODM project.',
+    image:'/assets/blog/oem-wireless-carplay-adapter-nre-tooling-asset-ownership.png',imageAlt:'OEM buyers reviewing an unbranded wireless CarPlay adapter, injection mold, PCB, test fixture and blank project-asset documents in a deep-navy manufacturing room',readTime:'13 min read',contentPath:'/content/blog-articles/oem-wireless-carplay-adapter-nre-tooling-asset-ownership.md',
+    intro:'NRE and tooling approval should identify every deliverable, acceptance milestone, owner, custodian, permitted user, maintenance duty and handover route.',
+    sections:[['Turn one-time charges into controlled assets','Separate engineering work, physical tools, fixtures, firmware, artwork and evidence; then define rights, acceptance, custody and transition for each item.']],
+    checklist:['Charges itemized','Background IP separated','Assets registered','Rights recorded','Tool scope identified','Acceptance defined','Payments gated','Maintenance controlled','Firmware access defined','Licenses disclosed','Handover planned','Review completed'],
+    faq:[
+      ['Does paying NRE transfer all IP?','No. The agreement must define deliverables, ownership and access while respecting background and third-party rights.'],
+      ['Who owns buyer-funded tooling?','There is no universal answer; document ownership, custody, permitted use, maintenance, movement and handover before payment.'],
+      ['Can NRE be amortized into unit price?','Yes, if the commercial model defines the scope, volume assumption and treatment when actual volume differs.'],
+      ['Is a tooling photo enough?','No. Also verify controlled identity, location, condition, trial output, acceptance evidence and usage rights.'],
+      ['What belongs in a project handover?','Use the asset register to define tools, native files, binaries, configuration data, artwork, reports, history and open issues.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-factory-reset-configuration-persistence-testing',category:'Technical insight',date:'September 27, 2026',publishAt:'2026-09-27T14:03:52+08:00',updatedAt:'2026-09-27T14:03:52+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Factory Reset and Configuration Persistence Testing',metaTitle:'CarPlay Adapter Factory Reset Testing | TrolinkTek',
     excerpt:'Validate what factory reset clears, preserves and restores across phone records, product identity, firmware, settings and recovery.',
