@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-jeep-compatibility-guide',category:'Compatibility',date:'September 27, 2026',publishAt:'2026-09-27T09:03:41+08:00',updatedAt:'2026-09-27T09:03:41+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Jeep: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Jeep | Compatibility Guide',
+    excerpt:'Check Jeep compatibility by proving wired CarPlay, identifying the installed Uconnect host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-jeep-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a USB data port beside a rugged SUV infotainment display, blank phone and compatibility checklist',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-jeep-compatibility-guide.md',
+    intro:'Jeep compatibility depends on the exact installed Uconnect or other host and a proven wired-CarPlay USB data path, not the badge or powered socket.',
+    sections:[['Prove the installed host and data path','Record the vehicle, installed Uconnect or other host, exact USB port, phone and adapter build, then compare wired and wireless behavior.']],
+    checklist:['Vehicle recorded','Host identified','Wired CarPlay proven','Data port confirmed','Native wireless checked','Phone recorded','Adapter build recorded','Controls tested','Audio checked','Restart repeated'],
+    faq:[
+      ['Will an adapter work with every Jeep?','No. The exact installed host and USB data path must provide compatible wired CarPlay.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Does Uconnect Bluetooth prove compatibility?','No. Bluetooth calls or music do not prove the required wired CarPlay USB host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor publish?','Publish the tested vehicle, host, port, phone, adapter build, date, functions and limitations.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-quality-agreement-checklist',category:'OEM / ODM',date:'September 26, 2026',publishAt:'2026-09-26T19:03:17+08:00',updatedAt:'2026-09-26T19:03:17+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Quality Agreement Checklist for OEM/ODM Buyers',metaTitle:'CarPlay Adapter Quality Agreement Checklist | TrolinkTek',
     excerpt:'Build an enforceable quality framework covering specifications, defects, inspection, traceability, changes, CAPA and field claims.',
