@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-factory-reset-configuration-persistence-testing',category:'Technical insight',date:'September 27, 2026',publishAt:'2026-09-27T14:03:52+08:00',updatedAt:'2026-09-27T14:03:52+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Factory Reset and Configuration Persistence Testing',metaTitle:'CarPlay Adapter Factory Reset Testing | TrolinkTek',
+    excerpt:'Validate what factory reset clears, preserves and restores across phone records, product identity, firmware, settings and recovery.',
+    image:'/assets/blog/wireless-carplay-adapter-factory-reset-configuration-persistence-testing.png',imageAlt:'Unbranded wireless CarPlay adapter in a reset-button validation fixture with geometric before-and-after state monitors and USB analyzer',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-factory-reset-configuration-persistence-testing.md',
+    intro:'A factory reset passes only when the defined customer state clears, controlled identity and firmware persist, and first pairing plus core functions recover.',
+    sections:[['Validate a clear-and-preserve matrix','Freeze the configuration, create known customer state, apply the documented reset and verify adapter-side, phone-side and functional outcomes.']],
+    checklist:['Configuration identified','Matrix approved','Baseline passed','Phone state created','Identity captured','Method followed','Records checked','Firmware preserved','Identity preserved','Pairing repeated','Functions rechecked','Instructions aligned'],
+    faq:[
+      ['Does factory reset update firmware?','Normally no; reset clears defined state while firmware update installs a controlled build.'],
+      ['Should reset clear the Bluetooth name?','It depends on the specification; programmed product identity may persist while phone records clear.'],
+      ['Why does the phone still show the adapter?','The phone may retain its own record even after the adapter clears its memory.'],
+      ['Is an LED flash proof of reset?','No. Verify records, firmware, identity, first pairing and functional recovery.'],
+      ['Should support reset before collecting evidence?','No. Reset can erase diagnostic state; preserve the configuration and symptom sequence first when practical.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-jeep-compatibility-guide',category:'Compatibility',date:'September 27, 2026',publishAt:'2026-09-27T09:03:41+08:00',updatedAt:'2026-09-27T09:03:41+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Jeep: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Jeep | Compatibility Guide',
     excerpt:'Check Jeep compatibility by proving wired CarPlay, identifying the installed Uconnect host and validating the exact USB data port.',
