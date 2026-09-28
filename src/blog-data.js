@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-land-rover-compatibility-guide',category:'Compatibility',date:'September 28, 2026',publishAt:'2026-09-28T09:03:36+08:00',updatedAt:'2026-09-28T09:03:36+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Land Rover: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Land Rover | Compatibility',
+    excerpt:'Check Land Rover compatibility by identifying Touch Pro or Pivi, proving wired CarPlay and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-land-rover-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a front-console USB data port beside a landscape infotainment screen, blank phone and compatibility checklist in a generic premium SUV',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-land-rover-compatibility-guide.md',
+    intro:'Land Rover compatibility depends on the installed Touch Pro, Pivi/Pivi Pro or other host and a proven wired-CarPlay USB path, not the badge or powered port.',
+    sections:[['Prove the host and exact data path','Record the vehicle, installed infotainment, USB port, phone and adapter build; check native wireless support, then compare wired and wireless behavior.']],
+    checklist:['Vehicle recorded','Host identified','Software recorded','Native wireless checked','Data port confirmed','Wired baseline passed','Phone recorded','Adapter build recorded','Controls tested','Audio checked','Screens checked','Restart repeated'],
+    faq:[
+      ['Will an adapter work with every Land Rover?','No. The installed host and exact USB data path must provide compatible wired CarPlay.'],
+      ['Does Pivi or Pivi Pro need an adapter?','Not automatically; first check whether the exact vehicle already supports native wireless CarPlay.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create a missing CarPlay host.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['What evidence should a distributor publish?','Publish the tested vehicle, host, port, phone, adapter build, date, functions and limitations.']
+    ]
+  },
+  {
     slug:'oem-wireless-carplay-adapter-nre-tooling-asset-ownership',category:'OEM / ODM',date:'September 27, 2026',publishAt:'2026-09-27T19:04:28+08:00',updatedAt:'2026-09-27T19:04:28+08:00',author:'TrolinkTek Editorial Team',
     title:'OEM Wireless CarPlay Adapter NRE, Tooling and Project Asset Ownership Checklist',metaTitle:'CarPlay Adapter NRE & Tooling Ownership | TrolinkTek',
     excerpt:'Define NRE deliverables, tooling custody, firmware and file access, acceptance, maintenance and handover before approving an OEM/ODM project.',
