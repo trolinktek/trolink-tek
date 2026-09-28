@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-after-sales-service-stock-planning',category:'OEM / ODM',date:'September 28, 2026',publishAt:'2026-09-28T19:00:26+08:00',updatedAt:'2026-09-28T19:00:26+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter After-Sales Service Stock Planning for Distributors',metaTitle:'CarPlay Adapter Service Stock Planning | TrolinkTek',
+    excerpt:'Plan controlled replacement inventory by installed base, claim timing, service promise, replenishment lead time, configuration and end-of-life risk.',
+    image:'/assets/blog/wireless-carplay-adapter-after-sales-service-stock-planning.png',imageAlt:'Unbranded wireless CarPlay adapters separated into sellable, sealed service replacement and quarantine trays in a deep-navy fulfillment workspace',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-after-sales-service-stock-planning.md',
+    intro:'Service stock should be a controlled pool sized from installed-base exposure, verified replacement demand, replenishment coverage and exact product configuration.',
+    sections:[['Separate, size and replenish the service pool','Define the service promise, segregate inventory states, model approved replacements, control variants and plan regional replenishment plus end-of-life.']],
+    checklist:['Promise defined','Pools separated','Exposure segmented','Demand verified','Lead time mapped','Scenarios reviewed','Configuration controlled','Regions planned','Triggers set','Transfers recorded','Aging reviewed','Outcomes linked'],
+    faq:[
+      ['What percentage should be held as service stock?','There is no universal percentage; calculate a range from exposure, approved replacements, timing, lead time, service promise and configuration risk.'],
+      ['Can sellable stock serve as replacement stock?','Only through a visible approved exception; otherwise service obligations can be consumed by sales allocation.'],
+      ['Should service stock be complete retail kits?','Use the authorized format for the case and market: adapter-only or a complete kit with the required accessories and documents.'],
+      ['Can one firmware build replace older versions?','Only when controlled compatibility and regression evidence supports the defined hardware and market scope.'],
+      ['What happens to returned units?','Route them to controlled return or quarantine status for diagnosis and disposition, not directly back into service stock.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-factory-firmware-programming-readback-verification',category:'Technical insight',date:'September 28, 2026',publishAt:'2026-09-28T14:04:17+08:00',updatedAt:'2026-09-28T14:04:17+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Factory Firmware Programming and Readback Verification',metaTitle:'CarPlay Adapter Firmware Programming Verification | TrolinkTek',
     excerpt:'Verify authorized firmware programming, hardware matching, readback, unique identity, post-write function and lot traceability.',
