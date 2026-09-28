@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-factory-firmware-programming-readback-verification',category:'Technical insight',date:'September 28, 2026',publishAt:'2026-09-28T14:04:17+08:00',updatedAt:'2026-09-28T14:04:17+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Factory Firmware Programming and Readback Verification',metaTitle:'CarPlay Adapter Firmware Programming Verification | TrolinkTek',
+    excerpt:'Verify authorized firmware programming, hardware matching, readback, unique identity, post-write function and lot traceability.',
+    image:'/assets/blog/wireless-carplay-adapter-factory-firmware-programming-readback-verification.png',imageAlt:'Four unbranded wireless CarPlay adapters in a factory programming fixture with geometric source-to-device verification monitor, reference cradle and quarantine tray',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-factory-firmware-programming-readback-verification.md',
+    intro:'A programming pass is valid only when the authorized package matches the hardware, approved fields read back correctly, identity is controlled and the unit boots into its intended state.',
+    sections:[['Connect the approved release to every programmed unit','Control the package and station, match hardware, preserve write/readback evidence, verify identity, boot and lot reconciliation.']],
+    checklist:['Package authorized','Hardware matched','Profile controlled','Station qualified','Target detected','Write logged','Readback passed','Identity unique','Security verified','Boot passed','Function screened','Failures linked','Lot reconciled'],
+    faq:[
+      ['Is a successful flash message enough?','No. Also verify package integrity, hardware match, configuration, readback, identity, boot and function.'],
+      ['Must all memory be read back?','Not universally; use the architecture- and security-approved method for common, protected, dynamic and unique regions.'],
+      ['How are duplicate identities detected?','Check the approved allocation/database and confirm the identity independently where required.'],
+      ['Can a failed unit simply be reprogrammed?','Only through a controlled retry or rework route that preserves the failed attempt and repeats verification.'],
+      ['Does programming verification replace vehicle testing?','No. It proves the production configuration; representative vehicle and phone validation is a separate layer.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-land-rover-compatibility-guide',category:'Compatibility',date:'September 28, 2026',publishAt:'2026-09-28T09:03:36+08:00',updatedAt:'2026-09-28T09:03:36+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Land Rover: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Land Rover | Compatibility',
     excerpt:'Check Land Rover compatibility by identifying Touch Pro or Pivi, proving wired CarPlay and validating the exact USB data port.',
