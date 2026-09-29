@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-watchdog-hang-recovery-testing',category:'Technical insight',date:'September 29, 2026',publishAt:'2026-09-29T14:00:20+08:00',updatedAt:'2026-09-29T14:00:20+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Watchdog, System Hang and Recovery Testing',metaTitle:'CarPlay Adapter Watchdog Recovery Testing | TrolinkTek',
+    excerpt:'Validate hang detection, watchdog coverage, controlled reset, retained fault evidence, session restoration and false-reset immunity.',
+    image:'/assets/blog/wireless-carplay-adapter-watchdog-hang-recovery-testing.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a fault-injection fixture with abstract watchdog and recovery traces in a deep-navy reliability laboratory',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-watchdog-hang-recovery-testing.md',
+    intro:'A watchdog pass requires correct fault detection, bounded recovery, retained evidence, controlled-state integrity and restored user function without false resets.',
+    sections:[['Connect each hang to a monitor and recovery action','Define fault layers, use repeatable injection, measure detection through session restoration, verify state integrity and test false-reset boundaries.']],
+    checklist:['Fault defined','Monitor mapped','Timeout justified','Recovery bounded','Configuration frozen','Baseline passed','Injection controlled','Stages measured','Cause retained','State intact','False resets checked','Loops bounded'],
+    faq:[
+      ['Is automatic reboot enough?','No. Verify detection, recovery action, evidence, state integrity and restored customer function.'],
+      ['Should every stall reset the device?','No. Use the approved recovery hierarchy from task restart through full system reset.'],
+      ['How long should the timeout be?','Base it on valid worst-case progress, risk, acceptable delay and measured margin; there is no universal value.'],
+      ['Can watchdog supervision run during update?','Only under an update-safe architecture with controlled bootloader, rollback and recovery behavior.'],
+      ['Does recovery replace root-cause analysis?','No. Recurrent hangs still require reproduction, containment, corrective action and regression testing.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-chevrolet-compatibility-guide',category:'Compatibility',date:'September 29, 2026',publishAt:'2026-09-29T09:01:43+08:00',updatedAt:'2026-09-29T09:01:43+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Chevrolet: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Chevrolet | Compatibility',
     excerpt:'Check Chevrolet compatibility by identifying the installed MyLink or other host, proving wired CarPlay and validating the exact USB data port.',
