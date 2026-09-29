@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-supplier-business-continuity-plan',category:'OEM / ODM',date:'September 29, 2026',publishAt:'2026-09-29T19:02:10+08:00',updatedAt:'2026-09-29T19:02:10+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Supplier Business Continuity Plan Checklist',metaTitle:'CarPlay Adapter Supplier Continuity Plan | TrolinkTek',
+    excerpt:'Evaluate continuity across critical parts, firmware, identity, tooling, sites, inventory, activation triggers, communications and recovery release.',
+    image:'/assets/blog/wireless-carplay-adapter-supplier-business-continuity-plan.png',imageAlt:'Unbranded wireless CarPlay adapters beside production tooling, a sealed backup fixture case, component trays and abstract alternative factory routes',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-supplier-business-continuity-plan.md',
+    intro:'A credible supplier continuity plan connects product-specific dependencies to controlled backups, activation triggers and a validated shipment-resumption gate.',
+    sections:[['Turn continuity promises into verified capability','Map critical dependencies, protect firmware and tooling, qualify alternate routes, define triggers, exercise recovery and require evidence before shipments resume.']],
+    checklist:['Scope defined','Dependencies mapped','Single points owned','Objectives feasible','Firmware recoverable','Identity controlled','Fixtures backed up','Buffers justified','Alternates approved','Triggers explicit','Contacts tested','Release gated'],
+    faq:[
+      ['Is a second factory enough?','No. Verify approved processes, tools, firmware access, materials, traceability and release capability for the exact product.'],
+      ['How much safety stock is required?','There is no universal percentage; model demand, lead time, disruption, configuration risk, cost and obsolescence.'],
+      ['Can emergency parts bypass approval?','No. Follow the agreed change-control and release process, even when review is accelerated.'],
+      ['Must buyers receive source code?','Not automatically; define practical access to approved binaries, configurations, updates and recovery materials under the agreed rights.'],
+      ['What is required before shipments resume?','Use a disruption-specific validation gate for configuration, fixtures, identity, traceability, function, packaging and authorized release.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-watchdog-hang-recovery-testing',category:'Technical insight',date:'September 29, 2026',publishAt:'2026-09-29T14:00:20+08:00',updatedAt:'2026-09-29T14:00:20+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Watchdog, System Hang and Recovery Testing',metaTitle:'CarPlay Adapter Watchdog Recovery Testing | TrolinkTek',
     excerpt:'Validate hang detection, watchdog coverage, controlled reset, retained fault evidence, session restoration and false-reset immunity.',
