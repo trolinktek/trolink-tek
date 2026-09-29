@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-chevrolet-compatibility-guide',category:'Compatibility',date:'September 29, 2026',publishAt:'2026-09-29T09:01:43+08:00',updatedAt:'2026-09-29T09:01:43+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Chevrolet: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Chevrolet | Compatibility',
+    excerpt:'Check Chevrolet compatibility by identifying the installed MyLink or other host, proving wired CarPlay and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-chevrolet-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a center-console USB data port beside an abstract infotainment display, blank phone and checklist in a generic SUV',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-chevrolet-compatibility-guide.md',
+    intro:'Chevrolet compatibility depends on the installed infotainment host and a proven wired-CarPlay USB data path, not the badge, model year or powered socket.',
+    sections:[['Prove the installed host and exact data path','Record the vehicle and installed host, check native wireless support, prove direct wired CarPlay, then validate the exact phone and adapter configuration.']],
+    checklist:['Vehicle recorded','Host identified','Software recorded','Native wireless checked','Wired baseline passed','Data port confirmed','Phone recorded','Adapter build recorded','Controls tested','Audio checked','Restart repeated','Claim bounded'],
+    faq:[
+      ['Will an adapter work with every Chevrolet?','No. The exact installed host and USB data path must provide compatible wired CarPlay.'],
+      ['Can an adapter add missing CarPlay?','A standard wired-to-wireless adapter normally cannot create CarPlay in a host that lacks it.'],
+      ['Does MyLink prove compatibility?','No. Identify the installed generation and prove direct wired CarPlay on the exact USB port.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with the intended iPhone.'],
+      ['Does native wireless CarPlay need an adapter?','Normally no; confirm and use the factory wireless workflow first.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-after-sales-service-stock-planning',category:'OEM / ODM',date:'September 28, 2026',publishAt:'2026-09-28T19:00:26+08:00',updatedAt:'2026-09-28T19:00:26+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter After-Sales Service Stock Planning for Distributors',metaTitle:'CarPlay Adapter Service Stock Planning | TrolinkTek',
     excerpt:'Plan controlled replacement inventory by installed base, claim timing, service promise, replenishment lead time, configuration and end-of-life risk.',
