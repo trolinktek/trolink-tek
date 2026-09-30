@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-acura-compatibility-guide',category:'Compatibility',date:'September 30, 2026',publishAt:'2026-09-30T09:00:57+08:00',updatedAt:'2026-09-30T09:00:57+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Acura: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Acura | Compatibility Guide',
+    excerpt:'Check Acura adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-acura-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a premium vehicle USB data port beside a blank phone and diagnostic equipment in a deep-blue validation bay',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-acura-compatibility-guide.md',
+    intro:'Acura compatibility starts with functioning wired Apple CarPlay on the exact installed infotainment host and USB data port, rather than the vehicle badge alone.',
+    sections:[['Qualify the exact installed configuration','Prove direct wired CarPlay, record the host and data port, freeze the adapter build and validate pairing, reconnection, controls, audio and recovery.']],
+    checklist:['Vehicle recorded','Host identified','Wired baseline proven','Data port verified','Firmware frozen','Phone recorded','Pairing tested','Reconnection tested','Controls checked','Audio checked','Recovery verified','Claims scoped'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Acura?','No. The exact vehicle needs a compatible, functioning wired-CarPlay host and USB data path.'],
+      ['Does an Acura USB port prove compatibility?','No. A port can support charging or media without hosting wired CarPlay.'],
+      ['Can an adapter add CarPlay to an Acura without CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless use.'],
+      ['What if wired CarPlay works but the adapter does not?','Record the exact host, port, phone, iOS, adapter hardware and firmware, then test the approved setup without unqualified hubs.'],
+      ['Is native wireless CarPlay the same as an adapter?','No. Native wireless CarPlay is built into the host; an adapter adds an external bridge to a wired-CarPlay path.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-supplier-business-continuity-plan',category:'OEM / ODM',date:'September 29, 2026',publishAt:'2026-09-29T19:02:10+08:00',updatedAt:'2026-09-29T19:02:10+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Supplier Business Continuity Plan Checklist',metaTitle:'CarPlay Adapter Supplier Continuity Plan | TrolinkTek',
     excerpt:'Evaluate continuity across critical parts, firmware, identity, tooling, sites, inventory, activation triggers, communications and recovery release.',
