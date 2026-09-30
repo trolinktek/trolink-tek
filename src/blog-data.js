@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-price-adjustment-clause-checklist',category:'OEM / ODM',date:'September 30, 2026',publishAt:'2026-09-30T19:00:39+08:00',updatedAt:'2026-09-30T19:00:39+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Price Adjustment Clause Checklist for OEM/ODM Buyers',metaTitle:'CarPlay Adapter Price Adjustment Checklist | TrolinkTek',
+    excerpt:'Plan price reviews with a controlled SKU baseline, eligible cost drivers, evidence rules, calculation, notice, open-order treatment and approval authority.',
+    image:'/assets/blog/wireless-carplay-adapter-price-adjustment-clause-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters beside blank quotation papers, component trays, a carton and abstract balanced factory and logistics routes',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-price-adjustment-clause-checklist.md',
+    intro:'A defensible price-adjustment process connects observable cost drivers to one approved SKU, a reproducible method, clear timing and authorized commercial approval.',
+    sections:[['Make price reviews reproducible','Freeze the commercial baseline, define eligible drivers and evidence, set calculation and notice rules, protect order status and include downward review.']],
+    checklist:['SKU frozen','Baseline dated','Incoterm stated','Drivers eligible','Exclusions clear','Evidence agreed','Formula reproducible','Reviews symmetric','Trigger defined','Notice controlled','Orders addressed','Approval named'],
+    faq:[
+      ['Should price stay fixed forever?','Not necessarily; define a fixed or reviewable period with clear baseline and risk allocation.'],
+      ['Can exchange rates trigger an increase?','Only under the agreed currency, source, date, trigger and calculation rules.'],
+      ['Do changes apply to accepted orders?','The agreement should define which accepted orders and committed materials remain protected.'],
+      ['Is a public index always best?','No. It must reasonably relate to the eligible cost being reviewed.'],
+      ['Should the clause allow decreases?','A balanced mechanism normally supports review in both directions using the same evidence logic.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-firmware-update-interruption-recovery-testing',category:'Technical insight',date:'September 30, 2026',publishAt:'2026-09-30T14:02:03+08:00',updatedAt:'2026-09-30T14:02:03+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Firmware Update Interruption and Recovery Testing',metaTitle:'CarPlay Adapter Firmware Update Recovery Testing | TrolinkTek',
     excerpt:'Test interrupted firmware updates with controlled fault injection, boot and rollback checks, identity verification, functional recovery and traceable release evidence.',
