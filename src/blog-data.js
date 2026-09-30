@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-firmware-update-interruption-recovery-testing',category:'Technical insight',date:'September 30, 2026',publishAt:'2026-09-30T14:02:03+08:00',updatedAt:'2026-09-30T14:02:03+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Firmware Update Interruption and Recovery Testing',metaTitle:'CarPlay Adapter Firmware Update Recovery Testing | TrolinkTek',
+    excerpt:'Test interrupted firmware updates with controlled fault injection, boot and rollback checks, identity verification, functional recovery and traceable release evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-firmware-update-interruption-recovery-testing.png',imageAlt:'Unbranded wireless CarPlay adapter on a controlled firmware recovery fixture with two illuminated memory paths, a guarded power relay and oscilloscope',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-firmware-update-interruption-recovery-testing.md',
+    intro:'Interrupted-update testing verifies that controlled faults lead to an authorized boot state, intact identity, recoverable configuration and a fully usable CarPlay session.',
+    sections:[['Test the complete recovery chain','Map update stages, inject safe repeatable faults, observe boot decisions, verify image and identity, run functional checks and preserve failure evidence.']],
+    checklist:['Configuration frozen','Baseline passed','Stages mapped','Faults approved','Units controlled','Timing measured','Integrity checked','Boot observed','Identity verified','USB restored','Functions passed','Evidence retained'],
+    faq:[
+      ['Is unplugging during an update a valid test?','Not by itself; use an approved measurable method on designated test units.'],
+      ['Does dual-slot firmware guarantee recovery?','No. Boot metadata, validation, configuration migration and fallback rules also require verification.'],
+      ['Is factory reset the same as rollback?','No. Reset normally changes settings, while rollback changes the authorized firmware version or boot target.'],
+      ['What proves successful recovery?','Verify the authorized image, integrity, identity, configuration, USB recognition, CarPlay session and required functions.'],
+      ['Can one result cover another hardware revision?','Not automatically; review memory, power, boot and configuration differences first.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-acura-compatibility-guide',category:'Compatibility',date:'September 30, 2026',publishAt:'2026-09-30T09:00:57+08:00',updatedAt:'2026-09-30T09:00:57+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Acura: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Acura | Compatibility Guide',
     excerpt:'Check Acura adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
