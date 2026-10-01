@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-payment-terms-milestone-checklist',category:'OEM / ODM',date:'October 1, 2026',publishAt:'2026-10-01T19:02:07+08:00',updatedAt:'2026-10-01T19:02:07+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Payment Terms and Milestone Checklist',metaTitle:'CarPlay Adapter Payment Terms Checklist | TrolinkTek',
+    excerpt:'Structure adapter payment terms around defined deliverables, approval milestones, inspection, shipment documents and change control.',
+    image:'/assets/blog/wireless-carplay-adapter-payment-terms-milestone-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters beside blank milestone papers, three token stacks, inspection tools and a shipping carton in a deep-blue factory office',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-payment-terms-milestone-checklist.md',
+    intro:'Controlled payment terms connect each payment to an approved commercial event, defined deliverable and authorized evidence rather than only a date.',
+    sections:[['Align money with verified project progress','Separate recurring and one-time charges, freeze the SKU, define milestone evidence, verify payment instructions and plan changes before funds move.']],
+    checklist:['SKU frozen','Charges separated','Currency stated','Lead-time trigger defined','Deposit gated','Sample gate clear','Production released','Inspection defined','Documents listed','Bank verified','Changes controlled','Balance reconciled'],
+    faq:[
+      ['What is a normal deposit?','There is no universal percentage; evaluate customization, material commitment, risk and the complete milestone structure.'],
+      ['Should balance be paid before shipment?','It depends on the negotiated arrangement; define the trigger, inspection status, documents and goods-release rule.'],
+      ['Should tooling and NRE be inside the unit deposit?','Separate line items with defined deliverables, acceptance and ownership are clearer.'],
+      ['When does production lead time begin?','State the exact event, such as cleared deposit plus final specification and artwork release.'],
+      ['How should bank-detail changes be handled?','Stop routine processing and independently verify them through an established trusted channel.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-diagnostic-log-collection-guide',category:'Technical insight',date:'October 1, 2026',publishAt:'2026-10-01T14:00:31+08:00',updatedAt:'2026-10-01T14:00:31+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Diagnostic Log Collection Guide',metaTitle:'CarPlay Adapter Diagnostic Log Collection | TrolinkTek',
     excerpt:'Collect useful adapter diagnostic logs with controlled configurations, synchronized timestamps, privacy minimization and traceable evidence.',
