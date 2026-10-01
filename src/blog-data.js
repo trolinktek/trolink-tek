@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-diagnostic-log-collection-guide',category:'Technical insight',date:'October 1, 2026',publishAt:'2026-10-01T14:00:31+08:00',updatedAt:'2026-10-01T14:00:31+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Diagnostic Log Collection Guide',metaTitle:'CarPlay Adapter Diagnostic Log Collection | TrolinkTek',
+    excerpt:'Collect useful adapter diagnostic logs with controlled configurations, synchronized timestamps, privacy minimization and traceable evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-diagnostic-log-collection-guide.png',imageAlt:'Unbranded wireless CarPlay adapter on a USB test fixture beside abstract event timelines and a secured evidence drive in a deep-navy laboratory',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-diagnostic-log-collection-guide.md',
+    intro:'Useful diagnostic logs connect one reproduced symptom to a controlled configuration, synchronized timeline, minimized data set and preserved original evidence.',
+    sections:[['Build a traceable, privacy-aware evidence pack','Define the symptom, freeze the configuration, align approved evidence sources to one timeline, protect raw files and retest the corrective action.']],
+    checklist:['Failure defined','Case assigned','Configuration frozen','Sources approved','Clocks aligned','Marker added','Logs preserved','Data minimized','Access restricted','Originals retained','Baseline compared','Fix retested'],
+    faq:[
+      ['Which log should be collected first?','Start with the smallest approved source that can answer the defined engineering question.'],
+      ['Are screenshots enough?','Usually not; they miss the sequence and technical events that led to the visible state.'],
+      ['Can logs contain personal data?','Yes. Minimize collection, restrict access and follow applicable requirements.'],
+      ['Does one error code prove root cause?','No. Correlate it with configuration, timeline, reproduction and comparison evidence.'],
+      ['Should debug logging stay enabled in production?','Not automatically; define approved levels, protection, access and retention.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-cadillac-compatibility-guide',category:'Compatibility',date:'October 1, 2026',publishAt:'2026-10-01T09:00:26+08:00',updatedAt:'2026-10-01T09:00:26+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Cadillac: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Cadillac | Compatibility Guide',
     excerpt:'Check Cadillac adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
