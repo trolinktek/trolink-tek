@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-buick-compatibility-guide',category:'Compatibility',date:'October 2, 2026',publishAt:'2026-10-02T09:01:54+08:00',updatedAt:'2026-10-02T09:01:54+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Buick: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Buick | Compatibility Guide',
+    excerpt:'Check Buick adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-buick-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected in a premium crossover beside a blank phone and diagnostic tablet in a deep-navy compatibility test',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-buick-compatibility-guide.md',
+    intro:'Buick compatibility starts with functioning wired Apple CarPlay on the exact installed infotainment host and USB data port, not the badge or powered socket.',
+    sections:[['Qualify the exact installed configuration','Prove direct wired CarPlay, identify the host and data port, freeze the adapter build, then validate pairing, reconnection, controls, audio and recovery.']],
+    checklist:['Vehicle recorded','Host identified','Wired baseline proven','Data port verified','Native wireless checked','Firmware frozen','Phone recorded','Pairing tested','Reconnection tested','Controls checked','Audio checked','Claims scoped'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Buick?','No. The exact vehicle needs a compatible, functioning wired-CarPlay host and USB data path.'],
+      ['Can an adapter add CarPlay to a Buick without CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless use.'],
+      ['Does a powered USB port prove compatibility?','No. A port can supply power or media access without carrying wired CarPlay.'],
+      ['What if the Buick already has wireless CarPlay?','Use and validate the factory wireless workflow first; an external adapter is usually unnecessary.'],
+      ['What details are needed for support?','Record the vehicle, host, software, USB port, phone, iOS, adapter hardware and firmware, and the failed step.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-payment-terms-milestone-checklist',category:'OEM / ODM',date:'October 1, 2026',publishAt:'2026-10-01T19:02:07+08:00',updatedAt:'2026-10-01T19:02:07+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Payment Terms and Milestone Checklist',metaTitle:'CarPlay Adapter Payment Terms Checklist | TrolinkTek',
     excerpt:'Structure adapter payment terms around defined deliverables, approval milestones, inspection, shipment documents and change control.',
