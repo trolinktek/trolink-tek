@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-test-station-correlation-golden-unit-control',category:'Technical insight',date:'October 2, 2026',publishAt:'2026-10-02T14:01:04+08:00',updatedAt:'2026-10-02T14:01:04+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Test Station Correlation and Golden Unit Control',metaTitle:'CarPlay Adapter Test Station Correlation | TrolinkTek',
+    excerpt:'Correlate wireless CarPlay adapter test stations, control golden units, detect drift and prevent false pass or false fail decisions.',
+    image:'/assets/blog/wireless-carplay-adapter-test-station-correlation-golden-unit-control.png',imageAlt:'Three aligned wireless CarPlay adapter test stations with abstract traces, sample trays and a protected reference unit on a deep-navy factory bench',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-test-station-correlation-golden-unit-control.md',
+    intro:'Test station correlation checks whether multiple stations make consistent decisions on controlled samples while golden-unit control provides a stable, traceable reference for drift detection.',
+    sections:[['Correlate the full production decision system','Freeze station configurations, repeat controlled samples across stations, analyze numerical and decision agreement, then monitor reference trends and requalify after changes.']],
+    checklist:['Stations identified','Configuration frozen','Instruments verified','References controlled','Challenges defined','Repeats planned','Order balanced','Raw data retained','Criteria predefined','Drift trended','Changes trigger review','Release approved'],
+    faq:[
+      ['Is a golden unit a perfect product?','No. It is a controlled reference asset with a documented response, purpose and monitored history.'],
+      ['How often should stations be correlated?','Set the interval from risk, drift history and production needs, and add defined change triggers plus startup checks.'],
+      ['Does calibration prove station equivalence?','No. Correlation evaluates the combined fixture, software, method, instruments and operating conditions.'],
+      ['Can a study use only passing samples?','That is weak evidence; controlled challenge conditions should also demonstrate relevant defect detection.'],
+      ['What follows a failed daily reference check?','Contain affected decisions, preserve evidence, define the exposure window, correct the cause and requalify before release.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-buick-compatibility-guide',category:'Compatibility',date:'October 2, 2026',publishAt:'2026-10-02T09:01:54+08:00',updatedAt:'2026-10-02T09:01:54+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Buick: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Buick | Compatibility Guide',
     excerpt:'Check Buick adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
