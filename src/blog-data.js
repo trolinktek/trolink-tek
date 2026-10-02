@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-incoterms-shipping-responsibility-checklist',category:'OEM / ODM',date:'October 2, 2026',publishAt:'2026-10-02T20:57:38+08:00',updatedAt:'2026-10-02T20:57:38+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Incoterms and Shipping Responsibility Checklist',metaTitle:'CarPlay Adapter Incoterms Checklist | TrolinkTek',
+    excerpt:'Choose an Incoterms rule and exact named place, then align freight, risk, customs, insurance, documents and shipment handover.',
+    image:'/assets/blog/wireless-carplay-adapter-incoterms-shipping-responsibility-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters, sealed cartons and blank shipping documents on a deep-blue export logistics handover bench',readTime:'13 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-incoterms-shipping-responsibility-checklist.md',
+    intro:'A usable Incoterms line states the rule, exact named place and edition, then connects it to an executable responsibility matrix for the actual shipment.',
+    sections:[['Turn a three-letter rule into an executable shipment','Match the rule to the transport mode, define the named point, allocate each logistics activity and keep payment, inspection, title and warranty triggers separate.']],
+    checklist:['Rule selected','Edition stated','Place exact','Mode matched','SKU frozen','Pack-out defined','Booking owned','Customs assigned','Importer feasible','Insurance reviewed','Charges mapped','Documents approved'],
+    faq:[
+      ['Which Incoterms rule is best?','There is no universal best rule; choose from the actual mode, locations, customs roles, insurance needs and cost visibility.'],
+      ['Is FOB China sufficient?','No. State the exact named port and rule edition, and confirm the rule fits the actual cargo flow.'],
+      ['Does CIF keep risk with the seller until arrival?','Not necessarily; carriage cost and risk transfer can occur at different points under the official rule.'],
+      ['Does DDP include unloading?','DDP delivery is generally ready for unloading at the named destination; define unloading and site access separately.'],
+      ['Can Incoterms replace a quality agreement?','No. They do not define the product specification, quality acceptance, payment, title, warranty or remedies.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-test-station-correlation-golden-unit-control',category:'Technical insight',date:'October 2, 2026',publishAt:'2026-10-02T14:01:04+08:00',updatedAt:'2026-10-02T14:01:04+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Test Station Correlation and Golden Unit Control',metaTitle:'CarPlay Adapter Test Station Correlation | TrolinkTek',
     excerpt:'Correlate wireless CarPlay adapter test stations, control golden units, detect drift and prevent false pass or false fail decisions.',
