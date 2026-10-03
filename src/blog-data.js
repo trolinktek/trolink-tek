@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-partial-shipment-delivery-allocation-checklist',category:'OEM / ODM',date:'October 3, 2026',publishAt:'2026-10-03T19:00:34+08:00',updatedAt:'2026-10-03T19:00:34+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Partial Shipment and Delivery Allocation Checklist',metaTitle:'CarPlay Adapter Partial Shipment Checklist | TrolinkTek',
+    excerpt:'Plan partial shipments with controlled SKU allocation, inspection gates, freight costs, documents, payment and final reconciliation.',
+    image:'/assets/blog/wireless-carplay-adapter-partial-shipment-delivery-allocation-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters allocated across separate outbound carton groups beside blank schedules and shipping documents in a deep-blue fulfillment center',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-partial-shipment-delivery-allocation-checklist.md',
+    intro:'A controlled partial shipment links each early release to an approved SKU allocation, acceptance gate, logistics plan, payment event and master-order balance.',
+    sections:[['Turn one purchase order into controlled releases','Freeze each shipment configuration, allocate quantities by destination and purpose, define evidence and cost responsibilities, then reconcile every release to the master order.']],
+    checklist:['Business case defined','SKU frozen','Destinations allocated','Milestones separated','Inspection accepted','Traceability mapped','Split costs reviewed','Incoterms stated','Payment evidence set','Changes controlled','Claims planned','Order reconciled'],
+    faq:[
+      ['Is a partial shipment always faster?','No. An early approved quantity may help, but repeated inspection, freight and customs processes can offset the benefit.'],
+      ['Can firmware versions be mixed under one SKU?','Only with explicit configuration control and buyer approval; otherwise define one approved build per release.'],
+      ['Who allocates the first units?','The buyer should approve channel and destination priorities, and the supplier should execute the documented allocation.'],
+      ['Does a split change Incoterms responsibility?','Not by itself; apply the agreed rule and named place to every release while defining other commercial terms separately.'],
+      ['How is the final balance closed?','Reconcile ordered, shipped, received, claimed, replaced, cancelled and open quantities with documents and payments.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-test-fixture-contact-maintenance',category:'Technical insight',date:'October 3, 2026',publishAt:'2026-10-03T14:00:58+08:00',updatedAt:'2026-10-03T14:00:58+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Test Fixture Contact Maintenance Guide',metaTitle:'CarPlay Adapter Test Fixture Maintenance | TrolinkTek',
     excerpt:'Control fixture contacts, pogo pins, USB interfaces and cables to reduce false failures and preserve factory test evidence.',
