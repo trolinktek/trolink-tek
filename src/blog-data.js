@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-ram-truck-compatibility-guide',category:'Compatibility',date:'October 3, 2026',publishAt:'2026-10-03T09:01:22+08:00',updatedAt:'2026-10-03T09:01:22+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Ram Trucks: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Ram Trucks | Guide',
+    excerpt:'Check Ram truck adapter compatibility by proving wired CarPlay, identifying the installed host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-ram-truck-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected in a generic pickup cabin beside a blank phone and diagnostic tablet in a deep-blue test workshop',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-ram-truck-compatibility-guide.md',
+    intro:'Ram truck compatibility depends on the exact installed infotainment host and a proven wired-CarPlay USB data path, not the badge, year or powered socket.',
+    sections:[['Qualify the installed truck configuration','Identify the host and exact data port, prove wired CarPlay, freeze the adapter and phone builds, then compare setup, audio, controls and repeated recovery.']],
+    checklist:['Truck recorded','Host identified','Wired baseline proven','Data port verified','Native wireless checked','Firmware frozen','Phone recorded','Pairing tested','Reconnection tested','Controls checked','Audio checked','Claims scoped'],
+    faq:[
+      ['Will an adapter work with every Ram truck?','No. The exact truck needs a compatible installed host and a functioning wired-CarPlay USB data path.'],
+      ['Can an adapter add missing CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.'],
+      ['Does Uconnect Bluetooth prove compatibility?','No. Bluetooth calls or audio do not prove that the intended USB port supports wired CarPlay.'],
+      ['Which USB port should be used?','Use the exact port that reliably launches direct wired CarPlay with a verified data cable.'],
+      ['What if the truck already has wireless CarPlay?','Validate and use the factory wireless workflow first; an external adapter is usually unnecessary.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-incoterms-shipping-responsibility-checklist',category:'OEM / ODM',date:'October 2, 2026',publishAt:'2026-10-02T20:57:38+08:00',updatedAt:'2026-10-02T20:57:38+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Incoterms and Shipping Responsibility Checklist',metaTitle:'CarPlay Adapter Incoterms Checklist | TrolinkTek',
     excerpt:'Choose an Incoterms rule and exact named place, then align freight, risk, customs, insurance, documents and shipment handover.',
