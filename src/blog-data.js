@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-test-fixture-contact-maintenance',category:'Technical insight',date:'October 3, 2026',publishAt:'2026-10-03T14:00:58+08:00',updatedAt:'2026-10-03T14:00:58+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Test Fixture Contact Maintenance Guide',metaTitle:'CarPlay Adapter Test Fixture Maintenance | TrolinkTek',
+    excerpt:'Control fixture contacts, pogo pins, USB interfaces and cables to reduce false failures and preserve factory test evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-test-fixture-contact-maintenance.png',imageAlt:'Unbranded wireless CarPlay adapter in a precision fixture with gold pogo pins, USB cable, cleaning tools and abstract traces on a deep-blue factory bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-test-fixture-contact-maintenance.md',
+    intro:'Fixture maintenance keeps the temporary power, data and measurement path stable so contact wear is not mistaken for a product defect or allowed to hide one.',
+    sections:[['Control the contact path before trusting the result','Identify every fixture component, preserve first-failure evidence, inspect and clean with approved methods, then verify controlled samples before release.']],
+    checklist:['Fixture identified','Revision controlled','Contacts inspected','Travel checked','USB path inspected','Cables controlled','Cleaning approved','Cycles tracked','First fail retained','Reference run','Impact assessed','Release approved'],
+    faq:[
+      ['Can a fixture cause a false failure?','Yes. Worn, contaminated, misaligned or intermittent contacts can resemble product defects.'],
+      ['Should a unit be reseated until it passes?','No. Preserve the first result and follow a controlled retest rule.'],
+      ['How often should pogo pins be replaced?','Use the approved probe specification, cycle history, inspection and failure trend; there is no universal interval.'],
+      ['Does cleaning prove the fixture is ready?','No. Cleaning is an action; controlled sample verification provides release evidence.'],
+      ['When is re-correlation needed?','Major repair, interface replacement, drift or repeated reference failure may trigger broader station comparison.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-ram-truck-compatibility-guide',category:'Compatibility',date:'October 3, 2026',publishAt:'2026-10-03T09:01:22+08:00',updatedAt:'2026-10-03T09:01:22+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Ram Trucks: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Ram Trucks | Guide',
     excerpt:'Check Ram truck adapter compatibility by proving wired CarPlay, identifying the installed host and validating the exact USB data port.',
