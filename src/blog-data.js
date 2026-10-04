@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-bluetooth-wifi-toggle-recovery-testing',category:'Technical insight',date:'October 4, 2026',publishAt:'2026-10-04T14:00:26+08:00',updatedAt:'2026-10-04T14:00:26+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Bluetooth and Wi-Fi Toggle Recovery Testing',metaTitle:'CarPlay Adapter Bluetooth & Wi-Fi Recovery Test | TrolinkTek',
+    excerpt:'Test recovery after Bluetooth, Wi-Fi and airplane-mode changes with controlled states, timing and complete functional evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-bluetooth-wifi-toggle-recovery-testing.png',imageAlt:'Unbranded wireless CarPlay adapter beside a blank phone, head-unit simulator and controlled Bluetooth and Wi-Fi recovery test instruments on a deep-blue bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-bluetooth-wifi-toggle-recovery-testing.md',
+    intro:'Radio-toggle recovery testing changes one phone state at a time, preserves the first failure and measures return to a fully usable CarPlay session.',
+    sections:[['Separate Bluetooth, Wi-Fi and airplane-mode recovery','Freeze the configuration, define milestones, apply one controlled event, preserve the first failure and verify complete function recovery before release.']],
+    checklist:['Configuration frozen','Wired baseline proven','Wireless baseline proven','Devices recorded','Events separated','Timing defined','Milestones defined','First fail retained','Intervention classified','Functions verified','Cases repeated','Release approved'],
+    faq:[
+      ['Is Bluetooth-off the same as Wi-Fi-off?','No. They are different endpoint states and should be tested and reported separately.'],
+      ['Does a returned CarPlay screen prove recovery?','No. Confirm interaction, audio, calls, microphone, voice, navigation and relevant controls.'],
+      ['Should every failure trigger factory reset?','No. Preserve the failed state first and apply the smallest approved recovery action.'],
+      ['Does airplane mode always disable both radios?','No. Record the actual Bluetooth and Wi-Fi state during the event.'],
+      ['How many cycles are enough?','Set repetitions from risk, intended use, observed variability and the approved validation plan.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-gmc-compatibility-guide',category:'Compatibility',date:'October 4, 2026',publishAt:'2026-10-04T09:00:51+08:00',updatedAt:'2026-10-04T09:00:51+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for GMC: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for GMC | Compatibility Guide',
     excerpt:'Check GMC adapter compatibility by proving wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
