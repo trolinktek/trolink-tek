@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-order-quantity-tolerance-checklist',category:'OEM / ODM',date:'October 4, 2026',publishAt:'2026-10-04T19:01:03+08:00',updatedAt:'2026-10-04T19:01:03+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Order Quantity Tolerance Checklist',metaTitle:'CarPlay Adapter Quantity Tolerance Checklist | TrolinkTek',
+    excerpt:'Control production overruns and shortfalls with approved quantity tolerances, acceptance rules, payment and inventory reconciliation.',
+    image:'/assets/blog/wireless-carplay-adapter-order-quantity-tolerance-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters counted in a fitted tray with one empty position, surplus units, blank order sheets, cartons and a scale on a deep-blue factory bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-order-quantity-tolerance-checklist.md',
+    intro:'A quantity tolerance clause defines whether overruns or shortfalls are allowed, who approves them and how accepted units, payment and surplus materials are reconciled.',
+    sections:[['Control actual quantity before production starts','Apply the rule by SKU, separate built from accepted units, define overrun and shortfall decisions, then close every variance and branded-material balance.']],
+    checklist:['Tolerance defined','SKU rules separated','Carton rule set','Authority named','Quantities separated','Overrun controlled','Shortfall controlled','Surplus secured','Counting evidenced','Documents aligned','Costs assigned','Closure signed'],
+    faq:[
+      ['Is there a standard tolerance?','No. Set the rule from product, packaging, forecast, yield, inventory and commercial risk.'],
+      ['Must a buyer pay for every extra unit?','Not automatically. Payment follows the agreed tolerance, authorization and accepted saleable quantity.'],
+      ['Can surplus become service stock?','Yes, with authorized allocation, controlled configuration and traceability.'],
+      ['How is a shortfall completed?','Define later production, credit or formal closure plus repeat setup, inspection and freight responsibility.'],
+      ['What happens to excess branded packaging?','Define ownership, secure storage, reuse, de-branding or destruction and required evidence.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-bluetooth-wifi-toggle-recovery-testing',category:'Technical insight',date:'October 4, 2026',publishAt:'2026-10-04T14:00:26+08:00',updatedAt:'2026-10-04T14:00:26+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Bluetooth and Wi-Fi Toggle Recovery Testing',metaTitle:'CarPlay Adapter Bluetooth & Wi-Fi Recovery Test | TrolinkTek',
     excerpt:'Test recovery after Bluetooth, Wi-Fi and airplane-mode changes with controlled states, timing and complete functional evidence.',
