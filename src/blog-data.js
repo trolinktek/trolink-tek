@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-gmc-compatibility-guide',category:'Compatibility',date:'October 4, 2026',publishAt:'2026-10-04T09:00:51+08:00',updatedAt:'2026-10-04T09:00:51+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for GMC: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for GMC | Compatibility Guide',
+    excerpt:'Check GMC adapter compatibility by proving wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-gmc-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a USB data port in a generic premium pickup cabin beside a blank phone and diagnostic tablet',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-gmc-compatibility-guide.md',
+    intro:'GMC compatibility depends on the exact installed infotainment host and a proven wired-CarPlay USB data path, not the vehicle badge or a powered socket.',
+    sections:[['Qualify the installed GMC connection path','Identify the host and exact data port, prove wired CarPlay, freeze the adapter and phone builds, then validate pairing, reconnection, audio, controls and recovery.']],
+    checklist:['Vehicle recorded','Host identified','Native wireless checked','Wired baseline proven','Data port marked','Retrofit classified','Firmware frozen','Phone recorded','Reconnection tested','Controls checked','Multi-driver tested','Claims scoped'],
+    faq:[
+      ['Will an adapter work with every GMC?','No. The exact vehicle needs a compatible installed host and a functioning wired-CarPlay USB data path.'],
+      ['Can an adapter add missing CarPlay?','Normally no. A standard adapter converts an existing compatible wired-CarPlay path to wireless operation.'],
+      ['Does a powered USB port prove compatibility?','No. Use the exact port that repeatedly launches direct wired Apple CarPlay with a verified data cable.'],
+      ['What if the vehicle already has wireless CarPlay?','Validate the factory wireless workflow first; an external adapter is usually unnecessary.'],
+      ['What details are needed for support?','Record the vehicle, host, software, USB port, wired result, phone, iOS, adapter hardware and firmware, and failed step.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-partial-shipment-delivery-allocation-checklist',category:'OEM / ODM',date:'October 3, 2026',publishAt:'2026-10-03T19:00:34+08:00',updatedAt:'2026-10-03T19:00:34+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Partial Shipment and Delivery Allocation Checklist',metaTitle:'CarPlay Adapter Partial Shipment Checklist | TrolinkTek',
     excerpt:'Plan partial shipments with controlled SKU allocation, inspection gates, freight costs, documents, payment and final reconciliation.',
