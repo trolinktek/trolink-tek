@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-order-cancellation-rescheduling-checklist',category:'OEM / ODM',date:'October 6, 2026',publishAt:'2026-10-06T19:00:59+08:00',updatedAt:'2026-10-06T19:00:59+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Order Cancellation and Rescheduling Checklist',metaTitle:'CarPlay Adapter Order Cancellation Checklist | TrolinkTek',
+    excerpt:'Control order cancellation and rescheduling with stop-work authority, material disposition, cost evidence and revised delivery approval.',
+    image:'/assets/blog/wireless-carplay-adapter-order-cancellation-rescheduling-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters, isolated packaging materials and abstract rescheduling boards on a deep-blue factory planning bench',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-order-cancellation-rescheduling-checklist.md',
+    intro:'A controlled cancellation or reschedule records the cut-off state, stops authorized work, dispositions every unit and material, reconciles costs and approves a feasible closure or revised baseline.',
+    sections:[['Control the order change from cut-off to closure','Classify the instruction, capture actual status, segregate affected inventory, reconcile evidence-backed costs and approve material dispositions plus any revised milestones.']],
+    checklist:['Order identified','Request classified','Authority confirmed','Cut-off stated','Quantities reconciled','Stock segregated','Materials classified','Costs evidenced','Disposition approved','Schedule rebuilt','Channels updated','Closure signed'],
+    faq:[
+      ['Can a buyer cancel before shipment without cost?','Not automatically; materials, production, packaging, services or capacity may already be committed.'],
+      ['Is a hold the same as cancellation?','No. A hold pauses defined activities while the order remains open and requires restart or cancellation authority.'],
+      ['Can branded packaging be reused?','Only with explicit authority and controlled ownership, confidentiality, de-branding or destruction.'],
+      ['Does rescheduling preserve the original slot?','Not necessarily; reconfirm materials, production, inspection and logistics against the new dates.'],
+      ['What closes the process?','An authorized record of quantities, costs, credits, dispositions, ownership and revised milestones or cancellation closure.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-humidity-condensation-testing',category:'Technical insight',date:'October 6, 2026',publishAt:'2026-10-06T14:01:54+08:00',updatedAt:'2026-10-06T14:01:54+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Humidity and Condensation Testing Guide',metaTitle:'CarPlay Adapter Humidity & Condensation Testing | TrolinkTek',
     excerpt:'Plan humidity and condensation testing with controlled profiles, dew-point risk, safe recovery, inspection and complete functional evidence.',
