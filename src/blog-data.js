@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-humidity-condensation-testing',category:'Technical insight',date:'October 6, 2026',publishAt:'2026-10-06T14:01:54+08:00',updatedAt:'2026-10-06T14:01:54+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Humidity and Condensation Testing Guide',metaTitle:'CarPlay Adapter Humidity & Condensation Testing | TrolinkTek',
+    excerpt:'Plan humidity and condensation testing with controlled profiles, dew-point risk, safe recovery, inspection and complete functional evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-humidity-condensation-testing.png',imageAlt:'Unbranded wireless CarPlay adapter beside a controlled humidity chamber, sensor probes and sealed sample trays in a deep-blue electronics laboratory',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-humidity-condensation-testing.md',
+    intro:'Humidity validation separates vapor exposure from actual condensation, controls safe transitions and proves recovery through inspection and complete functional retesting.',
+    sections:[['Control moisture exposure before trusting the result','Define the climate question, freeze the sample, monitor actual chamber conditions, manage dew point and safe recovery, then compare inspection and function with the pre-test baseline.']],
+    checklist:['Purpose defined','Requirement referenced','Configuration frozen','Baseline recorded','Chamber identified','Sensors controlled','Profile defined','Power state defined','Dew point managed','Recovery controlled','Function retested','Release authorized'],
+    faq:[
+      ['Is high humidity the same as condensation?','No. Condensation requires a surface at or below the dew point; high humidity can exist without liquid water.'],
+      ['What humidity level should every adapter pass?','There is no universal value; use the approved specification, environment, standards and risk assessment.'],
+      ['Can a sample be powered immediately after removal?','Only when the approved method confirms safe recovery and no condensation risk remains.'],
+      ['Does one successful connection prove a pass?','No. Inspect the product and verify reconnection, audio, calls, controls and extended operation.'],
+      ['Should packaging be included?','Include production packaging when the question concerns storage or shipment protection.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-infiniti-compatibility-guide',category:'Compatibility',date:'October 6, 2026',publishAt:'2026-10-06T09:00:48+08:00',updatedAt:'2026-10-06T09:00:48+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Infiniti: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Infiniti | Compatibility Guide',
     excerpt:'Check Infiniti adapter compatibility by proving wired CarPlay, identifying the installed infotainment host and testing the exact USB data port.',
