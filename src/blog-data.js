@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-lincoln-compatibility-guide',category:'Compatibility',date:'October 7, 2026',publishAt:'2026-10-07T09:01:46+08:00',updatedAt:'2026-10-07T09:01:46+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Lincoln: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Lincoln | Compatibility Guide',
+    excerpt:'Check Lincoln wireless CarPlay adapter compatibility by proving wired CarPlay, identifying the installed host and testing the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-lincoln-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected to a USB data port in a generic premium vehicle cabin beside a blank phone and diagnostic tablet',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-lincoln-compatibility-guide.md',
+    intro:'A Lincoln is a candidate for a wireless adapter only when its exact installed host and intended USB data port already launch repeatable wired Apple CarPlay.',
+    sections:[['Prove the installed configuration before promising fitment','Identify the host, prove wired CarPlay on the exact USB data port, freeze the adapter and phone build, then validate reconnection, audio, calls, controls and multi-phone behavior.']],
+    checklist:['Vehicle recorded','Host identified','Software recorded','Native wireless checked','Wired baseline proven','USB data port marked','System class confirmed','Adapter build frozen','Phone and iOS recorded','Journey tested','Multi-phone tested','Claims evidenced'],
+    faq:[
+      ['Will an adapter work with every Lincoln?','No. Compatibility depends on the exact installed host, software and a functioning wired-CarPlay USB data path.'],
+      ['Can an adapter add CarPlay to a vehicle without it?','Normally no; a standard adapter converts an existing compatible wired-CarPlay connection.'],
+      ['Does a charging USB port prove compatibility?','No. Use the exact port that repeatedly launches direct wired Apple CarPlay.'],
+      ['What if native wireless CarPlay already exists?','Validate the factory workflow first; an external adapter may be unnecessary.'],
+      ['What should resellers record?','Record the vehicle, host, software, port, wired result, adapter build, iPhone, iOS and evidence.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-order-cancellation-rescheduling-checklist',category:'OEM / ODM',date:'October 6, 2026',publishAt:'2026-10-06T19:00:59+08:00',updatedAt:'2026-10-06T19:00:59+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Order Cancellation and Rescheduling Checklist',metaTitle:'CarPlay Adapter Order Cancellation Checklist | TrolinkTek',
     excerpt:'Control order cancellation and rescheduling with stop-work authority, material disposition, cost evidence and revised delivery approval.',
