@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-pcb-assembly-inspection-aoi-xray',category:'Technical insight',date:'October 7, 2026',publishAt:'2026-10-07T14:01:52+08:00',updatedAt:'2026-10-07T14:01:52+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter PCB Inspection: AOI, X-Ray and Functional Test',metaTitle:'CarPlay Adapter PCB Inspection: AOI & X-Ray | TrolinkTek',
+    excerpt:'Plan PCB inspection with SPI, AOI, X-ray, manual review and functional testing while controlling defects, false calls and evidence.',
+    image:'/assets/blog/wireless-carplay-adapter-pcb-assembly-inspection-aoi-xray.png',imageAlt:'Unbranded wireless CarPlay adapter PCBs under automated optical inspection beside abstract X-ray images and a functional test fixture in a deep-blue factory laboratory',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-pcb-assembly-inspection-aoi-xray.md',
+    intro:'A defensible PCB inspection plan combines prevention, visible and hidden-joint inspection, controlled defect review and functional evidence because no single method sees every risk.',
+    sections:[['Combine inspection methods by defect coverage','Freeze the assembly, map risks to SPI, AOI, X-ray, manual or electrical checks, control rework and finish with correlated functional testing plus traceable lot release.']],
+    checklist:['Build frozen','Risks mapped','First article approved','SPI controlled','AOI challenged','Calls classified','X-ray scoped','Connectors inspected','Containment defined','Rework controlled','Stations correlated','Release authorized'],
+    faq:[
+      ['Can AOI inspect every solder joint?','No. Hidden or obscured joints may require X-ray, electrical test, process controls or another approved method.'],
+      ['Is X-ray required for every unit?','Not universally; scope it by design, hidden-joint risk, process evidence, defect history and the control plan.'],
+      ['Does functional pass prove solder quality?','No. It proves defined functions operated at that time, not that every mechanical or hidden joint is acceptable.'],
+      ['How should false AOI calls be handled?','Record them separately, investigate repeated patterns and control any threshold change through approval.'],
+      ['What evidence should buyers request?','Request build identity, inspection scope, program revisions, defect dispositions, rework control, test coverage and lot release.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-lincoln-compatibility-guide',category:'Compatibility',date:'October 7, 2026',publishAt:'2026-10-07T09:01:46+08:00',updatedAt:'2026-10-07T09:01:46+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Lincoln: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Lincoln | Compatibility Guide',
     excerpt:'Check Lincoln wireless CarPlay adapter compatibility by proving wired CarPlay, identifying the installed host and testing the exact USB data port.',
