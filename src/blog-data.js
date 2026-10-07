@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-supplier-bank-account-change-verification',category:'OEM / ODM',date:'October 7, 2026',publishAt:'2026-10-07T19:00:58+08:00',updatedAt:'2026-10-07T19:00:58+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Supplier Bank Account Change Verification Checklist',metaTitle:'Supplier Bank Account Change Verification Checklist | TrolinkTek',
+    excerpt:'Verify supplier bank account changes with independent callbacks, entity checks, dual approval, payment holds and documented release.',
+    image:'/assets/blog/wireless-carplay-adapter-supplier-bank-account-change-verification.png',imageAlt:'Unbranded wireless CarPlay adapters and cartons beside a blank laptop, callback phone, security token and two-person approval markers on a deep-blue procurement desk',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-supplier-bank-account-change-verification.md',
+    intro:'A bank-detail change should remain on payment hold until the supplier identity, complete instruction, commercial obligation and buyer approvals are independently verified and recorded.',
+    sections:[['Separate request, verification, approval and release','Log the change, freeze payment, verify through a trusted pre-existing channel, reconcile the order and release only after controlled dual or role-based approval.']],
+    checklist:['Request logged','Payment held','Records preserved','Master compared','Callback independent','Entity confirmed','Evidence reviewed','Duties separated','Invoice reconciled','Red flags escalated','Release approved','Audit record retained'],
+    faq:[
+      ['Is an email reply enough?','No. Independently contact a known supplier representative through a trusted channel already on file.'],
+      ['What if shipment is urgent?','Keep the payment hold until verification is complete and handle shipment impact through separate authorization.'],
+      ['Does familiar invoice formatting prove authenticity?','No. Logos, signatures, threads and invoice layouts can be copied or altered.'],
+      ['Should a buyer make a small test transfer?','Only when bank and internal policy authorize it after verification; a small unverified transfer is still a transfer.'],
+      ['Who approves the change?','Use buyer-defined vendor-master and payment roles, separating review, data entry, approval and release where practical.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-pcb-assembly-inspection-aoi-xray',category:'Technical insight',date:'October 7, 2026',publishAt:'2026-10-07T14:01:52+08:00',updatedAt:'2026-10-07T14:01:52+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter PCB Inspection: AOI, X-Ray and Functional Test',metaTitle:'CarPlay Adapter PCB Inspection: AOI & X-Ray | TrolinkTek',
     excerpt:'Plan PCB inspection with SPI, AOI, X-ray, manual review and functional testing while controlling defects, false calls and evidence.',
