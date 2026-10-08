@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-supplier-deviation-request-checklist',category:'OEM / ODM',date:'October 8, 2026',publishAt:'2026-10-08T19:04:03+08:00',updatedAt:'2026-10-08T19:04:03+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Supplier Deviation Request Checklist',metaTitle:'Supplier Deviation Request Checklist for CarPlay Adapters',
+    excerpt:'Evaluate temporary supplier deviations with defined scope, risk evidence, buyer approval, segregation, traceability and closure controls.',
+    image:'/assets/blog/wireless-carplay-adapter-supplier-deviation-request-checklist.png',imageAlt:'Unbranded wireless CarPlay adapters, controlled sample trays, caliper and abstract approval workflow on a deep-navy factory quality desk',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-supplier-deviation-request-checklist.md',
+    intro:'A supplier deviation is a temporary, bounded authorization that requires evidence, buyer approval, segregated execution, traceability and verified return to the approved baseline.',
+    sections:[['Control the exception without changing the baseline','Identify the unmet requirement, bound the affected population, evaluate risk, approve conditions before release and close the deviation at expiration.']],
+    checklist:['Requirement identified','Order referenced','Difference described','Scope bounded','Reason separated','Risks reviewed','Evidence approved','Inspection defined','Material segregated','Traceability assigned','Authority recorded','Closure verified'],
+    faq:[
+      ['Is a supplier deviation the same as a product change?','No. A deviation is temporary and scoped; a permanent revision requires formal change control.'],
+      ['Can email approval replace a deviation form?','Only when the controlled process accepts it and the complete scope, evidence, conditions and authority are retained.'],
+      ['Can urgency justify approval?','Urgency informs the business decision but does not prove product or compliance risk is acceptable.'],
+      ['Should deviation units have separate traceability?','Yes. Affected lots must remain identifiable through shipment and support.'],
+      ['What happens at expiration?','Restore the approved baseline, reconcile material and close the record or start formal change control.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-audio-latency-measurement-testing',category:'Technical insight',date:'October 8, 2026',publishAt:'2026-10-08T14:02:00+08:00',updatedAt:'2026-10-08T14:02:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Audio Latency Measurement and Test Method',metaTitle:'Wireless CarPlay Adapter Audio Latency Testing | TrolinkTek',
     excerpt:'Measure adapter audio latency with defined events, synchronized capture, wired baselines, repeatable operating states and evidence-based reporting.',
