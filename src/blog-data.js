@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-audio-latency-measurement-testing',category:'Technical insight',date:'October 8, 2026',publishAt:'2026-10-08T14:02:00+08:00',updatedAt:'2026-10-08T14:02:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Audio Latency Measurement and Test Method',metaTitle:'Wireless CarPlay Adapter Audio Latency Testing | TrolinkTek',
+    excerpt:'Measure adapter audio latency with defined events, synchronized capture, wired baselines, repeatable operating states and evidence-based reporting.',
+    image:'/assets/blog/wireless-carplay-adapter-audio-latency-measurement-testing.png',imageAlt:'Unbranded wireless CarPlay adapter on a deep-navy vehicle audio latency test bench with waveform instruments, microphone fixture and speaker',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-audio-latency-measurement-testing.md',
+    intro:'Audio latency becomes useful evidence only when the start event, output event, configuration, synchronized capture method and operating state are explicitly defined.',
+    sections:[['Measure one defined path at a time','Separate media response, navigation prompts, calls, audio/video synchronization and startup, then compare each against the same wired baseline.']],
+    checklist:['Question defined','Events named','Configuration frozen','Wired baseline proven','Stimulus controlled','Capture synchronized','Chain validated','Rules predefined','States separated','Paths tested','Distribution reported','Evidence retained'],
+    faq:[
+      ['What is wireless CarPlay audio latency?','It is elapsed time between defined input and output events in a specified configuration and operating state.'],
+      ['Can a phone stopwatch measure it accurately?','Usually not alone; the start and output evidence need a synchronized time base.'],
+      ['Should wireless be compared with wired CarPlay?','Yes. A controlled wired baseline helps isolate the added wireless path.'],
+      ['Is one latency number enough?','No. Startup, media response, prompts, calls and audio/video sync are distinct paths.'],
+      ['What should a supplier report?','Report configuration, boundaries, method, instrument capability, sample count, distribution and exceptions.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-genesis-compatibility-guide',category:'Compatibility',date:'October 8, 2026',publishAt:'2026-10-08T11:59:31+08:00',updatedAt:'2026-10-08T11:59:31+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter for Genesis: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Genesis | Compatibility Guide',
     excerpt:'Check Genesis adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
