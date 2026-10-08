@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-genesis-compatibility-guide',category:'Compatibility',date:'October 8, 2026',publishAt:'2026-10-08T11:59:31+08:00',updatedAt:'2026-10-08T11:59:31+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter for Genesis: Compatibility Check Guide',metaTitle:'Wireless CarPlay Adapter for Genesis | Compatibility Guide',
+    excerpt:'Check Genesis adapter compatibility by proving factory wired CarPlay, identifying the installed infotainment host and validating the exact USB data port.',
+    image:'/assets/blog/wireless-carplay-adapter-genesis-compatibility-guide.png',imageAlt:'Unbranded wireless CarPlay adapter connected inside a premium wide-display sedan beside a blank phone and diagnostic tablet in a deep-navy technical scene',readTime:'12 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-genesis-compatibility-guide.md',
+    intro:'Genesis compatibility starts with functioning wired Apple CarPlay on the exact installed infotainment host and USB data port, not the badge or powered socket.',
+    sections:[['Qualify the installed host and data path','Record the vehicle, infotainment software, display arrangement, exact port, phone and controlled adapter build before making a fitment claim.']],
+    checklist:['Vehicle recorded','Host identified','Software recorded','Native wireless checked','Wired baseline proven','Data port marked','System type classified','Adapter build frozen','Phone recorded','Functions tested','Multi-phone checked','Claims scoped'],
+    faq:[
+      ['Will a wireless CarPlay adapter work with every Genesis?','No. The exact vehicle needs a compatible installed host and functioning wired-CarPlay USB data path.'],
+      ['Can an adapter add CarPlay to a Genesis without CarPlay?','Normally no. It converts an existing compatible wired-CarPlay connection.'],
+      ['Does a powered USB port prove compatibility?','No. Prove that the exact port repeatedly launches direct wired Apple CarPlay.'],
+      ['What if native wireless CarPlay already exists?','Validate the factory workflow first; an external adapter may be unnecessary.'],
+      ['What should a reseller record?','Record the vehicle, host, software, port, wired result, adapter build, phone and tested functions.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-supplier-bank-account-change-verification',category:'OEM / ODM',date:'October 7, 2026',publishAt:'2026-10-07T19:00:58+08:00',updatedAt:'2026-10-07T19:00:58+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Supplier Bank Account Change Verification Checklist',metaTitle:'Supplier Bank Account Change Verification Checklist | TrolinkTek',
     excerpt:'Verify supplier bank account changes with independent callbacks, entity checks, dual approval, payment holds and documented release.',
