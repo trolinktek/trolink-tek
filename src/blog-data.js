@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-control-plan-ctq-matrix',category:'Quality control',date:'October 9, 2026',publishAt:'2026-10-09T14:04:26+08:00',updatedAt:'2026-10-09T14:04:26+08:00',author:'TrolinkTek Editorial Team',
+    title:'Wireless CarPlay Adapter Control Plan: Building a CTQ Matrix',metaTitle:'Wireless CarPlay Adapter Control Plan & CTQ Matrix',
+    excerpt:'Build a control plan that links critical-to-quality requirements to process controls, evidence, reaction plans and lot release.',
+    image:'/assets/blog/wireless-carplay-adapter-control-plan-ctq-matrix.png',imageAlt:'Unbranded wireless CarPlay adapter, PCB, USB cables and inspection fixture on a deep-navy automotive electronics quality-control station',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-control-plan-ctq-matrix.md',
+    intro:'A useful control plan links approved CTQ requirements to the process, prevention and detection controls, retained evidence, reaction plan and release authority.',
+    sections:[['Turn requirements into controlled release evidence','Map product and packaging risks across incoming material, assembly, programming, functional test, pack-out and release, then define evidence and reaction for every CTQ.']],
+    checklist:['Requirements approved','CTQs risk-linked','Stages mapped','Prevention defined','Detection defined','Methods approved','Frequency justified','Evidence traceable','Reaction planned','Retest controlled','Changes reviewed','Release authorized'],
+    faq:[
+      ['Is a control plan the same as a specification?','No. The specification defines requirements; the control plan defines how production controls them and reacts to failure.'],
+      ['Does every CTQ require 100% inspection?','No. Method and frequency should follow risk, process capability, detection opportunity and the approved quality approach.'],
+      ['Who approves the CTQ matrix?','Relevant engineering, quality, manufacturing and project owners should participate; buyer approval depends on the agreement and risk.'],
+      ['Can final functional testing replace process controls?','No. Final testing does not cover every material, assembly, identity, appearance, packaging or latent process risk.'],
+      ['When should the control plan change?','Review it after approved changes, new defects, field evidence, corrective actions, equipment changes and revised requirements.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-supplier-deviation-request-checklist',category:'OEM / ODM',date:'October 8, 2026',publishAt:'2026-10-08T19:04:03+08:00',updatedAt:'2026-10-08T19:04:03+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Supplier Deviation Request Checklist',metaTitle:'Supplier Deviation Request Checklist for CarPlay Adapters',
     excerpt:'Evaluate temporary supplier deviations with defined scope, risk evidence, buyer approval, segregation, traceability and closure controls.',
