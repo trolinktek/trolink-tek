@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'carplay-ai-box-channel-fit-scorecard',category:'Market strategy',date:'October 9, 2026',publishAt:'2026-10-09T18:57:01+08:00',updatedAt:'2026-10-09T18:57:01+08:00',author:'TrolinkTek Editorial Team',
+    title:'CarPlay AI Box Channel Strategy: A Distributor Fit Scorecard',metaTitle:'CarPlay AI Box Channel Strategy & Fit Scorecard',
+    excerpt:'Match AI Box complexity, buyer expectations, qualification, support capacity and launch evidence to the right distributor channels.',
+    image:'/assets/blog/carplay-ai-box-channel-fit-scorecard.png',imageAlt:'Unbranded CarPlay AI Box, retail carton, phone and channel-planning cards on a deep-navy global distribution strategy desk',readTime:'12 min read',contentPath:'/content/blog-articles/carplay-ai-box-channel-fit-scorecard.md',
+    intro:'A channel-fit scorecard helps distributors decide where an approved CarPlay AI Box SKU can be sold accurately, supported efficiently and scaled with controlled evidence.',
+    sections:[['Score each SKU-channel pair before launch','Compare customer intent, compatibility screening, sales education, demonstration, technical support, firmware ownership, content governance, return economics and inventory control.']],
+    checklist:['SKU controlled','Buyer job defined','Channels scored','Prerequisites visible','Training owned','Demo controlled','Support routed','Versions governed','Returns classified','Pilot bounded','Scale criteria agreed','Lifecycle assigned'],
+    faq:[
+      ['Should every channel sell the same AI Box SKU?','No. Approve each SKU-channel pair based on audience, qualification capability, support cost, content control and inventory economics.'],
+      ['Is the most feature-rich AI Box always the premium choice?','No. Premium positioning requires a buyer problem the added capability solves and a channel able to explain and support it.'],
+      ['Which channel is best for an initial pilot?','Choose a channel with relevant demand and enough qualification, demonstration and support control to produce interpretable evidence.'],
+      ['Can marketplace content replace compatibility screening?','It can automate part of screening but cannot justify universal compatibility or resolve every uncertain vehicle condition.'],
+      ['When should a distributor expand channels?','Expand after configuration stability, understood pilot evidence, controlled content, ready support capacity and explicit risk ownership.']
+    ]
+  },
+  {
     slug:'wireless-carplay-adapter-control-plan-ctq-matrix',category:'Quality control',date:'October 9, 2026',publishAt:'2026-10-09T14:04:26+08:00',updatedAt:'2026-10-09T14:04:26+08:00',author:'TrolinkTek Editorial Team',
     title:'Wireless CarPlay Adapter Control Plan: Building a CTQ Matrix',metaTitle:'Wireless CarPlay Adapter Control Plan & CTQ Matrix',
     excerpt:'Build a control plan that links critical-to-quality requirements to process controls, evidence, reaction plans and lot release.',
