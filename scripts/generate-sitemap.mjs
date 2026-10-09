@@ -2,7 +2,7 @@ import {readdir, stat, writeFile} from 'node:fs/promises';
 import {join, relative, resolve, sep} from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
-const siteUrl = 'https://www.trolinktek.com';
+const siteUrl = 'https://trolink-tek.com';
 const sitemapPath = join(root, 'public', 'sitemap.xml');
 
 const excludedTopLevelDirectories = new Set([

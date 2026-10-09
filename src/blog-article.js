@@ -37,10 +37,10 @@ const canonicalUrl=`https://trolink-tek.com/blog/${post.slug}/`;
 let canonical=document.head.querySelector('link[rel="canonical"]')||document.head.appendChild(Object.assign(document.createElement('link'),{rel:'canonical'}));canonical.href=canonicalUrl;
 const schema={
   '@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,
-  image:new URL(post.image,'https://www.trolinktek.com').href,datePublished:post.publishAt||post.date,
+  image:new URL(post.image,'https://trolink-tek.com').href,datePublished:post.publishAt||post.date,
   dateModified:post.updatedAt||post.publishAt||post.date,
   author:{'@type':'Organization',name:post.author||'TrolinkTek Editorial Team'},
-  publisher:{'@type':'Organization',name:'TrolinkTek',logo:{'@type':'ImageObject',url:'https://www.trolinktek.com/assets/trolinktek-logo.png'}},
+  publisher:{'@type':'Organization',name:'TrolinkTek',logo:{'@type':'ImageObject',url:'https://trolink-tek.com/assets/trolinktek-logo.png'}},
   mainEntityOfPage:{'@type':'WebPage','@id':canonicalUrl}
 };
 const structuredData=post.faq?.length?{'@context':'https://schema.org','@graph':[schema,{'@type':'FAQPage',mainEntity:post.faq.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}))}]}:schema;

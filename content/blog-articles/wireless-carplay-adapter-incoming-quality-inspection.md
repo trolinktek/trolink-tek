@@ -7,7 +7,7 @@ primary_keyword: "wireless CarPlay adapter incoming quality inspection"
 author: "TrolinkTek Editorial Team"
 published: "2026-08-17T14:00:00+08:00"
 updated: "2026-08-17T14:00:00+08:00"
-canonical: "https://www.trolinktek.com/blog/wireless-carplay-adapter-incoming-quality-inspection/"
+canonical: "https://trolink-tek.com/blog/wireless-carplay-adapter-incoming-quality-inspection/"
 ---
 
 **Direct answer:** an incoming quality inspection for wireless CarPlay adapters should first confirm that the received lot matches the approved SKU, hardware, firmware, accessories, packaging and purchase documents. The inspection team should then apply a documented sampling plan and check appearance, dimensions, connectors, identification, startup, USB recognition, pairing, audio, controls and recovery against an approved reference. Any acceptance number, sample size or test limit must come from the buyer's agreed quality plan—not from an invented universal rule.

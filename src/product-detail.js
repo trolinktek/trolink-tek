@@ -62,7 +62,7 @@ document.head.append(detailGalleryStyles);
 
 document.title = `${product.title} | TrolinkTek`;
 ensureMeta('description',`${product.title} from Shenzhen TrolinkTek Technology Co., Ltd. Review official product images and published parameters, then request current specifications and OEM/ODM options.`);
-ensureCanonical(`https://www.trolinktek.com${product.local_url}`);
+ensureCanonical(`https://trolink-tek.com${product.local_url}`);
 document.querySelector('#product-app').innerHTML = `
   <header class="header">
     <a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a>

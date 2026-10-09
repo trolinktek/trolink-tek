@@ -2,7 +2,7 @@
 title: "Wireless CarPlay Adapter USB Cable Testing: Data, Power and Plug-Cycle Evidence"
 meta_title: "Wireless CarPlay Adapter USB Cable Testing | TrolinkTek"
 meta_description: "Plan repeatable USB cable and connector testing for wireless CarPlay adapters with data, power, plug-cycle and vehicle-validation evidence."
-canonical: "https://www.trolinktek.com/blog/wireless-carplay-adapter-usb-cable-plug-cycle-testing/"
+canonical: "https://trolink-tek.com/blog/wireless-carplay-adapter-usb-cable-plug-cycle-testing/"
 slug: "wireless-carplay-adapter-usb-cable-plug-cycle-testing"
 primary_keyword: "wireless CarPlay adapter USB cable testing"
 author: "TrolinkTek Editorial Team"

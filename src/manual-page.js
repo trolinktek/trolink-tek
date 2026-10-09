@@ -12,7 +12,7 @@ if(!description){description=document.createElement('meta');description.name='de
 description.content=`${manual.summary} View available language versions and download the official TrolinkTek manual.`;
 let canonical=document.head.querySelector('link[rel="canonical"]');
 if(!canonical){canonical=document.createElement('link');canonical.rel='canonical';document.head.appendChild(canonical)}
-canonical.href=`https://www.trolinktek.com/downloads/${manual.slug}/`;
+canonical.href=`https://trolink-tek.com/downloads/${manual.slug}/`;
 app.innerHTML=`
   <header class="header">
     <a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a>
