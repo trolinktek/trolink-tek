@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'portable-carplay-screen-audio-routing-guide',category:'Technical insight',date:'October 10, 2026',publishAt:'2026-10-10T13:57:25+08:00',updatedAt:'2026-10-10T13:57:25+08:00',author:'TrolinkTek Editorial Team',
+    title:'Portable CarPlay Screen Audio Routing: AUX, Bluetooth, FM or Speaker?',metaTitle:'Portable CarPlay Screen Audio Routing Guide',
+    excerpt:'Compare AUX, Bluetooth, FM transmission and built-in speakers for portable CarPlay screens, then validate music, prompts, calls and recovery.',
+    image:'/assets/blog/portable-carplay-screen-audio-routing-guide.png',imageAlt:'Unbranded portable CarPlay screen showing separate AUX, Bluetooth, FM and speaker audio-routing concepts in a deep-blue vehicle cabin',readTime:'12 min read',contentPath:'/content/blog-articles/portable-carplay-screen-audio-routing-guide.md',
+    intro:'Portable screen audio quality depends on the complete route through the screen, vehicle input, Bluetooth profiles, FM environment, microphone and source-recovery behavior.',
+    sections:[['Validate each audio route as a separate system','Compare AUX, Bluetooth, FM and built-in-speaker paths across music, navigation, calls, power cycles, source changes and multi-phone conditions.']],
+    checklist:['Vehicle inputs defined','Routes mapped','Media checked','Prompts checked','Calls checked','Microphone identified','Pairing order documented','FM limits explained','Power noise reviewed','Recovery tested','Evidence traceable','Claims controlled'],
+    faq:[
+      ['Which route gives the best sound quality?','There is no universal answer; AUX is often direct, but the complete screen, cable, vehicle input, gain and power environment must be validated.'],
+      ['Can Bluetooth handle projection and vehicle audio together?','Some defined product and vehicle topologies can, while others cannot; verify profiles, pairing order and exact configuration.'],
+      ['Why does FM audio vary by location?','Broadcast occupancy and interference vary, so provide a frequency-selection method rather than one universal channel.'],
+      ['Does working music prove calls work?','No. Calls may use a different profile, microphone, switching rule or volume state and need separate validation.'],
+      ['Is the built-in speaker enough for normal driving?','It may suit setup, prompts or fallback, but should not be treated as equivalent to vehicle audio without product-specific validation.']
+    ]
+  },
+  {
     slug:'carplay-ai-box-channel-fit-scorecard',category:'Market strategy',date:'October 9, 2026',publishAt:'2026-10-09T18:57:01+08:00',updatedAt:'2026-10-09T18:57:01+08:00',author:'TrolinkTek Editorial Team',
     title:'CarPlay AI Box Channel Strategy: A Distributor Fit Scorecard',metaTitle:'CarPlay AI Box Channel Strategy & Fit Scorecard',
     excerpt:'Match AI Box complexity, buyer expectations, qualification, support capacity and launch evidence to the right distributor channels.',
