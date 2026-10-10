@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'motorcycle-carplay-channel-strategy',category:'Market strategy',date:'October 10, 2026',publishAt:'2026-10-10T18:57:57+08:00',updatedAt:'2026-10-10T18:57:57+08:00',author:'TrolinkTek Editorial Team',
+    title:'Motorcycle CarPlay Channel Strategy for Distributors',metaTitle:'Motorcycle CarPlay Channel Strategy for Distributors',
+    excerpt:'Plan Motorcycle CarPlay distribution across powersports dealers, installers, e-commerce and fleets with controlled kits, pilots and support evidence.',
+    image:'/assets/blog/motorcycle-carplay-channel-strategy.png',imageAlt:'Unbranded motorcycle CarPlay display, secure handlebar mount, power cable and retail package in a deep-blue powersports showroom and workshop',readTime:'12 min read',contentPath:'/content/blog-articles/motorcycle-carplay-channel-strategy.md',
+    intro:'A credible channel strategy matches the complete motorcycle display kit and its installation burden to partners that can qualify, install, hand over and support it.',
+    sections:[['Match channel capability to a controlled motorcycle display system','Compare powersports dealers, specialist installers, e-commerce and fleet programs by fitment, wiring, training, content, support, inventory and pilot evidence.']],
+    checklist:['Rider segment defined','Application scope controlled','Channel role approved','SKU identified','Mount kit complete','Power route documented','Audio workflow clear','Partner trained','Pilot bounded','Returns classified','Changes governed','Scale decision owned'],
+    faq:[
+      ['Which channel should launch first?','Choose the channel that reaches the intended rider and can produce reliable fitment, installation, handover and support evidence.'],
+      ['Can one SKU serve dealers and e-commerce?','Possibly, but the pack-out, instructions, qualification, claims and support route must suit both channels.'],
+      ['Should a distributor promise universal motorcycle fitment?','No. Publish measurable mounting, power, installation and workflow requirements instead.'],
+      ['What should a fleet pilot measure?','Measure installation consistency, traceability, rider handover, privacy reset, support causes, downtime and replacement workflow.'],
+      ['When should a channel launch pause?','Pause when a critical fitment, electrical, environmental, documentation, support or traceability risk lacks an effective control.']
+    ]
+  },
+  {
     slug:'portable-carplay-screen-audio-routing-guide',category:'Technical insight',date:'October 10, 2026',publishAt:'2026-10-10T13:57:25+08:00',updatedAt:'2026-10-10T13:57:25+08:00',author:'TrolinkTek Editorial Team',
     title:'Portable CarPlay Screen Audio Routing: AUX, Bluetooth, FM or Speaker?',metaTitle:'Portable CarPlay Screen Audio Routing Guide',
     excerpt:'Compare AUX, Bluetooth, FM transmission and built-in speakers for portable CarPlay screens, then validate music, prompts, calls and recovery.',
