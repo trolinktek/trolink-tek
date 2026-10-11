@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'motorcycle-carplay-display-vs-phone-mount',category:'Product comparison',date:'October 11, 2026',publishAt:'2026-10-11T08:58:14+08:00',updatedAt:'2026-10-11T08:58:14+08:00',author:'TrolinkTek Editorial Team',
+    title:'Motorcycle CarPlay Display vs Phone Mount: A Distributor Comparison',metaTitle:'Motorcycle CarPlay Display vs Phone Mount | B2B Guide',
+    excerpt:'Compare motorcycle CarPlay displays and phone mounts by rider workflow, installation, weather exposure, support load and distributor channel fit.',
+    image:'/assets/blog/motorcycle-carplay-display-vs-phone-mount.png',imageAlt:'Dedicated motorcycle CarPlay display and conventional smartphone handlebar mount compared on a parked touring motorcycle in a deep-blue workshop',readTime:'11 min read',contentPath:'/content/blog-articles/motorcycle-carplay-display-vs-phone-mount.md',
+    intro:'A dedicated motorcycle display and a phone mount solve different rider jobs and create different installation, support and lifecycle responsibilities for distributors.',
+    sections:[['Compare two complete rider systems','Evaluate the interface, phone exposure, mounting, power, weather, vibration, audio, firmware, support, channel fit and lifecycle cost of each route.']],
+    checklist:['Rider job defined','Product route selected','Motorcycle scope measured','Complete kit identified','Mounting checked','Power route documented','Phone scope controlled','Audio path validated','Environmental evidence reviewed','Support cost modeled','Claims bounded','Pilot decision owned'],
+    faq:[
+      ['Is a motorcycle CarPlay display better than a phone mount?','Not universally; select by rider workflow, phone exposure, installation, audio, support and channel capability.'],
+      ['Does a motorcycle CarPlay display work without a phone?','Projection functions normally require a supported phone, while other functions depend on the exact product architecture.'],
+      ['Is a phone mount easier to install?','It can be, especially without charging, but fit, retention, steering clearance, vibration, weather and phone geometry still require evaluation.'],
+      ['Can both products use a helmet headset?','Potentially, but the exact pairing topology and media, prompt, call, microphone and reconnection behavior must be validated.'],
+      ['What evidence should a distributor request?','Request the complete kit BOM, mounting and power requirements, phone and audio prerequisites, firmware identity, environmental evidence, service parts and change controls.']
+    ]
+  },
+  {
     slug:'motorcycle-carplay-channel-strategy',category:'Market strategy',date:'October 10, 2026',publishAt:'2026-10-10T18:57:57+08:00',updatedAt:'2026-10-10T18:57:57+08:00',author:'TrolinkTek Editorial Team',
     title:'Motorcycle CarPlay Channel Strategy for Distributors',metaTitle:'Motorcycle CarPlay Channel Strategy for Distributors',
     excerpt:'Plan Motorcycle CarPlay distribution across powersports dealers, installers, e-commerce and fleets with controlled kits, pilots and support evidence.',
