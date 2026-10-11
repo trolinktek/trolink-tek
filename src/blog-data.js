@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'portable-carplay-screen-rental-fleet-deployment',category:'Vehicle applications',date:'October 11, 2026',publishAt:'2026-10-11T18:59:56+08:00',updatedAt:'2026-10-11T18:59:56+08:00',author:'TrolinkTek Editorial Team',
+    title:'Portable CarPlay Screens for Rental and Shared Fleets: Deployment Guide',metaTitle:'Portable CarPlay Screens for Rental Fleets',
+    excerpt:'Plan portable CarPlay screen deployment for rental and shared fleets with reversible installation, privacy reset, asset control, pilot evidence and support.',
+    image:'/assets/blog/portable-carplay-screen-rental-fleet-deployment.png',imageAlt:'Fleet technician inspecting an unbranded portable CarPlay screen and reversible mounting kit in a deep-blue rental vehicle preparation bay',readTime:'12 min read',contentPath:'/content/blog-articles/portable-carplay-screen-rental-fleet-deployment.md',
+    intro:'A fleet deployment succeeds when a portable screen, reversible mount, power and audio route, privacy reset, asset record, handover and service process operate as one controlled system.',
+    sections:[['Approve a repeatable fleet configuration','Segment vehicles, control the reversible kit, validate power and audio, clear customer data, track assets, pilot representative use and govern spares and change.']],
+    checklist:['Fleet job defined','Vehicle groups mapped','Kit controlled','Placement approved','Power documented','Audio validated','Privacy reset verified','Assets traceable','Handover standardized','Pilot bounded','Spares assigned','Scale gate owned'],
+    faq:[
+      ['Can a portable CarPlay screen move between rental vehicles?','Potentially, but every vehicle group needs an approved placement, mount, power and audio route.'],
+      ['Does a fleet screen require factory CarPlay?','Normally no; the portable screen provides its own display and projection electronics, while phone, mounting, power and audio prerequisites still apply.'],
+      ['How should customer data be cleared?','Use a validated turnover procedure that clears defined pairings, networks and history while preserving approved firmware and identity.'],
+      ['What should a rental pilot measure?','Measure installation and setup consistency, handover, privacy reset, support causes, damage, missing parts, downtime and repeatability.'],
+      ['Should every fleet vehicle use the same kit?','Only when that exact configuration is approved for each vehicle group; different dashboards, power behavior and audio inputs may require controlled variants.']
+    ]
+  },
+  {
     slug:'carplay-ai-box-pre-shipment-quality-control',category:'Quality control',date:'October 11, 2026',publishAt:'2026-10-11T14:00:20+08:00',updatedAt:'2026-10-11T14:00:20+08:00',author:'TrolinkTek Editorial Team',
     title:'CarPlay AI Box Pre-Shipment Quality Control: Software, Apps and Privacy',metaTitle:'CarPlay AI Box Pre-Shipment Quality Control',
     excerpt:'Build a CarPlay AI Box release process for software images, app baselines, configuration, account cleanup, traceability and shipment approval.',
