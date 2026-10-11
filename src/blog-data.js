@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'carplay-ai-box-pre-shipment-quality-control',category:'Quality control',date:'October 11, 2026',publishAt:'2026-10-11T14:00:20+08:00',updatedAt:'2026-10-11T14:00:20+08:00',author:'TrolinkTek Editorial Team',
+    title:'CarPlay AI Box Pre-Shipment Quality Control: Software, Apps and Privacy',metaTitle:'CarPlay AI Box Pre-Shipment Quality Control',
+    excerpt:'Build a CarPlay AI Box release process for software images, app baselines, configuration, account cleanup, traceability and shipment approval.',
+    image:'/assets/blog/carplay-ai-box-pre-shipment-quality-control.png',imageAlt:'Unbranded CarPlay AI Box undergoing software, configuration and traceability inspection at a deep-blue electronics factory quality station',readTime:'12 min read',contentPath:'/content/blog-articles/carplay-ai-box-pre-shipment-quality-control.md',
+    intro:'AI Box quality control releases a controlled hardware, software, application, configuration, privacy and packaging baseline rather than merely a powered-on device.',
+    sections:[['Release the complete digital and physical configuration','Control the master image, application manifest, defaults, device identity, privacy-clean state, functional journey, pack-out, traceability and change boundary.']],
+    checklist:['SKU baseline approved','Hardware revision matched','Master image controlled','Build read back','App manifest verified','Defaults restored','Accounts removed','Networks cleared','Identity preserved','Journey validated','Pack-out matched','Changes governed'],
+    faq:[
+      ['What is the most important AI Box pre-shipment quality record?','The controlled configuration baseline linking hardware, software, applications, settings, identity, privacy state, packaging and instructions to the SKU.'],
+      ['Is power-on testing enough for a CarPlay AI Box?','No; it cannot prove correct software, apps, defaults, identity, privacy cleanup, accessories or customer materials.'],
+      ['Should every unit receive a factory reset?','Only when the approved process requires it and its exact clear-and-preserve behavior has been validated.'],
+      ['Can third-party applications update during final inspection?','They may, so network access and update behavior must be controlled to prevent an unapproved baseline.'],
+      ['What happens when firmware or an application changes?','Open change control, assess the impact, repeat necessary validation, approve the new baseline and record its effective boundary.']
+    ]
+  },
+  {
     slug:'motorcycle-carplay-display-vs-phone-mount',category:'Product comparison',date:'October 11, 2026',publishAt:'2026-10-11T08:58:14+08:00',updatedAt:'2026-10-11T08:58:14+08:00',author:'TrolinkTek Editorial Team',
     title:'Motorcycle CarPlay Display vs Phone Mount: A Distributor Comparison',metaTitle:'Motorcycle CarPlay Display vs Phone Mount | B2B Guide',
     excerpt:'Compare motorcycle CarPlay displays and phone mounts by rider workflow, installation, weather exposure, support load and distributor channel fit.',
