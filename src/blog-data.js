@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'oem-odm-automotive-electronics-project-stage-gates',category:'OEM / ODM',date:'October 12, 2026',publishAt:'2026-10-12T19:01:52+08:00',updatedAt:'2026-10-12T19:01:52+08:00',author:'TrolinkTek Editorial Team',
+    title:'OEM/ODM Stage-Gate Decisions for Automotive Electronics Projects',metaTitle:'OEM/ODM Project Stage Gates | Automotive Electronics',
+    excerpt:'A buyer-side stage-gate framework for OEM/ODM automotive electronics: define evidence, decision owners, hold points and release criteria from feasibility to launch.',
+    image:'/assets/blog/oem-odm-automotive-electronics-project-stage-gates.png',imageAlt:'Cross-functional automotive electronics team reviewing an unbranded device sample, test fixture and blank project folders at a deep-blue engineering table',readTime:'12 min read',contentPath:'/content/blog-articles/oem-odm-automotive-electronics-project-stage-gates.md',
+    intro:'An OEM/ODM project stage gate is a documented buyer decision that determines whether a defined automotive-electronics program may move to its next commitment. Review the baseline, evidence, unresolved risks, decision authority and scope before authorizing the next spend or customer promise.',
+    sections:[['Use evidence and decision rights to control project transitions','Define project-specific gates for feasibility, specification, sample validation, pilot, production release and launch; record clear go, conditional-go or hold outcomes with owners and closure criteria.']],
+    checklist:['Decision and next commitment defined','Configuration baseline identified','Evidence owner assigned','Decision authority named','Open risks recorded','Conditional actions bounded','Scope authorization explicit','Next gate trigger agreed'],
+    faq:[
+      ['Is a stage-gate process mandatory for every OEM/ODM project?','No. It is a buyer-side control approach, not a universal certification or mandatory standard. Tailor rigor to product risk and commitments.'],
+      ['Is a stage gate the same as a project timeline?','No. A timeline plans sequence and dates; a gate records whether evidence and authority allow a transition.'],
+      ['Who should approve a sample gate?','Assign technical and quality reviewers for the agreed test scope and a product or program owner to accept intended-use fit.'],
+      ['Can a project proceed with open items?','Sometimes, if the condition, boundary, owner, due date and closure rule are documented; critical prerequisites should remain on hold.'],
+      ['What should trigger reapproval?','Reassess changes that may invalidate the approved configuration or evidence, such as material software, supplier, market, package, claim or method changes.']
+    ]
+  },
+  {
     slug:'carplay-ai-box-buying-guide-importers',category:'Buyer guide',date:'October 12, 2026',publishAt:'2026-10-12T09:04:12+08:00',updatedAt:'2026-10-12T09:04:12+08:00',author:'TrolinkTek Editorial Team',
     title:'CarPlay AI Box Buying Guide for Importers and Distributors',metaTitle:'CarPlay AI Box Buying Guide for Importers | TrolinkTek',
     excerpt:'Choose a CarPlay AI Box by host requirements, buyer use case, software scope, support readiness and evidence—not by feature count alone.',
