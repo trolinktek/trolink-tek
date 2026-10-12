@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'carplay-ai-box-buying-guide-importers',category:'Buyer guide',date:'October 12, 2026',publishAt:'2026-10-12T09:04:12+08:00',updatedAt:'2026-10-12T09:04:12+08:00',author:'TrolinkTek Editorial Team',
+    title:'CarPlay AI Box Buying Guide for Importers and Distributors',metaTitle:'CarPlay AI Box Buying Guide for Importers | TrolinkTek',
+    excerpt:'Choose a CarPlay AI Box by host requirements, buyer use case, software scope, support readiness and evidence—not by feature count alone.',
+    image:'/assets/blog/carplay-ai-box-buying-guide-importers.png',imageAlt:'Unbranded CarPlay AI Box with USB cable on a deep-navy evaluation desk beside a softly blurred vehicle console and phone',readTime:'12 min read',contentPath:'/content/blog-articles/carplay-ai-box-buying-guide-importers.md',
+    intro:'Importers should confirm the vehicle-host requirement first, then match the exact SKU’s functions, software and service boundaries to a buyer segment and support model.',
+    sections:[['Use six release gates before placing an order','Qualify host prerequisites, buyer job, software baseline, phone and network dependencies, channel support and commercial release evidence for the exact SKU.']],
+    checklist:['Host requirement confirmed','Buyer job defined','SKU baseline documented','Software owner identified','Phone/network dependencies disclosed','Channel capability assessed','Sample setup recorded','Recovery and reset checked','Claims bounded','Pack-out matched','RFQ assumptions explicit','Release owner assigned'],
+    faq:[
+      ['Does every CarPlay AI Box work with every CarPlay vehicle?','No. Verify the exact SKU host requirement against the vehicle, infotainment software and connection path being sold.'],
+      ['Is a CarPlay AI Box the same as a wireless adapter?','No. These labels may represent different functions and prerequisites; compare the exact model and buyer job.'],
+      ['Should an importer choose the model with the most applications?','Not automatically. Additional applications can add dependencies, updates and support responsibilities.'],
+      ['What should be checked before sample approval?','Record the host, port, phone, build and software state; test the agreed journey, interruption recovery, reset and pack-out.'],
+      ['What belongs in a production release record?','Link the approved SKU and lot to hardware and software baseline, configuration, privacy-clean state, customer materials and release authority.']
+    ]
+  },
+  {
     slug:'portable-carplay-screen-rental-fleet-deployment',category:'Vehicle applications',date:'October 11, 2026',publishAt:'2026-10-11T18:59:56+08:00',updatedAt:'2026-10-11T18:59:56+08:00',author:'TrolinkTek Editorial Team',
     title:'Portable CarPlay Screens for Rental and Shared Fleets: Deployment Guide',metaTitle:'Portable CarPlay Screens for Rental Fleets',
     excerpt:'Plan portable CarPlay screen deployment for rental and shared fleets with reversible installation, privacy reset, asset control, pilot evidence and support.',
