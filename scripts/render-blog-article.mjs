@@ -8,7 +8,7 @@ if (!post) throw new Error(`Unknown blog slug: ${slug}`);
 
 const root = resolve(import.meta.dirname, '..');
 const markdown = await readFile(join(root, post.contentPath.replace(/^\//, '')), 'utf8');
-const article = markdown.replace(/^---[\s\S]*?---\s*/, '');
+const article = markdown.replace(/^---[\s\S]*?---\s*/, '').replace(/^# [^\r\n]+\r?\n+/, '');
 
 const escapeHtml = value => value.replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const inline = value => escapeHtml(value)
