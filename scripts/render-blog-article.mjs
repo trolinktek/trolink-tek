@@ -75,10 +75,14 @@ const blogSchema = {
   mainEntityOfPage:{'@type':'WebPage','@id':canonical}
 };
 const structuredData = faqSchema ? {'@context':'https://schema.org','@graph':[blogSchema,faqSchema]} : {'@context':'https://schema.org',...blogSchema};
-const related = [
-  ['Motorcycle CarPlay Channel Strategy for Distributors','/blog/motorcycle-carplay-channel-strategy/'],
-  ['Motorcycle CarPlay Display vs. Phone Mount','/blog/motorcycle-carplay-display-vs-phone-mount/']
+const related = post.relatedLinks || [
+  ['Related buyer insight','/blog/']
 ];
+const cta = post.cta || {
+  eyebrow:'Talk to our team', title:'Discuss your product program.',
+  body:'Share your target market, product requirements and next decision.',
+  label:'Discuss your project', href:'https://trolink-tek.com/oem-odm/'
+};
 
 const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,8 +92,8 @@ const html = `<!doctype html>
 <script type="application/ld+json">${JSON.stringify(structuredData).replace(/</g,'\\u003c')}</script></head><body>
 <header class="header"><a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a><nav><a href="/products/">Products</a><a href="/oem-odm/">OEM/ODM</a><a href="/solutions/">Solutions</a><a class="active" href="/blog/">Blog</a><a href="/about/">About</a></nav><a class="btn small" href="/#quote">Request a Review</a><button class="menu" aria-label="Open menu">&#9776;</button></header>
 <main><article><header class="article-hero"><div class="crumb"><a href="/">Home</a><span>/</span><a href="/blog/">Blog</a><span>/</span><span>${escapeHtml(post.category)}</span></div><div class="article-meta"><span>${escapeHtml(post.category)}</span><time datetime="${post.publishAt}">${escapeHtml(post.date)}</time><span>${escapeHtml(post.readTime)}</span><span>${escapeHtml(post.author)}</span></div><h1>${escapeHtml(post.title)}</h1><p>${escapeHtml(post.excerpt)}</p></header><div class="article-image"><img src="${post.image}" alt="${escapeHtml(post.imageAlt)}" width="1672" height="945"></div><div class="article-longform">${markdownToHtml(article)}</div></article>
-<section class="article-related"><div class="section-head"><div><p class="section-label light">Continue researching</p><h2>Related buyer insights.</h2></div><a href="/blog/">View all Blog posts &rarr;</a></div><div>${related.map(([title,url])=>`<article><span>Motorcycle CarPlay</span><h3>${escapeHtml(title)}</h3><a href="${url}">Read article &rarr;</a></article>`).join('')}</div></section>
-<section class="blog-cta"><div><p class="section-label light">Technical validation</p><h2>Review a motorcycle display program.</h2><p>Share your intended mount, target channel and evidence questions for a scoped validation discussion.</p></div><a class="btn" href="https://trolink-tek.com/oem-odm/">Discuss OEM/ODM</a></section></main>
+<section class="article-related"><div class="section-head"><div><p class="section-label light">Continue researching</p><h2>Related buyer insights.</h2></div><a href="/blog/">View all Blog posts &rarr;</a></div><div>${related.map(([title,url])=>`<article><span>${escapeHtml(post.category)}</span><h3>${escapeHtml(title)}</h3><a href="${url}">Read article &rarr;</a></article>`).join('')}</div></section>
+<section class="blog-cta"><div><p class="section-label light">${escapeHtml(cta.eyebrow)}</p><h2>${escapeHtml(cta.title)}</h2><p>${escapeHtml(cta.body)}</p></div><a class="btn" href="${cta.href}">${escapeHtml(cta.label)}</a></section></main>
 <footer><div class="footer-brand"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"><p>Connected-drive products engineered for your market.</p></div><div><b>Products</b><a href="/products/">Product Center</a><a href="/solutions/">Solutions</a></div><div><b>Resources</b><a href="/downloads/">Downloads</a><a href="/blog/">Blog</a></div><div><b>Partnership</b><a href="/oem-odm/">OEM/ODM</a><a href="/#quote">Contact</a></div><p class="copyright">Shenzhen TrolinkTek Technology Co., Ltd. &copy; All Rights Reserved.</p></footer>
 <script type="module" src="/src/global-nav.js?v=20260729-arabic-nav1"></script></body></html>`;
 

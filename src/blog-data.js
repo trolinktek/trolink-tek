@@ -1,5 +1,23 @@
 export const blogPosts=[
   {
+    slug:'when-to-add-second-automotive-electronics-category',category:'Market strategy',date:'October 13, 2026',publishAt:'2026-10-13T19:02:46+08:00',updatedAt:'2026-10-13T19:02:46+08:00',author:'TrolinkTek Editorial Team',
+    title:'When Should a Distributor Add a Second Automotive Electronics Category?',metaTitle:'When to Add a Second Automotive Electronics Category | TrolinkTek',
+    excerpt:'Use a practical go/no-go framework to decide when an automotive electronics distributor is ready to add a second product category, with evidence gates for demand, support, inventory and channel fit.',
+    image:'/assets/blog/when-to-add-second-automotive-electronics-category.png',imageAlt:'Automotive electronics distributor reviewing a product-category decision matrix beside an unbranded portable smart screen, compact AI Box and motorcycle display',readTime:'14 min read',contentPath:'/content/blog-articles/when-to-add-second-automotive-electronics-category.md',
+    intro:'Add a second category when it serves a distinct buyer problem, demand evidence is visible, and the team can qualify, stock, explain, deliver and support it without weakening the first category. A supplier catalog or competitor listing is not enough; use explicit readiness gates and a bounded pilot.',
+    sections:[['Use five go/no-go gates before expanding','Review buyer problem, portfolio role, channel readiness, operating controls, and investment/exit rules. A critical gap calls for evidence or a bounded pilot, not an automatic order.']],
+    checklist:['Buyer segment and unmet job defined','Portfolio role distinct from current range','Channel qualification capability reviewed','Exact SKU and support boundary recorded','Pilot question and exposure limit set','Commercial and service measures chosen','Stop, revise and scale criteria assigned','Leadership decision owner named'],
+    faq:[
+      ['How many product categories should a distributor carry?','There is no universal target. Carry categories for which you can define a buyer role, qualify demand, maintain accurate content, control inventory and provide an acceptable service route.'],
+      ['Should a distributor add an AI Box after wireless CarPlay adapters?','Only if target buyers want its distinct functions and the distributor can explain host prerequisites, software/network dependencies, privacy and support scope. Validate the exact model.'],
+      ['What is the smallest responsible pilot?','The smallest pilot that can answer a defined question with traceable configuration and feedback. Set scope, exposure, measures and stop rules with responsible teams.'],
+      ['What if customer interest is clear but support is not ready?','Treat support readiness as a launch dependency: build capability, narrow the pilot, choose a more capable channel or defer the offer.'],
+      ['Does one successful pilot justify private labeling?','No. Reconfirm the production baseline, packaging, claims, local requirements, support responsibilities and economics before authorizing a branded program.']
+    ],
+    relatedLinks:[['Connected-Car Product Mix Planning for Distributors','/blog/connected-car-product-mix-distributors/'],['CarPlay AI Box Channel Strategy: A Distributor Fit Scorecard','/blog/carplay-ai-box-channel-fit-scorecard/']],
+    cta:{eyebrow:'Portfolio planning',title:'Review your next category decision.',body:'Share the buyer segment, current category, proposed addition, target channel and open readiness questions.',label:'Discuss a portfolio fit review',href:'https://trolink-tek.com/solutions/'},
+  },
+  {
     slug:'motorcycle-carplay-display-vibration-validation',category:'Technical insight',date:'October 13, 2026',publishAt:'2026-10-13T14:13:23+08:00',updatedAt:'2026-10-13T14:13:23+08:00',author:'TrolinkTek Editorial Team',
     title:'Motorcycle CarPlay Display Vibration Testing: What Buyers Should Ask For',metaTitle:'Motorcycle Display Vibration Testing: Buyer Evidence Guide',
     excerpt:'Review motorcycle CarPlay display vibration evidence by configuration, mount, fixture, method, monitoring and acceptance criteria—without confusing a test method with a motorcycle qualification.',
