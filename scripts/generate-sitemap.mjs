@@ -1,5 +1,6 @@
-import {readdir, stat, writeFile} from 'node:fs/promises';
+import {readdir, writeFile} from 'node:fs/promises';
 import {join, relative, resolve, sep} from 'node:path';
+import {blogPosts} from '../src/blog-data.js';
 
 const root = resolve(import.meta.dirname, '..');
 const siteUrl = 'https://trolink-tek.com';
@@ -33,6 +34,10 @@ const excludedRoutes = new Set([
 ]);
 
 const pages = [];
+const blogLastModified = new Map(blogPosts.map(post => {
+  const updated = post.updatedAt || post.publishAt;
+  return [`/blog/${post.slug}/`, updated ? String(updated).slice(0, 10) : null];
+}));
 
 async function collect(directory) {
   for (const entry of await readdir(directory, {withFileTypes: true})) {
@@ -54,8 +59,8 @@ async function collect(directory) {
     const route = routeDirectory ? `/${routeDirectory}/` : '/';
     if (excludedRoutes.has(route)) continue;
 
-    const modified = await stat(fullPath);
-    pages.push({route, lastmod: modified.mtime.toISOString().slice(0, 10)});
+    const lastmod = blogLastModified.get(route);
+    pages.push({route, lastmod});
   }
 }
 
@@ -64,7 +69,7 @@ pages.sort((a, b) => a.route === '/' ? -1 : b.route === '/' ? 1 : a.route.locale
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${pages.map(({route, lastmod}) => `  <url><loc>${siteUrl}${route}</loc><lastmod>${lastmod}</lastmod></url>`).join('\n')}
+${pages.map(({route, lastmod}) => `  <url><loc>${siteUrl}${route}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`).join('\n')}
 </urlset>
 `;
 
