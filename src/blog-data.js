@@ -1,5 +1,21 @@
 export const blogPosts=[
   {
+    slug:'portable-carplay-screen-vs-aftermarket-head-unit',category:'Product comparison',date:'October 13, 2026',publishAt:'2026-10-13T09:05:04+08:00',updatedAt:'2026-10-13T09:05:04+08:00',author:'TrolinkTek Editorial Team',
+    title:'Portable CarPlay Screen vs Aftermarket Head Unit: A Retrofit Decision Guide',metaTitle:'Portable CarPlay Screen vs Aftermarket Head Unit',
+    excerpt:'Compare portable CarPlay screens and aftermarket head units by installation, vehicle integration, audio, controls, support and channel fit before selecting a retrofit route.',
+    image:'/assets/blog/portable-carplay-screen-vs-aftermarket-head-unit.png',imageAlt:'Unbranded portable CarPlay screen beside a replacement aftermarket head unit and wiring harness on a dark navy automotive electronics workbench',readTime:'12 min read',contentPath:'/content/blog-articles/portable-carplay-screen-vs-aftermarket-head-unit.md',
+    intro:'A portable CarPlay screen usually adds a separate display while retaining the factory radio; an aftermarket head unit replaces the receiver and can provide a more integrated result when vehicle fitment and installation parts are confirmed. The right route depends on what the customer wants to preserve and what the channel can support.',
+    sections:[['Compare the retrofit route, not just the screen','Evaluate dashboard changes, fitment, power and audio paths, retained controls, camera behavior, installation capability, returns and post-sale support for the exact vehicle and product configuration.']],
+    checklist:['Customer priorities defined','Vehicle group and trim identified','Dashboard modification accepted','Mount and placement checked','Power path confirmed','Audio route explained','Factory functions listed','Fitment evidence obtained','Package contents separated','Support owner assigned','Claims match evidence','Pilot scope recorded'],
+    faq:[
+      ['Is a portable CarPlay screen the same as an aftermarket head unit?','No. A portable screen is generally a separate mounted display that leaves the original receiver in place. An aftermarket head unit replaces or changes the receiver installation.'],
+      ['Which option is easier to install?','It depends on the vehicle, product, mounting and wiring approach, and installer experience. Confirm exact labor and parts before calling either route simple.'],
+      ['Does a portable screen need factory CarPlay?','Not necessarily. A portable screen can provide its own display and phone-projection path, but its power, mounting and audio setup must suit the selected model.'],
+      ['Will an aftermarket head unit retain steering-wheel controls and a backup camera?','Do not assume so. Retention depends on the vehicle, receiver, interface modules and installation kit. Confirm the specific combination.'],
+      ['Should distributors carry both categories?','Possibly, when the channel can explain their differences and support each route. Keep fitment data and return workflows clear for each product.']
+    ]
+  },
+  {
     slug:'oem-odm-automotive-electronics-project-stage-gates',category:'OEM / ODM',date:'October 12, 2026',publishAt:'2026-10-12T19:01:52+08:00',updatedAt:'2026-10-12T19:01:52+08:00',author:'TrolinkTek Editorial Team',
     title:'OEM/ODM Stage-Gate Decisions for Automotive Electronics Projects',metaTitle:'OEM/ODM Project Stage Gates | Automotive Electronics',
     excerpt:'A buyer-side stage-gate framework for OEM/ODM automotive electronics: define evidence, decision owners, hold points and release criteria from feasibility to launch.',
