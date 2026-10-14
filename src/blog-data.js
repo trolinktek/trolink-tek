@@ -1,5 +1,24 @@
 export const blogPosts=[
   {
+    slug:'choose-carplay-ai-box-or-portable-screen',category:'Buyer guide',date:'October 14, 2026',publishAt:'2026-10-14T09:03:19+08:00',updatedAt:'2026-10-14T09:03:19+08:00',author:'TrolinkTek Editorial Team',
+    title:'How to Choose Between a CarPlay AI Box and a Portable CarPlay Screen',metaTitle:'CarPlay AI Box vs Portable Screen: Buyer Guide | TrolinkTek',
+    excerpt:'Choose a CarPlay AI Box or portable CarPlay screen by checking the vehicle display, factory host prerequisites, installation route, buyer job and support needs.',
+    image:'/assets/blog/choose-carplay-ai-box-or-portable-screen.png',imageAlt:'Unbranded compact CarPlay AI Box beside a separate portable CarPlay touchscreen on an automotive electronics evaluation bench',readTime:'13 min read',contentPath:'/content/blog-articles/choose-carplay-ai-box-or-portable-screen.md',
+    intro:'Choose an AI Box when the buyer wants app-based functions on a compatible factory display; choose a portable screen when the retrofit needs a separate display. Confirm the exact host, installation, phone and audio prerequisites before making a recommendation.',
+    sections:[['Start with the display architecture','An AI Box relies on a compatible factory display and host connection; a portable screen supplies a separate display and brings mounting, power and audio decisions.']],
+    checklist:['Buyer job and vehicle group defined','Factory display and infotainment host identified','Exact AI Box prerequisites checked','Portable screen mounting and sight line reviewed','Power and cable route planned','Audio and call path understood','Phone and software dependencies recorded','SKU, accessories and limitations documented','Unknowns marked unconfirmed','Shortlist or sample-review decision assigned'],
+    faq:[
+      ['Is a CarPlay AI Box the same as a portable CarPlay screen?','No. An AI Box typically uses a compatible factory screen; a portable screen has its own display assembly. Exact capabilities and prerequisites vary by model.'],
+      ['Does every AI Box work with a factory CarPlay vehicle?','No. Confirm the exact product’s host, connection and control requirements against the target vehicle and installed infotainment system.'],
+      ['Does a portable screen require factory CarPlay?','It supplies its own display, but still has product-specific requirements for phone, power, audio, mounting and accessories.'],
+      ['Which product is easier for an online retailer to sell?','Neither is always easier. AI Boxes need host qualification; portable screens need mounting, power and audio guidance.'],
+      ['Can both categories be included in one distributor range?','Potentially, if each has a distinct buyer job, qualification path, support workflow and approved claims.'],
+      ['What should I send a supplier for a product shortlist?','Provide buyer segment, use case, vehicle and infotainment details, display route, connection/audio requirements, phone/software scope and target channel.']
+    ],
+    relatedLinks:[['CarPlay AI Box Buying Guide for Importers and Distributors','/blog/carplay-ai-box-buying-guide-importers/'],['Portable CarPlay Screen vs Aftermarket Head Unit: A Retrofit Decision Guide','/blog/portable-carplay-screen-vs-aftermarket-head-unit/']],
+    cta:{eyebrow:'Product discovery',title:'Request a product shortlist.',body:'Share the vehicle group, display architecture, buyer outcome and channel to scope a useful first selection.',label:'Request a product shortlist',href:'https://trolink-tek.com/#quote'},
+  },
+  {
     slug:'when-to-add-second-automotive-electronics-category',category:'Market strategy',date:'October 13, 2026',publishAt:'2026-10-13T19:02:46+08:00',updatedAt:'2026-10-13T19:02:46+08:00',author:'TrolinkTek Editorial Team',
     title:'When Should a Distributor Add a Second Automotive Electronics Category?',metaTitle:'When to Add a Second Automotive Electronics Category | TrolinkTek',
     excerpt:'Use a practical go/no-go framework to decide when an automotive electronics distributor is ready to add a second product category, with evidence gates for demand, support, inventory and channel fit.',
