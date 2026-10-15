@@ -1,5 +1,24 @@
 export const blogPosts=[
   {
+    slug:'carplay-ai-box-software-bill-of-materials-sbom',category:'Technical insight',date:'October 15, 2026',publishAt:'2026-10-15T14:11:00+08:00',updatedAt:'2026-10-15T14:11:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'SBOM for CarPlay AI Boxes: What Importers Should Ask For',metaTitle:'SBOM for CarPlay AI Boxes: Importer Evidence Guide | TrolinkTek',
+    excerpt:'Request a release-linked SBOM for a CarPlay AI Box, define the software boundary, and review the supplier’s vulnerability, update and validation process.',
+    image:'/assets/blog/carplay-ai-box-software-bill-of-materials-sbom.png',imageAlt:'Unbranded automotive AI box on a deep-blue engineering workbench with abstract component layers representing a software bill of materials and release governance',readTime:'10 min read',contentPath:'/content/blog-articles/carplay-ai-box-software-bill-of-materials-sbom.md',
+    intro:'An SBOM is a structured inventory of software components and relationships for a defined product build. For a CarPlay AI Box, importers should bind it to the exact shipped hardware and software release, clarify what is included, and verify how vulnerabilities, updates and fixes are reviewed. An SBOM improves visibility; it is not a security test, guarantee or certification.',
+    sections:[['Define what the SBOM covers','Confirm whether the record covers the operating system, firmware, vendor libraries, preinstalled applications and external services in the exact product architecture.'],['Bind the record to the release you will sell','Match the SBOM to a stable software image, product variant and relevant hardware baseline; agree when changes require a new record.'],['Review the supplier response workflow','Ask who triages component advisories, assesses affected releases, approves mitigations, validates updates and communicates customer actions.'],['Connect software records to quality controls','Link the release identity to the approved sample, shipment or support case while minimizing unnecessary personal data.']],
+    checklist:['Product boundary defined','SBOM release identity matched','Included and excluded layers stated','Component identifiers and known gaps reviewed','Record owner and refresh triggers named','Vulnerability contact and triage path confirmed','Update validation and recovery scope explained','Customer support period and responsibilities documented'],
+    faq:[
+      ['Does every CarPlay AI Box have an SBOM?','Do not assume so. Ask what release-specific component records the manufacturer can provide and which software layers they cover.'],
+      ['Does an SBOM prove a product is secure?','No. It improves component visibility but does not replace security design, testing, configuration review or vulnerability response.'],
+      ['Should an importer demand source code?','Not by default. A release-linked component record and an auditable vulnerability process can provide useful transparency without disclosing proprietary source code.'],
+      ['When should the SBOM be refreshed?','Tie updates to software releases and component changes, with any additional review triggers agreed for the product program.'],
+      ['What evidence should a buyer request with an SBOM?','Request release identity, scope, record owner, vulnerability intake, update decision, validation and communication processes.']
+    ],
+    relatedLinks:[['CarPlay AI Box pre-shipment quality control','/blog/carplay-ai-box-pre-shipment-quality-control/'],['Wireless CarPlay Adapter Firmware Update Testing: A Validation and Rollback Guide','/blog/wireless-carplay-adapter-firmware-update-validation/'],['Production Traceability for Automotive Electronics: From Lot ID to Field Action','/blog/automotive-electronics-production-traceability-system/']],
+    cta:{eyebrow:'Technical evidence',title:'Review software-component and update evidence for your AI Box program.',body:'Share the target model, market, software-support expectations and procurement requirements to scope a release-specific evidence review.',label:'Request an AI Box technical evidence review',href:'https://trolink-tek.com/#quote'},
+    categoryLabel:'Technical insight'
+  },
+  {
     slug:'portable-carplay-screen-work-van-guide',category:'Vehicle applications',date:'October 15, 2026',publishAt:'2026-10-15T09:01:34+08:00',updatedAt:'2026-10-15T09:01:34+08:00',author:'TrolinkTek Editorial Team',
     title:'Portable CarPlay Screens for Work Vans: A Commercial Vehicle Fit Guide',metaTitle:'Portable CarPlay Screens for Work Vans | TrolinkTek',
     excerpt:'Evaluate portable CarPlay screens for work vans by vehicle cohorts, mounting, power, audio, driver handover, support ownership and a bounded fleet pilot.',

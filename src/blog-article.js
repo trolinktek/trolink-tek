@@ -8,6 +8,7 @@ if(!document.head.querySelector('link[href^="/src/blog-longform.css"]')){const l
 
 const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const inline=s=>esc(s)
+  .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
   .replace(/\[([^\]]+)\]\((\/[^)\s]+)\)/g,'<a href="$2">$1</a>')
   .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
   .replace(/`([^`]+)`/g,'<code>$1</code>');
@@ -45,7 +46,12 @@ const schema={
 };
 const structuredData=post.faq?.length?{'@context':'https://schema.org','@graph':[schema,{'@type':'FAQPage',mainEntity:post.faq.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}))}]}:schema;
 document.head.appendChild(Object.assign(document.createElement('script'),{type:'application/ld+json',textContent:JSON.stringify(structuredData)}));
-const related=blogPosts.filter(item=>item.slug!==post.slug).slice(0,3);
+const requestedRelated=post.relatedLinks?.map(([title,url])=>{
+  const slug=url.split('/').filter(Boolean).pop();
+  const item=blogPosts.find(candidate=>candidate.slug===slug);
+  return item?{...item,title}:null;
+}).filter(Boolean).slice(0,3);
+const related=requestedRelated?.length?requestedRelated:blogPosts.filter(item=>item.slug!==post.slug).slice(0,3);
 document.querySelector('#article-app').innerHTML=`
 <header class="header"><a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a><nav><a href="/products/">Products</a><a href="/#oem">OEM/ODM</a><a href="/#solutions">Solutions</a><a class="active" href="/blog/">Blog</a><a href="/about/">About</a></nav><a class="btn small" href="/#quote">Get a Quote</a><button class="menu" aria-label="Open menu">&#9776;</button></header>
 <main><article><header class="article-hero"><div class="crumb"><a href="/">Home</a><span>/</span><a href="/blog/">Blog</a><span>/</span><span>${post.category}</span></div><div class="article-meta"><span>${post.category}</span><time datetime="${post.publishAt||''}">${post.date}</time><span>${post.readTime}</span><span>${post.author||'TrolinkTek Editorial Team'}</span></div><h1>${post.title}</h1><p>${post.excerpt}</p></header><div class="article-image"><img src="${post.image}" alt="${post.imageAlt||post.title}" width="1536" height="864"></div><div class="article-longform">${body}</div></article>
