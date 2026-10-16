@@ -1,5 +1,24 @@
 export const blogPosts=[
   {
+    slug:'carplay-ai-box-distributor-sales-enablement',category:'Market strategy',date:'October 16, 2026',publishAt:'2026-10-16T08:38:00+08:00',updatedAt:'2026-10-16T08:38:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'CarPlay AI Box Distributor Training: A Sales Enablement Plan for Importers',metaTitle:'CarPlay AI Box Distributor Training & Sales Enablement | TrolinkTek',
+    excerpt:'Help reseller partners qualify vehicle fitment, demonstrate the approved product, use accurate claims, route technical questions and keep channel materials current.',
+    image:'/assets/blog/carplay-ai-box-distributor-training-workshop.png',imageAlt:'Distributor trainer and reseller staff reviewing unbranded wireless adapter, AI box and portable smart screen samples in a deep-blue automotive showroom',readTime:'12 min read',contentPath:'/content/blog-articles/carplay-ai-box-distributor-sales-enablement.md',
+    intro:'Importers should train CarPlay AI Box distributors to qualify the vehicle and customer use case before presenting features. A practical program gives resellers a short fitment conversation, a model-specific demo, approved claims and limitations, an escalation path, and current sales materials. Train sales and installation/support roles separately, then update content when product facts change. The goal is accurate recommendations and reliable handoffs—not turning every reseller into an engineer.',
+    sections:[['Segment partner roles','Give sales, installer, support and product-management roles a shared fitment baseline and role-specific tasks.'],['Build a model-specific learning path','Teach product prerequisites, approved claims, a controlled demo, objections and escalation without making universal compatibility promises.'],['Give partners current field tools','Version the product-fit card, claims sheet, demo guide, quick-start, escalation form and change bulletin.'],['Measure behavior and refresh after changes','Use the importer’s own inquiry, claim-correction, support and partner-feedback evidence to improve training.']],
+    checklist:['Partner role and learning outcome defined','Vehicle-fitment questions documented','Model-specific claims and limitations approved','Demo tied to an identified sample/release','Sales and technical escalation owners named','Partner kit has owner and current revision','Training uses privacy-safe case information','Channel indicators reflect the learning objective','Product changes trigger a material review','Partners can find the latest approved assets'],
+    faq:[
+      ['What should a CarPlay AI Box distributor learn first?','Start with product role, vehicle prerequisites, fitment questions, approved claims and escalation. Then teach the role-specific demo or support procedure.'],
+      ['Should sales staff receive the same training as installers?','They need a shared baseline, but sales staff qualify and position while installers need model-specific setup and service boundaries.'],
+      ['Does distributor training make an AI Box compatible with more vehicles?','No. Training helps partners qualify and explain documented scope; it cannot change hardware prerequisites or extend evidence.'],
+      ['How often should partner materials be reviewed?','Review after product, software, packaging, claims, support-route or market changes; keep owner and revision/effective date visible.'],
+      ['What is a useful first metric for a small distributor network?','Check whether partners collect the facts needed to recommend or escalate an inquiry, then combine that with observed claim corrections and partner feedback.']
+    ],
+    relatedLinks:[['Connected-Car Product Mix for Distributors','/blog/connected-car-product-mix-distributors/'],['Private-Label Wireless CarPlay Adapter Launch Readiness','/blog/private-label-wireless-carplay-adapter-launch-readiness/'],['CarPlay AI Box Buying Guide for Importers','/blog/carplay-ai-box-buying-guide-importers/']],
+    cta:{eyebrow:'Channel strategy',title:'Equip your reseller network for accurate product conversations.',body:'Share your target markets, partner types, selected models, training needs and technical escalation expectations to scope a practical enablement review.',label:'Request a channel enablement review',href:'https://trolink-tek.com/#quote'},
+    categoryLabel:'Market strategy'
+  },
+  {
     slug:'carplay-ai-box-software-bill-of-materials-sbom',category:'Technical insight',date:'October 15, 2026',publishAt:'2026-10-15T14:11:00+08:00',updatedAt:'2026-10-15T14:11:00+08:00',author:'TrolinkTek Editorial Team',
     title:'SBOM for CarPlay AI Boxes: What Importers Should Ask For',metaTitle:'SBOM for CarPlay AI Boxes: Importer Evidence Guide | TrolinkTek',
     excerpt:'Request a release-linked SBOM for a CarPlay AI Box, define the software boundary, and review the supplier’s vulnerability, update and validation process.',
