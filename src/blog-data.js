@@ -1,5 +1,22 @@
 export const blogPosts=[
   {
+    slug:'wireless-carplay-adapter-electric-vehicle-compatibility',category:'Compatibility',date:'October 19, 2026',publishAt:'2026-10-19T09:04:00+08:00',updatedAt:'2026-10-19T09:04:00+08:00',author:'TrolinkTek Editorial Team',
+    title:'Does a Wireless CarPlay Adapter Work in an Electric Car?',metaTitle:'Wireless CarPlay Adapter for EVs: Compatibility Guide | TrolinkTek',
+    excerpt:'An EV badge does not determine CarPlay adapter compatibility. Check the installed infotainment system, wired CarPlay support, USB data port and exact vehicle configuration before buying.',
+    image:'/assets/blog/wireless-carplay-adapter-electric-vehicle-compatibility.png',imageAlt:'Unbranded electric vehicle cabin with a factory infotainment display, USB data port and compact wireless CarPlay adapter, with a charging point visible outside',readTime:'11 min read',contentPath:'/content/blog-articles/wireless-carplay-adapter-electric-vehicle-compatibility.md',
+    intro:'An electric car can use a wireless CarPlay adapter only if its installed infotainment system supports the wired CarPlay connection required by that exact adapter. The powertrain does not establish compatibility. Check the vehicle configuration, infotainment software and exact USB data port. Native wireless CarPlay may make an adapter unnecessary; no compatible factory CarPlay host may require a different product architecture. Start with the head unit and connection path, not the EV badge.',
+    sections:[['Why the powertrain does not answer compatibility','CarPlay depends on the installed vehicle system and connection route, not whether the vehicle is electric.'],['Identify the vehicle’s current CarPlay state','Separate working wired CarPlay, native wireless CarPlay and absent or unconfirmed factory CarPlay before choosing a device.'],['A practical check before buying','Verify the exact configuration, direct phone connection, port, accessory requirement and representative sample evidence.'],['Choose product architecture by the missing function','Match adapters, AI Boxes, Smart Car Screens or other routes to the verified buyer need and their distinct prerequisites.'],['Create a distributor fitment record','Tie approved claims to the configuration, evidence status, test date and product revision actually checked.']],
+    faq:[
+      ['Do electric cars support wireless CarPlay?','Some do, and some configurations may use USB. Check the exact vehicle equipment and owner’s manual; the powertrain alone does not answer this.'],
+      ['Can I use an adapter if my EV already has wireless CarPlay?','Usually there is no reason to add a conversion adapter if native wireless CarPlay meets the need. Verify any separate function for the exact product and vehicle.'],
+      ['Will a USB-C port make an EV compatible?','No. Connector shape and charging capability do not prove that the port supports the required CarPlay data connection.'],
+      ['Can an adapter add CarPlay if my EV has no factory CarPlay?','Do not assume so. A standard wireless adapter is generally evaluated against an existing compatible CarPlay host. Assess another architecture if that host is absent.'],
+      ['Is the same fitment note valid for every trim and year?','Not without evidence. Limit claims to configurations checked and re-evaluate relevant vehicle or accessory software changes.']
+    ],
+    relatedLinks:[['Wireless CarPlay Without Factory Wired CarPlay','/blog/wireless-carplay-without-factory-wired-carplay/'],['Wireless Adapter vs Built-In Wireless CarPlay','/blog/wireless-carplay-adapter-vs-built-in-wireless-carplay/']],
+    cta:{eyebrow:'Vehicle fitment',title:'Need a fitment answer for a specific EV?',body:'Share its model year, trim, market, infotainment details and the port tested. We will scope the product prerequisites and evidence still needed.',label:'Request an EV compatibility review',href:'https://trolink-tek.com/#quote'}
+  },
+  {
     slug:'zero-failure-reliability-test-interpretation-automotive-electronics',category:'Quality control',date:'October 17, 2026',publishAt:'2026-10-17T14:03:20+08:00',updatedAt:'2026-10-17T14:03:20+08:00',author:'TrolinkTek Editorial Team',
     title:'What Zero-Failure Testing Can—and Cannot—Prove About Automotive Electronics',metaTitle:'Zero-Failure Reliability Testing: How to Read the Evidence',
     excerpt:'Interpret zero-failure test results with a one-sided confidence bound, explicit assumptions and a practical worksheet—without turning a small sample into a production reliability guarantee.',
