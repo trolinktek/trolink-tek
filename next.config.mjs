@@ -2,7 +2,7 @@ import { existsSync, readdirSync } from 'node:fs';
 import { relative, resolve, sep } from 'node:path';
 
 const root = process.cwd();
-const ignored = new Set(['.git', '.next', 'dist', 'node_modules', 'public']);
+const ignored = new Set(['.git', '.next', 'dist', 'node_modules', 'public', 'temp', 'research', 'source-materials', 'output', 'qa-prelaunch']);
 
 function collectLegacyPages(directory, pages = []) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {

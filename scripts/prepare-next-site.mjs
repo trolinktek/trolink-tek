@@ -1,10 +1,11 @@
 import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { dirname, relative, resolve, sep } from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 const root = process.cwd();
 const publicDir = resolve(root, 'public');
 const legacyDir = resolve(publicDir, '_legacy');
-const ignored = new Set(['.git', '.next', 'dist', 'node_modules', 'public']);
+const ignored = new Set(['.git', '.next', 'dist', 'node_modules', 'public', 'temp', 'research', 'source-materials', 'output', 'qa-prelaunch']);
 
 function copyHtmlPages(directory) {
   for (const entry of readdirSync(directory, { withFileTypes: true })) {
@@ -35,5 +36,8 @@ for (const file of ['favicon.ico', 'robots.txt', 'sitemap.xml']) {
   const source = resolve(root, file);
   if (existsSync(source)) copyFileSync(source, resolve(publicDir, file));
 }
+
+const prerender = spawnSync(process.execPath, [resolve(root, 'scripts/prerender-content.mjs')], { cwd: root, stdio: 'inherit' });
+if (prerender.status !== 0) throw new Error('SEO HTML pre-rendering failed.');
 
 console.log('Prepared legacy pages and static assets for Next.js.');
