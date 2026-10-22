@@ -16,7 +16,7 @@ const steps = [
   ['05','Delivery','QC and ongoing support','/assets/oem-process-delivery.webp']
 ];
 const banners = [
-  ['/assets/home-company-strength-hero-production.webp?v=20261021-right-photo-v1','TrolinkTek Shenzhen manufacturing facility, wireless engineering expertise and global production capacity'],
+  ['/assets/home-company-strength-hero-production.webp?v=20261022-authentic-worker-v3','TrolinkTek Shenzhen manufacturing facility with an employee assembling electronics on the production line'],
   ['/assets/carplay-dongle-exclusive-sales-banner.png?v=20260813-assets-reload2','TrolinkTek CarPlay dongles and wireless adapters for exclusive B2B sales'],
   ['/assets/banner-3in1-ai-box.png?v=20260813-assets-reload2','TrolinkTek 3 in 1 Android AI Box for CarPlay and Android Auto'],
   ['/assets/connected-drive-banner-v2.png?v=20260813-assets-reload2','Connected CarPlay experience with the new crystal wireless adapter'],
