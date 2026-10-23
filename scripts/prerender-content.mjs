@@ -62,6 +62,7 @@ function pageFrame(sourceHtml, title, description, canonical, body, jsonLd = '',
   else html = html.replace('</head>', `<meta name="description" content="${escapeHtml(description)}"></head>`);
   if (/<link\s+rel=["']canonical["'][^>]*>/i.test(html)) html = html.replace(/<link\s+rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${escapeHtml(canonical)}">`);
   else html = html.replace('</head>', `<link rel="canonical" href="${escapeHtml(canonical)}"></head>`);
+  if (!/<style[^>]+id=["']ssr-fallback-style["']/i.test(html)) html = html.replace('</head>', `<style id="ssr-fallback-style">.ssr-seo-content{min-height:100vh;background:#fff;color:#0a1830;font-family:Manrope,Arial,sans-serif}.ssr-seo-content .header{height:76px;display:flex;align-items:center;gap:32px;padding:0 max(24px,calc((100vw - 1240px)/2));background:#06172d;color:#fff}.ssr-seo-content .brand{margin-right:auto}.ssr-seo-content .brand img{width:190px;max-height:44px;object-fit:contain;filter:brightness(0) invert(1)}.ssr-seo-content nav{display:flex;gap:24px;font-size:14px}.ssr-seo-content nav a{color:#fff}.ssr-seo-content .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:6px;background:#0869ff;color:#fff;font-weight:700}.ssr-seo-content .ssr-content{max-width:1240px;margin:0 auto;padding:90px 28px 120px}.ssr-seo-content .ssr-content .section-label{color:#0869ff;font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.ssr-seo-content .ssr-content h1{max-width:900px;margin:14px 0 20px;font-size:clamp(38px,5vw,64px);line-height:1.05;letter-spacing:-.045em}.ssr-seo-content .ssr-content>p{max-width:760px;color:#627086;font-size:17px;line-height:1.75}.ssr-seo-content .ssr-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}.ssr-seo-content .ssr-links a{color:#0869ff;font-weight:700}.ssr-seo-content footer{padding:44px max(24px,calc((100vw - 1240px)/2));background:#030e1c;color:#8fa0b7;font-size:12px}@media(max-width:760px){.ssr-seo-content .header{height:auto;min-height:68px;padding:14px 20px;flex-wrap:wrap;gap:16px}.ssr-seo-content nav{order:3;width:100%;justify-content:space-between;gap:12px;font-size:12px}.ssr-seo-content .header>.btn{margin-left:auto}.ssr-seo-content .ssr-content{padding:58px 22px 84px}}</style></head>`);
   if (jsonLd && !preserveExistingArticle) html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script></head>`);
   if (!preserveExistingArticle) {
     const mount = html.match(/<div\s+id=["']([^"']+)["']\s*>\s*<\/div>/i)?.[1];
@@ -77,11 +78,7 @@ function genericBody(sourceHtml, sourceFile, description, title) {
   const source = scriptFile && existsSync(scriptFile) ? readFileSync(scriptFile, 'utf8') : '';
   const h1Raw = source.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1];
   const h1 = stripHtml(h1Raw) || title.replace(/\s*[|–-]\s*TrolinkTek.*$/i, '').trim();
-  const headings = [...source.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi)].map(match => stripHtml(match[1])).filter(Boolean);
-  const paragraphs = [...source.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(match => stripHtml(match[1])).filter(text => text.length > 45 && !text.includes('${'));
-  const sections = headings.slice(0, 8).map(heading => `<li>${escapeHtml(heading)}</li>`).join('');
-  const supportingText = [...new Set(paragraphs)].slice(0, 10).map(text => `<p>${escapeHtml(text)}</p>`).join('');
-  return `<main><header><h1>${escapeHtml(h1)}</h1><p>${escapeHtml(description)}</p></header>${sections ? `<section><h2>On this page</h2><ul>${sections}</ul></section>` : ''}<section><h2>Page overview</h2>${supportingText || `<p>${escapeHtml(description)}</p>`}</section></main>`;
+  return `<header class="header"><a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a><nav><a href="/products/">Products</a><a href="/oem-odm/">OEM/ODM</a><a href="/solutions/">Solutions</a><a href="/blog/">Blog</a><a href="/about/">About</a></nav><a class="btn" href="/#quote">Contact</a></header><main class="ssr-content"><p class="section-label">TrolinkTek</p><h1>${escapeHtml(h1)}</h1><p>${escapeHtml(description)}</p><div class="ssr-links"><a href="/products/">Explore products</a><a href="/oem-odm/">Discuss an OEM/ODM project</a><a href="/#quote">Contact our team</a></div></main><footer>Shenzhen TrolinkTek Technology Co., Ltd. · Connected-drive products engineered for your market.</footer>`;
 }
 
 function articleBody(post) {
@@ -98,6 +95,15 @@ function productBody(product) {
   const specs = (product.specs || []).map(spec => `<div><dt>${escapeHtml(spec.label)}</dt><dd>${escapeHtml(spec.value)}</dd></div>`).join('');
   const gallery = [...new Set([product.image, ...(product.gallery || [])])].map((image, index) => `<img src="${escapeHtml(image)}" alt="${escapeHtml(product.title)} official product image ${index + 1}" loading="lazy">`).join('');
   return `<main><article><header><p>${escapeHtml(product.category)}</p><h1>${escapeHtml(product.title)}</h1><p>Review the published specifications and official product images. Confirm current compatibility, availability and customization scope with TrolinkTek before ordering.</p><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)} product image"></header><section><h2>Published specifications</h2><dl>${specs || `<div><dt>Specifications</dt><dd>Request the current specification sheet.</dd></div>`}</dl></section><section><h2>Official product gallery</h2>${gallery}</section><section><h2>Request product details</h2><p>Ask for the latest specification sheet, compatibility information and OEM/ODM options for your market.</p><a href="/oem-odm/">Discuss an OEM/ODM project</a> · <a href="/#quote">Contact TrolinkTek</a></section></article></main>`;
+}
+
+function productsCatalogBody() {
+  const visibleProducts = catalogProducts.filter(product => !['Bluetooth Adapters', 'WiFi Dongles', 'Wireless Modules'].includes(product.category));
+  const cards = visibleProducts.map(product => {
+    const url = product.local_url || `/products/catalog/${product.slug}/`;
+    return `<article class="catalog-card"><a class="catalog-image" href="${escapeHtml(url)}"><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.title)}" loading="lazy"><span>${escapeHtml(product.category)}</span></a><div><h3>${escapeHtml(product.title)}</h3><p>Specifications and availability should be confirmed for your project.</p><div class="card-links"><a href="${escapeHtml(url)}">View details →</a></div></div></article>`;
+  }).join('');
+  return `<header class="header"><a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a><nav><a class="active" href="/products/">Products</a><a href="/oem-odm/">OEM/ODM</a><a href="/solutions/">Solutions</a><a href="/blog/">Blog</a><a href="/about/">About</a></nav><a class="btn small" href="/#quote">Get a Quote</a></header><main><section class="catalog-hero"><div><div class="crumb"><a href="/">Home</a><span>/</span><span>Products</span></div><h1>TrolinkTek CarPlay Adapters, AI Boxes and Smart Car Screens</h1><p>Explore automotive connectivity and wireless hardware platforms from TrolinkTek. Shortlist a model, then discuss specifications, supply and OEM/ODM options.</p><div class="actions"><a class="btn" href="#catalog">Browse Products</a><a class="btn ghost" href="/oem-odm/">Discuss OEM/ODM</a></div></div><img src="/assets/products-apple-color-carplay-banner.png" alt="TrolinkTek connected-car product platforms"></section><section class="catalog" id="catalog"><div class="catalog-side"><p class="section-label">Product center</p><h2>Find the right platform.</h2><p>Compare product categories and open a model page for published specifications and images.</p></div><div class="catalog-results"><div class="results-head"><div><h2>All Products</h2><p>Complete local product catalog from TrolinkTek.</p></div><b>${visibleProducts.length} products</b></div><div class="product-catalog-grid">${cards}</div></div></section><section class="catalog-cta"><div><p class="section-label light">Need help selecting?</p><h2>Send us your target market and product requirements.</h2><p>Ask for a product shortlist, compatibility review or current specification sheet.</p></div><a class="btn" href="/#quote">Request a Product Recommendation</a></section></main><footer><div class="footer-brand"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"><p>Connected-drive products engineered for your market.</p></div><div><b>Products</b><a href="/products/">Product catalog</a><a href="/downloads/">Downloads</a></div><div><b>Partnership</b><a href="/oem-odm/">OEM/ODM</a><a href="/solutions/">Solutions</a></div><div><b>Contact</b><a href="/#quote">Request a recommendation</a></div><p class="copyright">Shenzhen TrolinkTek Technology Co., Ltd. &copy; All Rights Reserved.</p></footer>`;
 }
 
 function renderPage(sourceFile) {
@@ -146,6 +152,10 @@ function renderPage(sourceFile) {
     }
   }
 
+  if (route === '/products/') {
+    body = productsCatalogBody();
+    title = 'Products | CarPlay Adapters, AI Boxes & Smart Screens | TrolinkTek';
+  }
   if (!body && !preserveExistingArticle) body = genericBody(sourceHtml, sourceFile, description, title);
   writeFileSync(destination, pageFrame(sourceHtml, title, description, canonical, body, schema, preserveExistingArticle), 'utf8');
   return true;
