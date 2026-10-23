@@ -54,7 +54,7 @@ function walk(directory, files = []) {
 }
 
 function metaValue(html, expression, fallback = '') { return html.match(expression)?.[1] || fallback; }
-function pageFrame(sourceHtml, title, description, canonical, body, jsonLd = '') {
+function pageFrame(sourceHtml, title, description, canonical, body, jsonLd = '', preserveExistingArticle = false) {
   let html = sourceHtml;
   if (/<title>[\s\S]*?<\/title>/i.test(html)) html = html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${escapeHtml(title)}</title>`);
   else html = html.replace('</head>', `<title>${escapeHtml(title)}</title></head>`);
@@ -62,10 +62,12 @@ function pageFrame(sourceHtml, title, description, canonical, body, jsonLd = '')
   else html = html.replace('</head>', `<meta name="description" content="${escapeHtml(description)}"></head>`);
   if (/<link\s+rel=["']canonical["'][^>]*>/i.test(html)) html = html.replace(/<link\s+rel=["']canonical["'][^>]*>/i, `<link rel="canonical" href="${escapeHtml(canonical)}">`);
   else html = html.replace('</head>', `<link rel="canonical" href="${escapeHtml(canonical)}"></head>`);
-  if (jsonLd) html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script></head>`);
-  const mount = html.match(/<div\s+id=["']([^"']+)["']\s*>\s*<\/div>/i)?.[1];
-  if (mount) html = html.replace(new RegExp(`<div\\s+id=["']${mount}["']\\s*>\\s*<\\/div>`, 'i'), `<div id="${mount}"><div class="ssr-seo-content">${body}</div></div>`);
-  else html = html.replace(/<body([^>]*)>/i, `<body$1><div class="ssr-seo-content">${body}</div>`);
+  if (jsonLd && !preserveExistingArticle) html = html.replace('</head>', `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script></head>`);
+  if (!preserveExistingArticle) {
+    const mount = html.match(/<div\s+id=["']([^"']+)["']\s*>\s*<\/div>/i)?.[1];
+    if (mount) html = html.replace(new RegExp(`<div\\s+id=["']${mount}["']\\s*>\\s*<\\/div>`, 'i'), `<div id="${mount}"><div class="ssr-seo-content">${body}</div></div>`);
+    else html = html.replace(/<body([^>]*)>/i, `<body$1><div class="ssr-seo-content">${body}</div>`);
+  }
   return html;
 }
 
@@ -106,7 +108,7 @@ function renderPage(sourceFile) {
   let sourceHtml = readFileSync(destination, 'utf8');
   const originalTitle = metaValue(sourceHtml, /<title>([\s\S]*?)<\/title>/i, 'TrolinkTek | Connected-car products');
   let description = metaValue(sourceHtml, /<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i, 'Connected-car products, engineering support and OEM/ODM programs from TrolinkTek.');
-  let title = originalTitle, canonical = `${site}${route}`, body, schema = null;
+  let title = originalTitle, canonical = `${site}${route}`, body, schema = null, preserveExistingArticle = false;
   const articleMatch = route.match(/^\/blog\/([^/]+)\/$/);
   const manualMatch = route.match(/^\/downloads\/([^/]+)\/$/);
   const productMatch = route.match(/^\/products\/catalog\/([^/]+)\/$/);
@@ -120,9 +122,12 @@ function renderPage(sourceFile) {
     if (post) {
       title = post.metaTitle || `${post.title} | TrolinkTek Blog`;
       description = post.excerpt;
-      body = articleBody(post);
-      schema = {'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,image:new URL(post.image,site).href,datePublished:post.publishAt || post.date,dateModified:post.updatedAt || post.publishAt || post.date,author:{'@type':'Organization',name:post.author || 'TrolinkTek Editorial Team'},publisher:{'@type':'Organization',name:'TrolinkTek',logo:{'@type':'ImageObject',url:`${site}/assets/trolinktek-logo.png`}},mainEntityOfPage:{'@type':'WebPage','@id':canonical}};
-      if (post.faq?.length) schema = {'@context':'https://schema.org','@graph':[schema,{'@type':'FAQPage',mainEntity:post.faq.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}))}]};
+      preserveExistingArticle = /<main[^>]*>[\s\S]*?<article\b/i.test(sourceHtml) && /<script\s+type=["']application\/ld\+json["']/i.test(sourceHtml);
+      if (!preserveExistingArticle) {
+        body = articleBody(post);
+        schema = {'@context':'https://schema.org','@type':'BlogPosting',headline:post.title,description:post.excerpt,image:new URL(post.image,site).href,datePublished:post.publishAt || post.date,dateModified:post.updatedAt || post.publishAt || post.date,author:{'@type':'Organization',name:post.author || 'TrolinkTek Editorial Team'},publisher:{'@type':'Organization',name:'TrolinkTek',logo:{'@type':'ImageObject',url:`${site}/assets/trolinktek-logo.png`}},mainEntityOfPage:{'@type':'WebPage','@id':canonical}};
+        if (post.faq?.length) schema = {'@context':'https://schema.org','@graph':[schema,{'@type':'FAQPage',mainEntity:post.faq.map(([question,answer])=>({'@type':'Question',name:question,acceptedAnswer:{'@type':'Answer',text:answer}}))}]};
+      }
     }
   } else if (productMatch) {
     const product = catalogProducts.find(item => item.slug === productMatch[1]);
@@ -141,8 +146,8 @@ function renderPage(sourceFile) {
     }
   }
 
-  if (!body) body = genericBody(sourceHtml, sourceFile, description, title);
-  writeFileSync(destination, pageFrame(sourceHtml, title, description, canonical, body, schema), 'utf8');
+  if (!body && !preserveExistingArticle) body = genericBody(sourceHtml, sourceFile, description, title);
+  writeFileSync(destination, pageFrame(sourceHtml, title, description, canonical, body, schema, preserveExistingArticle), 'utf8');
   return true;
 }
 
