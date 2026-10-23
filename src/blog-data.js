@@ -1,6 +1,6 @@
 export const blogPosts=[
   {
-    slug:'carplay-ai-box-rental-fleet-pilot-guide',category:'Vehicle applications',date:'October 23, 2026',publishAt:'2026-10-23T11:11:00+08:00',updatedAt:'2026-10-23T11:11:00+08:00',author:'TrolinkTek Editorial Team',
+    slug:'carplay-ai-box-rental-fleet-pilot-guide',category:'Vehicle applications',date:'October 23, 2026',publishAt:'2026-10-23T11:38:31+08:00',updatedAt:'2026-10-23T11:38:31+08:00',author:'TrolinkTek Editorial Team',
     title:'CarPlay AI Box for Rental Fleets: How to Plan a Controlled Pilot',metaTitle:'CarPlay AI Box for Rental Fleets: Pilot Guide | TrolinkTek',
     excerpt:'Evaluate a CarPlay AI Box for rental fleets by checking factory wired CarPlay prerequisites, customer handoff, account cleanup, support ownership and a controlled vehicle pilot.',
     image:'/assets/blog/carplay-ai-box-rental-fleet-pilot-guide.webp',imageAlt:'Unbranded CarPlay AI Box, vehicle key fob and tablet on a dark-blue rental vehicle evaluation bench',readTime:'14 min read',contentPath:'/content/blog-articles/carplay-ai-box-rental-fleet-pilot-guide.md',primaryKeyword:'CarPlay AI Box for rental fleets',secondaryKeywords:['rental fleet CarPlay AI Box pilot','factory wired CarPlay vehicle eligibility','rental car device handoff','shared-vehicle account reset','fleet infotainment support workflow'],
