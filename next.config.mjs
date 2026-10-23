@@ -13,10 +13,9 @@ function collectLegacyPages(directory, pages = []) {
     } else if (entry.isFile() && entry.name === 'index.html') {
       const rel = relative(root, absolute).split(sep).join('/');
       const route = rel === 'index.html' ? '/' : `/${rel.replace(/\/index\.html$/, '')}`;
-      pages.push({
-        source: route,
-        destination: rel === 'index.html' ? '/_legacy/index.html' : `/_legacy/${rel}`
-      });
+      const destination = rel === 'index.html' ? '/_legacy/index.html' : `/_legacy/${rel}`;
+      pages.push({ source: route, destination });
+      if (route !== '/') pages.push({ source: `${route}/`, destination });
     }
   }
   return pages;
@@ -28,6 +27,7 @@ const legacyRewrites = existsSync(resolve(root, 'index.html')) ? collectLegacyPa
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
+  skipTrailingSlashRedirect: true,
   async rewrites() {
     return { beforeFiles: legacyRewrites, afterFiles: [], fallback: [] };
   }
