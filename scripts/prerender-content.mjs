@@ -18,12 +18,13 @@ const inline = value => escapeHtml(value)
 
 function markdownToHtml(markdown) {
   const lines = markdown.replace(/^---[\s\S]*?---\s*/, '').split(/\n## Image plan\b/)[0].split(/\r?\n/);
+  if (/^#\s/.test(lines[0] || '')) lines.shift();
   let html = '', list = '', table = [];
   const closeList = () => { if (list) { html += `</${list}>`; list = ''; } };
   const flushTable = () => {
     if (!table.length) return;
     const rows = table.filter(row => !row.every(cell => /^:?-+:?$/.test(cell.trim())));
-    if (rows.length > 1) html += `<div class="ssr-table-wrap"><table><thead><tr>${rows[0].map(cell => `<th>${inline(cell.trim())}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(row => `<tr>${row.map(cell => `<td>${inline(cell.trim())}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    if (rows.length > 1) html += `<div class="article-table-wrap"><table><thead><tr>${rows[0].map(cell => `<th>${inline(cell.trim())}</th>`).join('')}</tr></thead><tbody>${rows.slice(1).map(row => `<tr>${row.map(cell => `<td>${inline(cell.trim())}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     table = [];
   };
   for (const raw of lines) {
@@ -85,10 +86,16 @@ function articleBody(post) {
   const path = post.contentPath ? join(root, post.contentPath.replace(/^\//, '')) : '';
   const markdown = path && existsSync(path) ? readFileSync(path, 'utf8') : '';
   const content = markdown ? markdownToHtml(markdown) : `<p>${escapeHtml(post.intro || post.excerpt)}</p>${(post.sections || []).map(section => `<section><h2>${escapeHtml(section[0])}</h2><p>${escapeHtml(section[1])}</p></section>`).join('')}`;
-  const faq = post.faq?.length ? `<section><h2>Frequently asked questions</h2>${post.faq.map(([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`).join('')}</section>` : '';
-  const related = blogPosts.filter(item => item.slug !== post.slug).slice(0, 3);
+  const hasMarkdownFaq = /^##\s+(?:FAQ|Frequently asked questions)\s*$/im.test(markdown);
+  const faq = post.faq?.length && !hasMarkdownFaq ? `<section><h2>Frequently asked questions</h2>${post.faq.map(([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`).join('')}</section>` : '';
+  const requestedRelated = post.relatedLinks?.map(([title, url]) => {
+    const slug = url.split('/').filter(Boolean).pop();
+    const item = blogPosts.find(candidate => candidate.slug === slug);
+    return item ? {...item, title} : null;
+  }).filter(Boolean).slice(0, 3);
+  const related = requestedRelated?.length ? requestedRelated : blogPosts.filter(item => item.slug !== post.slug).slice(0, 3);
   const relatedHtml = `<nav aria-label="Related articles"><h2>Related articles</h2><ul>${related.map(item => `<li><a href="/blog/${escapeHtml(item.slug)}/">${escapeHtml(item.title)}</a></li>`).join('')}</ul></nav>`;
-  return `<main><article><header><p>${escapeHtml(post.category)} · ${escapeHtml(post.date)} · ${escapeHtml(post.readTime)}</p><h1>${escapeHtml(post.title)}</h1><p>${escapeHtml(post.intro || post.excerpt)}</p><img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt || post.title)}"></header><div class="article-content">${content}${faq}</div><aside><a href="/products/">Explore products</a> · <a href="/oem-odm/">Discuss an OEM/ODM project</a> · <a href="/#quote">Contact TrolinkTek</a></aside>${relatedHtml}</article></main>`;
+  return `<main><article><header><p>${escapeHtml(post.category)} · ${escapeHtml(post.date)} · ${escapeHtml(post.readTime)}</p><h1>${escapeHtml(post.title)}</h1><p>${escapeHtml(post.intro || post.excerpt)}</p><p class="article-byline">By ${escapeHtml(post.author || 'TrolinkTek Editorial Team')} · Published ${escapeHtml(post.date)} · Updated ${escapeHtml(post.updatedAt || post.date)}</p><img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt || post.title)}"></header><div class="article-longform">${content}${faq}</div><aside><a href="/products/">Explore products</a> · <a href="/oem-odm/">Discuss an OEM/ODM project</a> · <a href="/#quote">Contact TrolinkTek</a></aside>${relatedHtml}</article></main>`;
 }
 
 function productBody(product) {

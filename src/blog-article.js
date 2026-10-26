@@ -14,6 +14,7 @@ const inline=s=>esc(s)
   .replace(/`([^`]+)`/g,'<code>$1</code>');
 function markdownToHtml(markdown){
   const lines=markdown.replace(/^---[\s\S]*?---\s*/,'').split(/\n## Image plan\b/)[0].split(/\r?\n/);
+  if(/^#\s/.test(lines[0]||''))lines.shift();
   let html='',list='',table=[];
   const close=()=>{if(list){html+=`</${list}>`;list=''}};
   const flush=()=>{if(!table.length)return;const rows=table.filter(r=>!r.every(c=>/^:?-+:?$/.test(c.trim())));if(rows.length>1)html+='<div class="article-table-wrap"><table><thead><tr>'+rows[0].map(c=>`<th>${inline(c.trim())}</th>`).join('')+'</tr></thead><tbody>'+rows.slice(1).map(r=>'<tr>'+r.map(c=>`<td>${inline(c.trim())}</td>`).join('')+'</tr>').join('')+'</tbody></table></div>';table=[]};
