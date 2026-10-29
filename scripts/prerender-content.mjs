@@ -1,4 +1,4 @@
-import {existsSync, readFileSync, readdirSync, writeFileSync} from 'node:fs';
+import {existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync} from 'node:fs';
 import {join, relative, resolve, sep} from 'node:path';
 import {blogPosts} from '../src/blog-data.js';
 import {products as catalogProducts} from '../src/products-full-data.js';
@@ -167,6 +167,17 @@ function renderPage(sourceFile) {
   if (!body && !preserveExistingArticle) body = genericBody(sourceHtml, sourceFile, description, title);
   writeFileSync(destination, pageFrame(sourceHtml, title, description, canonical, body, schema, preserveExistingArticle), 'utf8');
   return true;
+}
+
+// Every blogPosts entry must have a physical route for the static host and
+// sitemap to serve. Previously the renderer only walked existing index.html
+// files, so newly added articles appeared in the listing/sitemap but had no page.
+for (const post of blogPosts) {
+  const articleRoute = join(root, 'blog', post.slug, 'index.html');
+  if (!existsSync(articleRoute)) {
+    mkdirSync(join(root, 'blog', post.slug), {recursive: true});
+    writeFileSync(articleRoute, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(post.title)}</title><meta name="description" content="${escapeHtml(post.excerpt)}"><link rel="canonical" href="${site}/blog/${escapeHtml(post.slug)}/"><link rel="stylesheet" href="/src/style.css"><link rel="stylesheet" href="/src/blog-article.css"><link rel="stylesheet" href="/src/blog-longform.css"></head><body><header class="header"><a class="brand" href="/"><img src="/assets/trolinktek-logo.png" alt="TrolinkTek"></a><nav><a href="/products/">Products</a><a href="/oem-odm/">OEM/ODM</a><a href="/solutions/">Solutions</a><a class="active" href="/blog/">Blog</a><a href="/about/">About</a></nav><a class="btn small" href="/#quote">Contact</a></header><div id="article-root"></div><footer><a href="/blog/">Blog</a> · <a href="/oem-odm/">OEM/ODM</a> · <a href="/#quote">Contact</a></footer></body></html>\n`, 'utf8');
+  }
 }
 
 let prerendered = 0;
