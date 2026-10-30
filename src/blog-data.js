@@ -1,4 +1,114 @@
 export const blogPosts=[
+{
+  "slug": "automotive-electronics-slow-moving-inventory-decisions",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "October 30, 2026",
+  "publishAt": "2026-10-30T19:12:59+08:00",
+  "updatedAt": "2026-10-30T19:12:59+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "title": "Slow-Moving Automotive Electronics Inventory: Hold, Reconfigure, Discount, or Exit?",
+  "metaTitle": "Slow-Moving Automotive Electronics Inventory | TrolinkTek",
+  "excerpt": "Decide whether to hold, reconfigure, discount or exit slow-moving automotive electronics stock using configuration evidence and a cash recovery worksheet.",
+  "image": "/assets/blog/automotive-electronics-slow-moving-inventory-decisions.png",
+  "imageAlt": "Warehouse specialist reviewing unbranded AI box modules, portable smart screens, mounting kits and cables in separate navy inventory trays",
+  "readTime": "11 min read",
+  "contentPath": "/content/blog-articles/automotive-electronics-slow-moving-inventory-decisions.md",
+  "primaryKeyword": "automotive electronics slow moving inventory management",
+  "secondaryKeywords": [
+    "distributor inventory aging",
+    "automotive electronics stock disposition",
+    "CarPlay AI Box inventory",
+    "portable smart screen inventory",
+    "inventory cash recovery worksheet"
+  ],
+  "intro": "Slow-moving automotive electronics inventory should be reviewed by product configuration, saleable condition, verified demand and remaining support scope before a distributor chooses to hold, reconfigure, discount or exit it. Age is a useful trigger for investigation; it is not a sufficient reason to cut the price. First separate blocked or uncertain stock from approved goods. Then compare the cash that each feasible route could recover after inspection, rework, channel costs, returns and support. Assign a decision owner, a bounded quantity and a review date. This approach helps importers and private-label brands make an inventory decision without disguising unsupported products as clearance bargains. It applies across CarPlay AI Boxes, portable smart screens and connectivity accessories, with different qualification requirements for each category.",
+  "sections": [
+    [
+      "Define the stock problem before choosing a promotion",
+      "Distinguish slow movement, obsolescence and physical configuration."
+    ],
+    [
+      "Build one reliable inventory view",
+      "Reconcile quantities, ownership, condition and support."
+    ],
+    [
+      "Diagnose why the product stopped moving",
+      "Separate price barriers from application, package and support gaps."
+    ],
+    [
+      "Compare four disposition routes",
+      "Evaluate hold, reconfigure, discount and exit decisions."
+    ],
+    [
+      "Use cash recovery scenarios without hiding support costs",
+      "Record incremental consequences with uncertainty."
+    ],
+    [
+      "Illustrative scenario: portable screens with the wrong channel fit",
+      "Qualify a revised application before reconfiguring stock."
+    ],
+    [
+      "Put the decision before a small buying committee",
+      "Assign scope, owners, review dates and stop conditions."
+    ]
+  ],
+  "checklist": [
+    "Reconcile physical quantities and ownership",
+    "Separate blocked, committed and service stock",
+    "Identify hardware, firmware and regional configuration",
+    "Verify condition, support and destination demand",
+    "Compare feasible recovery routes on equal scope",
+    "Record incremental work, returns and support assumptions",
+    "Approve bounded quantity, owners and review date",
+    "Review sell-through and realized recovery"
+  ],
+  "faq": [
+    [
+      "How old must stock be before it is slow-moving?",
+      "Define a consistent review window using sales cycles, support horizons and observed movement; no universal threshold applies."
+    ],
+    [
+      "Should a distributor discount all older CarPlay AI Boxes?",
+      "First verify saleable condition, configuration, host prerequisites, support scope and demand. Use an approved channel that can support the goods."
+    ],
+    [
+      "Can older stock be relabeled as the current model?",
+      "Do not imply equivalence without approved evidence, authorization, traceability and review of affected requirements."
+    ],
+    [
+      "Should service stock be included in a clearance campaign?",
+      "Keep service allocations separately approved and evaluate after-sales consequences before releasing them to sales."
+    ],
+    [
+      "What should management approve?",
+      "Approve stock scope, destination, recovery assumptions, incremental budget, owners, review date and stop conditions."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Connected-Car Product Mix for Distributors",
+      "/blog/connected-car-product-mix-distributors/"
+    ],
+    [
+      "Distributor Incentive Program Design",
+      "/blog/automotive-electronics-distributor-incentive-program/"
+    ],
+    [
+      "Product Discontinuation Planning",
+      "/blog/wireless-carplay-adapter-product-discontinuation-planning/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Qualified channel assortment",
+    "title": "Define the next assortment around a supported application.",
+    "body": "Share your product category, target channel, installation context and support expectations to discuss a future private-label program.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/oem-odm/"
+  },
+  "funnel": "BOFU"
+},
+
   {
     slug:'automotive-electronics-second-source-qualification-framework',category:'OEM / ODM',date:'October 27, 2026',publishAt:'2026-10-27T19:00:00+08:00',updatedAt:'2026-10-27T19:00:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Second-Source Qualification for Automotive Electronics: A Buyer’s Approval Framework',metaTitle:'Automotive Electronics Second-Source Qualification | TrolinkTek',
