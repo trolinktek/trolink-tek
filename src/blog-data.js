@@ -1,5 +1,123 @@
 export const blogPosts=[
 {
+  "slug": "private-label-smart-car-screen-kit-architecture",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "October 31, 2026",
+  "publishAt": "2026-10-31T19:05:30+08:00",
+  "updatedAt": "2026-10-31T19:05:30+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "title": "Private-Label Smart Car Screens: Standard Kit or Regional Accessory Bundles?",
+  "metaTitle": "Private-Label Smart Car Screen Kit Architecture | TrolinkTek",
+  "excerpt": "Choose a standard Smart Car Screen kit or regional accessory bundles with a controlled kit BOM, cost comparison, RFQ worksheet and service-part mapping.",
+  "image": "/assets/blog/private-label-smart-car-screen-kit-architecture.png",
+  "imageAlt": "Unbranded portable smart car screen in a navy fitted retail tray beside separate mounting, cable and reversing-camera accessory modules",
+  "readTime": "11 min read",
+  "contentPath": "/content/blog-articles/private-label-smart-car-screen-kit-architecture.md",
+  "primaryKeyword": "private label smart car screen kit",
+  "secondaryKeywords": [
+    "Smart Car Screen accessory bundles",
+    "portable CarPlay screen kit BOM",
+    "regional accessory configuration",
+    "smart screen OEM RFQ",
+    "smart screen replacement parts"
+  ],
+  "intro": "A private-label Smart Car Screen program should use a standard kit when the same approved display, mount, power supply, cables and instructions can serve the intended buyers without predictable installation gaps. Use regional or channel-specific accessory bundles when a documented difference changes what customers need to install and use the product. Keep those bundles separately identifiable, qualified and replenishable. Adding every accessory to every carton can increase complexity without improving fit; stripping the carton down can transfer cost and uncertainty to installers and support teams. The sourcing decision should therefore compare complete, usable configurations rather than screen-only quotations. This guide helps importers and private-label product managers choose a kit architecture, assign configuration ownership and prepare an RFQ that suppliers can quote consistently.",
+  "sections": [
+    [
+      "Define the product being ordered",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Compare three kit architectures",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Separate installation differences from marketing preferences",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Build a kit definition that purchasing can reuse",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Compare costs at the usable-kit level",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Use a decision worksheet before releasing the RFQ",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Illustrative scenario: online retail and installation partners",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Control substitutions, replenishment and service",
+      "Match the kit configuration to verified installation and channel needs."
+    ],
+    [
+      "Limits of this framework",
+      "Match the kit configuration to verified installation and channel needs."
+    ]
+  ],
+  "checklist": [
+    "Define a usable base kit",
+    "Document functional variations",
+    "Approve the kit BOM",
+    "Compare complete configurations",
+    "Map order and service identities",
+    "Pilot channel selection",
+    "Control accessory substitutions"
+  ],
+  "faq": [
+    [
+      "Is one standard kit always easier to manage?",
+      "It reduces the number of orderable configurations, but can create unused accessories or installation gaps. It works best when the same approved contents satisfy a clearly bounded use case across the intended channel."
+    ],
+    [
+      "Should every country receive a different Smart Car Screen bundle?",
+      "No. Create a variation when documented installation, documentation, channel or destination requirements justify it. Country names alone do not demonstrate that the hardware or accessory set must change."
+    ],
+    [
+      "Can an importer add locally sourced accessories?",
+      "Only after confirming technical suitability, responsibilities, pack-out identification and the evidence required for the complete offered configuration. Local sourcing should not bypass approval or make the original supplier responsible for unreviewed combinations."
+    ],
+    [
+      "Does a camera connector prove camera compatibility?",
+      "No. Ask for evidence covering the specified display, camera, cable and intended function. Confirm the supported interface and actual configuration rather than relying on connector appearance."
+    ],
+    [
+      "What should the buying committee approve?",
+      "Approve the kit architecture, controlled contents, channel scope, quotation assumptions, configuration owners and service route. Record any conditions that must close before a pilot or production order can proceed."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Smart Car Screen Audio Routing",
+      "/blog/portable-carplay-screen-audio-routing-guide/"
+    ],
+    [
+      "OEM/ODM Project Stage Gates",
+      "/blog/oem-odm-automotive-electronics-project-stage-gates/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Private-label kit planning",
+    "title": "Define the kit before comparing supplier quotations.",
+    "body": "Share your installation routes, channels, included accessories and language requirements to scope an OEM/ODM kit discussion.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/oem-odm/"
+  },
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product managers, importers, sourcing, operations, finance and after-sales teams"
+},
+
+{
   "slug": "carplay-ai-box-firmware-staged-rollout-decisions",
   "category": "Technical insight",
   "categoryLabel": "Technical insight",
