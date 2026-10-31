@@ -1,5 +1,119 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-firmware-staged-rollout-decisions",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "October 31, 2026",
+  "publishAt": "2026-10-31T14:01:57+08:00",
+  "updatedAt": "2026-10-31T14:01:57+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "title": "CarPlay AI Box Firmware Rollouts: When to Expand, Pause, or Recover",
+  "metaTitle": "CarPlay AI Box Firmware Rollout Decisions | TrolinkTek",
+  "excerpt": "Plan a staged CarPlay AI Box firmware rollout with device eligibility, release groups, pause rules and verified rollback or service recovery routes.",
+  "image": "/assets/blog/carplay-ai-box-firmware-staged-rollout-decisions.png",
+  "imageAlt": "Three unbranded AI box devices on navy engineering platforms, with one pilot unit connected to a display showing an abstract blue gradient",
+  "readTime": "11 min read",
+  "contentPath": "/content/blog-articles/carplay-ai-box-firmware-staged-rollout-decisions.md",
+  "primaryKeyword": "CarPlay AI Box firmware staged rollout",
+  "secondaryKeywords": [
+    "AI box firmware rollback",
+    "firmware release cohorts",
+    "OTA update eligibility",
+    "CarPlay AI Box recovery",
+    "firmware rollout pause criteria"
+  ],
+  "intro": "A CarPlay AI Box firmware rollout should expand only after a defined group of eligible devices completes the update and demonstrates the intended user workflows on its approved vehicle configurations. Start with a known software baseline, identify exactly which hardware and installed versions may receive the package, and agree on pause and recovery rules before release. An installation success message is not enough: the device must still reconnect, route audio, respond to controls and preserve or deliberately reset the correct settings. Importers and product managers should distinguish a rollout pause, an authorized software rollback and service recovery. These actions solve different problems, and a supplier may support only some of them. This guide explains how to make that release decision without assuming automatic updates, remote device management or unrestricted downgrades are available.",
+  "sections": [
+    [
+      "Define the release boundary before selecting a pilot group",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Separate pause, rollback, reset and recovery",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Use release groups that answer different questions",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Measure working devices, not just completed downloads",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Write expansion and pause rules before results arrive",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Build a release decision worksheet",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Illustrative scenario: a reconnect fix with an audio regression",
+      "Define reviewable evidence and release ownership."
+    ],
+    [
+      "Limits and supplier questions before a field release",
+      "Define reviewable evidence and release ownership."
+    ]
+  ],
+  "checklist": [
+    "Identify hardware and source builds",
+    "Verify package eligibility",
+    "Bound the recipient group",
+    "Approve pause criteria",
+    "Demonstrate supported recovery",
+    "Reconcile observed and unknown outcomes",
+    "Approve the next release boundary"
+  ],
+  "faq": [
+    [
+      "Should every customer receive an AI Box update immediately?",
+      "No universal rule applies. Confirm eligibility, urgency, evidence and support readiness. Optional improvements and urgent corrective releases may require different decisions approved by the responsible team."
+    ],
+    [
+      "Does a factory reset downgrade the firmware?",
+      "Do not assume so. Ask exactly which software, user data and configuration the reset changes. Use only the supplier's approved instructions for the identified device revision."
+    ],
+    [
+      "Does Android guarantee rollback on a CarPlay AI Box?",
+      "No. Platform documentation describes possible implementations. The device's update architecture, security settings and supported version paths determine what is available."
+    ],
+    [
+      "Can an importer stage releases without remote management?",
+      "Yes, if a controlled manual or service-partner route can bound recipients, record device identities, collect outcomes and withhold broader distribution. Confirm those capabilities before calling the release staged."
+    ],
+    [
+      "What should a product manager approve before expansion?",
+      "Approve the eligible population, evidence against agreed checks, unresolved limitations, recovery readiness, communication plan and next review trigger. Installation completion alone is insufficient."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "CarPlay AI Box Buying Guide",
+      "/blog/carplay-ai-box-buying-guide-importers/"
+    ],
+    [
+      "CarPlay AI Box Pre-Shipment Quality Control",
+      "/blog/carplay-ai-box-pre-shipment-quality-control/"
+    ],
+    [
+      "Privacy-Safe Diagnostic Logs",
+      "/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Release evidence",
+    "title": "Plan the evidence before expanding an AI Box firmware release.",
+    "body": "Share hardware revision, installed build, target host configurations and proposed change to scope a release-specific test matrix.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "funnel": "MOFU",
+  "targetBuyer": "Importer product managers, engineering, supplier-quality and after-sales teams"
+},
+
+{
   "slug": "automotive-electronics-slow-moving-inventory-decisions",
   "category": "Market strategy",
   "categoryLabel": "Market strategy",
