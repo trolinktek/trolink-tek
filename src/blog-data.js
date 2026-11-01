@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-connected-no-internet-diagnosis",
+  "title": "CarPlay AI Box Connected but No Internet: A Layer-by-Layer Diagnosis",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 1, 2026",
+  "publishAt": "2026-11-01T14:10:01+08:00",
+  "updatedAt": "2026-11-01T14:10:01+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Connected but No Internet: Diagnosis | TrolinkTek",
+  "excerpt": "Diagnose an AI Box that displays its launcher but cannot get online. Separate host, hotspot and app failures with a reproducible support worksheet.",
+  "image": "/assets/blog/carplay-ai-box-connected-no-internet-diagnosis.png",
+  "imageAlt": "Unbranded AI box connected to an automotive test display beside a smartphone and separate wireless router on a deep-blue engineering workbench",
+  "contentPath": "/content/blog-articles/carplay-ai-box-connected-no-internet-diagnosis.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "CarPlay AI Box connected but no internet",
+  "secondaryKeywords": [
+    "AI Box hotspot troubleshooting",
+    "AI Box internet connection",
+    "Android network validation",
+    "AI Box app connectivity",
+    "AI Box support worksheet"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer engineering and after-sales teams qualifying CarPlay AI Box network workflows",
+  "intro": "A CarPlay AI Box can appear on the vehicle display while its Android applications have no usable internet connection. The display connection, a local wireless link and access to an online service are separate conditions. Start by identifying which device runs the failing application and which device supplies its internet connection. Then verify the documented upstream route, compare independent online tasks and observe what changes after a restart or network transition. A Wi-Fi icon, working launcher or successful phone-projection session does not establish that applications running on the box can reach their services. For importer engineering and after-sales teams, the useful outcome is a reproducible failure boundary tied to the exact configuration, rather than an immediate firmware update or replacement recommendation.",
+  "sections": [
+    [
+      "Define the three connections before changing settings",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Separate evidence from familiar status icons",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Build a connection map for the exact SKU",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Diagnose from the narrowest observable boundary",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Treat reconnection as a separate support question",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Use a support worksheet that engineering can reproduce",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "An importer scenario: the showroom is not the customer network",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ],
+    [
+      "Limits and release decisions",
+      "Separate the observed failure boundary from assumptions about connectivity and retain the approved configuration."
+    ]
+  ],
+  "checklist": [
+    "Identify app execution location",
+    "Record the exact SKU and software baseline",
+    "Map the supported upstream route",
+    "Compare fresh online tasks",
+    "Reproduce the network transition",
+    "Assign a bounded support disposition"
+  ],
+  "faq": [
+    [
+      "Does a visible AI Box launcher prove internet access?",
+      "No. It establishes that an interface is displayed. Applications running on the box still need a supported upstream and access to their services."
+    ],
+    [
+      "Does the vehicle USB connection provide internet to every AI Box?",
+      "Do not assume so. Confirm the exact model's supported connection diagram and upstream requirements with the supplier."
+    ],
+    [
+      "Why can phone projection work while box applications are offline?",
+      "The phone and box can run applications in different operating environments and use different internet routes. Identify where the failing task executes before changing settings."
+    ],
+    [
+      "Should support immediately install different firmware?",
+      "No. Record the current baseline, network route, fresh-task result and controlled comparison first. Evaluate a proposed update under the supplier's documented change and recovery process."
+    ],
+    [
+      "Can one successful hotspot trial support a universal compatibility claim?",
+      "No. It supports only the recorded model, build, phone, service, settings and tasks. Extend the claim only with additional relevant evidence."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box Buying Guide for Importers",
+      "/blog/carplay-ai-box-buying-guide-importers/"
+    ],
+    [
+      "AI Box Firmware Rollout Decisions",
+      "/blog/carplay-ai-box-firmware-staged-rollout-decisions/"
+    ],
+    [
+      "Privacy-Safe Diagnostic Logs",
+      "/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Network workflow qualification",
+    "title": "Define the connection your customers will actually use.",
+    "body": "Share the model, host, intended upstream and failing task to scope startup, online-task and reconnection evidence.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "carplay-ai-box-non-touchscreen-rotary-controller",
   "category": "Compatibility",
   "categoryLabel": "Compatibility",
