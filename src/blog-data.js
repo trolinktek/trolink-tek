@@ -1,5 +1,123 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-non-touchscreen-rotary-controller",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 1, 2026",
+  "publishAt": "2026-11-01T09:10:03+08:00",
+  "updatedAt": "2026-11-01T09:10:03+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "title": "Can a CarPlay AI Box Work with a Non-Touchscreen or Rotary Controller?",
+  "metaTitle": "CarPlay AI Box with Non-Touchscreen Rotary Controls | TrolinkTek",
+  "excerpt": "Can an AI Box work with a non-touch display? Verify rotary input, app focus, setup dialogs and recovery before approving a vehicle configuration.",
+  "image": "/assets/blog/carplay-ai-box-non-touchscreen-rotary-controller.png",
+  "imageAlt": "Unbranded AI box connected by USB beside a vehicle rotary controller and non-touch dashboard display with an abstract blue focus outline",
+  "readTime": "10 min read",
+  "contentPath": "/content/blog-articles/carplay-ai-box-non-touchscreen-rotary-controller.md",
+  "primaryKeyword": "CarPlay AI Box non touchscreen compatibility",
+  "secondaryKeywords": [
+    "AI box rotary controller support",
+    "non-touch CarPlay display",
+    "Android app focus navigation",
+    "AI box input mapping",
+    "rotary controller compatibility worksheet"
+  ],
+  "intro": "A CarPlay AI Box may display an interface on a non-touch vehicle screen without making every function operable through the factory rotary controller. Buyers must verify both the exact box's host requirement and the complete input path for each intended task. A working wired CarPlay baseline establishes how the vehicle controls phone projection; it does not prove that the box's launcher, Android applications, permission dialogs or settings accept the same controls. For importers and installers, the approval question is therefore whether a customer can complete the promised workflow using the controls included in the offered configuration. Qualify the host, box firmware, application versions and input method together, then describe any restrictions before sale. A successful startup or moving highlight on the home screen is insufficient evidence of full compatibility.",
+  "sections": [
+    [
+      "Separate connection compatibility from usable control",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Understand the three interfaces behind one screen",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "What rotary operability actually means",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Start with a reproducible host description",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Use a task-based operability worksheet",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Evaluate setup, everyday use and recovery separately",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Choose an approval outcome that matches the evidence",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "An installer scenario: the demo passes but the handover fails",
+      "Approve complete user tasks against a documented host and input configuration."
+    ],
+    [
+      "Keep the claim valid after software changes",
+      "Approve complete user tasks against a documented host and input configuration."
+    ]
+  ],
+  "checklist": [
+    "Confirm exact host prerequisite",
+    "Record direct wired CarPlay baseline",
+    "Map included controller inputs",
+    "Evaluate setup and text entry",
+    "Verify required apps and recovery",
+    "Disclose conditional results",
+    "Retain firmware and application versions"
+  ],
+  "faq": [
+    [
+      "Does wired CarPlay prove that an AI Box supports a rotary controller?",
+      "No. It provides a host baseline for phone projection. The box's launcher, applications, dialogs and recovery paths need separate evaluation with the exact controller and software configuration."
+    ],
+    [
+      "Is a working launcher enough to claim non-touch compatibility?",
+      "No. Users must also complete the required app tasks, setup, text entry, back navigation and recovery. Document conditional or unreachable steps before approving the offer."
+    ],
+    [
+      "Can an external mouse solve the problem?",
+      "Only if the exact box supports the proposed input device and the complete connection, setup and recovery workflow is validated. Include its cost, accessories and support conditions in the offered configuration."
+    ],
+    [
+      "Should every application be tested?",
+      "Test every application and task included in the customer promise. Avoid implying support for an unrestricted application catalog when only a bounded set has been evaluated."
+    ],
+    [
+      "Can this guide approve a specific vehicle or AI Box?",
+      "No. It defines an evaluation method. Approval requires product-specific host prerequisites and recorded results for the actual vehicle, device build, controls and intended tasks."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "CarPlay AI Box Buying Guide",
+      "/blog/carplay-ai-box-buying-guide-importers/"
+    ],
+    [
+      "Factory Controls and Wireless CarPlay",
+      "/blog/do-wireless-carplay-adapters-work-with-factory-controls/"
+    ],
+    [
+      "AI Box Firmware Rollout Decisions",
+      "/blog/carplay-ai-box-firmware-staged-rollout-decisions/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Non-touch host qualification",
+    "title": "Verify the controls your customer will actually use.",
+    "body": "Share the head-unit identity, controller photographs, wired CarPlay baseline and required app tasks to scope a compatibility review.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "funnel": "MOFU",
+  "targetBuyer": "Importers, distributor product managers and installers qualifying non-touch vehicle hosts"
+},
+
+{
   "slug": "private-label-smart-car-screen-kit-architecture",
   "category": "OEM / ODM",
   "categoryLabel": "OEM / ODM",
@@ -2409,7 +2527,7 @@ export const blogPosts=[
     ]
   },
   {
-    slug:'connected-car-product-mix-distributors',category:'Channel strategy',date:'August 14, 2026',publishAt:'2026-08-14T19:01:00+08:00',updatedAt:'2026-08-14T19:01:00+08:00',author:'TrolinkTek Editorial Team',
+    slug:'connected-car-product-mix-distributors',category:'Market strategy',date:'August 14, 2026',publishAt:'2026-08-14T19:01:00+08:00',updatedAt:'2026-08-14T19:01:00+08:00',author:'TrolinkTek Editorial Team',
     title:'Connected-Car Product Mix Planning for Distributors',
     metaTitle:'Connected-Car Product Mix for Distributors | TrolinkTek',
     excerpt:'Plan a distributor product mix across wireless CarPlay adapters, AI boxes and smart screens using buyer fit, support load, SKU roles and launch evidence.',
