@@ -1,5 +1,122 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-lead-routing-distributors",
+  "title": "Automotive Electronics Lead Routing: Direct Sales or a Local Distributor?",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 1, 2026",
+  "publishAt": "2026-11-01T19:00:29+08:00",
+  "updatedAt": "2026-11-01T19:00:29+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Automotive Electronics Lead Routing for Distributors | TrolinkTek",
+  "excerpt": "Route automotive electronics inquiries between direct sales and local distributors with clear ownership, capability checks and a practical handoff worksheet.",
+  "image": "/assets/blog/automotive-electronics-lead-routing-distributors.png",
+  "imageAlt": "Three separate displays of a compact USB accessory, portable automotive screen and AI box on a navy showroom counter beside a vehicle fitting bay",
+  "contentPath": "/content/blog-articles/automotive-electronics-lead-routing-distributors.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "automotive electronics lead routing",
+  "secondaryKeywords": [
+    "distributor lead handoff",
+    "direct sales and distributor coordination",
+    "channel opportunity ownership",
+    "automotive electronics lead qualification",
+    "partner capability assessment"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Importer and private-label brand channel managers coordinating direct sales and local distributors",
+  "intro": "Route an automotive electronics inquiry to the team that can complete the buyer's next decision, then assign one commercial owner and a separate technical owner when needed. A web form does not automatically belong to direct sales, and a customer's location alone does not prove that a distributor can support the application. Evaluate the product, installation requirement, account context and partner capability before making the handoff. Record acceptance and the next action so the customer does not receive competing promises or disappear between teams.",
+  "sections": [
+    [
+      "What lead routing actually decides",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Start with the buying task and product architecture",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "A routing matrix for common inquiries",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Define acceptance instead of merely forwarding an email",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Resolve overlapping claims with evidence and customer choice",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Use a handoff record that travels with the inquiry",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Example: a fleet inquiry with two legitimate owners",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "What management should review before scaling",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ],
+    [
+      "Boundaries: when this framework is insufficient",
+      "Assign a capable owner for the next buyer decision and record acceptance, supporting roles and unresolved questions."
+    ]
+  ],
+  "checklist": [
+    "Identify buyer task",
+    "Confirm product prerequisites",
+    "Check partner capability",
+    "Name commercial and technical owners",
+    "Record acceptance and next action",
+    "Review duplicate claims and closure evidence"
+  ],
+  "faq": [
+    [
+      "Should every website inquiry stay with direct sales?",
+      "No. Intake should identify the buyer's next decision and assign a capable owner. Local installation or service may justify a partner route, while an OEM configuration discussion may need supplier involvement."
+    ],
+    [
+      "Is lead registration the same as exclusivity?",
+      "No. An internal opportunity record documents scope, contribution and ownership. It does not by itself establish exclusive territory, customer rights or commercial protection."
+    ],
+    [
+      "Who owns a lead that needs both engineering and local installation?",
+      "Name one commercial coordinator and record separate technical and installation owners. Confirm acceptance and tell the buyer who will coordinate the next decision."
+    ],
+    [
+      "What if the receiving distributor does not respond?",
+      "Keep responsibility with the originating team until acceptance. Use the agreed escalation process, check capability and availability, and arrange another suitable route when necessary."
+    ],
+    [
+      "Can an after-sales complaint count as a new sales opportunity?",
+      "A complaint should first follow the designated service route. If a separate purchase need emerges, create a linked opportunity without losing the original case or obscuring service obligations."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box Buying Guide for Importers",
+      "/blog/carplay-ai-box-buying-guide-importers/"
+    ],
+    [
+      "Distributor Sales Enablement",
+      "/blog/carplay-ai-box-distributor-sales-enablement/"
+    ],
+    [
+      "Distributor Incentive Program",
+      "/blog/automotive-electronics-distributor-incentive-program/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Coordinated channel project",
+    "title": "Connect the product brief to the partner roles.",
+    "body": "Share your market, product category and required technical or service responsibilities to define the project scope.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "carplay-ai-box-connected-no-internet-diagnosis",
   "title": "CarPlay AI Box Connected but No Internet: A Layer-by-Layer Diagnosis",
   "category": "Technical insight",
