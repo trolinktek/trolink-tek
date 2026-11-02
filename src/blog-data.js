@@ -1,5 +1,122 @@
 export const blogPosts=[
 {
+  "slug": "oem-odm-subcontracting-automotive-electronics",
+  "title": "OEM/ODM Subcontracting in Automotive Electronics: Who Actually Builds Your Product?",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 2, 2026",
+  "publishAt": "2026-11-02T19:05:22+08:00",
+  "updatedAt": "2026-11-02T19:05:22+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "OEM/ODM Subcontracting in Automotive Electronics | TrolinkTek",
+  "excerpt": "Evaluate OEM/ODM subcontracting through production-route disclosure, process handoffs, configuration evidence and clear supplier accountability before approval.",
+  "image": "/assets/blog/oem-odm-subcontracting-automotive-electronics.png",
+  "imageAlt": "Gloved technicians handing over a transparent carrier of electronics assemblies between separate production areas",
+  "contentPath": "/content/blog-articles/oem-odm-subcontracting-automotive-electronics.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "OEM ODM subcontracting automotive electronics",
+  "secondaryKeywords": [
+    "supplier subcontractor approval",
+    "outsourced production controls",
+    "manufacturing route disclosure",
+    "subcontractor traceability",
+    "OEM production accountability"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Importer and private-label sourcing managers and purchasing committees approving delegated production routes",
+  "intro": "An automotive electronics supplier may outsource assembly, programming, testing or packaging while remaining your commercial contact. Before approving that arrangement, identify the actual process locations, the responsible organizations, the configuration each receives and the evidence returned at every handoff. Approve a defined production route rather than relying on a supplier name or a sample that passed elsewhere. A capable subcontractor can be part of a sound sourcing model; the procurement risk is an undisclosed or uncontrolled boundary where requirements, material identity or release responsibility disappear. This guide helps importers and private-label sourcing managers decide whether a proposed OEM/ODM route is sufficiently transparent to approve, needs a bounded pilot, or should remain on hold. It does not assume that all work must happen inside one factory.",
+  "sections": [
+    [
+      "Define subcontracting by the work performed",
+      "For this discussion, subcontracting means that your contracted supplier delegates a defined activity to another organization. That activity might be circuit-board assembly, enclosure production, firmware loading, screen integration, inspection or regional pack-out. A purchased component is also an external input, but it creates a different approval question from moving your finished-product programming operation to another site."
+    ],
+    [
+      "Separate subcontractor approval from other sourcing decisions",
+      "This article concerns work delegated within the primary supplier's proposed route. Qualifying an alternate supply path is a different decision, covered in the [second-source qualification framework](/blog/automotive-electronics-second-source-qualification-framework/). Choosing whether evidence requires a visit is addressed by the [remote versus on-site supplier audit guide](/blog/remote-vs-onsite-supplier-audit-automotive-electronics/). Neither activity automatically approves every subcontracted operation."
+    ],
+    [
+      "Ask for a route disclosure that supports a decision",
+      "Request the product family, controlled revision, operation, performing site, process owner and output sent to the next stage. Include where firmware or customer artwork is introduced and where final release is authorized. Make the scope specific enough to distinguish a Smart Car Screen accessory pack-out from display assembly, or an AI Box programming step from board manufacture."
+    ],
+    [
+      "Follow requirements through the boundary",
+      "Sending a drawing or firmware file is not the same as confirming which revision an operator used. Ask how the supplier releases requirements, how the subcontractor acknowledges them, how superseded instructions are removed and how open work is handled after a revision change. Identify who can stop work when an instruction is unclear."
+    ],
+    [
+      "Use a handoff worksheet rather than a blanket assurance",
+      "Complete the following worksheet jointly with the primary supplier. Add actual evidence references and decision owners. An empty field identifies an unanswered question; it does not automatically establish a defective product. Keep confidential technical detail in a controlled record rather than a broadly circulated sales attachment."
+    ],
+    [
+      "Keep accountability visible when work leaves the factory",
+      "Name the primary supplier's owner for subcontractor selection, instruction transfer, output review and issue response. Then identify the counterpart who actually controls each delegated operation. The buyer needs a usable escalation path rather than a collection of company names that refer questions to one another."
+    ],
+    [
+      "Protect access without losing necessary visibility",
+      "Some route information involves commercial confidentiality or proprietary process detail. Decide what the buyer actually needs: a site identity, a bounded capability review, redacted evidence or observation of a selected operation. Avoid demanding unrelated customer drawings or complete unrestricted repositories as the default response."
+    ],
+    [
+      "An illustrative supplier-review decision",
+      "Consider a hypothetical importer preparing a private-label Smart Car Screen launch. The supplier assembles the display at its main site but proposes a separate partner for regional accessory kits. The engineering sample passed with one mount and power cable. The commercial team now wants several regional bundles."
+    ],
+    [
+      "Decide what changes require another review",
+      "Agree notification and review triggers before routine production. Potential triggers include another site, a changed delegated operation, different programming access, revised inspection responsibility or an additional tier of outsourcing. The appropriate response depends on the affected risk and the approval conditions already agreed."
+    ]
+  ],
+  "checklist": [
+    "Map the delegated operation and site",
+    "Trace released requirements across the handoff",
+    "Preserve material and configuration identity",
+    "Define acceptance and exception authority",
+    "Demonstrate record retrieval",
+    "Agree route change triggers"
+  ],
+  "faq": [
+    [
+      "Is subcontracting a reason to reject a supplier?",
+      "Not by itself. Assess the actual operation, visibility, capability, requirements transfer and release controls. An undisclosed critical boundary deserves investigation; a disclosed and controlled route can support a sourcing decision within its evaluated scope."
+    ],
+    [
+      "Does an approved sample approve every production site?",
+      "No. Establish where and how the sample was made and whether it represents the proposed route. Define any additional process evidence or pilot needed before accepting a different production arrangement."
+    ],
+    [
+      "Must buyers audit every subcontractor on site?",
+      "There is no universal answer here. Choose the evidence method according to risk, access, applicable requirements and unanswered questions. Remote records, live demonstrations and site visits provide different kinds of assurance."
+    ],
+    [
+      "Who should answer when a subcontracted operation fails?",
+      "Agree the primary supplier's coordination owner and the delegated process owner before release. Preserve the affected identifiers and evidence, then use the agreed containment and disposition process rather than allowing responsibility to circulate between companies."
+    ],
+    [
+      "What belongs in an initial OEM/ODM inquiry?",
+      "Include product family, proposed customization, destination markets, delegated operations already known and the decision you need to make. Ask for a scoped production-route discussion and factory profile before assuming which work is performed at which site."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Second-Source Qualification",
+      "/blog/automotive-electronics-second-source-qualification-framework/"
+    ],
+    [
+      "Remote vs On-Site Supplier Audits",
+      "/blog/remote-vs-onsite-supplier-audit-automotive-electronics/"
+    ],
+    [
+      "Engineering Change Impact Review",
+      "/blog/oem-odm-engineering-change-request-impact-review/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "OEM/ODM production planning",
+    "title": "Approve a production route with visible responsibilities.",
+    "body": "Share your product configuration, target markets and delegated-process questions to scope the factory and handoff evidence needed for a buying decision.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "layered-process-audits-automotive-electronics",
   "title": "Layered Process Audits for Automotive Electronics: Proving Controls Are Used",
   "category": "Quality control",
