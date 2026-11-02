@@ -1,5 +1,122 @@
 export const blogPosts=[
 {
+  "slug": "layered-process-audits-automotive-electronics",
+  "title": "Layered Process Audits for Automotive Electronics: Proving Controls Are Used",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 2, 2026",
+  "publishAt": "2026-11-02T14:05:44+08:00",
+  "updatedAt": "2026-11-02T14:05:44+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Layered Process Audits for Automotive Electronics | TrolinkTek",
+  "excerpt": "Learn how automotive electronics buyers can review layered process audits through observable controls, management ownership, failed-check reactions and evidence.",
+  "image": "/assets/blog/layered-process-audits-automotive-electronics.png",
+  "imageAlt": "Production supervisor pointing to an unbranded circuit assembly while an engineer and manager observe the manufacturing process",
+  "contentPath": "/content/blog-articles/layered-process-audits-automotive-electronics.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "layered process audits automotive electronics",
+  "secondaryKeywords": [
+    "LPA supplier review",
+    "process audit vs product audit",
+    "production control execution",
+    "audit finding closure",
+    "CQI-8 audit evidence"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer supplier-quality teams and private-label product managers reviewing production control execution",
+  "intro": "A layered process audit checks whether important production controls are actually followed at the point of work, with participation from different levels of management. For automotive electronics buyers, its value is evidence of daily execution: the approved firmware is selected, failed units remain segregated, fixtures are verified and packaging variants stay controlled. It complements product inspection rather than authorizing shipment. Ask a supplier to show one risk-linked audit question, the observation behind its answer, the reaction to a failed check and the later follow-up. A calendar full of completed audits provides less assurance than that connected record. This guide explains how importers, private-label product managers and supplier-quality teams can review the method without turning every factory visit into another finished-product test.",
+  "sections": [
+    [
+      "Define the audit before requesting a report",
+      "A **layered process audit**, or LPA, is a recurring review of selected process controls involving people at different organizational levels. Layers refer to participation and responsibility, not successive product tests. A supervisor and a manager may observe the same critical control at different times; their roles should support timely correction and removal of systemic obstacles."
+    ],
+    [
+      "Separate process execution from product acceptance",
+      "ASQ's [audit definitions](https://asq.org/quality-resources/auditing) distinguish a process audit, which examines how an operation meets defined requirements, from a product audit, which examines a product against its requirements. Use that distinction when asking what a record proves. The following comparison is a practical sourcing interpretation."
+    ],
+    [
+      "Select questions from failure risk",
+      "Begin with a failure mechanism or a known control weakness. Useful sources include customer requirements, process risk reviews, recent changes, prior findings and confirmed field issues. Choose a control whose absence could allow the problem to occur or escape. A question about general tidiness may be appropriate for some risks, but it cannot stand in for checking configuration selection."
+    ],
+    [
+      "Write questions an observer can answer",
+      "“Is quality satisfactory?” invites opinion. “At this programming station, does the selected job identifier match the authorized work order and hardware revision?” points to observable evidence. Identify the location, requirement, evidence and response to a mismatch. If an auditor cannot answer without specialist testing, route that work to the appropriate technical procedure."
+    ],
+    [
+      "Give each management layer a useful responsibility",
+      "Define who observes, who can correct an immediate condition, who owns the process and who can resolve repeated resource or system problems. A supervisor may notice that an instruction is unavailable at the station. A manager should then address why access repeatedly fails, rather than simply repeat the same check and add another signature."
+    ],
+    [
+      "Follow a failed check through to closure",
+      "Record the observed condition before changing it. Capture the process, time, configuration, requirement and evidence reference, then apply the approved reaction plan. The immediate question is whether production or material needs to be held and what population might be affected. An auditor should use the designated authority rather than improvise a release decision."
+    ],
+    [
+      "A practical importer review scenario",
+      "Consider an illustrative importer adding an AI Box variant with a different authorized software configuration. This is a hypothetical decision example, not a customer case. The supplier presents a completed audit calendar and an outgoing inspection report. The buyer still needs to know how the changed configuration reached the programming station."
+    ],
+    [
+      "Review effectiveness rather than completion alone",
+      "Audit completion shows whether planned observations happened. It does not show whether questions address the important risks or whether findings lead to lasting improvement. Ask which process weaknesses recur, whether overdue actions have responsible owners, and how the question set changes after engineering or production changes."
+    ],
+    [
+      "Limits and sourcing implications",
+      "An LPA samples execution. It does not establish certification, regulatory compliance, universal vehicle compatibility, environmental ratings or defect-free production. It also does not replace a technical validation method, product acceptance criteria, an independent supplier audit or required customer-specific procedures. Confirm applicable obligations directly with the responsible parties."
+    ]
+  ],
+  "checklist": [
+    "Define process and shift scope",
+    "Link questions to failure risks",
+    "Observe the control at work",
+    "Assign management responsibilities",
+    "Trace failed checks to reaction decisions",
+    "Verify closure with relevant evidence"
+  ],
+  "faq": [
+    [
+      "Is a layered process audit another final inspection?",
+      "No. It observes whether selected production controls are followed. Final inspection evaluates defined product requirements. Both can contribute evidence, but neither substitutes for the other's purpose."
+    ],
+    [
+      "Must every automotive accessory supplier use CQI-8?",
+      "Do not assume universal applicability. Review customer, contractual and program requirements with the supplier. Refer to the applicable guideline when agreed; this article is a practical explanation, not a compliance determination."
+    ],
+    [
+      "How many questions should an audit contain?",
+      "Use enough focused questions to cover the selected risks within a realistic observation. There is no universal number here. A short, observable question set is more useful than a long form filled with unsupported passing answers."
+    ],
+    [
+      "Can remote records prove a control is followed on every shift?",
+      "No. Remote records can support a bounded review, but they do not establish continuous execution. Identify which shifts, times and processes were actually observed and what additional observation is needed."
+    ],
+    [
+      "What should a buyer request before a factory discussion?",
+      "Send the product family, critical process concerns and intended review scope. Request a representative question, its observation evidence, a failed-check example where available and follow-up records, with unrelated confidential information redacted."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Control Plan vs Inspection Plan",
+      "/blog/automotive-electronics-control-plan-vs-inspection-plan/"
+    ],
+    [
+      "Corrective Action Effectiveness",
+      "/blog/corrective-action-effectiveness-verification-automotive-electronics/"
+    ],
+    [
+      "Supplier Quality-System Evidence",
+      "/blog/automotive-electronics-supplier-quality-system-evidence-review/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Production evidence review",
+    "title": "Connect product requirements with the evidence needed for approval.",
+    "body": "Share your product family, process concerns and open evidence questions to scope product validation and routine process controls.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "portable-carplay-screen-removable-vs-fixed-mount",
   "title": "Portable CarPlay Screen Mounts: Removable or Fixed Installation?",
   "category": "Product comparison",
