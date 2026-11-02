@@ -1,5 +1,122 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-removable-vs-fixed-mount",
+  "title": "Portable CarPlay Screen Mounts: Removable or Fixed Installation?",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 2, 2026",
+  "publishAt": "2026-11-02T09:03:36+08:00",
+  "updatedAt": "2026-11-02T09:03:36+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Mounts: Removable vs Fixed | TrolinkTek",
+  "excerpt": "Compare removable and fixed portable CarPlay screen mounts by vehicle permissions, daily handling, surface fit, service parts and end-of-use removal.",
+  "image": "/assets/blog/portable-carplay-screen-removable-vs-fixed-mount.png",
+  "imageAlt": "Rear views of two unbranded portable car displays comparing a suction-cup base and a screw-down bracket on a sample panel",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-removable-vs-fixed-mount.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "portable CarPlay screen removable vs fixed mount",
+  "secondaryKeywords": [
+    "Smart Car Screen mounting options",
+    "suction cup vs fixed screen bracket",
+    "detachable display cradle",
+    "fleet screen installation lifecycle",
+    "dashboard mount removal"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Importers, installers and fleet procurement managers selecting portable screen mounting configurations",
+  "intro": "Choose a removable portable CarPlay screen mount when the display must move between approved vehicles or be taken away after use, and someone owns the repeated attachment checks. Choose a fixed base when the vehicle will keep the screen and the installation team can approve the attachment, cable route and eventual removal. Neither approach is automatically more secure or less damaging: the exact mount, dashboard material, display weight and installation method determine the result. For importers, installers and fleet buyers, the useful comparison is the complete installation lifecycle, including daily handling, replacement parts and vehicle return. This guide compares mounting architectures and provides a decision worksheet; it does not certify a mounting position or rank individual products.",
+  "sections": [
+    [
+      "Define what actually comes off the vehicle",
+      "A portable CarPlay screen is an independent display system, often marketed as a Smart Car Screen. Its mount holds the display in the cabin; the power connection and audio route are separate design choices. A removable display does not necessarily mean a removable installation, and a detachable cable does not mean the vehicle can be restored without work."
+    ],
+    [
+      "Compare mounting architectures by the work they create",
+      "| Architecture | Useful starting application | Work that remains | Evidence to request |"
+    ],
+    [
+      "Start with vehicle ownership and the removal event",
+      "The most useful first question is what must happen when the installation ends. A short-term evaluation vehicle may need to return to its original condition. A dedicated service van may keep its equipment throughout its operating life. A pooled fleet may remove the screen each night while leaving the base untouched. These cases require different definitions of reversibility."
+    ],
+    [
+      "Assess the position before the attachment method",
+      "A mount is unsuitable if its position creates an unacceptable obstruction or interferes with vehicle operation, even if its attachment works. Review the driver's forward view, access to original controls, existing displays, vents, cable paths and the vehicle manufacturer's airbag guidance. Check the position with the intended driver seating range, rather than one photograph from outside the cabin."
+    ],
+    [
+      "Match the base to the actual cabin surface",
+      "“Dashboard compatible” is too broad for a purchasing specification. Identify the substrate, texture, curvature, coatings and the presence of an intermediate disk or pad. Ask whether instructions apply to glass, a smooth adapter disk or a particular interior material. Do not transfer a method approved for one surface onto another because both are inside a car."
+    ],
+    [
+      "Compare daily handling and service burden",
+      "A removable base transfers some installation work into daily operation. Someone must inspect the contact area, position the display, verify the attachment and manage cables. If the fleet cannot assign that work consistently, apparent flexibility can become an unreliable handover process. A fixed base reduces repositioning but still needs inspection and service access."
+    ],
+    [
+      "Use an installation decision worksheet",
+      "Complete one worksheet for each vehicle cabin and mounting configuration. A field can remain unknown during evaluation, but an unresolved critical item should block installation approval rather than disappear from the record."
+    ],
+    [
+      "Example: two fleets buying the same display",
+      "Consider an illustrative importer supplying two customers, not a reported customer result. One operates demonstration vehicles that change frequently; the other runs dedicated maintenance vans. Both like the same screen, but the demonstration team needs an approved transferable assembly and a repeatable refitting routine. The maintenance fleet wants a stable position and may prefer leaving the base installed while removing the display for storage."
+    ],
+    [
+      "Boundaries and purchasing implications",
+      "This comparison does not approve a DIY structural modification, claim crash safety or replace vehicle-specific installation instructions. It does not establish a service interval, adhesive lifetime or environmental rating. Those depend on the selected assembly and its evidence. Road evaluation should only follow a responsible installation review and use a controlled process appropriate to the vehicle and location."
+    ]
+  ],
+  "checklist": [
+    "Confirm vehicle modification permission",
+    "Approve mounting position",
+    "Identify display and complete mount revision",
+    "Assign daily attachment checks",
+    "Control replacement assemblies",
+    "Agree removal and restoration criteria"
+  ],
+  "faq": [
+    [
+      "Is a suction mount always the most reversible option?",
+      "No. The complete assembly may include an adhesive dashboard disk, and contact can still affect a surface. Define the required restoration condition and evaluate the exact stack on the intended material before describing it as reversible."
+    ],
+    [
+      "Does a fixed installation mean the display cannot be removed?",
+      "No. A fixed base can use a detachable cradle. Confirm the approved screen-to-cradle combination, release and locking procedure, cable handling and replacement part identifiers."
+    ],
+    [
+      "Can we use the same mount across every fleet vehicle?",
+      "Only after confirming the relevant cabin, surface, position and display configuration. Treat different dashboards or attachment arrangements as separate approval cases rather than assuming the fleet name establishes fit."
+    ],
+    [
+      "Which option is better for a leased vehicle?",
+      "Start with the owner's permitted modifications and return requirements. Neither a removable nor a bonded mount automatically satisfies those conditions. Request permission and agree the removal acceptance criteria before installation."
+    ],
+    [
+      "What should an importer send when requesting a shortlist?",
+      "Send the intended screen, vehicle cabin information, proposed position, ownership restrictions, daily removal workflow and destination market. Include the required service and restoration process so the supplier can identify open assumptions."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Rental and Shared Fleet Deployment",
+      "/blog/portable-carplay-screen-rental-fleet-deployment/"
+    ],
+    [
+      "Portable Screen Audio Routing",
+      "/blog/portable-carplay-screen-audio-routing-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Application-led product review",
+    "title": "Match the screen and mount to the installation lifecycle.",
+    "body": "Share your vehicle applications, mounting restrictions and daily removal workflow to identify suitable configurations and open approval questions.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "automotive-electronics-lead-routing-distributors",
   "title": "Automotive Electronics Lead Routing: Direct Sales or a Local Distributor?",
   "category": "Market strategy",
