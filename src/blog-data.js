@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-distributor-sell-through-reporting",
+  "title": "Distributor Sell-Through Reporting for Automotive Electronics: Reconcile Before Reordering",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 3, 2026",
+  "publishAt": "2026-11-03T19:04:24+08:00",
+  "updatedAt": "2026-11-03T19:04:24+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Distributor Sell-Through Reporting Guide | TrolinkTek",
+  "excerpt": "Reconcile automotive electronics distributor sell-through, returns and usable stock before reordering. Includes reporting definitions and an exception worksheet.",
+  "image": "/assets/blog/automotive-electronics-distributor-sell-through-reporting.png",
+  "imageAlt": "Inventory controller scanning an unbranded carton beside a portable automotive display, compact electronics device and closed laptop in a navy-lit stockroom",
+  "contentPath": "/content/blog-articles/automotive-electronics-distributor-sell-through-reporting.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "automotive electronics distributor sell-through reporting",
+  "secondaryKeywords": [
+    "sell-in vs sell-through",
+    "distributor stock reconciliation",
+    "channel inventory reporting",
+    "SKU mapping",
+    "distributor reporting template"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Importer and private-label channel managers, distributor procurement leads and purchasing committees",
+  "intro": "An automotive electronics distributor sell-through report should connect downstream sales to a defined stock boundary, reporting period and product identity before it informs a reorder. Start with opening stock, receipts, external sales, returns, transfers and closing stock; explain every movement using consistent units and an agreed recognition event. Keep missing reports separate from zero sales, and distinguish sales to another reseller from purchases by an end user. For importers, private-label channel managers and procurement committees, the practical question is whether the reported movement supports a particular purchasing decision. A spreadsheet total alone cannot answer that question. This guide provides a reporting agreement, stock reconciliation method and exception workflow for CarPlay AI Box, Smart Car Screen and other connected-drive portfolios, without assuming that every partner can disclose customer-level transactions.",
+  "sections": [
+    [
+      "Define sell-through at the boundary you can observe",
+      "Sell-in describes the supplier's sale into a distribution channel. Sell-through describes a subsequent sale beyond a specified channel boundary. The same transaction can be sell-through for the manufacturer and sell-in for a local reseller. Therefore, a report labeled “customer sales” needs a definition: distributor shipments to dealers, retailer transactions, or another explicitly agreed event. None automatically proves that a device has been installed or retained by its final user."
+    ],
+    [
+      "Agree on a small reporting contract",
+      "A reporting contract is a shared data definition and operating agreement. It can be a worksheet attached to the commercial review process; it does not replace the distribution agreement. Name the submitting partner, report owner, cutoff, correction route and intended decisions. Separate commercial confidentiality from practical data availability: a partner may provide reliable aggregate movement while declining to identify individual customers."
+    ],
+    [
+      "Reconcile physical stock separately from the sales metric",
+      "For a defined stock pool and period, an inventory bridge can use this structure: expected closing physical units equal opening physical units, plus receipts and customer returns received, plus transfers in, minus outbound sales shipments, supplier returns dispatched, transfers out and documented write-offs. Count each event once. Adjust the bridge to the actual warehouse boundary rather than forcing all movements into a sales column."
+    ],
+    [
+      "Preserve product identity through kits and revisions",
+      "Automotive electronics portfolios contain similar-looking products with different installation and support assumptions. A portable screen with a particular mounting kit should not silently merge with a bare display. An AI Box revision with a different approved software bundle may need separate demand and support review even if a partner reuses its public listing code. Confirm the actual configuration instead of inferring identity from a short marketing name."
+    ],
+    [
+      "Use an exception worksheet before approving a reorder",
+      "The following worksheet turns a monthly report into an operating discussion. It is a reusable template, not a set of measured results or a universal acceptance standard. Set significance and response timing according to the decision's exposure, the partner's systems and the product lifecycle."
+    ],
+    [
+      "Apply the method to an importer scenario",
+      "Consider an illustrative importer selling AI Boxes through online resellers and portable screens through installer branches. Its largest partner reports growing “customer sales” and asks for a larger replenishment allocation. Before approving the request, the channel manager discovers that the reported total combines external shipments, transfers between branches and warranty replacements."
+    ],
+    [
+      "Turn a reconciled report into a channel decision",
+      "Use sell-through evidence alongside confirmed customer requirements, usable stock, product changes, supplier-confirmed replenishment assumptions and support capacity. A reconciled report explains recorded movement; it does not predict future demand. Avoid applying an invented universal stock-cover target or reorder percentage to every product and territory."
+    ],
+    [
+      "Limits and escalation boundaries",
+      "This framework is for operational channel reporting. It does not establish accounting revenue recognition, tax treatment, legal ownership or regulatory compliance. Finance and relevant advisers should determine those matters. It also cannot verify product compatibility, demonstrate genuine installation activity or prove that a returned device is defective."
+    ]
+  ],
+  "checklist": [
+    "Define reporting boundary",
+    "Map sellable configurations",
+    "Separate sales and physical movement",
+    "Reconcile closing stock",
+    "Resolve exceptions",
+    "Approve a bounded purchasing decision"
+  ],
+  "faq": [
+    [
+      "Is distributor sell-through the same as end-user sales?",
+      "Only when the defined reporting boundary and source records establish that event. Distributor sales to dealers are downstream movement but can still leave inventory elsewhere in the channel. Label the buyer tier and avoid presenting dealer shipments as confirmed installations."
+    ],
+    [
+      "Should a missing partner report count as zero sales?",
+      "No. Missing data means the period is unobserved. Keep a separate completeness status and identify the last covered period. Zero sales is a reported result that still needs a consistent definition and stock context."
+    ],
+    [
+      "Can stock reconciliation prove a report is accurate?",
+      "It checks consistency within the agreed boundary and records. A balanced bridge can still contain wrong classifications, duplicated source entries or unsuitable SKU groupings. Review mappings, event definitions and supporting references as well as the arithmetic."
+    ],
+    [
+      "How should warranty replacements appear?",
+      "Separate replacement shipments from new commercial sales and record their physical stock movement. Track returned-unit receipt and disposition independently. A service replacement should not silently inflate the demand metric used to justify a larger order."
+    ],
+    [
+      "What should a supplier receive before a replenishment discussion?",
+      "Provide the reporting period, mapped product configurations, defined sales event, reconciled usable-stock view, coverage status and unresolved exceptions. Add the intended channel and purchasing assumptions. Share aggregate or redacted evidence where sufficient rather than unnecessary customer details."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Distributor Incentive Program",
+      "/blog/automotive-electronics-distributor-incentive-program/"
+    ],
+    [
+      "Slow-Moving Inventory Decisions",
+      "/blog/automotive-electronics-slow-moving-inventory-decisions/"
+    ],
+    [
+      "Connected-Car Product Mix",
+      "/blog/connected-car-product-mix-distributors/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Channel and product planning",
+    "title": "Build a reporting plan around sellable configurations.",
+    "body": "Share your partner structure, product mapping and reporting worksheet to scope the next purchasing review.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "carplay-ai-box-storage-full-diagnosis",
   "title": "CarPlay AI Box Storage Full: Diagnose Before Clearing Data",
   "category": "Technical insight",
