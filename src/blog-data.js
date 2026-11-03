@@ -1,4 +1,113 @@
 export const blogPosts=[
+{
+  "slug": "carplay-ai-box-storage-full-diagnosis",
+  "title": "CarPlay AI Box Storage Full: Diagnose Before Clearing Data",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 3, 2026",
+  "publishAt": "2026-11-03T14:10:18+08:00",
+  "updatedAt": "2026-11-03T14:10:18+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Storage Full: Diagnosis Guide | TrolinkTek",
+  "excerpt": "Diagnose CarPlay AI Box full storage before clearing data. Separate cache, downloads and app failures, preserve evidence, and verify an authorized recovery.",
+  "image": "/assets/blog/carplay-ai-box-storage-full-diagnosis.png",
+  "imageAlt": "Unbranded black AI Box and USB cable beside a closed service notebook, separate memory card and gloved technician hand on a navy work surface",
+  "contentPath": "/content/blog-articles/carplay-ai-box-storage-full-diagnosis.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "CarPlay AI Box storage full",
+  "secondaryKeywords": [
+    "AI Box app installation failure",
+    "Android cache vs app data",
+    "AI Box storage cleanup",
+    "AI Box recovery workflow",
+    "low storage support worksheet"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Distributor after-sales teams, installers and AI Box product managers",
+  "intro": "When a CarPlay AI Box reports full storage or cannot complete an app installation, first identify which device and storage volume the message concerns, preserve the error and software identity, and inspect space through the supplier-supported settings. Remove only authorized, understood content before considering app-data deletion or a device reset. A low-space warning is evidence to investigate; an app update failure alone does not prove a storage problem. Distributors, installers and after-sales teams should separate temporary cache, persistent app data, downloaded content and system software because each has a different recovery consequence. The objective is to restore the customer's approved workflow while preserving useful evidence and avoiding unnecessary account or configuration loss. This guide provides a diagnostic sequence and case worksheet for that decision.",
+  "sections": [
+    [
+      "Define the storage problem on the correct device",
+      "A CarPlay AI Box with its own application environment can store apps and files locally while also connecting to a phone and a compatible vehicle display. The phone, box and removable media, where supported, are separate storage locations. A warning shown on the vehicle screen might originate from the box's app, a projected phone app or another part of the system. Record where the message appears and which interface is active before recommending a cleanup."
+    ],
+    [
+      "Separate the symptom from its possible cause",
+      "Ask the customer for the exact message rather than a description such as “the memory is bad.” Record whether the problem occurs during download, installation, app launch or normal operation. Capture the available-space reading, its unit and the screen used to obtain it. Avoid recording personal account details or navigation history in support screenshots."
+    ],
+    [
+      "Preserve a useful baseline before cleanup",
+      "Create a case with the sellable model, hardware revision where available, installed system build, affected app version, vehicle host and connection method. Note whether the problem followed an app update, a firmware change, a new download or a different user's session. Establish whether the unit belongs to an individual, a demonstration fleet or a shared vehicle, because authority to remove content may differ."
+    ],
+    [
+      "Choose an action by what it removes",
+      "Begin with customer-authorized content whose purpose and recovery route are understood. Use the application or manufacturer's documented controls. Do not instruct installers to browse protected partitions, remove unknown packages or install third-party “cleaner” tools. Those actions can create a different configuration and make the original case harder to reproduce."
+    ],
+    [
+      "Verify recovery beyond a single successful update",
+      "App installation success is only one checkpoint. Confirm that the required application launches, its approved content is accessible and the intended vehicle workflow still works. Check the functions affected by the intervention, including any settings deliberately cleared. Perform setup and inspection while parked using the product's documented power and operating instructions."
+    ],
+    [
+      "Use a low-storage support worksheet",
+      "This worksheet is an editorial case-management template. It is not a product test result, a certification or a requirement to retain customer data. Assign an owner and evidence reference to each field; use redacted records where possible."
+    ],
+    [
+      "Escalate persistent faults and feed findings into product planning",
+      "Stop customer-led cleanup when required data cannot be preserved, normal settings are inaccessible, an intervention needs undocumented access or the same failure returns without an explained workload change. Follow the supplier's approved recovery or service path. A recurring symptom warrants investigation; it does not establish defective flash memory or justify a hardware replacement conclusion on its own."
+    ]
+  ],
+  "checklist": [
+    "Identify device and storage volume",
+    "Preserve error and build identity",
+    "Confirm content retention and authorization",
+    "Apply one documented intervention",
+    "Verify task and recurrence",
+    "Escalate with evidence"
+  ],
+  "faq": [
+    [
+      "Does a full-storage message mean the AI Box needs more RAM?",
+      "No. RAM and persistent storage are different resources. Identify the device and storage volume reporting the warning, then investigate the stored content and supported recovery options. A RAM specification change does not itself clear persistent files."
+    ],
+    [
+      "Is clearing cache the same as clearing app data?",
+      "No. Cache contains temporary data; clearing app storage/data has a broader effect on the named app's persistent state. Confirm the manufacturer's controls and explain possible loss of settings, sessions and downloads before acting."
+    ],
+    [
+      "Can an SD card fix full internal storage?",
+      "Only if the exact product and application support an appropriate storage route. A card slot does not establish that installed apps or their data can move there. Ask the supplier which content can use removable media and verify the documented configuration."
+    ],
+    [
+      "Should support factory-reset every box with a failed update?",
+      "No. First identify whether the failure concerns an app or system update and preserve the message and device baseline. Use a reset only within an authorized, documented recovery plan with the required restoration steps understood."
+    ],
+    [
+      "What evidence should a distributor request from the supplier?",
+      "Request a build-specific diagnostic path, definitions for supported cleanup controls, a way to preserve necessary content and an escalation package. Agree on a representative recurrence check and a named service owner rather than relying on an unverified universal free-space target."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box RAM and Storage Specifications",
+      "/blog/carplay-ai-box-ram-storage-specification-guide/"
+    ],
+    [
+      "AI Box Internet Diagnosis",
+      "/blog/carplay-ai-box-connected-no-internet-diagnosis/"
+    ],
+    [
+      "Privacy-Safe Diagnostic Logs",
+      "/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box support and validation",
+    "title": "Validate the cleanup and recovery workflow.",
+    "body": "Share the approved app bundle, device build and support worksheet to scope storage-maintenance and recurrence checks.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
 
 {
   "slug": "motorcycle-carplay-guided-tour-fleet-handover",
