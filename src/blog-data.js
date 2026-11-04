@@ -1,5 +1,122 @@
 export const blogPosts=[
 {
+  "slug": "custom-enclosure-vs-standard-housing-oem-odm",
+  "title": "Custom Enclosure or Standard Housing? An OEM/ODM Investment Decision for Automotive Electronics",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 4, 2026",
+  "publishAt": "2026-11-04T19:11:13+08:00",
+  "updatedAt": "2026-11-04T19:11:13+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Custom Enclosure vs Standard Housing: OEM/ODM | TrolinkTek",
+  "excerpt": "Decide when a custom automotive electronics enclosure earns its investment. Compare alternatives, incremental costs, demand risk and validation before tooling.",
+  "image": "/assets/blog/custom-enclosure-vs-standard-housing-oem-odm.png",
+  "imageAlt": "Open black automotive electronics housing beside a gray enclosure prototype and a metal mold insert on a navy design-review workbench",
+  "contentPath": "/content/blog-articles/custom-enclosure-vs-standard-housing-oem-odm.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "custom enclosure vs standard housing automotive electronics",
+  "secondaryKeywords": [
+    "OEM ODM enclosure customization",
+    "enclosure tooling investment",
+    "incremental program contribution",
+    "design for manufacturability",
+    "production-intent validation"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product managers, importer sourcing leads and procurement investment committees",
+  "intro": "A custom enclosure is worth considering when it solves a documented customer problem that a supplier's standard housing cannot address, and when the expected incremental contribution can support development, tooling, validation and lifecycle costs. A distinctive appearance alone does not establish that case. Automotive electronics buyers should compare the smallest workable change with a fully custom shell, identify which performance evidence must be regenerated, and test the commercial assumptions before committing to production tooling. For importers and private-label product managers, the decision is an investment in a defined product outcome, rather than an automatic next step after adding a logo. A standard housing can remain the stronger choice when demand is uncertain, the platform may change, or the proposed benefit cannot yet be demonstrated.",
+  "sections": [
+    [
+      "Define what the enclosure decision actually changes",
+      "An enclosure is the housing and its mechanical interfaces around an electronic assembly. In a CarPlay AI Box, that scope may include the shell, connector openings, fasteners, ventilation features, light guides and internal supports. In a Smart Car Screen, it may also include the display bezel, rear housing and attachment interface. The boundary must be drawn for the actual product; neither example describes a confirmed TrolinkTek customization option."
+    ],
+    [
+      "Write the customer problem before commissioning the shape",
+      "Replace “we need an exclusive design” with a statement that can be challenged. For example: installers cannot route the approved cable within the available space, a mounting interface creates an avoidable service step, or channel buyers cannot distinguish variants during handover. These are hypotheses until supported by observations from the intended use."
+    ],
+    [
+      "Compare the smallest intervention that can work",
+      "The relevant choice is rarely just “catalog product or new mold.” Ask the supplier which intermediate routes exist, then compare them on equivalent product scope. Some routes may not be available for the selected platform, material or commercial arrangement."
+    ],
+    [
+      "Build an incremental business case, not a tooling-price comparison",
+      "Compare both routes over the same selling horizon and product configuration. List the standard route's costs and expected contribution first, then record only the differences caused by customization. Include engineering, prototypes, tooling, validation, packaging changes, service preparation, maintenance commitments and the consequence of a later platform revision. Assign each line an owner, evidence reference and confidence level."
+    ],
+    [
+      "Make demand uncertainty visible to the approval committee",
+      "Use downside, working and upside cases rather than one confident volume. In each case, vary sell-through, achievable net contribution, launch timing and the remaining life of the underlying platform. Keep the source and date of each assumption. A demand forecast is not a purchase commitment, and a large first shipment does not prove customer acceptance."
+    ],
+    [
+      "Treat manufacturability and product performance as separate approvals",
+      "Design for manufacturability, or DFM, asks whether the proposed geometry can be made by the chosen process. Protolabs' [manufacturing-analysis guidance](https://www.protolabs.com/help-center/manufacturing-analysis/) describes reviewing CAD geometry and proposed manufacturing revisions. That supports requesting a documented manufacturability review; it does not establish that a proposed automotive enclosure will meet its functional requirements."
+    ],
+    [
+      "Use a one-page investment decision record",
+      "This worksheet belongs before a tooling commitment. It is designed for product, engineering, sourcing, finance and service reviewers to complete together. Attach evidence rather than replacing unknowns with a green status."
+    ],
+    [
+      "Example: an importer with an installation constraint",
+      "Consider a hypothetical private-label importer evaluating an AI Box housing because its installers report awkward cable routing in a particular installation. The first decision is whether that constraint is repeatable on the intended host configuration. If it is, compare a different approved cable route, a separate retention accessory and a revised enclosure interface before commissioning a new shell."
+    ],
+    [
+      "Boundaries: when the standard route remains stronger",
+      "Retain the baseline when the customer problem is unclear, smaller changes remain untested or the forecast depends entirely on an unverified premium. A short remaining platform life, unresolved technical interfaces or unsupported service obligations can also undermine the investment. An exclusive shape does not by itself create exclusive electronics, transferable tooling rights or protected sales territory."
+    ]
+  ],
+  "checklist": [
+    "Document the customer problem",
+    "Compare smaller feasible alternatives",
+    "Define the mechanical change boundary",
+    "Review incremental economics and demand sensitivity",
+    "Separate DFM from functional validation",
+    "Approve a scoped next commitment"
+  ],
+  "faq": [
+    [
+      "Does private label require a custom enclosure?",
+      "No. A private-label offer can use an existing controlled housing with agreed branding and packaging. Select the mechanical scope according to the customer problem and feasible supplier options."
+    ],
+    [
+      "Is a custom housing always more profitable?",
+      "No. Compare incremental contribution against engineering, tooling, validation and lifecycle costs using explicit demand assumptions. A distinctive appearance does not guarantee a higher selling price."
+    ],
+    [
+      "Can existing test reports cover the new enclosure?",
+      "Only within an assessed scope. Ask engineering and the relevant report owner to review the changed geometry, material, interfaces and intended use before relying on earlier evidence or claims."
+    ],
+    [
+      "What should a prototype approval authorize?",
+      "It should authorize only the questions and next commitment stated in the approval. Appearance or fit acceptance does not automatically release production tooling or establish production performance."
+    ],
+    [
+      "What should buyers send for an enclosure feasibility discussion?",
+      "Send the baseline model, intended installation, observed problem, proposed benefit, market scope, demand assumptions and known interface constraints. Request alternatives, exclusions, cost scope and an evidence proposal."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "OEM, ODM and Private-Label Sourcing Models",
+      "/blog/oem-vs-odm-automotive-electronics-sourcing-models/"
+    ],
+    [
+      "NRE and Tooling Asset Ownership",
+      "/blog/oem-wireless-carplay-adapter-nre-tooling-asset-ownership/"
+    ],
+    [
+      "OEM/ODM Project Stage Gates",
+      "/blog/oem-odm-automotive-electronics-project-stage-gates/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Mechanical customization feasibility",
+    "title": "Give your enclosure investment a defined purpose.",
+    "body": "Share the existing model, installation constraint and demand assumptions to discuss feasible alternatives, dependencies and the evidence needed before tooling.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/oem-odm/"
+  }
+},
+
+{
   "slug": "production-test-limits-vs-specification-limits-guard-banding",
   "title": "Production Test Limits vs Specification Limits: Guard Banding for Automotive Electronics",
   "category": "Technical insight",
