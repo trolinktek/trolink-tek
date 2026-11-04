@@ -1,5 +1,110 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-size-viewing-position",
+  "title": "Portable CarPlay Screen Size: How to Choose for the Driver's Viewing Position",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 4, 2026",
+  "publishAt": "2026-11-04T09:10:05+08:00",
+  "updatedAt": "2026-11-04T09:10:05+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Size Selection Guide | TrolinkTek",
+  "excerpt": "Choose portable CarPlay screen size by viewing position, interface layout and installed footprint. Includes a size comparison and buyer selection worksheet.",
+  "image": "/assets/blog/portable-carplay-screen-size-viewing-position.png",
+  "imageAlt": "Three unbranded portable automotive displays of different sizes on a navy design-studio bench in front of a dashboard mockup",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-size-viewing-position.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "portable CarPlay screen size",
+  "secondaryKeywords": [
+    "CarPlay screen viewing distance",
+    "portable screen enclosure dimensions",
+    "CarPlay display aspect ratio",
+    "dashboard display placement",
+    "screen size selection worksheet"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Importers, installer networks and private-label product managers selecting portable Smart Car Screens",
+  "intro": "Choose a portable CarPlay screen size by the usable interface at the driver's normal viewing position and the space occupied by the complete installation. The diagonal measurement alone cannot tell an importer whether navigation labels will be legible, a mounting arm will clear the controls, or a display will obstruct the view. Start with the intended cabins, compare actual enclosure dimensions and mounted positions, then evaluate the same supported phone interface on each candidate while safely parked. Shortlist the configuration that meets the defined viewing and installation needs; a larger panel is useful only when its extra area produces a usable result. This guide gives distributors, installer networks and private-label product managers a practical size-selection worksheet without prescribing a universal best diagonal or claiming that one cabin review establishes legal compliance.",
+  "sections": [
+    [
+      "What the advertised screen size actually describes",
+      "Screen diagonal is the corner-to-corner measurement of the active display area. It is different from enclosure width, enclosure height, total mounted height and the clearance required behind the housing. A product described with a nominal diagonal still needs a dimension drawing before it can be evaluated for a dashboard."
+    ],
+    [
+      "Compare size classes without inventing a universal winner",
+      "A compact screen can be a reasonable candidate where available mounting space is constrained. A wider screen can be worth reviewing where the actual interface uses the additional area effectively. Neither description establishes that the device is suitable for a particular vehicle. Treat size classes as starting points for a shortlist, not approval categories."
+    ],
+    [
+      "Separate active display area from the installation envelope",
+      "The installation envelope is the physical space occupied by the display, mount, connectors and routed cables through the permitted adjustment range. It can be substantially different from the active panel area. Ask for the enclosure drawing, mount drawing, connector locations and any required cable-bend or service clearance specified by the manufacturer."
+    ],
+    [
+      "Evaluate the real interface while safely parked",
+      "Use the same compatible phone, software versions, application state and representative content when comparing candidates. Record the display firmware and configuration as well. Otherwise, a difference in map zoom, layout, phone settings or application version can be mistaken for a benefit caused by panel size."
+    ],
+    [
+      "A reusable screen-size selection worksheet",
+      "Use one worksheet per candidate configuration. Leave unknown fields explicitly unresolved. The intended output is an accountable shortlist decision with conditions, rather than a single score that conceals a serious fit problem."
+    ],
+    [
+      "Apply the method to an importer assortment decision",
+      "Consider an illustrative importer choosing between a compact display and a wider display for independent installers. The larger model looks more attractive in a supplier presentation. Before choosing it as the default stocked option, the product manager asks installers to identify representative cabins and obtains both enclosure drawings."
+    ],
+    [
+      "What to request before sample approval",
+      "Ask for a configuration package containing the current display and enclosure dimensions, compatible mount options, installation instructions, interface photographs tied to a software version and the supported phone-projection prerequisites. Request clarification wherever a picture differs from the proposed sample or the drawing lacks a relevant dimension."
+    ]
+  ],
+  "checklist": [
+    "Define cabin and viewing position",
+    "Confirm external dimensions",
+    "Review complete installation envelope",
+    "Compare supported interfaces consistently",
+    "Record sample-specific observations",
+    "Approve a bounded shortlist"
+  ],
+  "faq": [
+    [
+      "Is a larger portable CarPlay screen always better?",
+      "No. Additional area helps only when the actual interface and viewing position make it useful and the complete installation remains suitable. Compare physical fit and supported layouts on samples before treating a larger diagonal as an upgrade."
+    ],
+    [
+      "Can two screens with the same diagonal fit differently?",
+      "Yes. Aspect ratio, bezel, enclosure depth, connector position and mount geometry can differ. Request external dimensions and inspect the installation envelope rather than approving fit from the diagonal specification."
+    ],
+    [
+      "Does higher resolution guarantee easier reading?",
+      "No. Resolution describes the pixel grid. Usable text and controls also depend on the interface layout, scaling, viewing distance, reflections and other conditions. Inspect the actual configuration instead of assuming that a specification alone proves readability."
+    ],
+    [
+      "Can a parked cabin review prove driving safety or legal compliance?",
+      "No. It can identify fit and visibility concerns within the reviewed setup. Driving-distraction evaluation, installation approval and applicable market requirements need appropriate separate assessment. Do not present the worksheet as certification."
+    ],
+    [
+      "Should distributors stock several sizes immediately?",
+      "Only when distinct customer requirements and reviewed configurations justify them. Start with a bounded shortlist, document the installation families and unresolved questions, and assess the added inventory and support burden before expanding the assortment."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Removable or Fixed Screen Mounts",
+      "/blog/portable-carplay-screen-removable-vs-fixed-mount/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Smart Car Screen selection",
+    "title": "Choose a display around the intended cabin.",
+    "body": "Share the viewing positions, proposed locations and completed selection worksheet to discuss a product shortlist.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "automotive-electronics-distributor-sell-through-reporting",
   "title": "Distributor Sell-Through Reporting for Automotive Electronics: Reconcile Before Reordering",
   "category": "Market strategy",
