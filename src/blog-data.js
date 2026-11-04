@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "production-test-limits-vs-specification-limits-guard-banding",
+  "title": "Production Test Limits vs Specification Limits: Guard Banding for Automotive Electronics",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 4, 2026",
+  "publishAt": "2026-11-04T14:05:31+08:00",
+  "updatedAt": "2026-11-04T14:05:31+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Production Test Limits vs Specification Limits | TrolinkTek",
+  "excerpt": "Understand production test limits, specification limits and guard banding. Use a buyer worksheet to review uncertainty, acceptance rules and controlled release evidence.",
+  "image": "/assets/blog/production-test-limits-vs-specification-limits-guard-banding.png",
+  "imageAlt": "Digital caliper beside the metal edge of an unbranded automotive display enclosure in a foam fixture on a navy workbench, with no visible readings",
+  "contentPath": "/content/blog-articles/production-test-limits-vs-specification-limits-guard-banding.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "production test limits vs specification limits",
+  "secondaryKeywords": [
+    "guard banding in production testing",
+    "measurement uncertainty",
+    "acceptance limits",
+    "conformity decision rule",
+    "automotive electronics test recipe"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier-quality engineers, importer product managers and private-label engineering teams",
+  "intro": "Production test limits define which measured results a factory accepts; specification limits define the product requirement. They can differ because measurements carry uncertainty. A guard band moves an acceptance boundary away from a specification boundary under an agreed decision rule, changing the balance between accepting a nonconforming item and rejecting a conforming one. For automotive electronics buyers, a green test result is therefore incomplete evidence unless it identifies the requirement, measurement method, acceptance limits and rule used. Ask engineering and quality owners to approve that relationship before production, preserve the measured values, and control later changes. This guide explains the distinction for importers, private-label product managers and supplier-quality teams reviewing measurable characteristics of CarPlay AI Boxes, Smart Car Screens and related accessories.",
+  "sections": [
+    [
+      "Four terms that belong in the same conversation",
+      "A **specification limit** bounds a product characteristic under stated conditions. It might concern an enclosure dimension, electrical characteristic or defined timing measurement. The requirement must identify units, configuration and method conditions; a number detached from those conditions is not an executable specification."
+    ],
+    [
+      "Compare the boundaries before comparing suppliers",
+      "Two suppliers can report different yields while applying different acceptance rules. Their results cannot establish which product is better until the requirements, methods and decision logic are comparable. Likewise, a stricter internal screening limit does not automatically mean a better design or an appropriate measurement system."
+    ],
+    [
+      "Understand guard banding without copying a universal formula",
+      "For a deliberately simplified upper-limit example, let S represent the upper specification limit and g a positive inward guard band. The acceptance boundary A is then S minus g. Under the illustrated binary rule, a measured result at or below A is accepted and a result above A is not accepted. This is a symbolic explanation, not a recommended limit or measured TrolinkTek result."
+    ],
+    [
+      "Assess the measurement process before tightening the recipe",
+      "Start by defining the measurand: the particular quantity being measured. For a Smart Car Screen enclosure dimension, specify the feature and reference geometry. For a timing characteristic, specify the start event, end event and operating state. A repeatable timer cannot rescue an ambiguous definition of when a device is ready."
+    ],
+    [
+      "A worksheet for approving production test limits",
+      "Use one row set per measurable characteristic and configuration. Keep unresolved items visible rather than accepting a generic declaration that factory limits are stricter than customer limits. The following worksheet is an editorial review tool, not an accreditation form or a claim that every supplier must use one particular decision rule."
+    ],
+    [
+      "An importer scenario: identical drawings, different dispositions",
+      "Consider a hypothetical importer evaluating a Smart Car Screen enclosure from two manufacturing routes. Both refer to the same approved dimension drawing. One test recipe compares a displayed reading directly with the drawing boundary. The other compares a stored result with an inward acceptance limit. Their reported pass counts differ."
+    ],
+    [
+      "Control borderline results and later changes",
+      "A result outside the acceptance region needs the disposition required by the approved rule. If an authorized review route exists, document who can use it, what independent evidence is needed and how the final decision is recorded. Do not introduce an informal conditional pass after seeing an inconvenient result."
+    ],
+    [
+      "Where this approach stops",
+      "Guard banding concerns a defined quantitative decision. It does not replace functional coverage, sampling design, reliability validation or market-specific conformity assessment. A pass for one dimension cannot support a claim that every Smart Car Screen fits every dashboard. A quantitative timing result cannot by itself describe overall user experience."
+    ]
+  ],
+  "checklist": [
+    "Identify specification and measurand",
+    "Review measurement uncertainty basis",
+    "Approve acceptance boundaries and decision rule",
+    "Verify equality and rounding implementation",
+    "Preserve original results and recipe revisions",
+    "Control method and limit changes"
+  ],
+  "faq": [
+    [
+      "Are production test limits always tighter than specification limits?",
+      "No. Their relationship follows the approved decision rule. An inward guard band creates a narrower acceptance region, but it is one approach rather than a universal requirement. Ask for the documented relationship and rationale."
+    ],
+    [
+      "Does a result in the guard band prove a defective product?",
+      "No. In the illustrated binary rule it is not accepted, but that disposition does not establish the true value. Preserve the result and apply the agreed handling rather than relabeling it as a physical defect without evidence."
+    ],
+    [
+      "Can the calibration certificate provide the whole uncertainty estimate?",
+      "Usually it is one input. The production measurement can add fixture, method, environmental and processing contributions. Qualified personnel should evaluate what applies to the actual measurement process."
+    ],
+    [
+      "Should buyers require the same percentage margin for every test?",
+      "No. Characteristics, measurement methods, uncertainty and consequences differ. A single percentage can create inappropriate decisions, and some applicable methods already define the decision process."
+    ],
+    [
+      "Can tightening limits replace improving a test station?",
+      "No. A margin changes acceptance behavior. It does not correct an ambiguous measurand, unstable fixture, software error or unsuitable method. Address those causes and reassess the decision basis."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Test-Station Correlation and Golden-Unit Control",
+      "/blog/wireless-carplay-adapter-test-station-correlation-golden-unit-control/"
+    ],
+    [
+      "Controlled Retest Decision Rules",
+      "/blog/automotive-electronics-controlled-retest-decision-rules/"
+    ],
+    [
+      "Out-of-Tolerance Instrument Impact Assessment",
+      "/blog/production-test-instrument-out-of-tolerance-impact-assessment/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Production measurement review",
+    "title": "Connect product requirements to release decisions.",
+    "body": "Share your configuration, measurable characteristics and specification revisions to discuss the test matrix and evidence needed before approving limits.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "portable-carplay-screen-size-viewing-position",
   "title": "Portable CarPlay Screen Size: How to Choose for the Driver's Viewing Position",
   "category": "Buyer guide",
