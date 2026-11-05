@@ -1,5 +1,109 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-production-line-clearance-changeover",
+  "title": "Production Line Clearance for Automotive Electronics Changeovers",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 5, 2026",
+  "publishAt": "2026-11-05T14:07:23+08:00",
+  "updatedAt": "2026-11-05T14:07:23+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Production Line Clearance for Electronics Changeovers | TrolinkTek",
+  "excerpt": "Learn how to verify line clearance, active setup and first-piece evidence before releasing an automotive electronics production changeover.",
+  "image": "/assets/blog/automotive-electronics-production-line-clearance-changeover.png",
+  "imageAlt": "Two technicians carry a display module away from an assembly station while a second module waits on a separate tray",
+  "contentPath": "/content/blog-articles/automotive-electronics-production-line-clearance-changeover.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "automotive electronics production line clearance",
+  "secondaryKeywords": [
+    "production changeover control",
+    "setup verification",
+    "first-piece verification",
+    "work-in-progress segregation",
+    "changeover release record"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier quality engineers and manufacturing quality leads buying private-label automotive electronics",
+  "intro": "Before releasing an automotive electronics line after a changeover, verify three things together: the previous job can no longer feed the line, the new job is active at every affected station, and the first unit produced under that setup matches the approved configuration. Link those checks to the outgoing and incoming work orders and record who authorized the restart. A clean bench leaves open the possibility of an old firmware image, an active label print job, or a previous kit waiting in rework. A passing first unit also leaves open the possibility that old material can enter later. For supplier quality engineers, the strongest evidence is a release record that follows the physical product, software and packaging across the transition and shows what happens when any check fails.",
+  "sections": [
+    [
+      "What line clearance covers",
+      "A production changeover is the transition from one authorized build context to another. It may involve a different model, brand, regional kit, hardware revision or approved firmware. It can happen on one station, across an assembly line, or only at a shared pack-out bench. Two work orders can use the same enclosure and still require clearance because the accessory set, provisioning file or printed instructions differ."
+    ],
+    [
+      "Establish the boundary between jobs",
+      "Identify the outgoing order, incoming order and every location that could still supply either one. Follow the product from staging through assembly, programming, test, rework and packing. Include any nearby overflow rack, buffer and printer used by the affected stations. The boundary should follow how material moves. A shared label printer outside the cell belongs in scope if its output can reach that cell."
+    ],
+    [
+      "Confirm the active setup and the first output",
+      "Start with an approved build reference that the operator and verifier can retrieve for the incoming order. It should identify the effective revisions of the bill of materials, relevant work instructions, firmware or provisioning package, test recipe and packaging specification. Confirm which controls apply at each station. A packaging-only change may need an accessory and label check even if the board and firmware stay the same."
+    ],
+    [
+      "Use one record to authorize the restart",
+      "A release record should let someone outside the shift reconstruct the transition. It can link to separate station records, provided each points to the same work orders, setup and time window. Ask for a completed example from a comparable changeover and trace it to the evidence behind the sign-off."
+    ],
+    [
+      "Walk through a shared pack-out example",
+      "Suppose a supplier packs two private-label portable display kits on the same bench. They share the same display, but one kit includes a different mount and a different regional insert. The second work order can pass a display power-on test while still being packed as the first kit."
+    ],
+    [
+      "Decide how much evidence to require",
+      "A repeat order on the same line and revision may need a narrower check than a change affecting material, firmware and packaging together. Define the triggers by the risk of the changed process and the supplier's approved controls. Review a completed record from a shift handover, an interruption or another relevant transition if that is where the risk lies. For recurring checks of how teams follow the process, see the [guide to layered process audits](/blog/layered-process-audits-automotive-electronics/)."
+    ]
+  ],
+  "checklist": [
+    "Identify the outgoing and incoming jobs",
+    "Account for outgoing material and configuration",
+    "Verify the active setup at affected stations",
+    "Record first-piece evidence",
+    "Resolve holds before authorizing restart"
+  ],
+  "faq": [
+    [
+      "When should the factory repeat line clearance?",
+      "Define triggers for the stations that can carry over a previous job. A change of SKU, brand, revision, market kit or active recipe can trigger a check. After an interruption or setup adjustment, use the approved control plan to identify which parts of the verification must be repeated."
+    ],
+    [
+      "Can the same components remain on the line?",
+      "They can remain where the approved process allows it and their identities, applicability and trace records are confirmed. Record what remains in scope. Put unidentified or incompatible material on hold with a documented destination."
+    ],
+    [
+      "Is a passing first piece enough to release a changeover?",
+      "It proves selected characteristics of the unit that was checked under the recorded setup. Release should also account for outgoing material and configuration and confirm the new setup at affected stations. A passing unit cannot show whether leftover items are still available to enter later."
+    ],
+    [
+      "What if the supplier uses paper records?",
+      "Ask for the controlled instructions, a completed transition record, traceable output evidence and a demonstration of how the hold state is enforced. Paper or electronic records should let the reviewer follow the same work orders and establish when and where processing was authorized."
+    ],
+    [
+      "What should a buyer ask to see during a supplier review?",
+      "Request a completed release record for a comparable changeover, including leftover material disposition, active setup identifiers and first-piece evidence. If possible, review how the team handles a mismatch or missing record. A blank form shows the intended process. A completed record shows how the decision was made."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Production Traceability for Automotive Electronics",
+      "/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Quality Escape Containment",
+      "/blog/automotive-electronics-quality-escape-containment/"
+    ],
+    [
+      "Layered Process Audits for Automotive Electronics",
+      "/blog/layered-process-audits-automotive-electronics/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Changeover verification planning",
+    "title": "Define the evidence for your next production changeover.",
+    "body": "Share the product variants, affected stations and release concerns to scope setup checks and first-piece verification.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "portable-carplay-screen-factory-backup-camera-compatibility",
   "title": "Can a Portable CarPlay Screen Use the Factory Backup Camera?",
   "category": "Compatibility",
