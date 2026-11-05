@@ -1,5 +1,105 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-installation-capacity-planning",
+  "title": "Installation Capacity Planning for Automotive Electronics Distributors",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 5, 2026",
+  "publishAt": "2026-11-05T19:06:02+08:00",
+  "updatedAt": "2026-11-05T19:06:02+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Installation Capacity Planning for Distributors | TrolinkTek",
+  "excerpt": "Plan an automotive electronics rollout around complete kits, qualified installers and available bays. Use a branch worksheet to decide when to release more stock.",
+  "image": "/assets/blog/automotive-electronics-installation-capacity-planning.png",
+  "imageAlt": "Technician holds a portable display beside a parked car in one service bay while the adjacent bay stands empty",
+  "contentPath": "/content/blog-articles/automotive-electronics-installation-capacity-planning.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "automotive electronics installation capacity planning",
+  "secondaryKeywords": [
+    "installer capacity",
+    "service bay scheduling",
+    "dealer rollout",
+    "complete installation kits",
+    "branch stock allocation"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Distributor channel operations managers planning an installer-led automotive electronics rollout",
+  "intro": "Before launching an automotive electronics offer that includes installation, cap each location's first allocation at the number of jobs it can realistically complete during the launch window. Count only jobs that have a confirmed fitment path, a complete kit, a suitably equipped bay and a qualified technician available at the same time. Reserve time for handover and return visits, then subtract the work already committed on the calendar. A retailer can have displays ready to ship and still be unable to fulfill an installed offer if the right mount is missing or the only trained installer is fully booked. Use a small batch of completed jobs to revise the plan before opening the next tranche of appointments or sending additional stock.",
+  "sections": [
+    [
+      "Define the offer before you count capacity",
+      "An installed offer is a product and a scoped service that the channel agrees to deliver together. An installer referral introduces the customer to a shop that quotes and schedules the work separately. A hardware-only offer leaves installation arrangements to the customer. All three can be viable in one network. Decide who makes the appointment promise, who confirms the parts and who handles a job that cannot go ahead as quoted."
+    ],
+    [
+      "Find the binding constraint at each location",
+      "Start with actual calendar time and stock at the point of service. Net bay time is the usable time left on a suitable bay after existing bookings and protected blocks. Net technician time is the corresponding qualified labor after other assignments. Both need to be available in the same appointment block. A technician shared by two locations can cover only one job at a time even if both shops report empty bays."
+    ],
+    [
+      "Tie stock allocation to the way jobs are sold",
+      "Allocate stock for confirmed installed jobs separately from units held for walk-in retail, demonstrations or replacements. If a shop has a genuine hardware-only channel, forecast it separately and make the stock status explicit. Keep enough flexibility to move unopened stock to another location when the installed offer pauses, provided the destination has a compatible kit and a service plan. Use [distributor sell-through reporting](/blog/automotive-electronics-distributor-sell-through-reporting/) to reconcile transfers, direct sales and completed installed sales without counting the same unit twice."
+    ],
+    [
+      "Review the first wave before opening more locations",
+      "Consider a hypothetical importer with two installer partners. One can handle standard portable display installations and separately scoped camera jobs. The other has spare bay time and staff trained only on the standard kit. Interest in camera installations is stronger at the second shop. The importer allocates standard kits to both locations and offers camera appointments only at the first, after fitment and parts are confirmed. The second shop routes camera requests through the agreed referral process and keeps that demand visible in its launch report."
+    ],
+    [
+      "Set limits for the capacity model",
+      "Use this method for offers where the distributor or its partner controls a defined installation promise. Independent referrals need the shop's confirmed availability before the distributor communicates a date. Hardware-only sales need their own demand and support assumptions. Seasonal workloads, newly trained technicians and a different mix of vehicles can all make a small pilot unrepresentative. Review those changes before carrying the same allocation cap into another region."
+    ]
+  ],
+  "checklist": [
+    "Define the job class",
+    "Confirm compatible kits",
+    "Match qualified labor to bay time",
+    "Track completed jobs and exceptions",
+    "Release the next allocation"
+  ],
+  "faq": [
+    [
+      "How many units should a distributor send to an installer for launch?",
+      "Start with complete kits for the confirmed installation window and account separately for any agreed retail, demo or service stock. Compare eligible demand with the slots that have both a suitable bay and a qualified technician. Release additional kits when actual job completion and stock reconciliation justify a larger allocation."
+    ],
+    [
+      "Should a consultation count as an installation slot?",
+      "Track consultations as their own work. If they use the same people or bays, subtract those blocks from the resources available for installation. Keep consultation outcomes visible so the team can distinguish people waiting for fitment approval from customers who are ready to book."
+    ],
+    [
+      "Can we use the same installation allowance across all dealers?",
+      "Use a shared job definition, then validate the allowance at each type of site. Tooling, technician experience, vehicle mix and handover arrangements can change how long the work occupies the bay. Treat a new site or a new job class as provisional until there is local evidence to support the estimate."
+    ],
+    [
+      "What if demand is high and the first shops are fully booked?",
+      "Publish the next confirmed dates, offer a supported referral where available and preserve the waitlist by job class. Check which resource limits the schedule before sending more units. Training, accessory stock or a second capable partner may resolve different constraints."
+    ],
+    [
+      "What evidence should the purchasing committee review?",
+      "Ask for confirmed bookings, complete kit availability, completed work and the reasons for reschedules and return visits. Tie a proposed stock increase to the specific branch and job class that can handle it. Include the owner and review date for any condition that must be met before the next release."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Distributor Sell-Through Reporting for Automotive Electronics",
+      "/blog/automotive-electronics-distributor-sell-through-reporting/"
+    ],
+    [
+      "Private-Label Smart Car Screen Kit Architecture",
+      "/blog/private-label-smart-car-screen-kit-architecture/"
+    ],
+    [
+      "Automotive Electronics Lead Routing",
+      "/blog/automotive-electronics-lead-routing-distributors/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Installer-led rollout planning",
+    "title": "Plan the first kits for your installer network.",
+    "body": "Share the markets, locations and job classes to scope the kit and documentation for your first rollout.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "automotive-electronics-production-line-clearance-changeover",
   "title": "Production Line Clearance for Automotive Electronics Changeovers",
   "category": "Quality control",
