@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-factory-backup-camera-compatibility",
+  "title": "Can a Portable CarPlay Screen Use the Factory Backup Camera?",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 5, 2026",
+  "publishAt": "2026-11-05T09:04:20+08:00",
+  "updatedAt": "2026-11-05T09:04:20+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen & Factory Camera Compatibility | TrolinkTek",
+  "excerpt": "Can a portable CarPlay screen use the factory backup camera? Compare retention routes, signal paths and evidence before selecting a screen or camera kit.",
+  "image": "/assets/blog/portable-carplay-screen-factory-backup-camera-compatibility.png",
+  "imageAlt": "Installer holding disconnected camera harness connectors beside a blank portable display, rear camera and coiled cable inside a navy-lit vehicle cabin",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-factory-backup-camera-compatibility.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "portable CarPlay screen factory backup camera compatibility",
+  "secondaryKeywords": [
+    "factory camera retention",
+    "portable screen camera input",
+    "reverse trigger",
+    "camera video format",
+    "camera retention interface"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Importers, installer networks and private-label product managers selecting portable Smart Car Screens",
+  "intro": "A portable CarPlay screen can use an existing factory backup camera only when the complete camera-to-display path is supported: the video signal, connector pinout, camera power, any required interface and reverse-view activation must all match. Adding CarPlay does not establish that connection. For many buyers, the simpler option is to keep the original camera on the original vehicle display and use the portable screen for phone projection. If the rear view must appear on the new screen, request configuration-specific evidence before selecting the kit. Importers, installers and private-label product managers should treat factory-camera retention as a separate integration decision, rather than a feature implied by “camera input” or “wireless CarPlay.” The right shortlist starts with where the camera image needs to appear and which existing functions must remain available.",
+  "sections": [
+    [
+      "Separate three meanings of camera compatibility",
+      "“Compatible with a backup camera” can describe three different outcomes. A portable screen might operate independently while the factory camera continues working elsewhere. It might accept a separate camera supplied for that screen. Or it might receive the vehicle's existing camera signal through a documented retention interface. Those outcomes require different hardware and support promises."
+    ],
+    [
+      "Choose the architecture before requesting a sample",
+      "Three routes cover common buyer requirements. They are alternatives to investigate, not claims that every portable display supports each route."
+    ],
+    [
+      "Trace the full path, not just the connector",
+      "Start with an interface sketch: camera, original electronics, any retention interface, harness and receiving display. Mark power and activation separately from video. A cable may carry several functions, but each still needs a defined source and destination. If the supplier cannot identify an element, record it as unresolved rather than assuming a connector change will solve it."
+    ],
+    [
+      "Read retention-interface evidence within its scope",
+      "Real retention products illustrate why vehicle identity matters. Connects2 describes its [CAM-VW2-RT camera-retention lead](https://connects2.com/Product/ProductItem/CAM-VW2-RT) for specified Volkswagen and Skoda applications when fitting an aftermarket head unit. That is evidence of a defined application, not a promise that the lead works with every vehicle or portable screen."
+    ],
+    [
+      "Specify reverse activation and retained functions",
+      "Seeing an image through a manually selected camera menu does not demonstrate the intended reverse-view experience. Define how the screen enters that view, what happens when reverse ends and which interface should return. Record the relationship with navigation, media and phone calls without inventing an acceptable switching time. Agree measurable requirements for the intended product and installation."
+    ],
+    [
+      "Use a configuration record for the shortlist",
+      "Give every proposed route a configuration identifier. The following worksheet can travel with the sample request, installer feedback and final sales description. An unresolved field should narrow the claim or keep the combination off the approved shortlist."
+    ],
+    [
+      "Example: an installer network planning two offers",
+      "Consider a hypothetical importer supplying portable screens through an installer network. One customer group wants wireless phone navigation while retaining the original camera display. Another wants the rear view on the added screen because the existing viewing arrangement does not meet its needs. These are two different installation offers even if the same screen is considered for both."
+    ],
+    [
+      "Boundaries before approval and marketing",
+      "This guide does not establish vehicle safety compliance, installation legality, camera performance or certification. Factory camera changes can affect a driver's existing rear-view experience; suitability and applicable requirements need review for the intended vehicle and market. Do not disable or bypass original functions based on this article."
+    ]
+  ],
+  "checklist": [
+    "Choose the intended viewing location",
+    "Identify the original camera system",
+    "Confirm video format and connector pinout",
+    "Document power and reverse activation",
+    "Specify retained functions and exclusions",
+    "Approve only the evidenced configuration"
+  ],
+  "faq": [
+    [
+      "Does wireless CarPlay transmit the factory camera image?",
+      "Wireless phone projection does not establish a connection from a factory camera to an added screen. Identify a separately supported camera video and activation path if the rear view must appear there."
+    ],
+    [
+      "Can I connect the original camera with a simple cable adapter?",
+      "Only if the documented signal, pinout, power and receiving-input requirements are satisfied by that exact arrangement. A mechanical connector match alone is insufficient; some applications require a defined retention interface."
+    ],
+    [
+      "Can the original camera stay on the original display?",
+      "That is a route to investigate when the portable screen operates independently. Confirm the existing camera baseline and verify that the actual installation preserves it. Tell the customer which screen shows the rear view."
+    ],
+    [
+      "Will factory parking guidelines and surround view transfer?",
+      "Do not assume so. Identify where those functions are generated and require evidence that the proposed integration preserves each required function. A rear-camera picture alone does not demonstrate feature retention."
+    ],
+    [
+      "What should an importer send for a compatibility review?",
+      "Send vehicle and original-system identities, the intended viewing location, proposed screen revision, camera and interface references, available documentation and the features that must remain. Mark unknown fields and request explicit exclusions."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable Screen vs Aftermarket Head Unit",
+      "/blog/portable-carplay-screen-vs-aftermarket-head-unit/"
+    ],
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Reverse-Camera Recovery Testing",
+      "/blog/wireless-carplay-adapter-reverse-camera-recovery-testing/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Screen and camera configuration review",
+    "title": "Define the camera path before selecting the screen.",
+    "body": "Share the vehicle, original camera, intended display location and required features to request a configuration-specific review with explicit limitations.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "custom-enclosure-vs-standard-housing-oem-odm",
   "title": "Custom Enclosure or Standard Housing? An OEM/ODM Investment Decision for Automotive Electronics",
   "category": "OEM / ODM",
