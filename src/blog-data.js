@@ -1,5 +1,109 @@
 export const blogPosts=[
 {
+  "slug": "diagnostic-log-timestamp-alignment-carplay-ai-box",
+  "title": "Diagnostic Log Timestamp Alignment for CarPlay AI Box and Head Units",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 6, 2026",
+  "publishAt": "2026-11-06T14:04:54+08:00",
+  "updatedAt": "2026-11-06T14:04:54+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Diagnostic Log Timestamp Alignment for CarPlay AI Box | TrolinkTek",
+  "excerpt": "Align CarPlay AI Box and head-unit diagnostic logs with shared event markers, boot sessions and a worksheet for deciding which event came first.",
+  "image": "/assets/blog/diagnostic-log-timestamp-alignment-carplay-ai-box.png",
+  "imageAlt": "CarPlay AI Box and a vehicle head unit cabled to a shared bench module on a navy workbench",
+  "contentPath": "/content/blog-articles/diagnostic-log-timestamp-alignment-carplay-ai-box.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "diagnostic log timestamp alignment",
+  "secondaryKeywords": [
+    "CarPlay AI Box diagnostics",
+    "monotonic clock",
+    "shared event marker",
+    "boot session",
+    "event-order uncertainty"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer after-sales engineers investigating CarPlay AI Box and vehicle head-unit incidents",
+  "intro": "Align diagnostic log timestamps by tying each device clock to a shared event, then compare only the events whose timing uncertainty allows a reliable order. Record the original timestamp, clock type, boot session, and what the logger actually observed. For a CarPlay AI Box reconnect issue, use a repeatable bench trigger that the box and head unit can both observe, with a reference capture where practical. Check a second marker before trusting one offset across the run. If a device reboots, its clock steps, or the capture path changes, build a new alignment for the affected segment. When two event windows overlap, report that the order is unresolved and identify the capture that would separate them.",
+  "sections": [
+    [
+      "Identify what each timestamp measures",
+      "A diagnostic timeline is a reconstruction of a specific run. A timestamp is evidence from one observer within that run. Before lining up rows, ask the supplier what the timestamp represents. A head unit may record when its application processed a disconnect callback. The AI Box may record when its firmware detected a link state change. A bench recorder may capture when USB power crossed a defined threshold. Those are different observations, even when they describe the same episode."
+    ],
+    [
+      "Anchor the clocks to the same physical run",
+      "Define the question before testing. For example, did the box supply change before the host withdrew the USB session, or did the host’s software state change while measured supply stayed present? That question calls for different evidence than “How long did the user wait for the screen to return?” Choose a reference that can see the events relevant to your question. A test controller, approved electrical capture, or recording with a visible marker can each serve, provided you document what it actually observes."
+    ],
+    [
+      "Rebuild the timeline in segments",
+      "A session starts over when a device reboots and restarts its boot-relative counter. Give every boot its own identifier even if the other device stays on. Treat missing early boot records as a gap. Separate a wall-clock correction from a reboot and record where the evidence supports each boundary. A clock that excludes suspend can also lose elapsed time relative to a reference that continues through sleep. A second anchor after wake can restore an alignment for the new segment if the hardware and logging paths remain comparable."
+    ],
+    [
+      "Example for an importer’s support escalation",
+      "Suppose an importer has a CarPlay AI Box sample that returns to the head unit’s home screen after the vehicle wakes. The host export contains a session-ended message. The box log contains a restart marker. Each export displays a different wall-clock value for the incident, and the box’s earlier boot records are incomplete. Support can establish that both reports belong to the same bench run, but the files alone leave the order unresolved. A later restart marker shows a reboot was recorded. It does not show exactly when power first changed or which side initiated the interruption."
+    ],
+    [
+      "Know where the method stops",
+      "Cross-device alignment helps when there is a credible bridge between clock domains. A customer’s description, an approximate local time, or a screen recording without an anchor may identify a useful capture window. In that situation, request a controlled reproduction and describe the existing evidence at its actual resolution. Log access, trace capabilities and suspend behavior can vary by firmware and head unit. Debug logging can also change what the system does during the run. Document any instrumentation that changes the build or physical setup before comparing the result with production behavior."
+    ],
+    [
+      "Prepare a supplier test request",
+      "Use the [Product Center](/products/) to identify the product family and the [OEM and ODM page](/oem-odm/) to scope supplier engineering support. Include the sample build, host configuration, suspected transition, accessible log sources, and the two events whose order would change the next action. Ask the supplier to return a capture plan with an anchor on each usable clock, a way to identify reboot segments, and a stated decision for cases where timing remains unresolved."
+    ]
+  ],
+  "checklist": [
+    "Identify clock and observer",
+    "Anchor each boot segment",
+    "Check a second marker",
+    "Compare event windows",
+    "Specify the next capture"
+  ],
+  "faq": [
+    [
+      "Can I align two logs just by converting them to UTC?",
+      "UTC conversion puts wall times in a common representation. Confirm that the clocks were actually synchronized for the incident or estimate their alignment using a shared marker. Keep any correction or uncertainty in the timeline."
+    ],
+    [
+      "How many markers do I need to align a short log capture?",
+      "Use one recognizable marker to estimate the offset and a second to check it when the capture allows. Add markers or split the run when sleep, reboot, clock corrections, or a material mismatch makes one offset unreliable."
+    ],
+    [
+      "Can elapsed timestamps be compared across two devices?",
+      "Elapsed times can have different starting points, units, and suspend behavior. Identify each boot session and map both sources to a common reference before comparing their absolute positions on the run timeline."
+    ],
+    [
+      "What if the head unit cannot export a timestamped log?",
+      "Use an approved observer that can see a relevant host behavior, such as a reference recording of the display. Label the event as a visible symptom and carry the observation uncertainty. If host internals are needed for the decision, ask the supplier for a supported capture method."
+    ],
+    [
+      "Does an aligned event order prove the cause of a disconnect?",
+      "A defensible order constrains the possible causes. Review what each sensor or logger observed, then repeat a controlled comparison that can test the remaining hypothesis."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Privacy-Safe Diagnostic Logs for Connected-Car Accessories",
+      "/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ],
+    [
+      "Wireless CarPlay Adapter Issue Reproduction Guide",
+      "/blog/wireless-carplay-adapter-issue-reproduction-guide/"
+    ],
+    [
+      "Wireless CarPlay Adapter Diagnostic Log Collection Guide",
+      "/blog/wireless-carplay-adapter-diagnostic-log-collection-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box diagnostic planning",
+    "title": "Plan a capture for your next diagnostic run.",
+    "body": "Share the AI Box build, head unit and suspected event order to scope an engineering capture.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "motorcycle-carplay-display-vs-factory-tft-navigation",
   "title": "Motorcycle CarPlay Display vs Factory TFT Navigation: When to Add a Screen",
   "category": "Product comparison",
