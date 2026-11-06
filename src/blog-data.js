@@ -1,5 +1,117 @@
 export const blogPosts=[
 {
+  "slug": "motorcycle-carplay-display-vs-factory-tft-navigation",
+  "title": "Motorcycle CarPlay Display vs Factory TFT Navigation: When to Add a Screen",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 6, 2026",
+  "publishAt": "2026-11-06T09:06:06+08:00",
+  "updatedAt": "2026-11-06T09:06:06+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Motorcycle CarPlay vs Factory TFT Navigation | TrolinkTek",
+  "excerpt": "Compare factory TFT navigation with a motorcycle CarPlay display. Use a dealer demo worksheet to assess route handoff, helmet audio and cockpit fit.",
+  "image": "/assets/blog/motorcycle-carplay-display-vs-factory-tft-navigation.png",
+  "imageAlt": "Motorcycle cockpit with a factory instrument cluster and a separate handlebar-mounted display",
+  "contentPath": "/content/blog-articles/motorcycle-carplay-display-vs-factory-tft-navigation.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "motorcycle CarPlay display vs factory TFT navigation",
+  "secondaryKeywords": [
+    "factory instrument cluster",
+    "helmet audio routing",
+    "motorcycle navigation",
+    "iPhone route handoff",
+    "cockpit fitment"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Motorcycle dealership and importer category managers evaluating accessory displays",
+  "intro": "Keep factory TFT navigation when it shows the guidance riders need, works with their phones and helmets, and preserves the controls they already use. Shortlist an add-on motorcycle CarPlay display when riders need a supported iPhone app, a separate map view, or a navigation workflow the original dash cannot deliver. Test that exact task before buying. The extra screen needs its own mounting position and power, and may change how prompts reach the helmet. Leave the factory instruments in place and check that speed, telltales and warnings remain visible from the rider’s seat. For dealers and importers, the strongest assortment decision comes from comparing the same route, phone and headset on both configurations.",
+  "sections": [
+    [
+      "What a TFT dash and a CarPlay display actually do",
+      "A factory TFT is the motorcycle manufacturer’s instrument display. TFT stands for thin-film transistor and describes the display technology. Navigation capability comes from the motorcycle’s equipment and software. Depending on the exact bike, the dash may show turn arrows from a companion phone app, present a moving map, support smartphone projection, or have no navigation feature. The same instrument area can also carry vehicle information that the rider needs regardless of which device handles the route."
+    ],
+    [
+      "Compare the rider’s workflow on the exact bike",
+      "The first showroom question is “What would you like to do on the bike that you cannot do today?” A rider asking for a bigger map may actually need an early lane prompt, a route received from a group leader, or a readable instruction without sound. Those are different requirements. Demonstrate the required information from the normal seated position and show how the route gets onto the bike before quoting hardware."
+    ],
+    [
+      "Check route handoff and offline behavior separately",
+      "Begin the demonstration with a route the rider recognizes. Ask how it arrives, whether it contains intermediate stops, and which route details must survive transfer. Start from the route source the rider actually uses, then review the route on each candidate screen before riding. An app may accept a destination but handle waypoints, route files, or rerouting differently from the rider’s planning tool. Record the route format and the exact steps that worked."
+    ],
+    [
+      "Keep instruments visible and give each prompt a clear owner",
+      "Set the rider’s seating position and confirm what they can see with the selected mount, screen and windscreen installed. Check the factory speed display, warning area and telltales in representative configurations, including an accessory screen that is switched off. With the bike parked, have the installer assess the full steering range, cables, brake and clutch controls, and any tank bag or accessory that changes clearance. Use the motorcycle and kit documentation to determine an appropriate mounting and power approach. The [motorcycle display fitment guide](/blog/motorcycle-carplay-display-compatibility-fitment/) provides a separate installation review."
+    ],
+    [
+      "Use a side-by-side demo worksheet",
+      "Fill one worksheet per bike, phone and headset combination. Record the actual result for each path and keep open questions visible. Accept the factory workflow when it satisfies all must-have rows. If it misses a required row, approve the add-on only after it passes that row and the installation and handover checks. Hold the offer for that cohort when a required row is still open."
+    ],
+    [
+      "Practical scenario for a mixed dealership",
+      "Consider a dealer with two adventure-bike cohorts. The first shows arrows through its factory companion app. Its weekday riders enter destinations in that app and already hear the prompts in their helmets. Keep the factory route for that customer group and use the delivery appointment to show pairing and route entry."
+    ],
+    [
+      "Where this comparison stops",
+      "This is a selection method for an accessory that coexists with factory instruments. Cluster replacement, instrument communication, vehicle coding, and safety-system changes require a separate engineering scope. The worksheet establishes evidence for the sample configuration. Recheck affected rows when a bike option, accessory harness, phone software or headset changes. For purchasing, capture the full installed offer, including the bracket, power components, setup labor and support materials, so the sales team can compare complete packages."
+    ],
+    [
+      "Shortlist a kit for a specific motorcycle cohort",
+      "Use the [Product Center](/products/) to review the motorcycle display category. Bring the worksheet and the exact bike, phone, app and headset details to [TrolinkTek’s solutions team](/solutions/) when discussing product selection. Include the missing factory function and your preferred mounting approach so the sample plan starts with a measurable rider task."
+    ]
+  ],
+  "checklist": [
+    "Identify the factory workflow",
+    "Demonstrate the same route",
+    "Verify helmet prompts",
+    "Approve cockpit clearance",
+    "Document the tested configuration"
+  ],
+  "faq": [
+    [
+      "Does a motorcycle TFT screen support Apple CarPlay?",
+      "Check the manufacturer’s equipment list and manual for the exact model, year and market. TFT identifies the display technology. CarPlay support depends on the specific infotainment implementation."
+    ],
+    [
+      "Can the factory TFT stay in place with an aftermarket CarPlay display?",
+      "A separate accessory is designed to coexist with the factory instruments. Have the installer confirm placement, power, steering clearance and instrument visibility on the selected motorcycle."
+    ],
+    [
+      "Can I use the motorcycle’s handlebar buttons with the CarPlay display?",
+      "Ask the accessory supplier which control interfaces are documented for the exact model and harness. Verify the actions riders need on the sample before putting handlebar control on a sales sheet."
+    ],
+    [
+      "Will my helmet headset receive navigation prompts from both displays?",
+      "Audio routing depends on the devices and pairing method. Choose the primary route source, then verify prompt playback, call handling, intercom behavior and recovery using the intended phone and headset."
+    ],
+    [
+      "Does a CarPlay screen make navigation work without mobile data?",
+      "Offline behavior depends on the iPhone app, prepared map area and task. Test continuing an existing route, rerouting and creating a fresh route separately in the planned setup."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Motorcycle CarPlay Display vs Dedicated GPS Navigator",
+      "/blog/motorcycle-carplay-display-vs-dedicated-gps-navigator/"
+    ],
+    [
+      "Motorcycle CarPlay Display Compatibility",
+      "/blog/motorcycle-carplay-display-compatibility-fitment/"
+    ],
+    [
+      "Motorcycle CarPlay Display vs Phone Mount",
+      "/blog/motorcycle-carplay-display-vs-phone-mount/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Motorcycle display selection",
+    "title": "Find a display for your motorcycle cohort.",
+    "body": "Share the motorcycle equipment, missing navigation function, phone and headset to scope a sample shortlist.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "automotive-electronics-installation-capacity-planning",
   "title": "Installation Capacity Planning for Automotive Electronics Distributors",
   "category": "Market strategy",
