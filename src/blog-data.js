@@ -1,5 +1,113 @@
 export const blogPosts=[
 {
+  "slug": "long-lead-component-buy-authorization-oem-odm",
+  "title": "Long-Lead Component Buy Authorization for OEM/ODM Electronics",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 6, 2026",
+  "publishAt": "2026-11-06T19:09:14+08:00",
+  "updatedAt": "2026-11-06T19:09:14+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Long-Lead Component Buy Authorization for OEM/ODM | TrolinkTek",
+  "excerpt": "Decide when to buy long-lead parts before an OEM/ODM order. Use a worksheet to cap quantity, cost and unused-stock exposure.",
+  "image": "/assets/blog/long-lead-component-buy-authorization-oem-odm.png",
+  "imageAlt": "Component reel and carrier tape beside a circuit board and an open automotive display housing on a navy workbench",
+  "contentPath": "/content/blog-articles/long-lead-component-buy-authorization-oem-odm.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "long-lead component buy authorization",
+  "secondaryKeywords": [
+    "early material authorization",
+    "OEM ODM procurement",
+    "long-lead electronic components",
+    "non-cancelable non-returnable components",
+    "material exposure cap"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label automotive electronics sourcing managers and procurement committees",
+  "intro": "Authorize an early component purchase only when the exact part is approved, waiting would delay a credible build, and the buyer can carry the cost if that build slips or disappears. Start with the smallest useful batch supported by a dated supplier quote and a conservative demand case. Record the part number, source, quantity, maximum exposure and approval deadline in a separate material release. Keep the finished-goods order subject to its own approval. For a private-label car screen, that can mean buying the confirmed display-interface chip while the retail kit is still being finalized. If the panel or board revision could change the chip requirement, ask for a reversible hold or wait. A long quoted lead time alone is insufficient grounds to buy.",
+  "sections": [
+    [
+      "Work backward from the build that matters",
+      "A long-lead component is a part whose procurement and receipt timeline can constrain a particular build. Its relevance depends on when the factory needs usable stock. A long supplier quote can be harmless when qualification or packaging approval determines the same start date. A shorter lead time can still be critical if the part must arrive for an engineering build that feeds a later release."
+    ],
+    [
+      "Choose the smallest commitment that can change the schedule",
+      "Procurement can take several actions before a finished-goods order. Agree on the authorization and its cost before the supplier acts. A rolling demand forecast can give the factory visibility into the likely volume by period. A hold, an actual materials purchase and a production release each require a different response from the supplier."
+    ],
+    [
+      "Set a quantity cap and a cash cap",
+      "Start from the next credible build and multiply its planned units by the number of approved components each unit requires. Subtract usable inventory and firm receipts assigned to that build, checking that both will be available by the need date. Ask the factory to document any extra allowance for setup or attrition. Keep service stock protected unless its owner explicitly releases it. Reconcile by revision, location and allocation so a shared reel does not appear in two programs at once."
+    ],
+    [
+      "Use one release row per component",
+      "| Release field | What to write down | Who should verify it |"
+    ],
+    [
+      "A private-label car screen decision",
+      "Suppose an importer is planning a pilot for a portable smart screen. The display interface and board revision are approved. The manufacturer identifies one approved interface component as the only part that would miss the pilot if ordered at the regular purchase-order date. The importer is still choosing a regional accessory bundle and collecting feedback from installers. Its conservative pilot case supports a smaller quantity than the sales forecast, and a whole reel would leave material unused even if the pilot proceeds."
+    ],
+    [
+      "Where the method stops",
+      "A capped release controls what the buyer authorizes and clarifies what evidence is due. Confirm upstream terms separately. For example, [DigiKey's return policy](https://www.digikey.com/en/help-support/returns-and-order-issues/return-policy) identifies that particular products may be designated non-cancelable and non-returnable at quote or purchase. Check the actual seller's written conditions for the named item, including any limits on cancellation, rescheduling and returns. Agree with the factory on which costs and stock it can document, who owns the material and how an exception is approved."
+    ],
+    [
+      "Prepare an OEM/ODM request",
+      "Start with the [Product Center](/products/) to identify the relevant product family. Bring the approved configuration, conservative build window, and the date you can release the finished-goods order to the [OEM/ODM team](/oem-odm/). Ask the supplier to show the first build affected, the named part or resource that constrains it, and the smallest authorization it can execute. That gives procurement, engineering and finance a common proposal to review."
+    ]
+  ],
+  "checklist": [
+    "Confirm the exact part and source",
+    "Prove the build date changes",
+    "Compare the minimum order with the shortage",
+    "Cap quantity and spend",
+    "Reconcile unused material"
+  ],
+  "faq": [
+    [
+      "When should I authorize a long-lead component before the main order?",
+      "Consider it when the exact part and source are approved, waiting would delay a feasible build, and the cost of unused stock fits the approved limit. Compare the proposed buy with a hold, a smaller approved lot and the option to wait."
+    ],
+    [
+      "Does a demand forecast authorize the factory to buy parts?",
+      "Use the forecast to communicate expected demand. Document the parties' agreed authorization mechanism, the version it applies to, and the quantity and spend limits. Ask the factory to acknowledge a separate release when that is the agreed process."
+    ],
+    [
+      "What if the source sells only a full reel?",
+      "Price the entire reel in the decision. Check whether an approved smaller-lot source or staggered release meets the schedule. Approve the larger order only after the buyer accounts for the balance and accepts the downside."
+    ],
+    [
+      "Can the supplier substitute a similar component to protect the schedule?",
+      "Send the proposed substitution through engineering and supplier-quality review for the relevant board and firmware. Update the release only after the required approval and any verification are complete."
+    ],
+    [
+      "How do I close an early material authorization?",
+      "Reconcile receipts, production issues, remaining stock and invoices against the release identifier. Record what will be returned, credited, transferred, retained or disposed of, and who has approved that outcome."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Wireless CarPlay Adapter Supplier Business Continuity Plan",
+      "/blog/wireless-carplay-adapter-supplier-business-continuity-plan/"
+    ],
+    [
+      "Repeat-Order Change Control for Private-Label CarPlay Adapters",
+      "/blog/private-label-carplay-adapter-repeat-order-change-control/"
+    ],
+    [
+      "How to Verify Wireless CarPlay Adapter Supplier Capacity and Lead Time",
+      "/blog/wireless-carplay-adapter-supplier-capacity-lead-time/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "OEM/ODM material planning",
+    "title": "Review the material that could delay your build.",
+    "body": "Share your approved configuration and build window to discuss material options for your project.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/oem-odm/"
+  }
+},
+
+{
   "slug": "diagnostic-log-timestamp-alignment-carplay-ai-box",
   "title": "Diagnostic Log Timestamp Alignment for CarPlay AI Box and Head Units",
   "category": "Technical insight",
