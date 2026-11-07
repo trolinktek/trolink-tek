@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "rv-navigation-with-carplay-vehicle-aware-routing",
+  "title": "RV Navigation With CarPlay: A Dealer Guide to Vehicle-Aware Routing",
+  "category": "Vehicle applications",
+  "categoryLabel": "Vehicle applications",
+  "date": "November 7, 2026",
+  "automationRun": "2026-11-07-09",
+  "publishAt": "2026-11-07T09:03:41+08:00",
+  "updatedAt": "2026-11-07T09:03:41+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "RV Navigation With CarPlay: Dealer Routing Guide | TrolinkTek",
+  "excerpt": "Learn how RV dealers can pair CarPlay with vehicle-aware routing. Use a worksheet to verify the active profile, route source and customer handover.",
+  "image": "/assets/blog/rv-navigation-with-carplay-vehicle-aware-routing.png",
+  "imageAlt": "Technician holding a folded route card beside two dark displays in a parked motorhome cab",
+  "contentPath": "/content/blog-articles/rv-navigation-with-carplay-vehicle-aware-routing.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "RV navigation with CarPlay",
+  "secondaryKeywords": [
+    "RV routing",
+    "motorhome height",
+    "vehicle profile",
+    "portable CarPlay screen",
+    "RV dealer handover"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Motorhome dealership product managers and installer leads",
+  "intro": "A CarPlay screen can display guidance from a compatible iPhone app. The app or a separate navigator determines whether the route takes the motorhome's dimensions and weight into account. For RV dealers, start by identifying the equipment responsible for routing, then show the customer which screen and voice prompts to follow. If the existing RV navigator already handles the vehicle profile, keep it in that role and qualify CarPlay separately for phone functions. If an RV routing app is meant to handle both jobs, verify that its vehicle profile stays active on the exact CarPlay setup and during recalculation. Use the finished coach or towing combination for the profile, and check posted restrictions and the actual approach to the destination.",
+  "sections": [
+    [
+      "Separate the display from the route calculation",
+      "Phone projection lets the driver use selected iPhone apps through a compatible vehicle display. A factory screen and a portable CarPlay screen can each be a projection endpoint. A wireless adapter can change how a compatible host connects to the phone. These hardware choices affect where the driver sees directions and hears prompts. A dealer still needs to identify which app or device calculates the route."
+    ],
+    [
+      "Choose who owns turn-by-turn guidance",
+      "Give each supported configuration one primary source of directions. A customer should be able to say which app or device will recalculate after a missed turn and which source they will hear. Select the fallback separately and explain how to switch while parked."
+    ],
+    [
+      "Build the profile from the finished vehicle",
+      "A coach may share a base chassis with other RVs while its finished dimensions differ. Ask the conversion team for the actual configuration and the appropriate record for each value. Include fitted equipment that changes the relevant measurements. Roof-mounted accessories or a different towing configuration can make a previous setup record obsolete. Use the routing provider's instructions to distinguish between actual weight, a rated value and any separate axle field. Record the input units and read back what the device displays after saving."
+    ],
+    [
+      "Use this worksheet before a dealer rollout",
+      "Run the comparison from a parked vehicle or a bench and use known routes for which staff can check the relevant restrictions with the road or site operator. Include the last approach to a destination, since a booking address and a suitable entrance can differ. Keep a dated record of what was observed. Any road evaluation should follow the dealer's approved procedure."
+    ],
+    [
+      "A motorhome dealer handover example",
+      "Consider a dealer selling two coach heights on a shared cab platform. Buyers want a phone display for calls and music. Both trims already ship with a dedicated RV navigator. The dealer gives the installer a vehicle-specific profile sheet and checks the route to a campsite's signed motorhome entrance before the delivery demo. The installer pairs the phone, confirms media can play without drowning out the agreed navigation prompts, and shows the customer the active profile on the dedicated device."
+    ],
+    [
+      "Scope and supplier questions",
+      "Maps, app features and road conditions change. Verify any claim about offline routing for the chosen provider, downloaded region and mode. Include both opening a saved route and recalculating after a change, since those are different actions. Check local road and destination information before departure. Drivers should follow posted restrictions and actual conditions. Even a supported vehicle profile can miss a road restriction when the underlying data is incomplete. [Garmin vehicle profile limitations](https://www8.garmin.com/manuals/webhelp/GUID-03E29042-23C8-4418-8521-2AAEA94C7400/EN-US/GUID-566C6940-099F-4255-B7FC-15CB12A1AA68.html)"
+    ]
+  ],
+  "checklist": [
+    "Name the primary route source",
+    "Confirm the active vehicle profile",
+    "Preview a representative route",
+    "Verify recalculation and fallback",
+    "Document the dealer handover"
+  ],
+  "faq": [
+    [
+      "Does CarPlay automatically account for motorhome height?",
+      "Displaying an app in CarPlay does not establish that a route uses motorhome height. Confirm which system calculates the route, whether it supports a height input for the selected mode and region, and which profile is active."
+    ],
+    [
+      "Does a wireless CarPlay adapter add RV routing to an existing screen?",
+      "A wireless adapter for a compatible wired host changes the phone connection. Route selection still depends on the app or dedicated system providing guidance. Demonstrate the chosen vehicle-profile workflow separately."
+    ],
+    [
+      "Can the same profile be used with and without a trailer?",
+      "Create or select the correct configuration for each use when the system supports it. Follow the provider's instructions and check the dimensions and weight inputs for the entire combination where required."
+    ],
+    [
+      "Can an RV routing setup work without mobile data?",
+      "It depends on the exact product, downloaded coverage and function. In a controlled parked check, confirm whether the system can load guidance, start a new route and recalculate without mobile data. Set an agreed fallback for the functions it cannot provide."
+    ],
+    [
+      "What should a dealer verify before advertising RV navigation on a CarPlay display?",
+      "Record the exact routing app or device, vehicle profile inputs, operating mode, region and software version. Confirm what appears in CarPlay, which prompts the customer hears and whether the route still uses the profile after recalculation. Keep the sales description within that evidence."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Wireless CarPlay Adapters for RVs and Camper Vans",
+      "/blog/wireless-carplay-adapter-rv-camper-van-guide/"
+    ],
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "RV dealer installation planning",
+    "title": "Find a display that fits your RV program.",
+    "body": "Share the cab, existing navigator and intended mounting position for your dealer shortlist.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "long-lead-component-buy-authorization-oem-odm",
   "title": "Long-Lead Component Buy Authorization for OEM/ODM Electronics",
   "category": "OEM / ODM",
