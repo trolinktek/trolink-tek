@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "supplier-selection-matrix-automotive-electronics",
+  "title": "Supplier Selection Matrix for Automotive Electronics: Evidence Before Scores",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 7, 2026",
+  "automationRun": "2026-11-07-19",
+  "publishAt": "2026-11-07T19:05:25+08:00",
+  "updatedAt": "2026-11-07T19:05:25+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Supplier Selection Matrix: Automotive Electronics | TrolinkTek",
+  "excerpt": "Build an automotive electronics supplier selection matrix with essential gates, evidence confidence, weighted scoring and a procurement committee decision record.",
+  "image": "/assets/blog/supplier-selection-matrix-automotive-electronics.png",
+  "imageAlt": "Two unbranded automotive display samples beside an open evidence folder and a circuit board on a navy conference table",
+  "contentPath": "/content/blog-articles/supplier-selection-matrix-automotive-electronics.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "supplier selection matrix for automotive electronics",
+  "secondaryKeywords": [
+    "supplier evaluation criteria",
+    "weighted supplier scoring",
+    "procurement committee",
+    "evidence confidence",
+    "supplier qualification gates"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Automotive electronics importer sourcing managers and cross-functional procurement committees",
+  "intro": "A supplier selection matrix helps an automotive electronics buying committee compare qualified offers against the same requirements, evidence and decision rules. Start with essential pass-or-hold gates, then score the preferences that genuinely distinguish eligible suppliers. Keep evidence confidence visible beside each rating and test whether reasonable changes in assumptions would reverse the ranking. For an importer choosing a Smart Car Screen or CarPlay AI Box partner, the highest total is useful only when the underlying product scope is comparable and the critical claims have been checked. Use the matrix to identify the next decision: approve a defined pilot, request targeted evidence, or reject an unsuitable offer. A spreadsheet total should never turn an unresolved essential requirement into an acceptable sourcing risk.",
+  "sections": [
+    [
+      "Define the decision the matrix will support",
+      "A selection matrix is a structured comparison of candidate suppliers for a specific purchase or project. It differs from an ongoing supplier performance scorecard, which monitors an established relationship. Here the question is which candidate should advance toward a defined pilot or commercial award, and why."
+    ],
+    [
+      "Separate essential gates from weighted preferences",
+      "An essential gate is a requirement whose absence prevents the intended decision. Examples might include a configuration-matched sample completing the agreed critical functions, an identified production location, or an acceptable evidence package for the intended market reviewed by the responsible specialist. Define each gate precisely enough to evaluate it."
+    ],
+    [
+      "Build an evidence ledger before assigning numbers",
+      "Give every important claim a reference: document revision, sample identity, demonstration record, named owner and review date. State what the evidence actually covers. A report on a different firmware branch may inform a question without proving that the offered build meets the requirement."
+    ],
+    [
+      "Use a matrix the committee can actually explain",
+      "Keep the model small enough that every row influences a real decision. The following worksheet is a starting structure, not a prescribed industry weighting. Replace the examples with project-specific criteria and agree their importance before reviewing totals."
+    ],
+    [
+      "Calculate transparently and test the result",
+      "For eligible suppliers, one simple method is weighted points equals weight multiplied by rating divided by the maximum rating. If weights total 100 and the maximum rating is four, a criterion weighted at 20 with a rating of three contributes 15 points. This is arithmetic for an example model, not a supplier result or recommended allocation."
+    ],
+    [
+      "Work through a hypothetical portable-screen decision",
+      "Imagine a regional distributor comparing two suppliers for a private-label Smart Car Screen pilot. Both submitted the same requested kit scope and passed the agreed critical-function gates. Candidate A receives a slightly higher initial total because its commercial offer is stronger. Candidate B has more complete after-sales evidence, including an identifiable diagnostic handover and clearer ownership of unresolved cases."
+    ],
+    [
+      "Capture the award rationale, not just the total",
+      "Keep a short decision record beside the worksheet. It should let another manager understand the recommendation without reconstructing the meeting. Preserve dissent when it identifies a material unresolved issue; averaging opinions can conceal a substantive disagreement about evidence."
+    ],
+    [
+      "Limits that remain after selection",
+      "The matrix supports a sourcing judgment. It does not prove universal compatibility, product reliability, future capacity or regulatory suitability. Those conclusions require the relevant verification and specialist review within their own scope. Supplier selection also does not replace sample approval, contractual agreement, shipment release or incoming acceptance."
+    ],
+    [
+      "Bring a decision-ready brief to your supplier discussion",
+      "Explore the [Product Center](https://trolink-tek.com/products/) to define the product category, then review the [OEM/ODM process](https://trolink-tek.com/oem-odm/) for the proposed development and approval scope. Share the intended market, controlled configuration, essential gates and open evidence questions when you [Request a Factory Profile](https://trolink-tek.com/#quote). That gives purchasing, quality and engineering a concrete basis for discussing the next sourcing decision."
+    ]
+  ],
+  "checklist": [
+    "Define the sourcing decision",
+    "Separate essential gates",
+    "Link ratings to evidence",
+    "Test ranking sensitivity",
+    "Record approval scope and conditions"
+  ],
+  "faq": [
+    [
+      "Is a supplier selection matrix the same as a supplier scorecard?",
+      "They can share a format, but their purpose differs. A selection matrix compares candidates for a defined sourcing decision. An operating scorecard monitors an existing supplier over time. Set criteria and evidence around the decision being made."
+    ],
+    [
+      "Should the cheapest supplier receive the highest total?",
+      "Only if its qualified offer performs best under the agreed evaluation method. First normalize the commercial scope and apply essential gates. Then assess relevant value, support and execution factors without counting the same cost twice."
+    ],
+    [
+      "How should missing evidence be scored?",
+      "Mark the gap explicitly and request clarification. Hold an essential gate until acceptable evidence exists. For preferences, follow the declared rating rules and preserve uncertainty; do not replace an unknown answer with an assumed average."
+    ],
+    [
+      "What if a small weighting change reverses the ranking?",
+      "Treat the recommendation as sensitive to that priority. Identify the disputed criterion or evidence gap, seek targeted confirmation and explain the dependency to the approver. Do not adjust weights retrospectively to manufacture a preferred result."
+    ],
+    [
+      "Can the highest-ranked supplier move straight to production?",
+      "Only after the separately required approvals and conditions are complete. The matrix may support a pilot recommendation while sample approval, market review, contractual scope or production-release requirements remain open. State the authorized boundary explicitly."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Supplier Evaluation Before an RFQ",
+      "/blog/wireless-carplay-adapter-supplier-evaluation-rfq/"
+    ],
+    [
+      "Supplier Quality-System Evidence Review",
+      "/blog/automotive-electronics-supplier-quality-system-evidence-review/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Supplier selection evidence",
+    "title": "Make your next supplier decision evidence-based.",
+    "body": "Share the product scope, essential gates and open evidence questions with our OEM/ODM team.",
+    "label": "Request a Factory Profile",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "first-pass-yield-vs-final-yield-automotive-electronics",
   "title": "First-Pass Yield vs Final Yield: Reading Automotive Electronics Supplier Reports",
   "category": "Quality control",
