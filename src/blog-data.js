@@ -1,5 +1,110 @@
 export const blogPosts=[
 {
+  "slug": "first-pass-yield-vs-final-yield-automotive-electronics",
+  "title": "First-Pass Yield vs Final Yield: Reading Automotive Electronics Supplier Reports",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 7, 2026",
+  "automationRun": "2026-11-07-14",
+  "publishAt": "2026-11-07T14:10:07+08:00",
+  "updatedAt": "2026-11-07T14:10:07+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "First-Pass Yield vs Final Yield: Supplier Reports | TrolinkTek",
+  "excerpt": "Compare first-pass yield and final yield in automotive electronics supplier reports. Reconcile unit histories, rework and holds with a practical buyer worksheet.",
+  "image": "/assets/blog/first-pass-yield-vs-final-yield-automotive-electronics.png",
+  "imageAlt": "Compact automotive electronics module on a conveyor beside a separate rework bench with an opened enclosure",
+  "contentPath": "/content/blog-articles/first-pass-yield-vs-final-yield-automotive-electronics.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "first-pass yield vs final yield",
+  "secondaryKeywords": [
+    "automotive electronics production yield",
+    "rework recovery",
+    "unique-unit reconciliation",
+    "rolled throughput yield",
+    "supplier quality reports"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Automotive electronics importer quality leads, supplier quality engineers and sourcing managers",
+  "intro": "First-pass yield tells a buyer how many units completed a defined production process correctly on their first attempt. Final yield tells the buyer how many units eventually became acceptable, potentially after authorized rework and verification. Read both against the same identified cohort, process boundary and reporting cutoff before comparing suppliers. A strong final result can coexist with substantial troubleshooting, repeated station visits or repair effort. For an importer buying CarPlay AI Boxes or Smart Car Screens, the useful question is how much intervention was needed to produce the accepted shipment. Ask for a reconciled unit history that separates first-pass acceptance, recovered units, scrap and unresolved holds. Use that history to investigate process stability and delivery exposure, while keeping shipment release tied to the approved acceptance requirements.",
+  "sections": [
+    [
+      "Define the process before calculating the percentage",
+      "A yield figure needs a named entrance and exit. A board-level functional station, completed-device test and finished-kit inspection each describe a different boundary. A supplier reporting assembly yield cannot be compared directly with another reporting only the last electrical check. Ask which operations are inside the reported scope, which failures are counted and whether rework happens outside the visible line."
+    ],
+    [
+      "Compare four measures without mixing their denominators",
+      "| Measure | Counting rule for this review | Buyer question it helps answer | Important limit |"
+    ],
+    [
+      "Reconcile an illustrative Smart Car Screen cohort",
+      "Consider a hypothetical importer reviewing a completed cohort of 100 Smart Car Screens. These numbers illustrate arithmetic only; they are not TrolinkTek production results, supplier benchmarks or recommended targets. Ninety screens pass the defined process first time. Of the other ten, seven become acceptable after approved intervention and verification, two are scrapped and one remains on hold at cutoff."
+    ],
+    [
+      "Use a worksheet that connects summaries to unit records",
+      "Ask the supplier to populate the following fields for a named lot or pilot build. The worksheet works for an AI Box programming-and-functional-test flow or a portable-screen assembly flow, provided the boundaries are stated separately."
+    ],
+    [
+      "Investigate the gap before assigning a cause",
+      "A wide gap between first-pass and final yield is a prompt for investigation. It does not identify whether the product, fixture, procedure or operator caused the failures. Split the history by meaningful conditions: product revision, firmware, station, fixture, supplier lot and shift where relevant. Avoid dividing a small cohort into so many groups that a few units appear to establish a trend."
+    ],
+    [
+      "Keep station yield separate from the full route",
+      "A board may pass its electrical station on the first attempt after having required assembly rework upstream. That is a station first-pass success, but not a clean first passage through the full assembly-and-test route. Ask the supplier to name the scope next to every rate."
+    ],
+    [
+      "Turn the review into an operating decision",
+      "For a pilot order, request the counting rules and the unit reconciliation before agreeing how yield will be monitored. Use the first build to establish the relevant process questions, then set any contractual targets through the project's quality agreement. There is no universal acceptable yield for every automotive accessory, production stage or build maturity."
+    ]
+  ],
+  "checklist": [
+    "Define the cohort and process boundary",
+    "Preserve the first valid result",
+    "Separate recovery from first-pass acceptance",
+    "Reconcile all unit states",
+    "Review extra attempts and release evidence"
+  ],
+  "faq": [
+    [
+      "Is first-pass yield the same as final yield?",
+      "No. Under the definitions here, first-pass yield excludes units that needed recovery, while final yield includes accepted recovered units at cutoff. Confirm the supplier's exact scope, denominator and treatment of repeats before comparing its figures."
+    ],
+    [
+      "Can a screen that passes after rework count as first-pass accepted?",
+      "It can count as accepted after authorized rework and verification, but it should retain its earlier failure in the history of that process. A downstream station's first-attempt result is a separate, narrower measure."
+    ],
+    [
+      "What happens to units still on hold?",
+      "Keep them visible as unresolved units in the original cohort at the reporting cutoff. Update their disposition in a revised report. Excluding unfinished units without explanation can inflate the apparent final result."
+    ],
+    [
+      "Does a high final yield prove the supplier is reliable?",
+      "It shows acceptance under the stated checks and counting rules. Review the recovery burden, detection coverage, traceability and unresolved failures separately. Reliability and compatibility need evidence from the relevant validation activities."
+    ],
+    [
+      "Which records should an importer request first?",
+      "Request the cohort definition, process boundary, unique-unit state summary and a linked sample of attempt and recovery records. Resolve differences between the summary and unit histories before using the percentages for a sourcing decision."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Production Traceability for Automotive Electronics",
+      "/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Controlled Retest Rules",
+      "/blog/automotive-electronics-controlled-retest-decision-rules/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Supplier quality evidence",
+    "title": "Define what your production report needs to prove.",
+    "body": "Share the product family, production stage and failure questions to discuss the scope of your test evidence.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "rv-navigation-with-carplay-vehicle-aware-routing",
   "title": "RV Navigation With CarPlay: A Dealer Guide to Vehicle-Aware Routing",
   "category": "Vehicle applications",
