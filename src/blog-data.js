@@ -1,5 +1,114 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-factory-steering-wheel-controls",
+  "title": "Can a Portable CarPlay Screen Use Factory Steering-Wheel Controls?",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 8, 2026",
+  "automationRun": "2026-11-08-09",
+  "publishAt": "2026-11-08T09:03:42+08:00",
+  "updatedAt": "2026-11-08T09:03:42+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Steering-Wheel Controls | TrolinkTek",
+  "excerpt": "Can a portable CarPlay screen keep factory steering-wheel buttons? Separate audio and command paths, compare setups and record supported functions before quoting.",
+  "image": "/assets/blog/portable-carplay-screen-factory-steering-wheel-controls.png",
+  "imageAlt": "Factory steering-wheel media buttons beside an independent dashboard-mounted portable screen and the original radio in a navy-lit car interior",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-factory-steering-wheel-controls.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "portable CarPlay screen steering wheel controls",
+  "secondaryKeywords": [
+    "factory steering-wheel buttons",
+    "Smart Car Screen compatibility",
+    "Bluetooth control routing",
+    "accessory remote",
+    "display-only mode"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Automotive accessory installers and distributors qualifying portable Smart Car Screen fitment",
+  "intro": "A portable CarPlay screen does not automatically inherit the vehicle's factory steering-wheel controls. Some buttons may continue to control the original radio or a phone connected to it, while the separate screen requires its own supported input path. For installers and distributors, the useful question is which exact functions remain available with the proposed phone, radio, screen and audio mode. Volume working through the vehicle speakers does not establish that track skipping, calls, Siri or on-screen navigation will work from the wheel. Before promising retention, identify where each command goes and demonstrate the required functions in the intended configuration. Record unsupported actions clearly so the customer can choose between a portable display, a supported accessory controller or a more integrated retrofit.",
+  "sections": [
+    [
+      "Define what “steering-wheel control support” means",
+      "A factory steering-wheel button is an input to the vehicle's existing equipment. A portable CarPlay screen is an additional projection endpoint for a compatible iPhone. Mounting that endpoint on the dashboard and supplying power does not, by itself, provide a connection to the vehicle's button system."
+    ],
+    [
+      "Separate the command path from the sound path",
+      "Audio routing describes how sound reaches the cabin. Control routing describes how an instruction reaches the device or application expected to respond. A sound connection is not necessarily a command connection."
+    ],
+    [
+      "Compare the common compatibility situations",
+      "Use the following table to frame a pre-sale discussion. These are starting questions for a demonstration, not guaranteed results for any model."
+    ],
+    [
+      "Recognize two very different product claims",
+      "Supplier language can conceal an important distinction. A product described as having a “steering-wheel controller” may include a separate accessory that attaches near the driver. That is different from retaining the buttons manufactured into the vehicle."
+    ],
+    [
+      "Build a function-by-function demonstration record",
+      "Before the demonstration, record the vehicle year, model, trim, radio identification and relevant software version. Add the screen hardware and firmware, iPhone model and iOS version, selected audio mode, pairing order and accessory identifiers. A vehicle badge alone is not a configuration record."
+    ],
+    [
+      "Work through an installer sales scenario",
+      "Consider a hypothetical installer advising an owner of an older vehicle that has factory Bluetooth but no built-in CarPlay display. The owner wants a portable screen and assumes every wheel button will keep working. The installer's first task is to turn that broad expectation into functions: volume, track selection, calls, voice activation and navigation through apps."
+    ],
+    [
+      "Set clear limits on the installation promise",
+      "A successful demonstration covers its recorded configuration. It does not establish compatibility with every radio fitted to the same model year, every phone update or an alternative screen firmware branch. Preserve the setup record so support can reproduce the approved arrangement after delivery."
+    ],
+    [
+      "Request a configuration-matched review",
+      "Explore the [Product Center](https://trolink-tek.com/products/) to identify the appropriate Smart Car Screen category. Review [OEM/ODM options](https://trolink-tek.com/oem-odm/) if your channel needs a controlled accessory bundle, localized instructions or dealer demonstration material. Then [Request a Compatibility Review](https://trolink-tek.com/#quote) with the radio identification, required commands and proposed audio mode. That brief gives the supplier a concrete function list to review before you select a sample or promise an installation outcome."
+    ]
+  ],
+  "checklist": [
+    "Identify radio and screen configuration",
+    "Separate audio and command paths",
+    "Demonstrate required functions",
+    "Distinguish accessory remotes",
+    "Record support boundaries"
+  ],
+  "faq": [
+    [
+      "Does working volume prove that factory buttons control the portable screen?",
+      "No. The vehicle may simply be changing the level of the radio or amplifier receiving the sound. Demonstrate track, call, voice and screen-selection actions separately before describing them as supported."
+    ],
+    [
+      "Will Bluetooth automatically retain all steering-wheel functions?",
+      "No. The result depends on the phone, radio, screen implementation and selected mode. Use the supplier's matching instructions and demonstrate each required function in the intended vehicle configuration."
+    ],
+    [
+      "Is a supplied steering-wheel remote the same as factory-button retention?",
+      "No. It is an additional input accessory with its own supported functions. Describe it separately, identify whether it is included and verify its operation with the delivered screen revision."
+    ],
+    [
+      "Can a wireless CarPlay adapter solve this instead?",
+      "A conventional adapter relies on an existing compatible wired CarPlay host. For a vehicle that already has that host, review the separate [wireless-adapter factory-controls guide](/blog/do-wireless-carplay-adapters-work-with-factory-controls/). A vehicle without that prerequisite needs a different architecture."
+    ],
+    [
+      "What should an installer ask the supplier before selecting a sample?",
+      "Send the vehicle and radio identification, required button functions, intended phone and desired audio route. Ask for the supported screen mode, exact kit contents, configuration instructions and known limitations. Request evidence for unresolved requirements rather than accepting a general compatibility claim."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Audio Routing",
+      "/blog/portable-carplay-screen-audio-routing-guide/"
+    ],
+    [
+      "Wireless Adapter Factory Controls",
+      "/blog/do-wireless-carplay-adapters-work-with-factory-controls/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Configuration-matched fitment",
+    "title": "Define the controls your installation needs.",
+    "body": "Share the radio identification, required commands and proposed audio mode for a compatibility review.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "supplier-selection-matrix-automotive-electronics",
   "title": "Supplier Selection Matrix for Automotive Electronics: Evidence Before Scores",
   "category": "Buyer guide",
