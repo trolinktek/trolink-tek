@@ -1,5 +1,118 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-app-permissions-location-microphone",
+  "title": "CarPlay AI Box App Permissions: Diagnose Location and Microphone Failures",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 8, 2026",
+  "automationRun": "2026-11-08-14",
+  "publishAt": "2026-11-08T14:01:51+08:00",
+  "updatedAt": "2026-11-08T14:01:51+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box App Permissions: Diagnosis | TrolinkTek",
+  "excerpt": "Diagnose AI Box location and microphone failures by separating app permissions, input sources and routing. Includes a reproducible support worksheet.",
+  "image": "/assets/blog/carplay-ai-box-app-permissions-location-microphone.png",
+  "imageAlt": "Unbranded AI Box, microphone and receiver module beside a display showing an abstract permission shield and toggles on a navy engineering mat",
+  "contentPath": "/content/blog-articles/carplay-ai-box-app-permissions-location-microphone.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "CarPlay AI Box app permissions",
+  "secondaryKeywords": [
+    "AI Box location permission",
+    "Android microphone access",
+    "runtime permissions",
+    "AI Box voice search",
+    "permission-state worksheet"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer engineering and after-sales teams qualifying Android AI Box app support",
+  "intro": "A CarPlay AI Box can display an application normally while a location or microphone feature remains unavailable. Before replacing hardware or updating firmware, identify where the application runs, which permission it needs and whether the supported input source actually reaches it. An Android permission grants access within that operating environment; it does not create a missing microphone, provide a satellite receiver or transfer an iPhone's authorization to the box. For importer engineering and after-sales teams, the practical approach is to reproduce one feature in a recorded configuration, inspect its permission state and change one relevant setting with the user's agreement. Keep permission denial, unavailable hardware, input routing and application defects separate so the next support action addresses the observed boundary.",
+  "sections": [
+    [
+      "Identify the application that owns the failing feature",
+      "In this guide, a CarPlay AI Box is an accessory that runs its own supported applications and presents an interface through a compatible vehicle host. Exact host prerequisites, Android implementation and available input sources depend on the selected model. A conventional wireless CarPlay adapter has a different architecture. Confirm the category in the [AI Box buying guide for importers](/blog/carplay-ai-box-buying-guide-importers/) before applying Android application instructions."
+    ],
+    [
+      "Separate permission from source availability and routing",
+      "A runtime permission is an operating-system authorization for an application to access a protected resource. It is one condition in a larger path. The application also needs a suitable source, a supported route to that source and behavior compatible with the delivered software configuration. Granting access cannot repair an absent or unsupported path."
+    ],
+    [
+      "Use the symptom to choose the next observation",
+      "The following table is a diagnostic aid, not a list of confirmed product defects. Several causes can produce the same symptom. Record the observation that supports the next branch instead of treating a permission setting as the default explanation."
+    ],
+    [
+      "Read location authorization without promising positioning accuracy",
+      "On Android 12 and later, a user can permit approximate location even when an application requests precise access. Android's [location-permission documentation](https://developer.android.com/develop/sensors-and-location/location/permissions/runtime) describes that distinction and notes that changing from precise to approximate access can restart the application process. Record that transition so an expected process restart is not automatically labeled a firmware crash."
+    ],
+    [
+      "Diagnose microphone access independently of audio playback",
+      "Begin with the exact task: voice search in a box-side application, a phone call or a phone assistant. Identify the application expected to capture speech and the supplier-documented input route. A product may support one workflow while a different workflow has restrictions; a general “voice supported” statement is insufficient for qualification."
+    ],
+    [
+      "Keep a reproducible permission-state worksheet",
+      "Use a support sample or an agreed customer session. Keep credentials and personal destinations out of the record. The worksheet should make it possible for engineering to reproduce the same feature without receiving a copy of the user's accounts or travel history."
+    ],
+    [
+      "Apply the method to an importer support scenario",
+      "Consider a hypothetical importer receiving a report that an AI Box “lost GPS after setup.” The map opens, online search works and the customer previously completed the first-run prompts. Support first confirms that the map runs on the box and identifies the approved location source. It then records the current authorization and installation conditions before recommending any reset."
+    ],
+    [
+      "Turn findings into a product-support boundary",
+      "For a sample program, agree which applications and workflows the supplier supports, the required permissions, supported input sources and the customer-facing recovery steps. Ask for model-specific instructions and known restrictions. Include a documented route for permission denial or withdrawal; users should understand which optional functions become unavailable."
+    ],
+    [
+      "Request a configuration-specific test matrix",
+      "Review the [Product Center](https://trolink-tek.com/products/) for the intended AI Box category and [OEM/ODM options](https://trolink-tek.com/oem-odm/) for controlled software, instructions and support material. Then [Request a Test Matrix](https://trolink-tek.com/#quote) with your application list, required location and voice tasks, vehicle host and proposed input sources. That brief connects the sample evaluation to the support workflow your channel will actually deliver."
+    ]
+  ],
+  "checklist": [
+    "Identify application execution environment",
+    "Separate authorization from input routing",
+    "Record initial permission state",
+    "Change one agreed setting",
+    "Assign evidence-based next action"
+  ],
+  "faq": [
+    [
+      "Does allowing location guarantee that an AI Box has usable GPS?",
+      "No. Authorization permits the application to access a supported resource. Confirm the model's documented location source, installation requirements and observed operation separately. Permission status alone establishes no positioning-performance result."
+    ],
+    [
+      "Why can calls work when box-side voice search cannot hear speech?",
+      "The call and search may use different applications, execution environments and microphone routes. Identify the input path for the failing task and check its authorization before assuming the working call proves the box receives audio."
+    ],
+    [
+      "Should support tell customers to allow every permission?",
+      "No. Tie each request to an intended feature and use the supplier's documented requirements. Explain the effect of refusal and leave unrelated access unchanged. A broad grant conceals the cause and may expose unnecessary data."
+    ],
+    [
+      "Should an importer reset the box before collecting the permission state?",
+      "Usually the initial state should be recorded first. Use a reset only through an approved recovery procedure after considering account access, configuration loss and the evidence needed for reproduction. A reset is not proof of root cause."
+    ],
+    [
+      "What evidence should a buyer request before approving the support workflow?",
+      "Request a demonstration tied to the exact box, firmware, app version and input source. Include denial, the agreed recovery action and normal restart behavior. Keep unsupported functions explicit in product documentation and channel training."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box Connected but No Internet",
+      "/blog/carplay-ai-box-connected-no-internet-diagnosis/"
+    ],
+    [
+      "Privacy-Safe Diagnostic Logs",
+      "/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Configuration-specific diagnosis",
+    "title": "Connect your app requirements to a reproducible test.",
+    "body": "Share your applications, location and voice tasks, vehicle host and input sources.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "portable-carplay-screen-factory-steering-wheel-controls",
   "title": "Can a Portable CarPlay Screen Use Factory Steering-Wheel Controls?",
   "category": "Compatibility",
