@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "motorcycle-carplay-display-self-install-vs-dealer-fitting",
+  "title": "Motorcycle CarPlay Display Installation: Self-Install Kit vs Dealer Fitting",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 9, 2026",
+  "automationRun": "2026-11-09-09",
+  "publishAt": "2026-11-09T09:02:27+08:00",
+  "updatedAt": "2026-11-09T09:02:27+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Motorcycle CarPlay Display Installation Options | TrolinkTek",
+  "excerpt": "Compare self-install kits and dealer fitting for motorcycle CarPlay displays. Use a dealer intake worksheet to decide when to sell, inspect or quote.",
+  "image": "/assets/blog/motorcycle-carplay-display-self-install-vs-dealer-fitting.png",
+  "imageAlt": "Boxed motorcycle display, clamp and harness beside a technician holding a bracket at a touring motorcycle handlebar",
+  "contentPath": "/content/blog-articles/motorcycle-carplay-display-self-install-vs-dealer-fitting.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "motorcycle CarPlay display installation",
+  "secondaryKeywords": [
+    "motorcycle CarPlay self-install kit",
+    "dealer fitting",
+    "cockpit fitment review",
+    "accessory power harness",
+    "installation handover"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Powersports dealership product managers and service leads",
+  "intro": "Offer a motorcycle CarPlay display as a self-install kit when the buyer can identify the exact mount and manufacturer-approved power connection before ordering, and the box contains the parts and instructions for that configuration. Offer dealer fitting when a technician needs to inspect the cockpit, identify the permitted power route or work behind bodywork. Use a pre-sale fitment review when the evidence is incomplete. For a powersports dealer, the choice determines what the customer is buying: a complete kit for a documented application or a fitted display with a recorded handover. The same screen can support both offers, provided each has a clear release condition, an installation owner and a support path if the first setup fails.",
+  "sections": [
+    [
+      "Define what the customer is buying",
+      "A **self-install kit** is a display sold with the mount, power components, instructions and exclusions for a stated application. The buyer performs the installation within that documented scope. If the listing requires the buyer to find an unspecified bracket or identify a motorcycle circuit without guidance, the listing has left a key part of the purchase unresolved. A kit-only checkout works best when the evidence needed to select the correct box is available before payment."
+    ],
+    [
+      "Compare the offers at the point of sale",
+      "| Decision point | Boxed self-install | Dealer fitting | Fitment review first |"
+    ],
+    [
+      "Decide which path an order can take",
+      "**Release a self-install kit** when the customer can show the stated application and the required configuration is supported by the exact product documentation. A make and model alone can leave the cockpit or connector uncertain after owner modifications. Ask for the smallest useful confirmation, such as a view of the intended mounting point and the accessory preparation shown in the listing. Match the instruction revision to the parts shipped. If a buyer would need to improvise an electrical or mechanical connection to complete the job, stop the kit release."
+    ],
+    [
+      "Use one intake record for retail and service",
+      "Give the parts counter, e-commerce team and workshop the same fields. An intake record should explain how the retailer reached its decision. A later return can then be compared against the parts and scope originally agreed with the customer."
+    ],
+    [
+      "Example: two orders for the same screen",
+      "Suppose a dealer receives two requests for a navigation display. The first rider has a motorcycle configuration already reviewed by the dealer and can identify the approved accessory preparation and mount location. The rider wants the standard display with the documented kit parts and will perform the work within the supplied instructions. The parts counter can confirm the configuration, release the box and explain the first setup contact."
+    ],
+    [
+      "Where the comparison stops",
+      "This guide compares retail offers for aftermarket motorcycle displays. The exact mounting, wiring and use limits come from the product and vehicle documentation. Unresolved interference with steering, controls or instruments, unclear electrical instructions, or a requested integration outside the approved scope should stop release until a qualified party resolves the issue. A confirmed fit on one bike gives the dealer evidence for that recorded setup. Recheck changes to the cockpit, mount, harness or display revision before extending the offer."
+    ]
+  ],
+  "checklist": [
+    "Identify the motorcycle configuration",
+    "Match the display, mount and power kit",
+    "Choose self-install, workshop fitting or review",
+    "Record scope and first support contact",
+    "Verify the handover or first setup path"
+  ],
+  "faq": [
+    [
+      "Is a wireless motorcycle CarPlay screen automatically suitable for self-installation?",
+      "Wireless projection describes the phone connection. Check the display's separate power and mounting requirements, the approved kit parts and the exact motorcycle configuration before offering self-install."
+    ],
+    [
+      "Can a dealer sell the same display as both a kit and a fitted option?",
+      "Yes, when each offer clearly identifies the configuration, included parts, scope of work and first support contact. Keep distinct order descriptions if the fitted offer includes different hardware or services."
+    ],
+    [
+      "What should a customer send for a pre-sale fitment review?",
+      "Request model year, trim and relevant modifications, plus clear stationary photos of the intended cockpit area and any accessory preparation the customer can identify safely. Refer unresolved electrical identification to the workshop."
+    ],
+    [
+      "Should a workshop give a fixed installation quote before seeing the bike?",
+      "Quote a defined scope when the application is documented and repeatable. If bodywork, existing accessories or the power route are uncertain, explain the inspection step and how any change to the quote will be authorized."
+    ],
+    [
+      "How should staff handle a display that fails during first setup?",
+      "Start with the order configuration and the stage where setup stopped. Route fitment, missing parts, installation questions and suspected device faults to the named owner. Use the approved support process to establish whether a replacement is warranted."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Motorcycle Display Handover for Tour Fleets",
+      "/blog/motorcycle-carplay-guided-tour-fleet-handover/"
+    ],
+    [
+      "Motorcycle Display vs Factory TFT Navigation",
+      "/blog/motorcycle-carplay-display-vs-factory-tft-navigation/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Motorcycle display selection",
+    "title": "Choose a kit your team can support.",
+    "body": "Share the motorcycle configurations you serve, your fitting capabilities and the parts your staff need to verify before checkout.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "automotive-electronics-market-entry-sequencing",
   "title": "Automotive Electronics Market Entry: One Region First or a Multi-Market Launch?",
   "category": "Market strategy",
