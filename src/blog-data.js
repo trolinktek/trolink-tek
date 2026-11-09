@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "packaging-revision-control-automotive-electronics",
+  "title": "Packaging Revision Control for Automotive Electronics: From Approval to Cutover",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 9, 2026",
+  "automationRun": "2026-11-09-14",
+  "publishAt": "2026-11-09T14:02:00+08:00",
+  "updatedAt": "2026-11-09T14:02:00+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Packaging Revision Control Guide | TrolinkTek",
+  "excerpt": "Control packaging and instruction changes in automotive electronics. Map revisions to the right kit, reconcile old stock and verify the first shipment.",
+  "image": "/assets/blog/packaging-revision-control-automotive-electronics.png",
+  "imageAlt": "Operator holding a folded instruction insert above an open automotive display carton beside separated bins",
+  "contentPath": "/content/blog-articles/packaging-revision-control-automotive-electronics.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "packaging revision control",
+  "secondaryKeywords": [
+    "packaging cutover",
+    "instruction revision control",
+    "pack configuration",
+    "obsolete packaging stock",
+    "first shipment verification"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier quality engineers at automotive electronics importers",
+  "intro": "Packaging revision control makes sure each automotive electronics unit ships with the carton, labels and instructions approved for its exact configuration and destination. Treat approval and cutover as separate decisions. Approval confirms that a new pack is suitable; cutover identifies the first eligible lot or order, blocks incompatible old material and tells the warehouse which finished goods can still ship. If a new quick-start guide shows a different harness or setup flow, do not release stock on the strength of a signed artwork PDF or a carton date alone. Link the physical and digital pack to the product baseline, account for old stock by location and prove that the first shipment can be traced back to the approved combination.",
+  "sections": [
+    [
+      "Define what actually changes",
+      "A **packaging revision** is a controlled version of a pack component or instruction, such as the retail carton artwork, label template, tray, quick-start insert or downloadable manual. A **pack configuration** identifies the combination that belongs together for a sellable product and destination. The change may affect one element or several. Give each controlled item an identifier the person receiving, packing or auditing it can find on the material, its controlled container or its associated record."
+    ],
+    [
+      "Decide where old and new packs can coexist",
+      "| Change situation | Treatment of old stock | Evidence that supports release |"
+    ],
+    [
+      "Reconcile material and finished stock before cutover",
+      "List each location that can still supply the previous pack: the print supplier, receiving cage, line-side feeder, off-site packer, rework area and finished-goods warehouse. Include print files, active label jobs and web assets where applicable. Record quantity and status for each physical stock bucket at a defined cutoff. Open production orders and goods already in transit need their own treatment; an on-hand count will miss them."
+    ],
+    [
+      "Prove the first pack and shipment match",
+      "Inspect a production-representative unit from the affected pack order. Compare the printed piece to the approved proof and the contents to the approved pack configuration. Where there is a QR code, scan the code on the physical insert and check the final destination, including its language and its applicability to the shipped configuration. If earlier units depend on the same link, check what happens when a customer scans an older printed copy after the website update."
+    ],
+    [
+      "Example: a portable display gets a revised harness",
+      "Suppose a Smart Car Screen kit moves to a new harness with a different connector layout. The display housing and retail carton design are unchanged, but the revised quick-start guide shows the new wiring arrangement. The importer has finished kits with the older harness at its distribution center, while the contract packer holds both inserts. Selling the same housing under the same listing gives neither location enough information to make the pack decision."
+    ],
+    [
+      "Set the limits of the cutover review",
+      "This method applies to approved packaging and instruction changes entering repeat production. It does not approve the technical content of a manual, establish whether a label meets a destination's requirements, or replace transport validation when protective materials change. If there may be a safety, contractual or market-access impact, get the relevant owner to decide whether any stock can move. If rework is allowed, verify the actual intervention and record the revised identity; a new label on the outside does not prove the contents were corrected."
+    ]
+  ],
+  "checklist": [
+    "Map the old and new pack configurations",
+    "Define effectivity by order or lot",
+    "Reconcile stock by location and state",
+    "Verify the first production pack and shipment",
+    "Record disposition and release authority"
+  ],
+  "faq": [
+    [
+      "Can a supplier use both insert revisions on the same day?",
+      "Yes, where both combinations are explicitly approved and the packer can distinguish and control them by order, lot or equivalent identifier. A common date is acceptable; uncontrolled mixing is not."
+    ],
+    [
+      "What is the first unit to verify at cutover?",
+      "Verify a representative packed unit from the first eligible order, made with the actual materials and active instructions. Then check how that lot is picked and connected to its first shipment."
+    ],
+    [
+      "Should a change to the online manual overwrite the old PDF?",
+      "Only do so when the replacement remains valid for units that still point to that address. Otherwise maintain a revision-specific route or a selection page that lets customers identify their configuration."
+    ],
+    [
+      "How do we handle leftover inserts at a print supplier?",
+      "Ask the supplier to identify the quantity and location, block unapproved replenishment, and record the approved return, segregation, use-up or retirement. Include any open print orders and archived files that could be issued again."
+    ],
+    [
+      "Does every new pack require a new SKU or GTIN?",
+      "No blanket rule applies. Assess internal SKU and fulfillment needs separately from GS1 trade item identification and partner requirements. Verify that the chosen identifiers distinguish every combination that must be handled differently."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Production Traceability for Automotive Electronics",
+      "/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Production Line Clearance for Automotive Electronics Changeovers",
+      "/blog/automotive-electronics-production-line-clearance-changeover/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Packaging cutover verification",
+    "title": "Verify the new pack before it ships.",
+    "body": "Share the product configuration, planned packaging revision and first shipment scope so your team can review the evidence together.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "motorcycle-carplay-display-self-install-vs-dealer-fitting",
   "title": "Motorcycle CarPlay Display Installation: Self-Install Kit vs Dealer Fitting",
   "category": "Product comparison",
