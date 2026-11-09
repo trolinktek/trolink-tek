@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "production-test-station-transfer-oem-odm",
+  "title": "Production Test Station Transfer: Prove a Second Factory Can Run It",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 9, 2026",
+  "automationRun": "2026-11-09-19",
+  "publishAt": "2026-11-09T19:09:03+08:00",
+  "updatedAt": "2026-11-09T19:09:03+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Production Test Station Transfer Guide | TrolinkTek",
+  "excerpt": "Plan an OEM/ODM production test station transfer. Scope the rebuild, compare test decisions and verify unit records before approving a second factory.",
+  "image": "/assets/blog/production-test-station-transfer-oem-odm.png",
+  "imageAlt": "Open production test fixture holding a circuit board and harness, with a technician working at a second station",
+  "contentPath": "/content/blog-articles/production-test-station-transfer-oem-odm.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "production test station transfer",
+  "secondaryKeywords": [
+    "test fixture duplication",
+    "receiving factory commissioning",
+    "end-of-line test",
+    "test station correlation",
+    "unit traceability"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "OEM/ODM sourcing managers planning a backup factory for automotive electronics",
+  "intro": "A production test station transfer is ready when the receiving factory can rebuild the approved test setup, reproduce the required decisions and trace the results to individual units. For an automotive electronics OEM/ODM buyer, make that demonstration a separate project milestone before relying on the second site for supply. A shipped fixture or a demo on the original engineer’s laptop only shows part of what you need. Define the exact product revisions and tests that must transfer, agree who can run and support the software at the new site, then ask the receiving team to set up and run the station with the materials and access it will actually have. Keep shipment approval separate from station acceptance.",
+  "sections": [
+    [
+      "Decide what the second factory must be able to do",
+      "A production test station combines the fixture that connects to the unit, the instruments that stimulate or measure it, and the software and rules that decide whether it passes. It also includes whatever records the decision. End-of-line test may be only one part of this system. Programming, provisioning and in-process checks can sit on separate stations even if their results appear together in a product history."
+    ],
+    [
+      "Choose the transfer model before ordering the hardware",
+      "| Transfer model | When it can make sense | What the buyer should ask to see |"
+    ],
+    [
+      "Define the handover around a clean rebuild",
+      "Have the receiving team start with a replacement or reset station computer, rather than a computer shipped with an undocumented working setup. Give it a controlled package and normal authorized support. Record any manual intervention that the transfer package did not anticipate. If an engineer has to copy a missing file or repair a connection by memory, add it to the controlled package and rerun the affected step."
+    ],
+    [
+      "Compare decisions that could change a shipment",
+      "Agree the comparison method before the demonstration. Include known passing units and safe, controlled cases that should fail the checks that matter. If a measured characteristic is close enough to a limit that station differences could change its disposition, have quality engineering specify suitable reference evidence and acceptance criteria for that characteristic. A pair of identical pass screens can conceal disagreement in the underlying measurements or leave a failure path untested."
+    ],
+    [
+      "Use the pilot to separate two release decisions",
+      "Consider a hypothetical private-label Smart Car Screen project. The original line programs the display and uses an end-of-line station to check the touch panel, audio output and harness detection. A backup factory receives a duplicate fixture and passes a reference display. During the receiving-team rehearsal, however, an unplugged audio harness is correctly rejected on screen while the failed result never reaches the product history. The team discovers that the station has a local result path but is missing the approved connection to the receiving site’s test records."
+    ],
+    [
+      "Where the transfer evidence stops",
+      "Station acceptance applies only to the defined site, test coverage and product baseline. It cannot establish supplier capacity, approve unrelated variants or replace a customer’s required production or site-change approval. If the process includes secure provisioning, protected platform services or customer-controlled testing, agree which activities the receiving site may run before attempting a transfer. Have the responsible teams determine what requires a fresh approval when the station, location or product changes."
+    ]
+  ],
+  "checklist": [
+    "Define the receiving-site operating model",
+    "Agree the scope and access for the test package",
+    "Rebuild on a clean station",
+    "Compare known outcomes and retrieve unit records",
+    "Separate station acceptance from shipment release"
+  ],
+  "faq": [
+    [
+      "Can we transfer the fixture without the test software?",
+      "Yes, if the purpose is a spare or a mechanical asset move. If the receiving site must make production decisions, it also needs an authorized test program and operating environment or a qualified replacement method."
+    ],
+    [
+      "Does the receiving factory need to own the test program?",
+      "Ownership depends on the commercial agreement. The operational requirement is an authorized, supportable way for the designated site to install, run and recover the agreed configuration."
+    ],
+    [
+      "What if the original station is already offline?",
+      "Ask quality engineering to establish what approved methods, retained results and controlled reference evidence are still available. If a direct comparison is impossible, document the gap and agree new qualification evidence before the site relies on the station for production."
+    ],
+    [
+      "Can a supplier engineer assist the receiving team?",
+      "Yes. Record any intervention and decide whether it reflects the support that will be available in production. If the buyer needs independent recovery, have the receiving team repeat the critical step without that intervention."
+    ],
+    [
+      "Who should approve the transfer?",
+      "Typically the designated engineering or quality owner accepts the station evidence, the receiving operations lead confirms it can be supported, and the authorized project or customer representative handles any separate production release. Agree the actual roles and criteria before the pilot."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Wireless CarPlay Adapter Supplier Business Continuity Plan Checklist",
+      "/blog/wireless-carplay-adapter-supplier-business-continuity-plan/"
+    ],
+    [
+      "Wireless CarPlay Adapter Test Station Correlation and Golden Unit Control",
+      "/blog/wireless-carplay-adapter-test-station-correlation-golden-unit-control/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Second-factory commissioning",
+    "title": "Prove the receiving station can run the approved tests.",
+    "body": "Share the product revision, receiving site and recovery goal so we can scope the station handover and acceptance evidence.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/oem-odm/"
+  }
+},
+
+{
   "slug": "packaging-revision-control-automotive-electronics",
   "title": "Packaging Revision Control for Automotive Electronics: From Approval to Cutover",
   "category": "Quality control",
