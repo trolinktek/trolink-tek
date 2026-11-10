@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-thermal-throttling-diagnosis",
+  "title": "CarPlay AI Box Thermal Throttling: How to Diagnose Lag After Warm-Up",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 10, 2026",
+  "automationRun": "2026-11-10-14",
+  "publishAt": "2026-11-10T14:10:15+08:00",
+  "updatedAt": "2026-11-10T14:10:15+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Thermal Throttling Diagnosis | TrolinkTek",
+  "excerpt": "Diagnose CarPlay AI Box lag after warm-up. Compare local and online tasks, check USB session state and gather evidence for a thermal escalation.",
+  "image": "/assets/blog/carplay-ai-box-thermal-throttling-diagnosis.png",
+  "imageAlt": "Ribbed black automotive AI Box and an infrared camera on a navy workbench",
+  "contentPath": "/content/blog-articles/carplay-ai-box-thermal-throttling-diagnosis.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "CarPlay AI Box thermal throttling",
+  "secondaryKeywords": [
+    "AI Box lag after warm-up",
+    "Android thermal mitigation",
+    "sustained workload",
+    "USB session interruption",
+    "thermal telemetry"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "After-sales support leads at automotive electronics importers",
+  "intro": "When a CarPlay AI Box responds normally at startup and slows down later, repeat the same local action from a cool baseline, during the slowdown and after a controlled return to the baseline condition. Keep the firmware, workload, head unit and power path fixed. Record whether the box's own Android interface slows, whether only a streaming app stalls, and whether the vehicle loses the entire session. A repeatable loss and recovery of local responsiveness can justify a thermal investigation. A supplier-confirmed thermal event aligned with that change provides stronger evidence. A warm case, a buffering icon or a reboot alone cannot establish throttling. This sequence helps importer support leads decide whether to escalate to firmware engineering, investigate power or routing, or isolate an individual app.",
+  "sections": [
+    [
+      "What thermal throttling means on an AI Box",
+      "Thermal throttling is a device's deliberate reduction of performance or workload in response to its thermal management policy. A system on chip may reduce the performance available to processing or rendering while the device remains powered and the session remains connected. The driver may notice that gestures, transitions or local playback take longer even though the screen still shows the box's interface. Thermal protection can involve other actions as well. Record a shutdown, a restart or an interruption as its own event so the supplier can identify the mechanism."
+    ],
+    [
+      "Locate the slowdown before changing the setup",
+      "Start by asking the reporter to name the last action that still worked and the first one that slowed. On a parked vehicle or suitable bench, check a repeatable action in the box's native Android interface, such as opening a local settings pane from the same starting screen. Then check the affected feature separately. Document whether the symptom begins before input is accepted, during local rendering, while fetching remote content or when switching from the vehicle's native interface back to the box."
+    ],
+    [
+      "Compare warm-up and recovery with the same task",
+      "Define a visible start and finish for the local action. For example, begin with the launcher stable and finish when the same settings list accepts input. Record a short clip or other agreed timing evidence for each run. Use a task that matches the complaint. A quick settings transition can help identify general responsiveness, but an unaffected launcher does not rule out mitigation that appears only under a heavier supported workload. For a playback complaint, pair the UI action with an offline file whose format, resolution and player version are recorded."
+    ],
+    [
+      "Triage worksheet for importer support",
+      "For each row, record the first affected action, the run condition, the evidence available and the owner of the next check. Escalate based on the boundary that the evidence identifies."
+    ],
+    [
+      "A parked support case before a pilot order",
+      "Suppose a distributor is comparing samples for an installed navigation and audio package. One sample draws complaints that the display becomes sluggish during a parked demonstration. At first, the installer reports only that streaming audio skipped and the enclosure felt warm. Support records the sample revision and repeats two actions on the same configuration: opening a local settings pane and playing a known local audio file. The complaint is also reproduced with the original streaming source so the team can compare the behavior of both paths."
+    ],
+    [
+      "Where this method stops",
+      "This method scopes a diagnostic case. It provides no general temperature threshold and makes no prediction about other enclosures, firmware builds or vehicle installations. Sensor location, reporting access and mitigation policies can differ even when two product listings name the same processor. For a complaint that is present immediately at startup and persists across conditions, the [AI Box storage diagnosis guide](/blog/carplay-ai-box-storage-full-diagnosis/) covers one independent source of sluggish local behavior."
+    ]
+  ],
+  "checklist": [
+    "Record local and projected modes separately",
+    "Repeat one local task across conditions",
+    "Check uptime and host session state",
+    "Align the symptom with supplier telemetry",
+    "Assign an evidence status and owner"
+  ],
+  "faq": [
+    [
+      "Does a warm AI Box enclosure prove thermal throttling?",
+      "No. Surface warmth records a condition at the enclosure. Stronger evidence connects a loss of function under a repeatable workload to an active thermal policy documented by the supplier."
+    ],
+    [
+      "Can the AI Box throttle while CarPlay stays connected?",
+      "Yes, depending on the implementation and affected workload. Performance can be reduced while power and a display session remain available. Verify which task slows and which connection state remains active."
+    ],
+    [
+      "What if Android reports no thermal status change?",
+      "Check whether the firmware implements the reported signal and ask what a default value means. Continue to record the symptom and its recovery, and classify the mechanism as unresolved unless supporting evidence is available."
+    ],
+    [
+      "Does cooling the unit and restarting it confirm the cause?",
+      "That changes temperature and device state together. Record both interventions and, when safe and supported, compare recovery without restarting to better separate the effects."
+    ],
+    [
+      "What should an importer ask the supplier to provide?",
+      "Request the supported installation and workload scope, the meaning of available thermal events, the diagnostic capture procedure and the expected recovery behavior for the exact hardware and firmware."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box Diagnostic Log Timestamp Alignment",
+      "/blog/diagnostic-log-timestamp-alignment-carplay-ai-box/"
+    ],
+    [
+      "CarPlay AI Box Storage Full Diagnosis",
+      "/blog/carplay-ai-box-storage-full-diagnosis/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box sustained performance",
+    "title": "Scope a sustained workload evaluation.",
+    "body": "Share the box revision, host, installation position and first affected action so the test matrix reflects the field symptom.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "carplay-for-rideshare-drivers-display-guide",
   "title": "CarPlay for Rideshare Drivers: What to Verify Before Buying a Display",
   "category": "Vehicle applications",
