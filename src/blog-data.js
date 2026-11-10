@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "open-box-automotive-electronics-resale",
+  "title": "Open-Box Automotive Electronics: When Should Distributors Resell Returns?",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 10, 2026",
+  "automationRun": "2026-11-10-19",
+  "publishAt": "2026-11-10T19:09:29+08:00",
+  "updatedAt": "2026-11-10T19:09:29+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Open-Box Automotive Electronics Resale | TrolinkTek",
+  "excerpt": "Decide when to resell open-box automotive electronics with a unit-level grading worksheet, channel rules and a portable CarPlay screen example.",
+  "image": "/assets/blog/open-box-automotive-electronics-resale.png",
+  "imageAlt": "An opened portable car display kit with a mounting bracket and power cable on a returns counter",
+  "contentPath": "/content/blog-articles/open-box-automotive-electronics-resale.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "open-box automotive electronics resale",
+  "secondaryKeywords": [
+    "open-box grading",
+    "returned portable CarPlay screens",
+    "accessory kit verification",
+    "channel condition codes",
+    "net recovery"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Channel managers at automotive electronics distributors",
+  "intro": "Distributors should release open-box automotive electronics only when the individual unit has a known history, a verified installation kit, an acceptable functional and cosmetic condition, and a listing grade allowed by the intended channel. Start with the unit and its serial number. Decide where it can go after you know what happened to it, what a buyer will receive and who will handle support. A portable CarPlay screen with a broken carton seal can be a resale candidate, while a visually identical screen with an undocumented power lead or an unresolved restart belongs on hold. This guide gives channel managers a release worksheet and a way to judge whether a separate open-box offer can recover value after handling, returns and service costs.",
+  "sections": [
+    [
+      "Separate the intake condition from the selling grade",
+      "At intake, record how the unit reached the returns desk. A canceled installation, a customer fit mismatch, a store demonstration and a reported fault create different evidence requirements. Keep the original return reason as reported. A subsequent bench observation belongs in a separate field so the warehouse and quality teams can distinguish the two."
+    ],
+    [
+      "Use a release worksheet at the returns bench",
+      "The worksheet below is for a distributor deciding where to send a unit. The channel manager can use the resulting evidence to select the listing grade. Each row applies to the actual unit and carton being released. The staff member completing it should be able to point the reviewer to the corresponding record, photo or approved part reference."
+    ],
+    [
+      "Design a channel offer that the warehouse can fulfill",
+      "Create a separate inventory condition or sale SKU that purchasing, warehouse and customer support can recognize. A single fixed listing can work when every allocated unit has the same eligible condition, packaging disclosure and included kit. If the photos show specific marks or the accessories differ, use a unit-specific offer or another channel that can preserve the differences. A shared barcode on the original carton needs a separate pick control if new stock and open-box stock sit in the same building."
+    ],
+    [
+      "Decide whether the program can recover value",
+      "Compare feasible destinations from the decision date. For a resale candidate, estimate expected net recovery as expected collected proceeds less the additional costs of inspection, approved parts, repacking, channel fees, fulfillment and expected returns or support. Use the same comparison window for a supplier credit, an approved service-parts route or a controlled outlet sale. Record committed costs separately so the team can see both the stock loss and the incremental cost of each option."
+    ],
+    [
+      "A hypothetical portable screen return",
+      "An importer gets two returns under the same portable display SKU. One buyer opened the carton, found that the dash mount did not suit the vehicle and returned the complete kit. The other reported restarts and sent the screen back with a lead that the returns team cannot match to the kit record. Both screens look clean at intake."
+    ],
+    [
+      "Set the boundary for the supplier agreement",
+      "Use this process for known models and approved configurations where the distributor can prove condition, contents and ownership of support. Refer suspected counterfeit units, safety concerns, unresolved faults and unauthorized changes to the designated quality or service owner. Apply the destination's applicable requirements before defining any resale, repair or disposal route. A condition grade does not establish safety, channel approval or the transfer of a manufacturer's warranty."
+    ]
+  ],
+  "checklist": [
+    "Identify the unit and its history",
+    "Verify the approved accessory kit",
+    "Record function and reset results",
+    "Confirm the intended channel grade",
+    "Link the unit to the offer and support owner"
+  ],
+  "faq": [
+    [
+      "Can an opened carton go back into normal new stock?",
+      "Review the destination channel's definition and the distributor's release policy. Keep the unit in a separate condition until the reviewer has evidence of its history and packaging and can document the allowed offer."
+    ],
+    [
+      "Can the distributor replace a missing mount or power lead?",
+      "Use a part approved for the exact model and revision. Record the replacement and confirm whether the channel requires original accessories. Check both the function of the complete kit and whether the intended condition description remains accurate."
+    ],
+    [
+      "How should a display that was installed for a demonstration be handled?",
+      "Record the use history, installation evidence and any wear. Verify the approved release checks and select a destination whose condition rules allow that history. Preserve the specific unit details through fulfillment."
+    ],
+    [
+      "Can a factory reset clear a return for resale?",
+      "A verified reset addresses the model's supported data and account checks. Complete the identity, accessory, functional, cosmetic and channel checks separately before release."
+    ],
+    [
+      "What information belongs in an OEM or ODM inquiry?",
+      "Provide the display and kit configuration, planned channels, replacement-part needs, packaging disclosures, verification workflow and the organization that will own support. These details help the supplier respond with a practical service and packaging scope."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Private-Label Smart Car Screen Kit Architecture",
+      "/blog/private-label-smart-car-screen-kit-architecture/"
+    ],
+    [
+      "Automotive Electronics Distributor Sell-Through Reporting",
+      "/blog/automotive-electronics-distributor-sell-through-reporting/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Smart Car Screen channel planning",
+    "title": "Plan a kit your channel can support.",
+    "body": "Share your target channels, proposed screen kit and service-part needs to define packaging and post-sale responsibilities.",
+    "label": "Request MOQ and Packaging Options",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "carplay-ai-box-thermal-throttling-diagnosis",
   "title": "CarPlay AI Box Thermal Throttling: How to Diagnose Lag After Warm-Up",
   "category": "Technical insight",
