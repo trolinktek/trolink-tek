@@ -1,5 +1,107 @@
 export const blogPosts=[
 {
+  "slug": "carplay-for-rideshare-drivers-display-guide",
+  "title": "CarPlay for Rideshare Drivers: What to Verify Before Buying a Display",
+  "category": "Vehicle applications",
+  "categoryLabel": "Vehicle applications",
+  "date": "November 10, 2026",
+  "automationRun": "2026-11-10-09",
+  "publishAt": "2026-11-10T09:10:52+08:00",
+  "updatedAt": "2026-11-10T09:10:52+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay for Rideshare Drivers: Display Guide | TrolinkTek",
+  "excerpt": "Qualify CarPlay for rideshare drivers by testing trip offers, pickup, drop-off and reconnect behavior before choosing a portable screen or wireless adapter.",
+  "image": "/assets/blog/carplay-for-rideshare-drivers-display-guide.png",
+  "imageAlt": "Portable dashboard display and mounted phone showing abstract routes inside a parked car at an airport pickup curb",
+  "contentPath": "/content/blog-articles/carplay-for-rideshare-drivers-display-guide.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "CarPlay for rideshare drivers",
+  "secondaryKeywords": [
+    "Uber Driver app on CarPlay",
+    "Lyft Maps on CarPlay",
+    "portable CarPlay screen",
+    "trip offer",
+    "pickup confirmation",
+    "trip recovery"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Rideshare fleet equipment buyers and automotive accessory installers",
+  "intro": "CarPlay can put supported rideshare tasks on a larger display, but the driver app, account and market determine which actions are available. Before buying displays for rideshare drivers, have a representative driver demonstrate a trip offer, pickup navigation, arrival, drop-off and recovery after a display disconnect. Record which actions work on the screen and which still require the phone while parked. Start with the vehicle's existing CarPlay system if it meets the brief. Consider a portable CarPlay screen for vehicles that lack a suitable interface, or a wireless adapter when compatible wired CarPlay already works. The purchase decision should follow the trip workflow. A successful map demo alone leaves unanswered questions about accepting work, confirming pickup and recovering the active trip.",
+  "sections": [
+    [
+      "Buy for the trip transitions",
+      "Rideshare drivers move through distinct app states. A trip offer becomes an accepted job, which leads to a pickup route. Arrival and pickup confirmations can change the app from waiting for a passenger to navigating to the destination. Ending the trip can have its own workflow. Each transition matters because it changes what the driver can see, what the driver is expected to do and where the next route comes from."
+    ],
+    [
+      "Read each platform's claims at the level of the action",
+      "Uber's UK driver documentation describes accepting trip requests and viewing turn-by-turn directions on a connected car display. It qualifies the availability of upfront price, drop-off time and distance by market. Ask the evaluator to record the offer type and fields they actually see. A visible request and a request with enough information for the driver's decision are two different acceptance criteria. [Uber Driver app on a car display](https://www.uber.com/gb/en/drive/driver-app/car-display/)."
+    ],
+    [
+      "Use a trip workflow scorecard",
+      "Fill in a separate scorecard for each platform and equipment configuration. Mark each row as verified on display, verified on phone while parked, unavailable, or unverified. Record the screen action and the resulting trip state. If the available action differs from the requirement, capture the actual result and the agreed fallback."
+    ],
+    [
+      "Choose hardware after you know what the app exposes",
+      "Keep factory CarPlay when it provides the required workflow in an acceptable position and with suitable audio. Use that configuration as the reference during the trial. If an action is missing there as well, check account availability and app behavior before ordering different hardware."
+    ],
+    [
+      "Rehearse a pickup and a loss of display",
+      "Consider a hypothetical installer serving a small operator whose drivers collect passengers from a terminal with several pickup lanes. The operator needs the active pickup route and audible guidance. Arrival and pickup confirmations may remain on the phone if drivers can complete them from an authorized parked position. The installer starts with a car that already supports CarPlay and a second vehicle that would need a portable screen."
+    ],
+    [
+      "Set the limits of the sales claim",
+      "Use a description that can survive a support call. List the tested phone and app versions, target market, supported actions and required phone steps. A fleet using multiple platforms should qualify them separately, including any app switching or audio behavior it plans to rely on. Record a trigger for checking the brief again after an app update, iOS change, display firmware revision or change in operating market."
+    ]
+  ],
+  "checklist": [
+    "Confirm platform, market and account",
+    "Document required trip transitions",
+    "Evaluate phone and display separately",
+    "Rehearse pickup and parked recovery",
+    "Record what the installer can support"
+  ],
+  "faq": [
+    [
+      "Can rideshare drivers accept trips on Apple CarPlay?",
+      "Uber describes in-display acceptance for supported requests. Verify the target account, market and offer type, including the details the driver needs to see before accepting. Evaluate each other platform against its own documentation and an authorized demonstration."
+    ],
+    [
+      "Can a portable screen add support for a rideshare app?",
+      "A portable CarPlay screen can provide a projection interface for a compatible iPhone setup. The platform controls which app features appear there. Check the specific workflow with the phone, account and display the customer will use."
+    ],
+    [
+      "What if navigation works but pickup confirmation is missing?",
+      "Treat navigation and confirmation as separate results. Check the app's documented behavior and whether the phone provides an approved parked step. If on-screen confirmation is mandatory, leave that configuration off the shortlist until the action can be demonstrated."
+    ],
+    [
+      "Does a wireless adapter change the actions available in the app?",
+      "An adapter changes how the iPhone connects to a compatible host. Qualify any change in reconnection, charging and audio, and confirm the same trip actions on the candidate configuration. Ask the platform about features missing from the app interface."
+    ],
+    [
+      "What should a buyer provide when requesting a sample?",
+      "Provide the service market, driver app and account type, required trip actions, vehicle and factory head unit, iPhone and iOS version, and intended power and audio paths. Identify the action whose failure would stop rollout."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Portable CarPlay Screen Audio Routing Guide",
+      "/blog/portable-carplay-screen-audio-routing-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Rideshare display qualification",
+    "title": "Qualify the trip workflow before ordering displays.",
+    "body": "Share the vehicle types, driver app and required trip actions to scope a representative sample evaluation.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "production-test-station-transfer-oem-odm",
   "title": "Production Test Station Transfer: Prove a Second Factory Can Run It",
   "category": "OEM / ODM",
