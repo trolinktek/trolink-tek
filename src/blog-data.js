@@ -1,5 +1,106 @@
 export const blogPosts=[
 {
+  "slug": "attribute-agreement-analysis-visual-inspection",
+  "title": "Attribute Agreement Analysis for Visual Inspection in Automotive Electronics",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 11, 2026",
+  "automationRun": "2026-11-11-14",
+  "publishAt": "2026-11-11T14:08:28+08:00",
+  "updatedAt": "2026-11-11T14:08:28+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Attribute Agreement Analysis for Visual Inspection | TrolinkTek",
+  "excerpt": "Use attribute agreement analysis to qualify visual inspection across factories and receiving teams. Review repeatability, false accepts and limit samples.",
+  "image": "/assets/blog/attribute-agreement-analysis-visual-inspection.png",
+  "imageAlt": "Two inspectors examining black car display bezels under a factory inspection lamp",
+  "contentPath": "/content/blog-articles/attribute-agreement-analysis-visual-inspection.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "attribute agreement analysis for visual inspection",
+  "secondaryKeywords": [
+    "visual inspection repeatability",
+    "inspector agreement",
+    "cosmetic limit samples",
+    "false accepts",
+    "reference classification"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier quality engineers qualifying visual inspection with factories and receiving teams",
+  "intro": "Use attribute agreement analysis to check whether factory and receiving inspectors make the same visual accept or reject decision on the same parts and whether their decisions match an approved reference. Give representative inspectors coded samples, including parts on both sides of the cosmetic limit. Ask them to inspect each sample in separate randomized rounds under the documented conditions. Review repeatability, agreement between inspectors, and agreement with the reference separately. For a portable car screen, pay particular attention to rejected bezel marks that inspectors accept and acceptable marks they reject. A shared decision can still be wrong. Supplier quality teams should use those error patterns to decide whether the inspection can support lot release, needs a narrower scope, or must be corrected and studied again.",
+  "sections": [
+    [
+      "Decide which inspection judgment the study must support",
+      "An attribute is a category assigned during inspection, such as acceptable or reject. Attribute agreement analysis evaluates the consistency of those assignments within an inspector, across inspectors, and, where a reference is available, against that reference. The [Minitab explanation of attribute agreement](https://support.minitab.com/en-us/minitab/help-and-how-to/quality-and-process-improvement/measurement-system-analysis/supporting-topics/attribute-agreement-analysis/what-is-an-attribute-agreement-analysis-also-called-attribute-gage-r-r-study/) defines these comparisons, and [ISO/TR 14468](https://www.iso.org/standard/52900.html) provides illustrations of the method."
+    ],
+    [
+      "Give the reference a documented basis",
+      "A reference classification is the expected outcome for a specific sample under the approved rule. Establish it before the inspectors begin. Use the approved drawing or cosmetic specification, applicable defect descriptions, surface zones and buyer-approved limit samples. A limit sample shows the condition at or near the acceptance boundary. It carries more information when the record identifies the exact feature, finish and location to examine. Keep the reference decision, its rationale, the sample ID and the approval owner together."
+    ],
+    [
+      "Run separate rounds with representative inspectors",
+      "Include the people and shifts who will make the judgment in production or at receipt. If the same method is intended at two facilities, capture actual inspection conditions at each site. Write down the lamp or station setup, viewing distance and angle, whether rotation is permitted, display and protective-film state, and how long the work instruction allows inspectors to look. Study the normal method. If you want to compare a proposed station setup, assign it a separate condition so its results can be attributed to the change."
+    ],
+    [
+      "Read the errors before approving the method",
+      "Review the individual decisions behind each summary. A false accept is an unacceptable reference sample called acceptable. A false reject is an acceptable reference sample called unacceptable. Keep separate denominators for the two directions and document whether the analysis counts individual ratings or samples that match across every round. Those summaries answer different questions. Report the number of distinct samples and have the quality analyst account for repeated ratings when estimating uncertainty."
+    ],
+    [
+      "How a screen importer could use the findings",
+      "Imagine an importer seeing more bezel rejects at receiving than the factory records at outgoing inspection. Both sites use the same words for a surface mark. During a joint study, each inspector repeats their own decisions on the coded parts. The disagreements concentrate on marks that appear at a shallow viewing angle on a satin bezel. The supplier station allows the operator to tilt the part and the receiving instruction leaves the angle open. The quality team reviews the documented conditions and the approved limit sample before assigning the cause. The difference could come from the angle, the lighting or how each team applies the wording."
+    ],
+    [
+      "Define when the evidence expires",
+      "File the study protocol, raw ratings, approved references, decision criteria and release decision under the inspection instruction revision. Name who maintains the sample set and who reviews changes. A change in finish, supplier site, protective film, illumination or defect definition can justify a targeted review of the affected rule. Likewise, a rise in receiving disputes can trigger a comparison of current samples and station conditions with the approved study."
+    ]
+  ],
+  "checklist": [
+    "Define the visual acceptance decision",
+    "Approve reference classifications",
+    "Run blinded and randomized repeat rounds",
+    "Review false accepts and false rejects",
+    "Record scope and change triggers"
+  ],
+  "faq": [
+    [
+      "What is attribute agreement analysis for visual inspection?",
+      "It is a study of how consistently inspectors classify the same items. It compares repeated ratings by one inspector, ratings across inspectors, and ratings against an approved reference when one is available."
+    ],
+    [
+      "Can inspectors agree and still release an unacceptable part?",
+      "Yes. If inspectors apply the same incorrect interpretation of a defect limit, they can agree with each other and still disagree with the approved reference. Review false accepts separately before approving the method."
+    ],
+    [
+      "Can we use one golden sample for the study?",
+      "A golden sample can establish an appearance reference. Include additional samples with relevant defects and variation on both sides of the acceptance limit so the study can evaluate actual accept and reject decisions."
+    ],
+    [
+      "Do the factory and importer need to inspect the same physical units?",
+      "Using the same stable units supports a direct comparison of their ratings. Record how the units travel, verify their condition at each site, and document any differences in the inspection setup."
+    ],
+    [
+      "Can we use the study to set the incoming sampling plan?",
+      "Use the study to assess whether the classification method is suitable for the intended scope. Choose lot sampling separately according to the inspection plan and the buyer's release requirements."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Incoming Quality Inspection for Wireless CarPlay Adapters",
+      "/blog/wireless-carplay-adapter-incoming-quality-inspection/"
+    ],
+    [
+      "Private-Label Smart Car Screen Kit Architecture",
+      "/blog/private-label-smart-car-screen-kit-architecture/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Visual inspection qualification",
+    "title": "Qualify your visual inspection method.",
+    "body": "Share the part revision, finish and disputed defects to discuss a study for your factory and receiving teams.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "motorcycle-carplay-display-sunlight-readability",
   "title": "Motorcycle CarPlay Display Readability: What to Check Before You Buy",
   "category": "Buyer guide",
