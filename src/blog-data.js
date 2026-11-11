@@ -1,5 +1,102 @@
 export const blogPosts=[
 {
+  "slug": "motorcycle-carplay-display-sunlight-readability",
+  "title": "Motorcycle CarPlay Display Readability: What to Check Before You Buy",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 11, 2026",
+  "automationRun": "2026-11-11-09",
+  "publishAt": "2026-11-11T09:06:15+08:00",
+  "updatedAt": "2026-11-11T09:06:15+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Motorcycle CarPlay Display Sunlight Readability | TrolinkTek",
+  "excerpt": "Compare motorcycle CarPlay displays in daylight with a dealer worksheet for screen glare, viewing angles, polarized sunglasses and mount position.",
+  "image": "/assets/blog/motorcycle-carplay-display-sunlight-readability.png",
+  "imageAlt": "A mounted motorcycle display catching sunlight at a service bay entrance, with riding glasses on a nearby counter",
+  "contentPath": "/content/blog-articles/motorcycle-carplay-display-sunlight-readability.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "motorcycle CarPlay display sunlight readability",
+  "secondaryKeywords": [
+    "polarized sunglasses",
+    "display luminance",
+    "screen glare",
+    "mounting angle",
+    "navigation cue legibility"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Motorcycle accessory dealers and importers evaluating display samples",
+  "intro": "To choose a motorcycle CarPlay display for daylight use, compare samples on a parked bike in their intended mounting positions, wearing the helmet and eyewear your customers use. Check whether the next-turn arrow and distance remain legible in open shade, direct light, and reflected glare. A brightness figure describes emitted light under the supplier's test conditions. It cannot tell you whether a windscreen reflection will cover the route cue or whether polarized sunglasses will darken the display at the rider's normal head angle. Dealers and importers should shortlist the complete screen and mount combination, record the conditions that passed, and carry those conditions into the demo and product listing. A good showroom impression is a reason to take a unit outside for comparison.",
+  "sections": [
+    [
+      "Understand what the brightness number leaves out",
+      "Display luminance describes light coming from a surface in a given direction. Specifications often express it in candelas per square metre, also called nits. Ask whether the figure is typical or peak, whether it describes the panel or the assembled display, and which brightness mode was used. If two suppliers describe different measurement conditions, put the figures in separate columns and compare the finished devices under matched conditions."
+    ],
+    [
+      "Compare the same route cues on each sample",
+      "Start with a route preview or repeatable stationary view from the same phone and navigation app. Choose two pieces of information that riders would need during navigation, such as the turn direction and distance, plus a secondary item such as the street name. Record the phone, app, display firmware, theme, screen protector and mount. Use the same screen content across samples whenever possible. A colourful home screen with large icons can hide problems with fine map labels."
+    ],
+    [
+      "Use one worksheet per display and mount",
+      "Choose pass conditions before comparing samples. For each row, mark whether the required cues are clear, legible with effort, or obscured. Keep the exact conditions alongside the result. When one setup fails, change a single variable for the next observation so the record can inform a mount, sample or listing decision."
+    ],
+    [
+      "A dealer scenario with two mounting positions",
+      "Imagine a dealer comparing displays for a touring bike with a tall windscreen and a naked bike with an open cockpit. On the touring bike, a central bracket puts the windscreen's reflection across the turn area. Moving the sample to an approved position changes the reflection, and the turn cue becomes readable with the same visor and brightness setting. On the naked bike, the first mounting angle works in shade, but a customer's polarized glasses darken the view during a small head tilt. A second sample remains readable with that pair in the same position."
+    ],
+    [
+      "Specify what should stay the same after sample approval",
+      "Ask the supplier to identify the display assembly and firmware used in the sample. Also record the cover finish, factory-applied film, mount and any accessory that changes the viewing geometry. If an optional visor or screen protector is part of the kit, repeat the relevant rows with it fitted. Ask how the supplier identifies changes that could affect readability and which identifiers the receiving team can check when a new lot arrives. Include the chosen app and theme in your demo notes, since an app update or different map style can change what the customer sees."
+    ]
+  ],
+  "checklist": [
+    "Mount the sample in its intended position",
+    "Compare identical route cues in shade and sun",
+    "Repeat with the expected riding eyewear",
+    "Confirm default and low-light settings",
+    "Record the approved display and mount combination"
+  ],
+  "faq": [
+    [
+      "Is a higher nit rating enough to choose a motorcycle CarPlay display?",
+      "Use comparable ratings as one input. Before choosing a unit, check the assembled display with the intended mount, map view and eyewear. Record the sunlight and reflection conditions under which the required cues remain readable."
+    ],
+    [
+      "Do polarized sunglasses always make motorcycle displays dark?",
+      "The effect depends on the display and the eyewear at a given orientation. Test the actual pair with the visor and mount you plan to use. Record whether normal changes in head angle affect the route cues."
+    ],
+    [
+      "Can I fix glare with a different mounting angle?",
+      "A different approved angle can move a reflection away from the navigation cue. Repeat the worksheet at the new position and recheck instrument visibility, control clearance and mounting security."
+    ],
+    [
+      "Should I add a matte screen protector to a sample?",
+      "Compare the same screen with and without the proposed protector using small text and the intended riding gear. Record any changes to reflections, cue clarity and touch response before including that accessory in a kit."
+    ],
+    [
+      "What should the dealer ask for with a display sample?",
+      "Ask for the exact screen and mount references, brightness settings, display or firmware revision identifiers, and any applicable setup instructions. Describe the bikes, gear and viewing conditions the demo will cover so the sample can be matched to the intended offer."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Motorcycle CarPlay Display Compatibility and Fitment",
+      "/blog/motorcycle-carplay-display-compatibility-fitment/"
+    ],
+    [
+      "Motorcycle CarPlay Display Self-Install vs. Dealer Fitting",
+      "/blog/motorcycle-carplay-display-self-install-vs-dealer-fitting/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Motorcycle CarPlay display selection",
+    "title": "Compare display samples for your showroom.",
+    "body": "Share the bikes, mount positions and eyewear in your demo plan so we can identify display samples to compare.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+
+{
   "slug": "open-box-automotive-electronics-resale",
   "title": "Open-Box Automotive Electronics: When Should Distributors Resell Returns?",
   "category": "Market strategy",
