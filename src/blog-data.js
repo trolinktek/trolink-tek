@@ -1,4 +1,75 @@
 export const blogPosts=[
+{
+  "slug": "electronics-rework-verification-release",
+  "title": "Electronics Rework Verification: When Can a Unit Return to Shippable Stock?",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 16, 2026",
+  "automationRun": "2026-11-16-14",
+  "publishAt": "2026-11-16T14:10:13+08:00",
+  "updatedAt": "2026-11-16T14:10:13+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Electronics Rework Verification and Release | TrolinkTek",
+  "excerpt": "Verify automotive electronics after factory rework. Tie the original defect, approved intervention, checks and inventory release to one serial number.",
+  "image": "/assets/blog/electronics-rework-verification-release.png",
+  "imageAlt": "A gloved inspector examining a connector on an open portable dashboard display at a blue quality bench",
+  "contentPath": "/content/blog-articles/electronics-rework-verification-release.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "electronics rework verification",
+  "secondaryKeywords": [
+    "post-rework inspection",
+    "nonconformance disposition",
+    "rework vs repair",
+    "serial-level traceability",
+    "inventory hold release"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier quality engineers at automotive accessory importers",
+  "intro": "Agree on the work, verify the original defect and every affected feature, then document who released each serial number into shippable stock.",
+  "faq": [
+    [
+      "Can a unit ship after it passes the original test?",
+      "It can ship after the approved release criteria are met. Where the work disturbed other features, the corresponding checks must also pass and the authorized reviewer must release the unit by serial number."
+    ],
+    [
+      "How do rework and repair affect the release decision?",
+      "Rework restores the unit to the applicable specification. A repair can restore function while leaving a documented departure. For a repair, follow the required authorization and any restrictions on shipment or use."
+    ],
+    [
+      "Does every reworked unit need every production test repeated?",
+      "Follow the approved verification plan. It should cover the original nonconformance, features the intervention could have disturbed and any full end-of-line test required by the program."
+    ],
+    [
+      "How many times can a factory rework the same unit?",
+      "Use the limits approved for the product and operation. Record the history of repeat work and obtain a new disposition when the limit has been reached or the unit's condition changes."
+    ],
+    [
+      "Should the first failure stay in the quality record after release?",
+      "Yes. Retain the original result and link it to the work, verification and final disposition. That history supports yield analysis, traceability and later investigation."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Controlled Retest Decision Rules",
+      "https://trolink-tek.com/blog/automotive-electronics-controlled-retest-decision-rules/"
+    ],
+    [
+      "Production Traceability for Automotive Electronics",
+      "https://trolink-tek.com/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "First-Pass Yield vs. Final Yield",
+      "/blog/first-pass-yield-vs-final-yield-automotive-electronics/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Supplier quality evidence",
+    "title": "Agree on verification before the first lot ships",
+    "body": "Share the SKU, approved rework scope and features to verify for a focused test matrix.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
 {slug:'carplay-ai-box-thermal-support-triage',title:'CarPlay AI Box Thermal Support Triage: What to Record Before Escalation',category:'Technical insight',categoryLabel:'Technical insight',date:'November 15, 2026',automationRun:'2026-11-15-14',publishAt:'2026-11-15T14:10:00+08:00',updatedAt:'2026-11-15T14:10:00+08:00',author:'TrolinkTek Editorial Team',metaTitle:'CarPlay AI Box Thermal Support Triage | TrolinkTek',excerpt:'Triage a reported CarPlay AI Box heat symptom by recording configuration, placement, power state and reproducible outcome before escalation.',image:'/assets/blog/carplay-ai-box-thermal-support-triage.png',imageAlt:'Unbranded AI Box on a navy automotive electronics bench with abstract thermal glow and cooling fins',contentPath:'/content/blog-articles/carplay-ai-box-thermal-support-triage.md',readTime:'8 min read',primaryKeyword:'CarPlay AI Box thermal support triage',secondaryKeywords:['AI Box heat diagnosis','after-sales evidence','connected-car accessory support'],funnel:'MOFU',targetBuyer:'After-sales teams and installer support leads',intro:'When a customer reports that a CarPlay AI Box is hot, slow or stops responding, support should record the configuration and observed outcome before naming a cause. A warm enclosure by itself does not prove a defect.',sections:[['Separate observation from diagnosis','Record product, host, location and symptom before assigning cause.'],['Use a safe support path','Preserve a controlled case record and do not ask users to open or alter products.']],checklist:['Product and firmware captured','Host and cable recorded','Placement noted','Symptom reproduced where possible','Recovery result noted','Escalation evidence preserved'],faq:[['Does a hot enclosure prove defect?','No. Record symptom and configuration before investigation.'],['What should be escalated?','A reproducible loss of function or a condition requiring approved service action.']],relatedLinks:[['Watchdog Recovery Testing','/blog/wireless-carplay-adapter-watchdog-hang-recovery-testing/'],['AI Box App Permissions','/blog/carplay-ai-box-app-permissions-location-microphone/']],cta:{eyebrow:'Support evidence',title:'Turn a heat report into a reproducible case.',body:'Share SKU and target configuration to request a test matrix.',label:'Request a Test Matrix',href:'https://trolink-tek.com/#quote'}},
 {slug:'private-label-automotive-electronics-packaging-artwork-approval',title:'Private-Label Automotive Electronics Packaging Artwork Approval',category:'OEM / ODM',categoryLabel:'OEM / ODM',date:'November 15, 2026',automationRun:'2026-11-15-19',publishAt:'2026-11-15T19:10:00+08:00',updatedAt:'2026-11-15T19:10:00+08:00',author:'TrolinkTek Editorial Team',metaTitle:'Private-Label Packaging Artwork Approval | TrolinkTek',excerpt:'Control packaging artwork approval by linking product identity, claims, inserts, samples and change ownership.',image:'/assets/blog/private-label-automotive-electronics-packaging-artwork-approval.png',imageAlt:'Unbranded connected-car device with blank packaging mockups and protective inserts on a factory approval bench',contentPath:'/content/blog-articles/private-label-automotive-electronics-packaging-artwork-approval.md',readTime:'8 min read',primaryKeyword:'private-label automotive electronics packaging artwork approval',secondaryKeywords:['OEM ODM packaging approval','connected-car product artwork','packaging change control'],funnel:'BOFU',targetBuyer:'Private-label product managers and OEM/ODM sourcing teams',intro:'Private-label packaging artwork should be approved as a controlled product configuration, not as a standalone graphic file. Link carton, insert, label and claims to the approved product revision and physical pack-out.',sections:[['Create one approval pack','Link artwork to SKU, accessories, market and controlled claims.'],['Review physical pack','Confirm digital artwork with actual product and accessories.'],['Scope claims','Use actionable prerequisite wording, not universal compatibility claims.']],checklist:['Artwork version controlled','Product SKU linked','Accessories verified','Claims approved','Language scope checked','Physical pack reviewed','Change owner named'],faq:[['Can vendor change file after approval?','Only through agreed change route.'],['Is printed sample enough?','No. Review it with correct product and accessories.']],relatedLinks:[['Kit Configuration Error-Proofing','/blog/automotive-electronics-kit-configuration-error-proofing/'],['Repeat-Order Change Control','/blog/private-label-carplay-adapter-repeat-order-change-control/']],cta:{eyebrow:'Private-label packaging',title:'Approve artwork with the actual product configuration.',body:'Share product, market and artwork scope for MOQ and packaging options.',label:'Request MOQ and Packaging Options',href:'https://trolink-tek.com/#quote'}},
 {slug:'motorcycle-carplay-rental-operator-buying-guide',title:'Motorcycle CarPlay for Rental Operators: A Fleet Buying Guide',category:'Vehicle applications',categoryLabel:'Vehicle applications',date:'November 15, 2026',automationRun:'2026-11-15-09',publishAt:'2026-11-15T09:10:00+08:00',updatedAt:'2026-11-15T09:10:00+08:00',author:'TrolinkTek Editorial Team',metaTitle:'Motorcycle CarPlay Rental Fleet Buying Guide | TrolinkTek',excerpt:'Select a Motorcycle CarPlay display for rental or guided-tour fleet by defining mount, power, handover and return-to-service boundaries.',image:'/assets/blog/motorcycle-carplay-rental-operator-buying-guide.png',imageAlt:'Unbranded Motorcycle CarPlay display on a touring motorcycle near a neutral rental-fleet helmet locker',contentPath:'/content/blog-articles/motorcycle-carplay-rental-operator-buying-guide.md',readTime:'8 min read',primaryKeyword:'Motorcycle CarPlay rental fleet',secondaryKeywords:['motorcycle navigation display','guided-tour motorcycle equipment','rental fleet device handover'],funnel:'TOFU/MOFU',targetBuyer:'Motorcycle rental operators, tour companies and fleet equipment buyers',intro:'A Motorcycle CarPlay display can suit a rental or tour fleet when operator defines vehicle mounting, power, rider handover, phone connection boundary and return-to-service process for exact configuration.',sections:[['Define fleet job','State expected use and product boundary.'],['Qualify handover','Keep operator demonstration separate from customer account responsibility.'],['Return-to-service checklist','Inspect mount, cable, screen and data-state before reassignment.']],checklist:['Motorcycle scope defined','Power route approved','Rider handover written','Return inspection assigned','Data boundary stated','Escalation contact named'],faq:[['Can one config fit every fleet motorcycle?','Only after each included configuration is validated.'],['Should staff pair customer phones?','Follow a privacy-aware handover policy.']],relatedLinks:[['Motorcycle Display Handover','/blog/motorcycle-carplay-guided-tour-fleet-handover/'],['Motorcycle CarPlay Buyer Guide','/blog/motorcycle-carplay-buyer-guide/']],cta:{eyebrow:'Fleet product selection',title:'Build a motorcycle display program your staff can hand over consistently.',body:'Share motorcycle types and handover needs for a focused shortlist.',label:'Request a Product Shortlist',href:'https://trolink-tek.com/#quote'}},
