@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "distributor-inventory-price-protection",
+  "title": "Distributor Inventory Price Protection for Automotive Electronics",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 16, 2026",
+  "automationRun": "2026-11-16-19",
+  "publishAt": "2026-11-16T19:03:17+08:00",
+  "updatedAt": "2026-11-16T19:03:17+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Distributor Inventory Price Protection | TrolinkTek",
+  "excerpt": "Assess distributor inventory price protection for automotive electronics. Verify eligible stock, reconcile supplier credits and model exposure before ordering.",
+  "image": "/assets/blog/distributor-inventory-price-protection.png",
+  "imageAlt": "Portable dashboard screen on a warehouse receiving cart beside rows of unmarked cartons",
+  "contentPath": "/content/blog-articles/distributor-inventory-price-protection.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "distributor inventory price protection",
+  "secondaryKeywords": [
+    "wholesale price change",
+    "on-hand inventory snapshot",
+    "distributor credit memo",
+    "in-transit stock",
+    "supplier claim reconciliation"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Commercial procurement leads at automotive electronics distributors",
+  "intro": "Use a timestamped stock snapshot and an agreed price basis to substantiate eligible inventory and reconcile the credit before relying on it in a volume buy.",
+  "faq": [
+    [
+      "Does a lower advertised retail price trigger distributor inventory price protection?",
+      "Use the event defined in the agreement. A reseller's advertised price can change independently of the supplier's covered wholesale price. Confirm a qualifying supplier notice before opening a claim."
+    ],
+    [
+      "Can a distributor claim units already in transit?",
+      "Check the treatment specified for that shipment status. Some arrangements may reprice an open order, cover a defined in-transit population or exclude it. Resolve invoice repricing and inventory credits together to prevent duplicate recovery."
+    ],
+    [
+      "Can old and new versions of a car screen share a claim line?",
+      "Use the item and revision mapping approved for the notice. If the older version uses a different item code, model or regional pack, keep its count separate until the supplier confirms eligibility."
+    ],
+    [
+      "What evidence should the distributor send with a claim?",
+      "Send the price change reference, applicable invoices, a timestamped stock snapshot and a line-level calculation. Document late postings and other adjustments. Provide additional serial or lot records when the agreement requires them."
+    ],
+    [
+      "How should finance handle a credit that has been submitted but remains unapproved?",
+      "Track it as a pending claim for operational review and retain the submitted evidence. Use the company's accounting policy for recognition and base purchase approvals on a scenario that reflects the timing and uncertainty of settlement."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Distributor Sell-Through Reporting",
+      "/blog/automotive-electronics-distributor-sell-through-reporting/"
+    ],
+    [
+      "Distributor Margin Planning",
+      "https://trolink-tek.com/blog/automotive-electronics-distributor-margin-waterfall/"
+    ],
+    [
+      "Slow-Moving Inventory Decisions",
+      "/blog/automotive-electronics-slow-moving-inventory-decisions/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Distributor sourcing",
+    "title": "Define your portable screen program before ordering",
+    "body": "Include the target market, candidate screen kits, forecast, and commercial terms for review.",
+    "label": "Submit an RFQ",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "electronics-rework-verification-release",
   "title": "Electronics Rework Verification: When Can a Unit Return to Shippable Stock?",
   "category": "Quality control",
