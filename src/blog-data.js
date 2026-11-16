@@ -1,5 +1,28 @@
 export const blogPosts=[
 {
+  slug:'carplay-ai-box-factory-usb-port-compatibility',
+  title:'CarPlay AI Box USB Port Compatibility: How to Qualify Factory Data Ports',
+  category:'Compatibility',categoryLabel:'Compatibility',date:'November 16, 2026',automationRun:'2026-11-16-09',publishAt:'2026-11-16T08:32:41+08:00',updatedAt:'2026-11-16T08:32:41+08:00',author:'TrolinkTek Editorial Team',
+  metaTitle:'CarPlay AI Box USB Port Compatibility | TrolinkTek',
+  excerpt:'Qualify factory USB data ports for a CarPlay AI Box with a practical vehicle, cable, power and control-path worksheet for importers and installers.',
+  image:'/assets/blog/carplay-ai-box-factory-usb-port-compatibility.png',imageAlt:'An unbranded compact AI Box connected to a factory dashboard USB port on a navy automotive electronics workbench',contentPath:'/content/blog-articles/carplay-ai-box-factory-usb-port-compatibility.md',readTime:'10 min read',
+  primaryKeyword:'CarPlay AI Box USB port compatibility',secondaryKeywords:['factory wired CarPlay','USB data port','vehicle infotainment USB hub','USB-C adapter cable','AI Box sample qualification'],funnel:'TOFU/MOFU',targetBuyer:'Automotive accessory importers and installation teams qualifying CarPlay AI Box samples',
+  intro:'A CarPlay AI Box should be qualified against a vehicle’s working factory wired CarPlay path, not against the connector shape or charging behaviour alone. A USB-A or USB-C socket can provide power without carrying the infotainment data path the box needs. For each target vehicle, connect a known-good phone directly to the intended port, confirm wired CarPlay on the factory screen, then test the exact AI Box, supplied cable, head-unit controls and startup sequence. Record the vehicle, trim, infotainment version, port location, cable and box firmware together. This gives an importer or installer a bounded compatibility record instead of a broad claim that can create avoidable returns.',
+  sections:[
+    ['What “USB compatible” actually means','USB connector shape does not prove an infotainment data role. Qualify the complete vehicle, port, cable, device and software configuration.'],
+    ['Start with the factory-wired prerequisite','Confirm wired CarPlay through the specific factory port with a known-good phone before introducing the AI Box.'],
+    ['Map the whole connection path','Freeze each vehicle port, factory hub, supplied cable, box revision and expected display or control path in the sample record.'],
+    ['Check startup, not just the first demonstration','Repeat normal vehicle starts and record recognition, usable interface, audio and control recovery rather than a best-case result.'],
+    ['Test the control and audio paths separately','A displayed interface does not prove that every touch, rotary, steering control or audio path is supported.'],
+    ['A sample plan for importers and installers','Use representative vehicle, trim and region samples to define an offer and installation instruction without overclaiming.'],
+    ['Define the limits before publishing a claim','Treat firmware, cables, hardware revisions and vehicle configurations as change triggers for the original evidence.']
+  ],
+  checklist:['Factory wired CarPlay confirmed at the named port','Vehicle trim, region and infotainment version recorded','AI Box hardware and firmware identified','Included cable or converter frozen by part number','Repeated startup and recovery observations recorded','Touch or controller behaviour checked in scope','Media, navigation and call-audio paths checked in scope','Listing and installation limits match the sample evidence'],
+  faq:[['Does a USB-C port guarantee CarPlay AI Box compatibility?','No. USB-C describes a connector shape. Confirm working factory wired CarPlay through the exact port, then qualify the complete AI Box and cable configuration.'],['Can I use any USB-A-to-USB-C cable with an AI Box?','Treat an alternate cable as a separate configuration. It may fit physically but differ in data capability, construction or startup behaviour.'],['Why does the phone work but the AI Box not launch?','Keep vehicle, phone, cable and box details separate. Confirm the factory prerequisite, then review the box revision, supplied cable path and startup sequence.'],['Should an installer test every USB port in the vehicle?','Test the intended port and record its location. Qualify other ports separately instead of assuming their roles are identical.'],['What should an importer request with an AI Box sample?','Request exact hardware and firmware identity, cable options, setup material, target vehicle scope and a recorded test matrix.']],
+  relatedLinks:[['CarPlay AI Box vs Wireless CarPlay Adapter: A Distributor’s Product Selection Guide','/blog/carplay-ai-box-vs-wireless-carplay-adapter/'],['Can a CarPlay AI Box Work with a Non-Touchscreen or Rotary Controller?','/blog/carplay-ai-box-non-touchscreen-rotary-controller/'],['USB-A vs USB-C Wireless CarPlay Adapter: A Buyer Compatibility Guide','/blog/usb-a-vs-usb-c-wireless-carplay-adapter/']],
+  cta:{eyebrow:'AI Box compatibility review',title:'Qualify the port path before you choose a rollout SKU.',body:'Share target vehicles, infotainment details, intended ports and required functions to request a focused sample shortlist.',label:'Request a Compatibility Review',href:'https://trolink-tek.com/#quote'}
+},
+{
   "slug": "component-last-time-buy-vs-redesign",
   "title": "Component Last-Time Buy or Redesign? An OEM/ODM Decision Guide",
   "category": "OEM / ODM",
