@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "adhesive-pad-shelf-life-portable-car-screen-kits",
+  "title": "Adhesive Pad Shelf Life: How to Control Stock for Portable Car Screen Kits",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 17, 2026",
+  "automationRun": "2026-11-17-14",
+  "publishAt": "2026-11-17T14:03:22+08:00",
+  "updatedAt": "2026-11-17T14:03:22+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Adhesive Pad Shelf Life for Portable Car Screen Kits | TrolinkTek",
+  "excerpt": "Control adhesive pad shelf life in portable car screen kits by tracing source lots, checking storage and setting a remaining life requirement.",
+  "image": "/assets/blog/adhesive-pad-shelf-life-portable-car-screen-kits.png",
+  "imageAlt": "Die-cut adhesive pads in pouches and a loose pad with a lifted liner beside a portable car display mounting base",
+  "contentPath": "/content/blog-articles/adhesive-pad-shelf-life-portable-car-screen-kits.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "adhesive pad shelf life",
+  "secondaryKeywords": [
+    "pressure-sensitive adhesive pad",
+    "first-expired first-out",
+    "lot traceability",
+    "storage excursion",
+    "remaining shelf life"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Supplier quality teams at portable car screen importers",
+  "intro": "Trace each pad to its approved material, original lot, documented use-by rule and storage history before releasing the kit.",
+  "faq": [
+    [
+      "Does repackaging reset the shelf life of an adhesive pad?",
+      "No. Repackaging can create a new traceability record or a shorter approved handling window. Keep the original material date basis unless the material owner has documented a different supported rule for that exact construction and process."
+    ],
+    [
+      "Is a batch code the same as an expiry date?",
+      "No. A batch code identifies material and may encode a production date. Ask the supplier for the decoding rule and the document that maps the resulting date to a use-by decision."
+    ],
+    [
+      "Can we use pads that still feel tacky after their use-by date?",
+      "Hand tack does not establish whether a lot meets the documented release criteria or the requirements of an installed mount. Hold the lot for an authorized disposition and use qualified replacement stock if the evidence does not support release."
+    ],
+    [
+      "How much remaining life should an importer require?",
+      "Set the minimum against the planned transit, receipt, dealer inventory and installation windows, plus an agreed allowance for variability. There is no single suitable buffer for every material and channel."
+    ],
+    [
+      "What records should a supplier show on a sample kit?",
+      "Ask for the approved pad item and revision, maker-lot identification, the applicable date and storage rules, and an example showing how a converted pouch lot links to a finished kit. Confirm that the same mapping will be available on production lots."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Production Traceability for Automotive Electronics",
+      "https://trolink-tek.com/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Control Plan vs. Inspection Plan",
+      "https://trolink-tek.com/blog/automotive-electronics-control-plan-vs-inspection-plan/"
+    ],
+    [
+      "Portable CarPlay Screen: Removable vs. Fixed Mount",
+      "https://trolink-tek.com/blog/portable-carplay-screen-removable-vs-fixed-mount/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Portable screen kit quality",
+    "title": "Review your screen kit and mount sample",
+    "body": "Share the planned kit, pad or mounting base, distribution route and the material records you need to evaluate.",
+    "label": "Request a Sample",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "portable-carplay-screen-vs-bluetooth-aux-receiver",
   "title": "Portable CarPlay Screen vs. Bluetooth AUX Receiver: Which Upgrade Fits an Older Car?",
   "category": "Product comparison",
