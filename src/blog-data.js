@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-vs-bluetooth-aux-receiver",
+  "title": "Portable CarPlay Screen vs. Bluetooth AUX Receiver: Which Upgrade Fits an Older Car?",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 17, 2026",
+  "automationRun": "2026-11-17-09",
+  "publishAt": "2026-11-17T09:06:03+08:00",
+  "updatedAt": "2026-11-17T09:06:03+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen vs. Bluetooth AUX Receiver | TrolinkTek",
+  "excerpt": "Compare a portable CarPlay screen and a Bluetooth AUX receiver by maps, calls, radio input and installation before recommending an upgrade.",
+  "image": "/assets/blog/portable-carplay-screen-vs-bluetooth-aux-receiver.png",
+  "imageAlt": "Portable navigation display on an older car dashboard with a compact Bluetooth audio receiver and AUX plug on the center console",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-vs-bluetooth-aux-receiver.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "portable CarPlay screen vs Bluetooth AUX receiver",
+  "secondaryKeywords": [
+    "portable dashboard display",
+    "factory radio AUX input",
+    "Bluetooth audio streaming",
+    "hands-free calling",
+    "CarPlay navigation"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Used-car accessory dealers and installation teams",
+  "intro": "Choose the upgrade by the interface the driver needs, then verify the factory radio, power, mounting and phone audio path in the target cabin.",
+  "faq": [
+    [
+      "Can a Bluetooth AUX receiver add CarPlay to an existing radio?",
+      "A conventional Bluetooth AUX receiver feeds analog audio into the radio. CarPlay needs a compatible display system. If the buyer wants supported maps and controls on a new screen, evaluate a portable CarPlay screen or a vehicle-specific display option."
+    ],
+    [
+      "Can a portable CarPlay screen work without the factory radio having CarPlay?",
+      "A standalone screen designed to host CarPlay can provide that interface with a compatible iPhone. Confirm the screen's connection requirements, power and mount, and verify how sound will reach the driver in that vehicle."
+    ],
+    [
+      "Does an AUX connection also carry microphone input?",
+      "The radio's AUX input in this setup receives playback audio. Confirm where the microphone is and which device takes the driver's voice during a call. Test both directions of the call after the accessory is placed where it will be used."
+    ],
+    [
+      "Can the driver keep listening to FM while using on-screen navigation?",
+      "That depends on the selected output and radio source. A radio tuned to FM may stop playing audio from its AUX input. Check whether the screen can play prompts through another supported path and whether the buyer finds that arrangement acceptable."
+    ],
+    [
+      "What should a dealer record before ordering samples?",
+      "Record the vehicle and radio, available audio input, iPhone model, required map or call features, intended mount and power outlet. Ask the supplier to identify the exact kit and connection method suitable for that trial."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screen Audio Routing",
+      "https://trolink-tek.com/blog/portable-carplay-screen-audio-routing-guide/"
+    ],
+    [
+      "Portable CarPlay Screen Buying Guide",
+      "/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Wireless CarPlay Adapter vs. Portable Screen",
+      "/blog/wireless-carplay-adapter-vs-portable-carplay-screen/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Portable screen selection",
+    "title": "Find a portable screen that fits the cabin",
+    "body": "Share the target vehicle, radio input, iPhone model and display requirements for your installation.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "distributor-inventory-price-protection",
   "title": "Distributor Inventory Price Protection for Automotive Electronics",
   "category": "Market strategy",
