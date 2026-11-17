@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "late-stage-packaging-postponement-carplay-ai-box",
+  "title": "Late-Stage Packaging Postponement for Private-Label CarPlay AI Boxes",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 17, 2026",
+  "automationRun": "2026-11-17-19",
+  "publishAt": "2026-11-17T19:02:59+08:00",
+  "updatedAt": "2026-11-17T19:02:59+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Late-Stage Packaging Postponement for CarPlay AI Boxes",
+  "excerpt": "Compare factory-packed kits with late-stage packaging for private-label CarPlay AI Boxes. Plan shared stock, regional SKUs and an OEM/ODM pilot.",
+  "image": "/assets/blog/late-stage-packaging-postponement-carplay-ai-box.png",
+  "imageAlt": "Two unbranded black electronics modules beside two unfolded blue carton sleeves and paper inserts at a packing station",
+  "contentPath": "/content/blog-articles/late-stage-packaging-postponement-carplay-ai-box.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "late-stage packaging postponement",
+  "secondaryKeywords": [
+    "private-label CarPlay AI Box",
+    "common base inventory",
+    "destination pack",
+    "finished SKU",
+    "pack bill of materials"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product and sourcing managers at CarPlay AI Box importers",
+  "intro": "Hold one approved base device for multiple markets and assign the finished kit only once the destination and pack revision are known.",
+  "faq": [
+    [
+      "Does late-stage packaging reduce minimum order quantities?",
+      "It can change where the minimums apply. The common base may have one build minimum, while printed materials and conversion batches have their own. Ask the supplier to quote each commitment and identify who retains unused stock."
+    ],
+    [
+      "Can the same base device support two distinct retail SKUs?",
+      "Yes, when both finished kits accept the exact approved base configuration. Define each kit's contents, revisions and identification in the finished item record, and preserve the serial or lot link through conversion."
+    ],
+    [
+      "Who should control destination label files?",
+      "Assign a named owner for approving each destination file and a packing-site owner for controlled use. The work instruction should call up the released revision, and the finished record should identify the revision that was applied."
+    ],
+    [
+      "When should we keep finished inventory?",
+      "Keep finished packs for demand that must ship before a controlled conversion can be completed or where the destination configuration needs upstream changes. Review the quantity against the actual order pattern and the agreed dispatch promise."
+    ],
+    [
+      "What should an OEM/ODM quote show for both options?",
+      "Request the price and minimum commitment for the common device, destination materials and packing operation. Include the order cutoff, documented capacity, inventory ownership, approved substitution rules and an example of the finished pack trace record."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Packaging Revision Control for Automotive Electronics",
+      "https://trolink-tek.com/blog/packaging-revision-control-automotive-electronics/"
+    ],
+    [
+      "Private-Label SKU Variant Planning",
+      "https://trolink-tek.com/blog/private-label-wireless-carplay-adapter-sku-variant-planning/"
+    ],
+    [
+      "Private-Label Packaging Artwork Approval",
+      "https://trolink-tek.com/blog/private-label-automotive-electronics-packaging-artwork-approval/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Private-label packaging",
+    "title": "Compare two packaging routes for your launch",
+    "body": "Share your destination mix, pack contents and dispatch window to discuss minimum commitments for finished kits and common-base stock.",
+    "label": "Request MOQ and Packaging Options",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "adhesive-pad-shelf-life-portable-car-screen-kits",
   "title": "Adhesive Pad Shelf Life: How to Control Stock for Portable Car Screen Kits",
   "category": "Quality control",
