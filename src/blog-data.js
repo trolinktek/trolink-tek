@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-data-plans-distributor-bundle",
+  "title": "CarPlay AI Box Data Plans: Distributor Bundle or Customer Connectivity?",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 18, 2026",
+  "automationRun": "2026-11-18-19",
+  "publishAt": "2026-11-18T19:06:06+08:00",
+  "updatedAt": "2026-11-18T19:06:06+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Data Plans: Distributor Bundles | TrolinkTek",
+  "excerpt": "Compare customer connectivity with distributor AI Box data bundles. Assign activation, renewal, costs and support before approving a regional offer.",
+  "image": "/assets/blog/carplay-ai-box-data-plans-distributor-bundle.png",
+  "imageAlt": "Unbranded automotive AI box beside a smartphone and a separate SIM card on deep blue presentation plinths",
+  "contentPath": "/content/blog-articles/carplay-ai-box-data-plans-distributor-bundle.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay AI Box data plans",
+  "secondaryKeywords": [
+    "AI Box connectivity bundle",
+    "customer-managed SIM",
+    "phone hotspot",
+    "data allowance renewal",
+    "distributor service ownership"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Importer product managers, regional distributors and procurement committees planning an AI Box offer",
+  "intro": "Choose the connectivity ownership model before approving hardware, packaging and channel launch promises.",
+  "faq": [
+    [
+      "Does every CarPlay AI Box need a separate SIM?",
+      "No. Supported internet routes depend on the exact hardware and configuration. Some offers may use a customer hotspot; direct cellular service requires documented hardware and provider support."
+    ],
+    [
+      "Does a SIM included in the box mean data is included?",
+      "No. Confirm whether an active entitlement is included, when it starts, what it covers and who pays after it expires. Packaging contents and service rights are separate facts."
+    ],
+    [
+      "Should a distributor always bundle connectivity?",
+      "No. Bundle it only when the target buyer values the arrangement and the channel can support activation, renewal, replacement and escalation. Compare the complete offer with a supported customer-connectivity route."
+    ],
+    [
+      "Can an importer promise that any local SIM will work?",
+      "No. Confirm the selected device, provider, service terms and intended market. A SIM slot or a successful demonstration with one plan does not establish universal network compatibility."
+    ],
+    [
+      "What should the buying committee request before approval?",
+      "Request the exact hardware specification, provider-confirmed service scope, completed ownership worksheet, customer disclosures and demonstration evidence. Require a named owner for every unresolved activation, expiry or support dependency."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box Connectivity Diagnosis",
+      "https://trolink-tek.com/blog/carplay-ai-box-connected-no-internet-diagnosis/"
+    ],
+    [
+      "AI Box Distributor Fit Scorecard",
+      "https://trolink-tek.com/blog/carplay-ai-box-channel-fit-scorecard/"
+    ],
+    [
+      "AI Box Distributor Training",
+      "https://trolink-tek.com/blog/carplay-ai-box-distributor-sales-enablement/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box offer planning",
+    "title": "Define the hardware and connectivity boundaries together",
+    "body": "Share your target market, intended customer and connectivity ownership model to discuss the hardware and private-label scope.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "portable-carplay-screen-touch-offset-mapping",
   "title": "Portable CarPlay Screen Touch Offset: Calibration or Display Mapping?",
   "category": "Technical insight",
