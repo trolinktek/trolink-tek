@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-touch-offset-mapping",
+  "title": "Portable CarPlay Screen Touch Offset: Calibration or Display Mapping?",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 18, 2026",
+  "automationRun": "2026-11-18-14",
+  "publishAt": "2026-11-18T14:09:11+08:00",
+  "updatedAt": "2026-11-18T14:09:11+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Touch Offset Diagnosis | TrolinkTek",
+  "excerpt": "Diagnose portable CarPlay screen touch offset by comparing local controls, projected image boundaries and approved input mapping before repair.",
+  "image": "/assets/blog/portable-carplay-screen-touch-offset-mapping.png",
+  "imageAlt": "Gloved fingertip touching a blue target on an unbranded portable display at a dark navy engineering bench",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-touch-offset-mapping.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "portable CarPlay screen touch offset",
+  "secondaryKeywords": [
+    "touch calibration",
+    "projection input mapping",
+    "active image boundary",
+    "display scaling",
+    "touchscreen diagnosis"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer after-sales engineering teams and portable screen installer networks",
+  "intro": "Compare local and projected touch behavior before choosing calibration, firmware review or hardware service.",
+  "faq": [
+    [
+      "Does a sharp image prove that touch mapping is correct?",
+      "No. Image rendering and input mapping need separate checks. Compare the intended contact with the observed action across the usable area in both local and projected interfaces."
+    ],
+    [
+      "Should support recalibrate every screen with a touch complaint?",
+      "No. First distinguish offset, missing response and delay. Use calibration only when the supplier documents that procedure for the exact hardware and symptom."
+    ],
+    [
+      "Can a projection-only offset still involve the local touch path?",
+      "Yes. Different interfaces can use different areas or control sizes. Correct local operation is useful evidence, but it does not conclusively exclude the sensor or its configuration."
+    ],
+    [
+      "Is changing the phone's display setting a universal fix?",
+      "No. Record the current configuration and ask which settings affect the supported projected interface. Change only an approved variable and repeat the original observation."
+    ],
+    [
+      "What should an importer send before requesting replacement panels?",
+      "Send the sample identity, hardware and firmware versions, installation details, local-versus-projected comparison, full-screen recording and repeatable steps. Ask engineering which remaining comparison distinguishes a configuration issue from a serviceable hardware fault."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Smart Car Screen Power Installation",
+      "https://trolink-tek.com/blog/smart-car-screen-power-installation-compatibility/"
+    ],
+    [
+      "B2B Issue Reproduction Guide",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-issue-reproduction-guide/"
+    ],
+    [
+      "Firmware Release Evidence",
+      "https://trolink-tek.com/blog/carplay-accessory-firmware-release-evidence/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Portable display engineering review",
+    "title": "Build evidence for the next touch diagnosis decision",
+    "body": "Share the screen revision, phone configuration and local-versus-projected observations for a focused validation discussion.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-mobile-service-technicians-screen-tablet",
   "title": "CarPlay for Mobile Service Technicians: Dashboard Screen or Work Tablet?",
   "category": "Vehicle applications",
