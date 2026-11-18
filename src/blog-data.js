@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-mobile-service-technicians-screen-tablet",
+  "title": "CarPlay for Mobile Service Technicians: Dashboard Screen or Work Tablet?",
+  "category": "Vehicle applications",
+  "categoryLabel": "Vehicle applications",
+  "date": "November 18, 2026",
+  "automationRun": "2026-11-18-09",
+  "publishAt": "2026-11-18T09:09:01+08:00",
+  "updatedAt": "2026-11-18T09:09:01+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay for Mobile Service Technicians | TrolinkTek",
+  "excerpt": "Choose a CarPlay screen, work tablet or both for mobile service technicians. Map dispatch, navigation, job records and parked handoffs before buying.",
+  "image": "/assets/blog/carplay-mobile-service-technicians-screen-tablet.png",
+  "imageAlt": "Compact portable screen mounted on a parked car dashboard with a larger tablet in a sleeve on the passenger seat",
+  "contentPath": "/content/blog-articles/carplay-mobile-service-technicians-screen-tablet.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay for mobile service technicians",
+  "secondaryKeywords": [
+    "field-service work tablet",
+    "portable CarPlay screen",
+    "dispatch address handoff",
+    "offline navigation",
+    "service vehicle workflow"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Commercial accessory installers and field-service fleet product managers",
+  "intro": "Assign navigation, calling and job records to the correct terminal, then demonstrate the complete service-visit handoff.",
+  "faq": [
+    [
+      "Can a normal tablet replace a portable CarPlay screen?",
+      "It can run supported applications independently, but that does not make it a CarPlay receiver. Evaluate the required navigation, calls, mounting and business tasks on the exact tablet configuration before treating it as an alternative."
+    ],
+    [
+      "Will our dispatch application appear on CarPlay?",
+      "Do not assume it will. Ask the application provider whether it offers a supported CarPlay interface and which functions are available. Demonstrate the address handoff even if the full work-order application stays on another device."
+    ],
+    [
+      "Does a portable CarPlay screen remove the need for a work tablet?",
+      "Only if the business no longer needs the tablet's independent tasks. A screen for supported phone projection does not automatically provide job records, customer sign-off, managed accounts or the organization's field-service application."
+    ],
+    [
+      "What should we test when mobile coverage is unavailable?",
+      "Test map availability, access to the job record, permitted parked edits and later synchronization separately. Record which functions require a connection and confirm the result on the intended phone or tablet with the actual applications."
+    ],
+    [
+      "What should an installer request before recommending a kit?",
+      "Request the vehicle and outlet details, phone and tablet identities, application requirements, account ownership and intended audio route. Use a fictional service job to demonstrate the full handoff before selecting the screen, mount and power accessories."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screens for Work Vans",
+      "https://trolink-tek.com/blog/portable-carplay-screen-work-van-guide/"
+    ],
+    [
+      "Smart Car Screen Power Installation",
+      "https://trolink-tek.com/blog/smart-car-screen-power-installation-compatibility/"
+    ],
+    [
+      "Portable CarPlay Screen Audio Routing",
+      "https://trolink-tek.com/blog/portable-carplay-screen-audio-routing-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Service vehicle product selection",
+    "title": "Match the display to the service workflow",
+    "body": "Share the vehicle, phone, business application and navigation handoff for a focused screen shortlist.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "late-stage-packaging-postponement-carplay-ai-box",
   "title": "Late-Stage Packaging Postponement for Private-Label CarPlay AI Boxes",
   "category": "OEM / ODM",
