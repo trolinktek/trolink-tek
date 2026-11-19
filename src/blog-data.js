@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-dash-cam-buying-guide",
+  "title": "Portable CarPlay Screens with Dash Cams: What Buyers Must Specify",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 19, 2026",
+  "automationRun": "2026-11-19-09",
+  "publishAt": "2026-11-19T09:07:36+08:00",
+  "updatedAt": "2026-11-19T09:07:36+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen with Dash Cam Buying Guide | TrolinkTek",
+  "excerpt": "Buying a portable CarPlay screen with a dash cam? Define recorded channels, storage, clip retrieval and parking-power limits before choosing a kit.",
+  "image": "/assets/blog/portable-carplay-screen-dash-cam-buying-guide.png",
+  "imageAlt": "Unbranded portable dashboard screen with integrated camera, a separate rear camera and memory card in a blue-lit parked car",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-dash-cam-buying-guide.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "portable CarPlay screen with dash cam",
+  "secondaryKeywords": [
+    "portable screen recording",
+    "reversing camera vs dash cam",
+    "memory card storage",
+    "incident clip retrieval",
+    "parking mode power"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Importers, installers and private-label product managers shortlisting portable display kits with recording",
+  "intro": "Specify the footage, retrieval workflow and installation boundaries before selecting a combined display and recorder.",
+  "faq": [
+    [
+      "Does a portable CarPlay screen automatically record video?",
+      "No. Phone projection and video recording are separate functions. Request the exact model's recording specification and a saved-file demonstration before describing it as a dash cam."
+    ],
+    [
+      "Does a rear-camera input mean rear footage is saved?",
+      "No. An input may provide a live reversing view without recording. Ask whether the proposed configuration saves that channel and how its files are retrieved."
+    ],
+    [
+      "Can recording continue when the screen shows CarPlay?",
+      "That depends on the model and configuration. Ask the supplier to demonstrate the supported operating sequence and inspect the resulting files after switching display views."
+    ],
+    [
+      "Does a screen with a dash cam include parking monitoring?",
+      "Do not assume so. Confirm the specific parking feature, approved power accessories, installation instructions and operating limits separately from recording during a journey."
+    ],
+    [
+      "What should an importer send when requesting a shortlist?",
+      "Send the target vehicles, intended mount position, required recorded channels, storage and retrieval expectations, power-state requirements and service responsibilities. Ask for evidence tied to the exact proposed kit."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Factory Backup Camera Compatibility",
+      "https://trolink-tek.com/blog/portable-carplay-screen-factory-backup-camera-compatibility/"
+    ],
+    [
+      "Screen Size and Viewing Position",
+      "https://trolink-tek.com/blog/portable-carplay-screen-size-viewing-position/"
+    ],
+    [
+      "Portable Screen Buyer Guide",
+      "https://trolink-tek.com/blog/portable-carplay-screen-buying-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Portable screen selection",
+    "title": "Match the screen and recorder to your customer workflow",
+    "body": "Share the target installation, recorded views, storage and retrieval needs to request a configuration-specific shortlist.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-ai-box-data-plans-distributor-bundle",
   "title": "CarPlay AI Box Data Plans: Distributor Bundle or Customer Connectivity?",
   "category": "Market strategy",
