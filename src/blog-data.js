@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-wrong-date-time-diagnosis",
+  "title": "CarPlay AI Box Wrong Date and Time: Clock, Zone, or Sync Source?",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 19, 2026",
+  "automationRun": "2026-11-19-14",
+  "publishAt": "2026-11-19T14:02:11+08:00",
+  "updatedAt": "2026-11-19T14:02:11+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Wrong Date and Time: Diagnosis | TrolinkTek",
+  "excerpt": "Diagnose incorrect CarPlay AI Box time by separating clock ownership, time zones, synchronization access and recovery after power removal.",
+  "image": "/assets/blog/carplay-ai-box-wrong-date-time-diagnosis.png",
+  "imageAlt": "Unbranded automotive AI box, coiled USB cable and unnumbered analog clock on a deep blue engineering mat",
+  "contentPath": "/content/blog-articles/carplay-ai-box-wrong-date-time-diagnosis.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay AI Box wrong date and time",
+  "secondaryKeywords": [
+    "AI Box time zone",
+    "Android automatic time",
+    "network time source",
+    "clock recovery after power loss",
+    "certificate date error"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer technical support engineers and private-label product managers qualifying Android-based CarPlay AI Boxes",
+  "intro": "Identify the clock owner and faulty time layer before correcting settings or authorizing a replacement.",
+  "faq": [
+    [
+      "Why is the AI Box clock wrong when my phone is correct?",
+      "The phone and box may be running separate operating systems and applications. Confirm which interface displays the time, then inspect the box's own time and zone settings before treating the phone as evidence of box synchronization."
+    ],
+    [
+      "Does a one-hour difference prove the system clock is faulty?",
+      "No. A regional zone or display setting is a useful first check, but the offset alone does not establish the cause. Compare the selected zone, date and affected interfaces against a verified reference."
+    ],
+    [
+      "Does internet access guarantee that automatic time works?",
+      "No. A working application does not prove that the configured time source was reached or accepted. Ask for configuration-specific diagnostics and compare an approved alternative upstream when appropriate."
+    ],
+    [
+      "Should we factory-reset a box with an incorrect date?",
+      "Preserve the initial settings, error and restart sequence first. Follow the supplier's supported recovery route; a reset can remove useful evidence without explaining why the date was wrong."
+    ],
+    [
+      "What should an importer request before approving samples?",
+      "Request the supported time sources, recovery instructions and evidence for the intended startup, power and connectivity conditions. Ask the supplier to state expected behavior and acceptance criteria for that exact configuration."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Diagnostic Log Timestamp Alignment",
+      "https://trolink-tek.com/blog/diagnostic-log-timestamp-alignment-carplay-ai-box/"
+    ],
+    [
+      "AI Box Internet Diagnosis",
+      "https://trolink-tek.com/blog/carplay-ai-box-connected-no-internet-diagnosis/"
+    ],
+    [
+      "AI Box Buying Guide",
+      "https://trolink-tek.com/blog/carplay-ai-box-buying-guide-importers/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box technical qualification",
+    "title": "Define the time behavior your deployment needs",
+    "body": "Share your host, power sequence, supported upstream and offline-start requirements to request a configuration-specific evaluation matrix.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "portable-carplay-screen-dash-cam-buying-guide",
   "title": "Portable CarPlay Screens with Dash Cams: What Buyers Must Specify",
   "category": "Buyer guide",
