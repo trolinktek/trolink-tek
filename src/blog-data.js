@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "oem-odm-nre-upfront-vs-unit-price-amortization",
+  "title": "OEM/ODM NRE Fees: Pay Upfront or Recover Through Unit Price?",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 19, 2026",
+  "automationRun": "2026-11-19-19",
+  "publishAt": "2026-11-19T19:07:53+08:00",
+  "updatedAt": "2026-11-19T19:07:53+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "OEM/ODM NRE: Upfront vs Unit-Price Recovery | TrolinkTek",
+  "excerpt": "Compare upfront OEM/ODM engineering fees with unit-price NRE recovery using demand scenarios, a capped cost model and a repeat-order recovery ledger.",
+  "image": "/assets/blog/oem-odm-nre-upfront-vs-unit-price-amortization.png",
+  "imageAlt": "Unbranded automotive smart screen beside a large metal block and a receding series of small component trays in a navy planning room",
+  "contentPath": "/content/blog-articles/oem-odm-nre-upfront-vs-unit-price-amortization.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "OEM ODM NRE amortization",
+  "secondaryKeywords": [
+    "upfront engineering fee",
+    "unit-price development recovery",
+    "NRE recovery ledger",
+    "unrecovered development balance",
+    "OEM ODM payment structure"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label sourcing leads, finance reviewers and procurement committees comparing automotive electronics development proposals",
+  "intro": "Compare the cash timing, total recovery and downside balance before choosing how to fund defined engineering work.",
+  "faq": [
+    [
+      "Is NRE amortization the same as accounting amortization?",
+      "No. Here it means supplier recovery of agreed development charges through qualifying purchases. The buyer's accounting and tax treatment requires a separate finance assessment."
+    ],
+    [
+      "Does unit-price recovery eliminate upfront project risk?",
+      "No. It can reduce early cash payments, but a minimum commitment, shortfall settlement or higher base price can preserve or change the buyer's exposure. Compare the actual terms in downside and upside cases."
+    ],
+    [
+      "When should the recovery charge stop?",
+      "Use the agreed recovery target and transition mechanism. Specify which units count, how the final partial recovery is handled and which subsequent invoice uses the production price without that charge."
+    ],
+    [
+      "Can multiple product variants share one NRE balance?",
+      "They can if the supplier and buyer agree which work is shared and which product codes contribute. Keep variant-specific development separate where the deliverables differ, and reconcile all qualifying releases in one ledger."
+    ],
+    [
+      "What should buyers submit for a comparable OEM/ODM proposal?",
+      "Submit the product configuration, development deliverables, acceptance evidence, variant map and demand scenarios. Request separate production and recovery components, the proposed cap, stop rule and treatment of any unrecovered balance."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "NRE and Project Asset Ownership",
+      "https://trolink-tek.com/blog/oem-wireless-carplay-adapter-nre-tooling-asset-ownership/"
+    ],
+    [
+      "Normalize Supplier Quotations",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-quotation-comparison-checklist/"
+    ],
+    [
+      "Custom Enclosure Investment Decision",
+      "https://trolink-tek.com/blog/custom-enclosure-vs-standard-housing-oem-odm/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "OEM/ODM development planning",
+    "title": "Make development scope and payment assumptions explicit",
+    "body": "Share your product configuration, deliverables, variant map and demand scenarios to discuss feasible development scope and a comparable commercial proposal.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-ai-box-wrong-date-time-diagnosis",
   "title": "CarPlay AI Box Wrong Date and Time: Clock, Zone, or Sync Source?",
   "category": "Technical insight",
