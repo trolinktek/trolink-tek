@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "buyer-consigned-components-vs-turnkey-oem-odm",
+  "title": "Buyer-Consigned Components or Turnkey Sourcing for OEM/ODM Electronics?",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 20, 2026",
+  "automationRun": "2026-11-20-19",
+  "publishAt": "2026-11-20T19:01:52+08:00",
+  "updatedAt": "2026-11-20T19:01:52+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Consigned Components vs Turnkey Sourcing | TrolinkTek",
+  "excerpt": "Compare buyer-consigned components with turnkey sourcing for OEM/ODM automotive electronics. Define material acceptance, build readiness, cost and stock reconciliation.",
+  "image": "/assets/blog/buyer-consigned-components-vs-turnkey-oem-odm.png",
+  "imageAlt": "Sealed component trays and an automotive electronics board at a navy assembly bench where gloved hands receive buyer-supplied material",
+  "contentPath": "/content/blog-articles/buyer-consigned-components-vs-turnkey-oem-odm.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "buyer consigned components vs turnkey sourcing",
+  "secondaryKeywords": [
+    "customer-furnished material",
+    "hybrid electronics sourcing",
+    "consigned material reconciliation",
+    "build-ready inventory",
+    "OEM ODM material responsibility"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label sourcing leads, materials managers and procurement committees choosing component supply responsibilities",
+  "intro": "Choose the sourcing model by accepted build-ready material, complete cost and an executable responsibility chain.",
+  "faq": [
+    [
+      "Does supplying components automatically reduce the finished-unit price?",
+      "No. Request a revised quotation that identifies removed purchasing scope and added handling, verification or other charges. Compare the full project cost and responsibilities for the same approved configuration."
+    ],
+    [
+      "Can a buyer nominate a source without shipping components?",
+      "Potentially. The parties may agree that the manufacturer purchases from a nominated source. Confirm purchasing authority, approved part identity and commercial terms before treating this as an available option."
+    ],
+    [
+      "Who owns unused consigned stock?",
+      "The agreement should state title, custody, permitted use and disposition. Do not infer ownership or return obligations from the word consignment alone. Keep quantities and lot identities visible until closure."
+    ],
+    [
+      "Does the factory have to accept buyer-supplied parts?",
+      "No universal obligation should be assumed. Confirm service availability, approved sources, packaging, receiving criteria and production requirements with the manufacturer before purchasing or shipping material."
+    ],
+    [
+      "What should an OEM/ODM buyer send for review?",
+      "Send the product and configuration, covered BOM lines, part and source records, quantity, required build date and proposed responsibility worksheet. This supports a feasibility discussion without implying acceptance or a committed quotation."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Long-Lead Component Authorization",
+      "https://trolink-tek.com/blog/long-lead-component-buy-authorization-oem-odm/"
+    ],
+    [
+      "Engineering Change Review",
+      "https://trolink-tek.com/blog/oem-odm-engineering-change-request-impact-review/"
+    ],
+    [
+      "Sourcing Models Explained",
+      "https://trolink-tek.com/blog/oem-vs-odm-automotive-electronics-sourcing-models/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "OEM/ODM material planning",
+    "title": "Define your component supply boundary",
+    "body": "Share your intended product, covered BOM lines, source records and build requirements to discuss the feasibility of your proposed material responsibilities.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "portable-carplay-dash-cam-loop-recording-event-protection",
   "title": "Portable CarPlay Dash Cam Loop Recording vs Event Protection",
   "category": "Technical insight",
