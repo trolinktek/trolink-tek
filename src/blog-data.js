@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "motorcycle-carplay-helmet-intercom-audio-compatibility",
+  "title": "Motorcycle CarPlay and Helmet Intercom Compatibility: Choose the Audio Path",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 20, 2026",
+  "automationRun": "2026-11-20-09",
+  "publishAt": "2026-11-20T09:11:15+08:00",
+  "updatedAt": "2026-11-20T09:11:15+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Motorcycle CarPlay Helmet Intercom Compatibility | TrolinkTek",
+  "excerpt": "Choose a motorcycle CarPlay and helmet intercom audio path. Compare phone and display pairing, call microphones, navigation prompts and intercom recovery.",
+  "image": "/assets/blog/motorcycle-carplay-helmet-intercom-audio-compatibility.png",
+  "imageAlt": "Unbranded motorcycle helmet with a side-mounted intercom beside a handlebar navigation display and smartphone in a navy workshop",
+  "contentPath": "/content/blog-articles/motorcycle-carplay-helmet-intercom-audio-compatibility.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "motorcycle CarPlay helmet intercom compatibility",
+  "secondaryKeywords": [
+    "helmet audio routing",
+    "Bluetooth headset pairing mode",
+    "CarPlay call microphone",
+    "navigation prompt priority",
+    "rider intercom coexistence"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Motorcycle accessory dealers, importers and product managers selecting display and helmet-audio bundles",
+  "intro": "Approve the complete phone, display and helmet audio route before advertising a compatible bundle.",
+  "faq": [
+    [
+      "Does a Bluetooth label prove helmet intercom compatibility?",
+      "No. Identify the supported audio route, pairing role, required functions and exact device versions. A connected icon or media playback alone cannot establish calling, microphone input and intercom coexistence."
+    ],
+    [
+      "Should the helmet connect to the phone or the display?",
+      "Use the configuration documented for the exact products and confirmed in a demonstration. Either can be a candidate route, but neither should be assumed to work on every display or headset."
+    ],
+    [
+      "Can navigation play during rider intercom?",
+      "That depends on the headset, pairing mode, settings and audio source. Specify whether prompts should mix with or interrupt conversation and demonstrate that behavior with the intended equipment."
+    ],
+    [
+      "Why can music work while calls fail?",
+      "Music playback and hands-free calling have different functional requirements. Check the documented pairing mode, microphone path and call controls rather than treating successful music as proof of calling support."
+    ],
+    [
+      "What should an importer submit for a compatibility review?",
+      "Submit the screen configuration, phone and headset models and software, pairing map, required functions and observed failures. Include the intended customer use case and any second rider or passenger communication requirement."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Motorcycle Display Fitment Guide",
+      "https://trolink-tek.com/blog/motorcycle-carplay-display-compatibility-fitment/"
+    ],
+    [
+      "Self-Install Kit or Dealer Fitting",
+      "https://trolink-tek.com/blog/motorcycle-carplay-display-self-install-vs-dealer-fitting/"
+    ],
+    [
+      "Motorcycle Display or Factory TFT",
+      "https://trolink-tek.com/blog/motorcycle-carplay-display-vs-factory-tft-navigation/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Motorcycle audio compatibility",
+    "title": "Choose a documented helmet audio route",
+    "body": "Share your phone, screen and headset models, software versions and required navigation, call and intercom functions for a configuration-specific review.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "oem-odm-nre-upfront-vs-unit-price-amortization",
   "title": "OEM/ODM NRE Fees: Pay Upfront or Recover Through Unit Price?",
   "category": "OEM / ODM",
