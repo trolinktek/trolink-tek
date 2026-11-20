@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-dash-cam-loop-recording-event-protection",
+  "title": "Portable CarPlay Dash Cam Loop Recording vs Event Protection",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 20, 2026",
+  "automationRun": "2026-11-20-14",
+  "publishAt": "2026-11-20T14:06:29+08:00",
+  "updatedAt": "2026-11-20T14:06:29+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay Dash Cam Loop Recording vs Event Protection | TrolinkTek",
+  "excerpt": "Understand portable CarPlay dash cam loop recording, event protection and file retention. Qualify rollover, protected storage, restart and verified clip export.",
+  "image": "/assets/blog/portable-carplay-dash-cam-loop-recording-event-protection.png",
+  "imageAlt": "Unbranded portable automotive screen beside circular video-frame tiles, a protected group under a glass arch and a memory card on a navy work surface",
+  "contentPath": "/content/blog-articles/portable-carplay-dash-cam-loop-recording-event-protection.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "portable CarPlay dash cam loop recording",
+  "secondaryKeywords": [
+    "dash cam event protection",
+    "video file rollover",
+    "protected clip retention",
+    "memory card allocation",
+    "verified video export"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importers, product managers and after-sales engineers qualifying portable display recording and retrieval workflows",
+  "intro": "Qualify capture, rollover, protection and checked export before promising incident footage retention.",
+  "faq": [
+    [
+      "Does loop recording mean every file is overwritten?",
+      "No universal rule applies. Obtain the selected recorder's policy for ordinary, manually protected and automatically protected files, including what happens when each storage allocation fills."
+    ],
+    [
+      "Is a protected clip a permanent backup?",
+      "Do not assume so. Protection is governed by device settings and storage policy. Export the required footage using the supported procedure and check the copy at the authorized destination."
+    ],
+    [
+      "Does a save button protect both cameras?",
+      "That depends on the documented configuration. Inspect the saved output from every required channel and confirm the retained context around the action rather than relying on an icon."
+    ],
+    [
+      "Can card capacity establish recording hours?",
+      "Capacity alone cannot establish retention. Account for usable recording space, channels, actual file data rate and allocation policy, then validate the observed rollover on the approved configuration."
+    ],
+    [
+      "What should an importer request before approving retention claims?",
+      "Request a configuration-specific test matrix, file map, full-storage behavior, safe shutdown procedure and verified export demonstration. Record unresolved limits in both the product claim and support instructions."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Screen and Dash Cam Buying Guide",
+      "https://trolink-tek.com/blog/portable-carplay-screen-dash-cam-buying-guide/"
+    ],
+    [
+      "AI Box Storage Diagnosis",
+      "https://trolink-tek.com/blog/carplay-ai-box-storage-full-diagnosis/"
+    ],
+    [
+      "Factory Backup Camera Compatibility",
+      "https://trolink-tek.com/blog/portable-carplay-screen-factory-backup-camera-compatibility/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Recording lifecycle validation",
+    "title": "Verify the footage retention workflow",
+    "body": "Share your recording channels, approved card, retrieval method and retention requirements to scope configuration-specific validation.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "motorcycle-carplay-helmet-intercom-audio-compatibility",
   "title": "Motorcycle CarPlay and Helmet Intercom Compatibility: Choose the Audio Path",
   "category": "Compatibility",
