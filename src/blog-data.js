@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-vs-tablet-parked-entertainment",
+  "title": "CarPlay AI Box vs Tablet: Choosing a Parked Entertainment Setup",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 21, 2026",
+  "automationRun": "2026-11-21-09",
+  "publishAt": "2026-11-21T09:09:13+08:00",
+  "updatedAt": "2026-11-21T09:09:13+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box vs Tablet for Parked Viewing | TrolinkTek",
+  "excerpt": "Compare a CarPlay AI Box with a standalone tablet for parked entertainment. Review display ownership, app evidence, connectivity, accounts and dealer support.",
+  "image": "/assets/blog/carplay-ai-box-vs-tablet-parked-entertainment.png",
+  "imageAlt": "Unbranded automotive AI box on a parked car console with a dashboard display behind and an independent tablet on the passenger seat",
+  "contentPath": "/content/blog-articles/carplay-ai-box-vs-tablet-parked-entertainment.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay AI Box vs tablet",
+  "secondaryKeywords": [
+    "parked car entertainment",
+    "independent passenger screen",
+    "streaming app compatibility",
+    "vehicle display ownership",
+    "AI Box connectivity"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Importers and accessory dealers choosing dashboard or independent parked entertainment configurations",
+  "intro": "Choose by who owns the viewing session, then verify the complete app, connection and account workflow.",
+  "faq": [
+    [
+      "Does a CarPlay AI Box include its own screen?",
+      "The category normally uses a compatible vehicle display. Confirm the selected product's documented interface and included hardware. Do not assume that a box provides a separate passenger screen or an independent video output."
+    ],
+    [
+      "Is a tablet automatically compatible with every streaming service?",
+      "No. Confirm the exact tablet, operating system, app source, market, subscription and playback requirements. A familiar operating-system name does not prove installation, playback quality or download support."
+    ],
+    [
+      "Can a box and a tablet use the same hotspot?",
+      "Potentially, subject to the hotspot's supported connections, carrier conditions and actual device behavior. Verify the intended arrangement and data responsibility rather than promising simultaneous playback from category labels."
+    ],
+    [
+      "Which route is better for a viewer away from the dashboard?",
+      "A standalone tablet is a useful starting point when independent visibility and control are required. Check placement, audio, charging and storage. A dashboard box should only be proposed if the actual viewing position and control path meet the need."
+    ],
+    [
+      "What should a dealer send when requesting a shortlist?",
+      "Send the parked viewing scenario, intended screen and control owner, vehicle details where relevant, required apps, network source, sound path and account-handoff expectations. Identify unverified requirements so the review can focus on evidence gaps."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box vs Wireless Adapter",
+      "https://trolink-tek.com/blog/carplay-ai-box-vs-wireless-carplay-adapter/"
+    ],
+    [
+      "Non-Touchscreen Compatibility",
+      "https://trolink-tek.com/blog/carplay-ai-box-non-touchscreen-rotary-controller/"
+    ],
+    [
+      "AI Box Connectivity Bundles",
+      "https://trolink-tek.com/blog/carplay-ai-box-data-plans-distributor-bundle/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Parked viewing product selection",
+    "title": "Choose the right viewing architecture",
+    "body": "Share your parked viewing scenario, screen owner, vehicle details, required apps and connectivity to identify configuration-specific evidence gaps.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "buyer-consigned-components-vs-turnkey-oem-odm",
   "title": "Buyer-Consigned Components or Turnkey Sourcing for OEM/ODM Electronics?",
   "category": "OEM / ODM",
