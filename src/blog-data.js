@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "central-vs-regional-inventory-automotive-electronics",
+  "title": "Central vs Regional Inventory for Automotive Electronics Distributors",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 21, 2026",
+  "automationRun": "2026-11-21-19",
+  "publishAt": "2026-11-21T19:02:00+08:00",
+  "updatedAt": "2026-11-21T19:02:00+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Central vs Regional Inventory | TrolinkTek",
+  "excerpt": "Compare central and regional inventory for automotive electronics distributors. Define eligible kits, allocation, replenishment and warehouse approval evidence.",
+  "image": "/assets/blog/central-vs-regional-inventory-automotive-electronics.png",
+  "imageAlt": "Unbranded automotive display and AI Box at a packing station beside central warehouse shelves and smaller dispatch trolleys in a navy warehouse",
+  "contentPath": "/content/blog-articles/central-vs-regional-inventory-automotive-electronics.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "central vs regional inventory",
+  "secondaryKeywords": [
+    "automotive electronics distribution",
+    "regional stock allocation",
+    "warehouse network",
+    "configuration control",
+    "inventory replenishment"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Distributor operations leaders and importer buying committees choosing stocking locations and replenishment responsibilities",
+  "intro": "Approve stocking locations by customer promise, eligible configurations and network operating evidence.",
+  "faq": [
+    [
+      "Is central inventory always cheaper?",
+      "No. Compare the same demand and assortment across storage, handling, outbound lanes, transfers, returns and inventory exposure. Centralization alone does not establish the total cost or service outcome."
+    ],
+    [
+      "Should every regional warehouse carry the full product range?",
+      "Only when relevant demand and operating evidence justify that scope. A bounded assortment of approved kits may be a better candidate for evaluation than duplicating uncertain variants everywhere."
+    ],
+    [
+      "Can an inventory system replace physical stock near customers?",
+      "No. Shared visibility can support allocation and replenishment, but it does not move goods or establish a delivery promise. Physical availability and operating capability still need verification."
+    ],
+    [
+      "Should sales stock and replacement reserves share one availability figure?",
+      "They should have explicit allocation rules. If replacement reserves serve an after-sales commitment, do not make them generally saleable without the responsible approval and a review of that commitment."
+    ],
+    [
+      "What should we send before discussing supplier replenishment?",
+      "Send the proposed stocking locations, eligible configurations, kit contents, demand evidence, replenishment responsibilities and exception route. Ask the supplier to confirm the supported scope and quote the defined requirements."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Slow-Moving Inventory Decisions",
+      "https://trolink-tek.com/blog/automotive-electronics-slow-moving-inventory-decisions/"
+    ],
+    [
+      "Distributor Sell-Through Reporting",
+      "https://trolink-tek.com/blog/automotive-electronics-distributor-sell-through-reporting/"
+    ],
+    [
+      "After-Sales Stock Planning",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-after-sales-service-stock-planning/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Regional stock and supply planning",
+    "title": "Define a replenishment model around approved configurations",
+    "body": "Share your stocking locations, eligible kits and replenishment responsibilities to discuss a controlled supply model for your distributor network.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "acceptance-sampling-vs-100-percent-inspection-electronics",
   "title": "Acceptance Sampling vs 100% Inspection for Automotive Electronics",
   "category": "Quality control",
