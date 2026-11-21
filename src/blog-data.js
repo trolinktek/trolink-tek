@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "acceptance-sampling-vs-100-percent-inspection-electronics",
+  "title": "Acceptance Sampling vs 100% Inspection for Automotive Electronics",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 21, 2026",
+  "automationRun": "2026-11-21-14",
+  "publishAt": "2026-11-21T14:04:44+08:00",
+  "updatedAt": "2026-11-21T14:04:44+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Acceptance Sampling vs 100% Inspection | TrolinkTek",
+  "excerpt": "Compare acceptance sampling and 100% inspection for automotive electronics. Define lot boundaries, detection coverage, release rules and buyer evidence.",
+  "image": "/assets/blog/acceptance-sampling-vs-100-percent-inspection-electronics.png",
+  "imageAlt": "Gloved quality inspector selecting an unbranded automotive electronics module beside antistatic trays of matching units on a navy inspection bench",
+  "contentPath": "/content/blog-articles/acceptance-sampling-vs-100-percent-inspection-electronics.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "acceptance sampling vs 100% inspection",
+  "secondaryKeywords": [
+    "lot acceptance sampling",
+    "automotive electronics inspection",
+    "inspection coverage",
+    "AQL interpretation",
+    "production screening"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer quality leads and supplier-quality engineers choosing lot acceptance and unit screening coverage",
+  "intro": "Choose inspection coverage by characteristic, detection capability and the release decision it must support.",
+  "faq": [
+    [
+      "Is acceptance sampling the same as measuring the shipment's defect rate?",
+      "No. Its primary purpose is a lot disposition decision under an approved plan. Do not present the observed sample fraction as the exact defect rate of the entire shipment."
+    ],
+    [
+      "Does 100% inspection mean the shipment has no defects?",
+      "No. It means every unit in the stated population was examined for specified characteristics. Missed detection, untested characteristics and conditions outside the method remain possible."
+    ],
+    [
+      "Can a buyer use sampling and full screening together?",
+      "Yes. A program may screen selected characteristics on every unit and use a separate sampled acceptance review. Document each method's purpose, population, evidence and release authority."
+    ],
+    [
+      "Should we inspect another sample after a failed lot?",
+      "Only under the approved plan and disposition procedure. Do not draw repeated replacement samples until the lot passes. Retain the original result and follow defined escalation or re-presentation rules."
+    ],
+    [
+      "What should we send when requesting an inspection scope review?",
+      "Send the product configuration, lot definition, important characteristics, existing production checks, detection evidence and proposed acceptance rules. Identify the claims and release decisions that still lack support."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Visual Inspection Agreement",
+      "https://trolink-tek.com/blog/attribute-agreement-analysis-visual-inspection/"
+    ],
+    [
+      "Production Traceability",
+      "https://trolink-tek.com/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Rework Release Evidence",
+      "https://trolink-tek.com/blog/electronics-rework-verification-release/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Inspection scope review",
+    "title": "Connect inspection coverage to release evidence",
+    "body": "Share your product configuration, lot boundary and important characteristics to discuss the evidence needed for screening and acceptance decisions.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-ai-box-vs-tablet-parked-entertainment",
   "title": "CarPlay AI Box vs Tablet: Choosing a Parked Entertainment Setup",
   "category": "Product comparison",
