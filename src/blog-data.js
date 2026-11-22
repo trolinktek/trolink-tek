@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-distributor-bid-no-bid",
+  "title": "Automotive Electronics Distributor Bid/No-Bid Decisions: When to Pursue an RFQ",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 22, 2026",
+  "automationRun": "2026-11-22-19",
+  "publishAt": "2026-11-22T19:05:22+08:00",
+  "updatedAt": "2026-11-22T19:05:22+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Automotive Electronics Distributor Bid/No-Bid | TrolinkTek",
+  "excerpt": "Decide whether to pursue an automotive electronics RFQ. Use hard gates, an evidence worksheet and a bid, hold or decline review before investing in a proposal.",
+  "image": "/assets/blog/automotive-electronics-distributor-bid-no-bid.png",
+  "imageAlt": "Unbranded automotive electronics and blank specification sheets beside diverging metal decision blocks on a navy meeting table",
+  "contentPath": "/content/blog-articles/automotive-electronics-distributor-bid-no-bid.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "automotive electronics distributor bid no bid",
+  "secondaryKeywords": [
+    "RFQ qualification",
+    "pursuit approval",
+    "bid decision record",
+    "mandatory requirements",
+    "distributor opportunity assessment"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Distributor commercial directors and private-label channel managers deciding whether to invest in a customer RFQ",
+  "intro": "Authorize proposal investment only when product evidence, buying process and delivery responsibilities support pursuit.",
+  "faq": [
+    [
+      "Is bid/no-bid the same as supplier selection?",
+      "No. Pursuit review decides whether the distributor should invest in preparing an offer. Supplier selection evaluates who can support the approved product and delivery scope; the decisions inform each other but have different owners and outputs."
+    ],
+    [
+      "Should a large RFQ always receive a customized proposal?",
+      "No. Establish a supportable product route, credible buying process and authorized pursuit resources first. A standard information response may be appropriate while the team resolves whether deeper investment is justified."
+    ],
+    [
+      "Can a high score override a mandatory technical gap?",
+      "No. Treat essential unsupported requirements as hard gates. Resolve the gap, obtain an allowed clarification or decline; favorable commercial factors do not create missing technical evidence."
+    ],
+    [
+      "What should a hold decision include?",
+      "Name the unresolved question, evidence owner, permitted clarification route and decision deadline. A hold must lead to a timely bid or decline decision and does not change the buyer's submission rules."
+    ],
+    [
+      "When should an approved pursuit be reviewed again?",
+      "Review material changes to product scope, configuration, market, timing or delivery responsibilities before submitting or revising the offer. Confirm whether the evidence and authority behind the original approval still apply."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Distributor Lead Routing",
+      "https://trolink-tek.com/blog/automotive-electronics-lead-routing-distributors/"
+    ],
+    [
+      "Channel Margin Waterfall",
+      "https://trolink-tek.com/blog/automotive-electronics-distributor-margin-waterfall/"
+    ],
+    [
+      "Smart-Screen Kit Architecture",
+      "https://trolink-tek.com/blog/private-label-smart-car-screen-kit-architecture/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Qualified private-label opportunities",
+    "title": "Build an evidence-based scope before committing your offer",
+    "body": "Share the buyer problem, intended configuration and unresolved requirements to discuss a supported OEM/ODM project route.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-ai-box-app-update-signature-conflicts",
   "title": "CarPlay AI Box App Update Signature Conflicts: Diagnose Before Reinstalling",
   "category": "Technical insight",
