@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-app-update-signature-conflicts",
+  "title": "CarPlay AI Box App Update Signature Conflicts: Diagnose Before Reinstalling",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 22, 2026",
+  "automationRun": "2026-11-22-14",
+  "publishAt": "2026-11-22T14:07:18+08:00",
+  "updatedAt": "2026-11-22T14:07:18+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box App Update Signature Conflicts | TrolinkTek",
+  "excerpt": "Diagnose CarPlay AI Box app update signature conflicts. Compare package identity, signing evidence and delivered builds before uninstalling or approving a migration.",
+  "image": "/assets/blog/carplay-ai-box-app-update-signature-conflicts.png",
+  "imageAlt": "Two unbranded automotive AI boxes beside a dark display and an abstract translucent prism on a navy electronics bench",
+  "contentPath": "/content/blog-articles/carplay-ai-box-app-update-signature-conflicts.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay AI Box app update signature conflict",
+  "secondaryKeywords": [
+    "Android app signing",
+    "APK update compatibility",
+    "application ID",
+    "signing certificate",
+    "app migration evidence"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer engineering teams and private-label support managers responsible for Android AI Box application updates",
+  "intro": "Approve application updates through identity continuity and representative field-upgrade evidence.",
+  "faq": [
+    [
+      "Does a newer app filename prove it can update an installed AI Box app?",
+      "No. Record the application ID, actual version code, signing relationship and supported device environment. A filename or visible release label does not establish those conditions."
+    ],
+    [
+      "Does a different signing fingerprint always mean the update is impossible?",
+      "No. Supported signing-key rotation can require lineage and platform-specific review. Ask the authorized software owner to demonstrate the intended upgrade path on the relevant delivered builds."
+    ],
+    [
+      "Should support uninstall the old app to test a rejected update?",
+      "Preserve the original rejection and baseline first. A clean install answers a different question and may disturb data or settings; evaluate any uninstall procedure as a separate approved service action."
+    ],
+    [
+      "Should an importer ask for the supplier's private signing key?",
+      "No. Request public certificate evidence, artifact identification and a demonstrated supported update path. Private keys, keystores and passwords should remain protected by the authorized owner."
+    ],
+    [
+      "Does passing signature verification prove the update is ready to release?",
+      "No. Verification concerns the artifact signature. Release evidence must also address the installed baseline, supported installation route, retained state, functional behavior and approved configuration scope."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "AI Box App Permissions",
+      "https://trolink-tek.com/blog/carplay-ai-box-app-permissions-location-microphone/"
+    ],
+    [
+      "Firmware Release Evidence",
+      "https://trolink-tek.com/blog/carplay-accessory-firmware-release-evidence/"
+    ],
+    [
+      "Privacy-Safe Diagnostic Logs",
+      "https://trolink-tek.com/blog/privacy-safe-diagnostic-logs-connected-car-accessories/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI Box application update evaluation",
+    "title": "Define the upgrade paths your delivered devices need",
+    "body": "Share your device builds, installed app identities and exact installation failure to discuss a supplier-supported update evaluation.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "carplay-shuttle-fleets-navigation-passenger-audio",
   "title": "CarPlay for Shuttle Fleets: Separate Navigation from Passenger Audio",
   "category": "Vehicle applications",
