@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "carplay-shuttle-fleets-navigation-passenger-audio",
+  "title": "CarPlay for Shuttle Fleets: Separate Navigation from Passenger Audio",
+  "category": "Vehicle applications",
+  "categoryLabel": "Vehicle applications",
+  "date": "November 22, 2026",
+  "automationRun": "2026-11-22-09",
+  "publishAt": "2026-11-22T09:09:54+08:00",
+  "updatedAt": "2026-11-22T09:09:54+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay for Shuttle Fleets: Audio Routing | TrolinkTek",
+  "excerpt": "Specify CarPlay for shuttle fleets by separating driver navigation from passenger audio. Map announcements, calls, input priority and recovery before buying.",
+  "image": "/assets/blog/carplay-shuttle-fleets-navigation-passenger-audio.png",
+  "imageAlt": "Unbranded portable dashboard display beside a separate announcement microphone in a parked shuttle with passenger seats and ceiling speakers",
+  "contentPath": "/content/blog-articles/carplay-shuttle-fleets-navigation-passenger-audio.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "CarPlay for shuttle fleets",
+  "secondaryKeywords": [
+    "shuttle navigation display",
+    "passenger audio routing",
+    "public-address priority",
+    "portable CarPlay screen",
+    "audio source recovery"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Shuttle fleet equipment buyers, passenger-vehicle converters and commercial accessory installers",
+  "intro": "Select shuttle display configurations by intended listeners, audio destinations and verified priority recovery.",
+  "faq": [
+    [
+      "Can a CarPlay screen keep directions out of passenger speakers?",
+      "Only if the chosen product and integrated audio arrangement support that outcome and it has been verified. A separate screen does not establish a separate audio zone."
+    ],
+    [
+      "Does a wireless CarPlay adapter add announcement priority?",
+      "Do not assume it does. Qualify an adapter against the supported wired CarPlay connection and confirm any claimed audio behavior separately with the supplier and installer."
+    ],
+    [
+      "Is the onboard speaker enough for a shuttle driver?",
+      "That depends on the product, mounting position and operating conditions. Assess guidance audibility from the intended driver's position rather than treating the speaker listing as acceptance evidence."
+    ],
+    [
+      "Should every shuttle use the same approved configuration?",
+      "Only vehicles within the documented installation boundary should share an approval. Different radios, conversion audio systems or microphone paths may require separate evaluation groups."
+    ],
+    [
+      "What should a fleet send for a product shortlist?",
+      "Send the vehicle and audio-system configurations, intended listeners for each source, required interruption and recovery behavior, mounting constraints and the installation groups to be evaluated."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "Portable Screens for Work Vans",
+      "https://trolink-tek.com/blog/portable-carplay-screen-work-van-guide/"
+    ],
+    [
+      "CarPlay for Rideshare Drivers",
+      "https://trolink-tek.com/blog/carplay-for-rideshare-drivers-display-guide/"
+    ],
+    [
+      "Portable Screen Buying Guide",
+      "https://trolink-tek.com/blog/portable-carplay-screen-buying-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Shuttle fleet product selection",
+    "title": "Match driver guidance to your passenger audio system",
+    "body": "Share your vehicle groups, current audio paths and required announcement behavior to shortlist products for a controlled installation evaluation.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "central-vs-regional-inventory-automotive-electronics",
   "title": "Central vs Regional Inventory for Automotive Electronics Distributors",
   "category": "Market strategy",
