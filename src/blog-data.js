@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "production-operator-qualification-automotive-electronics",
+  "title": "Production Operator Qualification for Automotive Electronics: Evidence Beyond Training Records",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 23, 2026",
+  "automationRun": "2026-11-23-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Production Operator Qualification | TrolinkTek",
+  "excerpt": "Assess production operator qualification with practical demonstrations, exception handling and scoped authorization for automotive electronics manufacturing.",
+  "image": "/assets/blog/production-operator-qualification-automotive-electronics.png",
+  "imageAlt": "Two technicians at a navy electronics bench demonstrate and observe connector assembly beside an unbranded automotive display",
+  "contentPath": "/content/blog-articles/production-operator-qualification-automotive-electronics.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "production operator qualification automotive electronics",
+  "secondaryKeywords": [
+    "operator competence",
+    "practical skills assessment",
+    "work instruction revision",
+    "authorization scope",
+    "requalification triggers"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer supplier-quality engineers, private-label quality managers and OEM/ODM manufacturing project teams",
+  "intro": "Authorize a defined production task from observed normal and exception performance tied to the current instruction, then reassess changed skills.",
+  "relatedLinks": [
+    [
+      "Attribute Agreement Analysis",
+      "https://trolink-tek.com/blog/attribute-agreement-analysis-visual-inspection/"
+    ],
+    [
+      "Layered Process Audits",
+      "https://trolink-tek.com/blog/layered-process-audits-automotive-electronics/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Production evidence planning",
+    "title": "Separate product checks from operator-dependent controls",
+    "body": "Share the product family, production tasks and planned sample evaluation to discuss a test matrix and the supporting process evidence.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-23T14:09:22+08:00",
+  "updatedAt": "2026-11-23T14:09:22+08:00",
+  "faq": [
+    [
+      "Is a signed training record enough to qualify an operator?",
+      "A signature records participation or acknowledgment. Support independent authorization with observed task performance against defined criteria, including the relevant exception response."
+    ],
+    [
+      "Must every instruction revision require full retraining?",
+      "Assess the changed actions and risks. A wording correction may need communication, while a changed selection, handling step or reject decision may require targeted instruction and a new practical assessment."
+    ],
+    [
+      "Can one qualification cover several products?",
+      "Only when the approved scope is justified by equivalent tasks and controls. Record the product or process family and assess differences that introduce new actions or judgments."
+    ],
+    [
+      "How often should operators be requalified?",
+      "Set review intervals and event triggers using task risk, performance evidence and applicable project requirements. There is no universal renewal period established by this guide."
+    ],
+    [
+      "What evidence should a buyer request first?",
+      "Request an anonymized record linking the current instruction, witnessed normal and exception demonstrations, assessment result and authorization scope. Then compare it with how the task is assigned in production."
+    ]
+  ]
+},
+{
   "slug": "portable-carplay-screen-offline-navigation",
   "title": "Portable CarPlay Screen Offline Navigation: What Buyers Should Specify",
   "category": "Buyer guide",
