@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-offline-navigation",
+  "title": "Portable CarPlay Screen Offline Navigation: What Buyers Should Specify",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 23, 2026",
+  "automationRun": "2026-11-23-09",
+  "publishAt": "2026-11-23T09:01:54+08:00",
+  "updatedAt": "2026-11-23T09:01:54+08:00",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Offline Navigation | TrolinkTek",
+  "excerpt": "Choose a portable CarPlay screen for offline navigation. Specify phone maps, prepared coverage, restart behavior and handover responsibilities before buying.",
+  "image": "/assets/blog/portable-carplay-screen-offline-navigation.png",
+  "imageAlt": "Unbranded portable dashboard screen and smartphone beside a plain folded contour map in a parked car overlooking a remote mountain road",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-offline-navigation.md",
+  "readTime": "8 min read",
+  "primaryKeyword": "portable CarPlay screen offline navigation",
+  "secondaryKeywords": [
+    "downloaded maps",
+    "iPhone offline navigation",
+    "local projection connection",
+    "map coverage",
+    "navigation handover"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Automotive accessory distributors, used-vehicle dealers and fleet equipment buyers selecting portable navigation displays",
+  "intro": "Buy a demonstrated offline journey with a named map-maintenance owner, rather than an unqualified offline GPS claim.",
+  "faq": [
+    [
+      "Does a portable CarPlay screen store offline maps?",
+      "Do not assume it does. In a phone-projection setup, identify the phone and application that store the maps and run navigation. A product with separate navigation software needs its own capability review."
+    ],
+    [
+      "Can offline navigation work without a SIM in the screen?",
+      "A screen SIM is not the deciding factor for phone-based offline maps. Confirm prepared coverage, supported app behavior and the local phone connection, then demonstrate the required task without an internet route."
+    ],
+    [
+      "Should we turn off Wi-Fi to demonstrate offline use?",
+      "Not if the approved wireless projection setup needs that local connection. Remove the actual internet route using a documented procedure while preserving the transport needed by the screen."
+    ],
+    [
+      "Does an existing route prove the system is ready for any journey?",
+      "No. Evaluate active guidance, a parked restart and a new destination separately within the prepared coverage. A successful task does not establish unlimited search, regional coverage or online feature availability."
+    ],
+    [
+      "What should we send for a product shortlist?",
+      "Send the vehicle and power details, intended phone and navigation app, travel area, offline tasks, audio route and map-maintenance owner. Identify any requirement for phone-free operation before selecting a screen."
+    ]
+  ],
+  "relatedLinks": [
+    [
+      "CarPlay and Mobile Data",
+      "https://trolink-tek.com/blog/does-wireless-carplay-adapter-need-internet-mobile-data/"
+    ],
+    [
+      "Screen Size and Viewing Position",
+      "https://trolink-tek.com/blog/portable-carplay-screen-size-viewing-position/"
+    ],
+    [
+      "Portable Screen Buying Guide",
+      "https://trolink-tek.com/blog/portable-carplay-screen-buying-guide/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Offline navigation product selection",
+    "title": "Shortlist a screen around your prepared navigation workflow",
+    "body": "Share the intended phone, navigation app, travel area and offline tasks to select a screen configuration for sample evaluation.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  }
+},
+{
   "slug": "automotive-electronics-distributor-bid-no-bid",
   "title": "Automotive Electronics Distributor Bid/No-Bid Decisions: When to Pursue an RFQ",
   "category": "Market strategy",
