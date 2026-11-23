@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-distributor-service-language-coverage",
+  "title": "Automotive Electronics Distributor Service Language Coverage: A Market Launch Decision",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 23, 2026",
+  "automationRun": "2026-11-23-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Distributor Service Language Coverage | TrolinkTek",
+  "excerpt": "Plan service language coverage for automotive electronics markets with a task worksheet, support model comparison and demonstrated escalation ownership.",
+  "image": "/assets/blog/automotive-electronics-distributor-service-language-coverage.png",
+  "imageAlt": "Two support headsets beside an unbranded automotive display, graphite electronics box and frosted globe on a navy coordination desk",
+  "contentPath": "/content/blog-articles/automotive-electronics-distributor-service-language-coverage.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "automotive electronics distributor service language coverage",
+  "secondaryKeywords": [
+    "multilingual customer support",
+    "technical escalation",
+    "regional distributor support",
+    "localization ownership",
+    "market launch readiness"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Automotive electronics importer directors, regional distributor managers and private-label product leaders",
+  "intro": "Choose market service coverage from demonstrated customer tasks and a complete customer-language escalation round trip, then expand the offer when ownership and backup work.",
+  "relatedLinks": [
+    [
+      "Channel Launch Readiness",
+      "https://trolink-tek.com/blog/automotive-electronics-channel-launch-readiness/"
+    ],
+    [
+      "Manual Localization",
+      "https://trolink-tek.com/blog/private-label-carplay-adapter-manual-localization/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Regional launch planning",
+    "title": "Define the support scope behind your market offer",
+    "body": "Share your product range, customer languages, channel responsibilities and uncovered service tasks to discuss a bounded OEM/ODM project scope.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-23T19:09:47+08:00",
+  "updatedAt": "2026-11-23T19:09:47+08:00",
+  "faq": [
+    [
+      "Does a translated manual prove local-language support?",
+      "No. It establishes a content asset. Demonstrate who can qualify the purchase, collect a fault report, manage escalation and explain the next action in the promised language."
+    ],
+    [
+      "Must engineering speak every customer language?",
+      "Not necessarily. A qualified liaison can connect customer-language support with engineering, provided technical meaning, uncertainty and ownership survive the round trip."
+    ],
+    [
+      "Can machine translation replace a technical reviewer?",
+      "Do not rely on it alone for consequential technical instructions. Define review ownership and verify terminology against the actual product, interface and approved service action."
+    ],
+    [
+      "Should every product launch in every supported language?",
+      "Only when the relevant service tasks are covered for that product and channel. Language capability demonstrated for a portable screen does not automatically establish AI Box support capability."
+    ],
+    [
+      "What should a distributor send before discussing a project?",
+      "Send the product categories, target customer languages, sales channels, proposed support model and uncovered tasks. Ask the supplier to confirm technical escalation scope and the localization work it can actually provide."
+    ]
+  ]
+},
+{
   "slug": "production-operator-qualification-automotive-electronics",
   "title": "Production Operator Qualification for Automotive Electronics: Evidence Beyond Training Records",
   "category": "Quality control",
