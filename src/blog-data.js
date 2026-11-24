@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "wired-vs-wireless-portable-carplay-screen",
+  "title": "Wired vs Wireless Portable CarPlay Screens: Which Connection Fits Your Buyers?",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 24, 2026",
+  "automationRun": "2026-11-24-09",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Wired vs Wireless Portable CarPlay Screens | TrolinkTek",
+  "excerpt": "Compare wired and wireless portable CarPlay screens by driver handover, phone charging, audio routing and connection evidence before choosing a product kit.",
+  "image": "/assets/blog/wired-vs-wireless-portable-carplay-screen.png",
+  "imageAlt": "Two unbranded portable displays on navy slate platforms, one connected to a phone by USB and one beside a disconnected phone with a conceptual wireless arc",
+  "contentPath": "/content/blog-articles/wired-vs-wireless-portable-carplay-screen.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "wired vs wireless portable CarPlay screen",
+  "secondaryKeywords": [
+    "USB data input",
+    "wireless phone projection",
+    "driver handover",
+    "phone charging",
+    "portable display audio routing"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Automotive accessory distributors, used-car dealers and installers comparing portable display connection options",
+  "intro": "Choose the phone connection around arrival, charging and driver handover, then qualify the entire power and audio arrangement.",
+  "relatedLinks": [
+    [
+      "Portable Screen Buying Guide",
+      "https://trolink-tek.com/blog/portable-carplay-screen-buying-guide/"
+    ],
+    [
+      "Screen Power Compatibility",
+      "https://trolink-tek.com/blog/smart-car-screen-power-installation-compatibility/"
+    ],
+    [
+      "Adapter vs Portable Screen",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-vs-portable-carplay-screen/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Portable screen connection selection",
+    "title": "Choose a connection around your buyers’ daily routine",
+    "body": "Share the phone platforms, driver handover pattern, charging requirement and radio inputs to shortlist a screen configuration for sample evaluation.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-24T09:02:08+08:00",
+  "updatedAt": "2026-11-24T09:02:08+08:00",
+  "faq": [
+    [
+      "Does wireless CarPlay mean the portable screen has no cables?",
+      "No. Wireless describes the phone-to-screen projection connection here. The screen still needs its specified power arrangement, and the chosen vehicle audio route may involve another cable."
+    ],
+    [
+      "Can every USB-equipped portable screen run wired CarPlay?",
+      "No. Require explicit support for wired CarPlay on the designated data input. A USB socket may serve charging, storage, service or another accessory function."
+    ],
+    [
+      "Is wired CarPlay always faster or more reliable?",
+      "Do not make that universal claim. Compare the exact screen, software, phone, cable and installation using an agreed method. A result from one configuration does not establish performance for all products."
+    ],
+    [
+      "Will a wireless screen automatically choose the right driver's phone?",
+      "Do not assume so. Demonstrate device priority and handover with the intended phones present, including a previous user's phone nearby, then document the necessary parked selection steps."
+    ],
+    [
+      "What should we send to request a product shortlist?",
+      "Send the target vehicles, phone platforms, driver handover pattern, preferred projection mode, charging requirement and radio audio input. Identify whether dual-mode operation is mandatory and request evidence for each advertised route."
+    ]
+  ]
+},
+{
   "slug": "automotive-electronics-distributor-service-language-coverage",
   "title": "Automotive Electronics Distributor Service Language Coverage: A Market Launch Decision",
   "category": "Market strategy",
