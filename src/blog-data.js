@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "production-test-coverage-fault-challenge-validation",
+  "title": "Production Test Coverage: Prove the Station Detects the Defect",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 24, 2026",
+  "automationRun": "2026-11-24-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Production Test Coverage Validation | TrolinkTek",
+  "excerpt": "Validate automotive electronics production test coverage with controlled fault challenges, detection-chain evidence and clear limits on defect-detection claims.",
+  "image": "/assets/blog/production-test-coverage-fault-challenge-validation.png",
+  "imageAlt": "Unbranded automotive display and electronics module on a navy engineering bench beside an environmental enclosure and three production test fixtures",
+  "contentPath": "/content/blog-articles/production-test-coverage-fault-challenge-validation.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "production test coverage validation",
+  "secondaryKeywords": [
+    "controlled fault challenges",
+    "defect detection",
+    "test escapes",
+    "challenge sample control",
+    "end-of-line test"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Automotive electronics test engineers, quality leads and importer product managers assessing production defect detection",
+  "intro": "Prove that the station detects the defined fault through stimulus, observation, decision and release control.",
+  "relatedLinks": [
+    [
+      "Station Correlation and Golden Units",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-test-station-correlation-golden-unit-control/"
+    ],
+    [
+      "Production Test Limits",
+      "https://trolink-tek.com/blog/production-test-limits-vs-specification-limits-guard-banding/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Production detection evidence",
+    "title": "Map the defects your production checks must detect",
+    "body": "Share the product configuration, manufacturing steps and faults of concern to scope a matrix of detection evidence and remaining coverage gaps.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-24T14:08:47+08:00",
+  "updatedAt": "2026-11-24T14:08:47+08:00",
+  "faq": [
+    [
+      "Does a good unit passing validate production test coverage?",
+      "No. It demonstrates acceptance of that unit under that setup. Coverage validation also needs evidence about the defined faults the station is intended to detect and the release decisions it makes when those conditions are present."
+    ],
+    [
+      "Is a returned faulty product a suitable challenge sample?",
+      "Not automatically. Engineering should characterize its condition, identify the relevant fault, assess stability and approve its use. Multiple unknown faults or intermittent behavior can make the result difficult to interpret."
+    ],
+    [
+      "Can two correlated stations still miss the same defect?",
+      "Yes. Agreement between stations does not prove that either station exercises the function needed to detect a particular defect. Use a defined challenge condition to assess that detection question separately."
+    ],
+    [
+      "Does rejecting every challenge prove complete defect detection?",
+      "No. It supports a conclusion about the listed conditions under the recorded setup. It does not establish coverage of untested defects, future changes or all production variation, and it does not by itself establish a statistical detection rate."
+    ],
+    [
+      "What should a buyer request from the supplier?",
+      "Request the defined fault set, selection rationale, challenge characterization, product and station revisions, expected and observed outcomes, raw evidence, unresolved escapes and release controls. Ask who approves changes and how challenge assets are kept outside saleable inventory."
+    ]
+  ]
+},
+{
   "slug": "wired-vs-wireless-portable-carplay-screen",
   "title": "Wired vs Wireless Portable CarPlay Screens: Which Connection Fits Your Buyers?",
   "category": "Product comparison",
