@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "oem-odm-sample-allocation-validation-demo-units",
+  "title": "OEM/ODM Sample Allocation: Protect Validation Units from Demo Demand",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 24, 2026",
+  "automationRun": "2026-11-24-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "OEM/ODM Sample Allocation for Validation and Demos | TrolinkTek",
+  "excerpt": "Plan OEM/ODM sample allocation across validation, demonstrations and protected references, with a reusable worksheet for unit eligibility, custody and scheduling.",
+  "image": "/assets/blog/oem-odm-sample-allocation-validation-demo-units.png",
+  "imageAlt": "Three graphite cases holding unbranded automotive displays for protected reference, engineering evaluation and sales presentation on a navy shelf",
+  "contentPath": "/content/blog-articles/oem-odm-sample-allocation-validation-demo-units.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "OEM ODM sample allocation",
+  "secondaryKeywords": [
+    "validation sample planning",
+    "demonstration units",
+    "protected reference sample",
+    "sample custody",
+    "sample reuse eligibility"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product managers, OEM/ODM procurement leads and engineering project owners allocating automotive electronics samples",
+  "intro": "Allocate samples by activity, initial condition and custody so sales demonstrations do not consume the resources needed for validation.",
+  "relatedLinks": [
+    [
+      "Sample Approval Before a Purchase Order",
+      "https://trolink-tek.com/blog/oem-carplay-adapter-sample-approval-checklist/"
+    ],
+    [
+      "Pilot Build Exit Criteria",
+      "https://trolink-tek.com/blog/oem-odm-pilot-build-exit-criteria/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "OEM/ODM sample planning",
+    "title": "Reserve the samples your next project decision requires",
+    "body": "Share the product baseline, planned evaluations, demonstration needs and decision dates to scope sample availability and allocation with the project team.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-24T19:01:59+08:00",
+  "updatedAt": "2026-11-24T19:01:59+08:00",
+  "faq": [
+    [
+      "How many OEM/ODM samples should a buyer request?",
+      "There is no universal number. Derive the request from approved methods, product configurations, concurrent activities, restrictions on reuse and justified replacement needs. Ask technical owners to approve the quantity basis and suppliers to confirm availability and terms."
+    ],
+    [
+      "Can a demonstration unit later become a validation sample?",
+      "Only when the validation owner accepts its documented configuration, prior use and starting condition under the applicable method. A successful demonstration or factory reset does not automatically establish eligibility."
+    ],
+    [
+      "Should the protected reference travel to sales events?",
+      "Define access in the project rules. Keeping the approved reference under controlled custody avoids undocumented changes or loss. Allocate a separate presentation unit when the event conflicts with the reference's preservation purpose."
+    ],
+    [
+      "Does a sample allocation worksheet establish statistical confidence?",
+      "No. It assigns physical resources and records dependencies. Statistical conclusions require a suitable study design, justified sample selection and analysis approved for the intended claim."
+    ],
+    [
+      "What should happen when samples arrive in the wrong revision?",
+      "Record the discrepancy and place the affected allocation on hold. The technical owner should assess which activities remain valid; procurement and the supplier should agree correction or replacement before the project relies on the units."
+    ]
+  ]
+},
+{
   "slug": "production-test-coverage-fault-challenge-validation",
   "title": "Production Test Coverage: Prove the Station Detects the Defect",
   "category": "Technical insight",
