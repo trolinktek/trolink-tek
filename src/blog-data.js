@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "oem-odm-dormant-tooling-restart-replenishment",
+  "title": "OEM/ODM Dormant Tooling Restart: When Can You Promise Replenishment?",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 25, 2026",
+  "automationRun": "2026-11-25-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "OEM/ODM Dormant Tooling Restart | TrolinkTek",
+  "excerpt": "Plan OEM/ODM replenishment after tooling inactivity. Separate asset availability, restart evidence and production release before committing a delivery date.",
+  "image": "/assets/blog/oem-odm-dormant-tooling-restart-replenishment.png",
+  "imageAlt": "Steel injection mold block emerging from a navy storage drawer beside a machined insert and an unbranded automotive display rear enclosure",
+  "contentPath": "/content/blog-articles/oem-odm-dormant-tooling-restart-replenishment.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "OEM ODM dormant tooling restart",
+  "secondaryKeywords": [
+    "injection mold storage",
+    "tooling reactivation",
+    "replenishment lead time",
+    "restart qualification",
+    "production release"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product managers, sourcing leads and operations managers planning repeat automotive electronics orders after production inactivity",
+  "intro": "A retained mold is only one dependency: authorize a bounded restart investigation before committing replenishment against a dormant tool.",
+  "relatedLinks": [
+    [
+      "NRE and Tooling Asset Ownership",
+      "https://trolink-tek.com/blog/oem-wireless-carplay-adapter-nre-tooling-asset-ownership/"
+    ],
+    [
+      "OEM/ODM Engineering Change Review",
+      "https://trolink-tek.com/blog/oem-odm-engineering-change-request-impact-review/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Repeat production planning",
+    "title": "Turn a dormant asset into a documented restart plan",
+    "body": "Share the product revision, last production record, tool identity, expected demand and required arrival window to discuss restart evidence and decision milestones.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-25T19:09:49+08:00",
+  "updatedAt": "2026-11-25T19:09:49+08:00",
+  "faq": [
+    [
+      "Does owning a mold guarantee immediate replenishment?",
+      "No. Ownership, physical availability, technical readiness, production allocation and shipment readiness are separate questions. Confirm the relevant evidence and dependencies before making a delivery commitment."
+    ],
+    [
+      "How long can tooling remain idle before restart evaluation is needed?",
+      "There is no universal interval for every tool and storage arrangement. Ask the responsible team to assess the actual condition, maintenance history, storage commitments, configuration changes and proposed production requirements."
+    ],
+    [
+      "Is a new sample enough to release a repeat order?",
+      "A sample is useful only within its documented configuration and evaluation scope. Record the material, tool identity, production conditions and acceptance evidence, and resolve remaining risks before approving the intended production route."
+    ],
+    [
+      "Should the supplier repair the tool as soon as a problem is found?",
+      "The supplier should propose the required action within the agreed authorization boundary. Changes that affect geometry, material behavior or acceptance evidence require the applicable technical and commercial approvals before implementation."
+    ],
+    [
+      "What information should a buyer send for a restart discussion?",
+      "Send the product and drawing revisions, last accepted production record, known tool identity, intended assembly and material, demand requirement and required arrival window. Identify missing records and any known changes since the previous run."
+    ]
+  ]
+},
+{
   "slug": "carplay-ai-box-audio-focus-navigation-music-recovery",
   "title": "CarPlay AI Box Audio Focus: Why Music Does Not Resume After Navigation",
   "category": "Technical insight",
