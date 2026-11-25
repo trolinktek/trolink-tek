@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "carplay-delivery-fleets-multi-stop-route-sequence",
+  "title": "CarPlay for Delivery Fleets: Keep Multi-Stop Navigation Aligned with Dispatch",
+  "category": "Vehicle applications",
+  "categoryLabel": "Vehicle applications",
+  "date": "November 25, 2026",
+  "automationRun": "2026-11-25-09",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay for Delivery Fleets: Multi-Stop Routes | TrolinkTek",
+  "excerpt": "Qualify CarPlay for delivery fleets by keeping navigation aligned with dispatch changes, failed attempts and restarts. Includes a reusable stop-state worksheet.",
+  "image": "/assets/blog/carplay-delivery-fleets-multi-stop-route-sequence.png",
+  "imageAlt": "Unbranded navy delivery van and blank automotive display beside parcels and a cyan route connecting three stop markers on a miniature city grid",
+  "contentPath": "/content/blog-articles/carplay-delivery-fleets-multi-stop-route-sequence.md",
+  "readTime": "9 min read",
+  "primaryKeyword": "CarPlay for delivery fleets",
+  "secondaryKeywords": [
+    "multi-stop navigation",
+    "delivery manifest",
+    "dispatch route changes",
+    "stop sequence reconciliation",
+    "proof of delivery"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Fleet accessory distributors, courier operations managers and commercial installers qualifying delivery-vehicle navigation",
+  "intro": "Prove that the next navigation destination matches the current dispatch instruction before selecting delivery-fleet display hardware.",
+  "relatedLinks": [
+    [
+      "Portable CarPlay Screens for Work Vans",
+      "https://trolink-tek.com/blog/portable-carplay-screen-work-van-guide/"
+    ],
+    [
+      "CarPlay for Mobile Service Technicians",
+      "https://trolink-tek.com/blog/carplay-mobile-service-technicians-screen-tablet/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Delivery fleet product selection",
+    "title": "Match a product shortlist to your delivery workflow",
+    "body": "Share the vehicle groups, dispatch application, phone baseline and completed stop-state worksheet to discuss suitable display and connection options.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-25T09:04:43+08:00",
+  "updatedAt": "2026-11-25T09:04:43+08:00",
+  "faq": [
+    [
+      "Does CarPlay automatically synchronize a courier manifest?",
+      "Do not assume so. Verify the dispatch provider's supported integration and demonstrate assignment changes with the actual applications, phone and receiver. Navigation support alone does not establish manifest synchronization."
+    ],
+    [
+      "Is a multi-stop map route the same as route optimization?",
+      "No. Adding or reordering destinations does not by itself prove processing of delivery windows, job priorities or vehicle constraints. Ask the software owner to identify the supported optimization rules and demonstrate relevant cases."
+    ],
+    [
+      "Will a wireless adapter fix a stale delivery destination?",
+      "Only evidence can identify the cause. Compare the phone and direct supported connection first, then isolate the receiver path. A connection accessory does not establish a missing dispatch-to-navigation handoff."
+    ],
+    [
+      "Can offline navigation keep the entire delivery operation working?",
+      "Not necessarily. Map availability, assignment changes and proof-of-delivery synchronization are different capabilities. Evaluate each one and define how the fleet handles unavailable or conflicting instructions."
+    ],
+    [
+      "What should a buyer send for a product shortlist?",
+      "Share the vehicle and head-unit groups, phone and app versions, connection preference, power and audio requirements, plus the stop-state worksheet and known limitations. Request a shortlist against that scope before committing fleet quantities."
+    ]
+  ]
+},
+{
   "slug": "oem-odm-sample-allocation-validation-demo-units",
   "title": "OEM/ODM Sample Allocation: Protect Validation Units from Demo Demand",
   "category": "OEM / ODM",
