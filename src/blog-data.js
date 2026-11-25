@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-audio-focus-navigation-music-recovery",
+  "title": "CarPlay AI Box Audio Focus: Why Music Does Not Resume After Navigation",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 25, 2026",
+  "automationRun": "2026-11-25-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box Audio Focus: Music Recovery | TrolinkTek",
+  "excerpt": "Diagnose CarPlay AI Box audio focus by separating app interruption behavior from receiver routing. Includes a recovery worksheet and sample evaluation method.",
+  "image": "/assets/blog/carplay-ai-box-audio-focus-navigation-music-recovery.png",
+  "imageAlt": "Unbranded navy AI box beside layered glass gates and cyan and blue acoustic ribbons leading toward a speaker cone",
+  "contentPath": "/content/blog-articles/carplay-ai-box-audio-focus-navigation-music-recovery.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "CarPlay AI Box audio focus",
+  "secondaryKeywords": [
+    "Android audio focus",
+    "audio ducking",
+    "navigation prompts",
+    "media playback recovery",
+    "receiver audio routing"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "AI box distributors, product managers and after-sales engineers qualifying navigation and media application combinations",
+  "intro": "Separate application interruption and recovery from receiver output routing before assigning an AI box audio failure.",
+  "relatedLinks": [
+    [
+      "Wireless CarPlay Audio Troubleshooting",
+      "https://trolink-tek.com/blog/wireless-carplay-adapter-audio-troubleshooting/"
+    ],
+    [
+      "Diagnostic Log Timestamp Alignment",
+      "https://trolink-tek.com/blog/diagnostic-log-timestamp-alignment-carplay-ai-box/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "AI box application evaluation",
+    "title": "Define the interruption and recovery test matrix",
+    "body": "Share the required navigation and media combinations, receiver groups, software versions and completed recovery worksheet to discuss the evaluation scope.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-25T14:05:41+08:00",
+  "updatedAt": "2026-11-25T14:05:41+08:00",
+  "faq": [
+    [
+      "Does quiet music after a prompt prove the AI box hardware is faulty?",
+      "No. Application playback state, audio focus, mixer state and receiver routing can produce similar symptoms. Capture the transition and compare controlled configurations before assigning a hardware cause."
+    ],
+    [
+      "Should navigation always duck music instead of pausing it?",
+      "Do not assume one policy for every application or content type. Agree on the expected behavior for the supported application pair and verify the complete interruption and recovery sequence."
+    ],
+    [
+      "Can a factory reset confirm that the problem is fixed?",
+      "A reset can change several variables and remove useful evidence. Preserve the failing configuration first. A correction requires repeating the original trigger on a controlled configuration and documenting the result."
+    ],
+    [
+      "Is Android audio-focus guidance a compatibility guarantee?",
+      "No. Platform documentation explains mechanisms and version-dependent rules. Compatibility evidence must cover the actual box build, installed applications, receiver and connection used in the proposed installation."
+    ],
+    [
+      "What should a buyer submit for a test matrix?",
+      "Send the required application pairs, content types, receiver groups, box and application versions, expected recovery policy, and a completed interruption worksheet. Include a minimal reproduction and sanitized evidence for any known failure."
+    ]
+  ]
+},
+{
   "slug": "carplay-delivery-fleets-multi-stop-route-sequence",
   "title": "CarPlay for Delivery Fleets: Keep Multi-Stop Navigation Aligned with Dispatch",
   "category": "Vehicle applications",
