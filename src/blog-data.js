@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "dual-sim-iphone-carplay-compatibility",
+  "title": "Dual SIM iPhone and CarPlay: Which Line Handles Calls and Mobile Data?",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 26, 2026",
+  "automationRun": "2026-11-26-09",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Dual SIM iPhone and CarPlay Compatibility | TrolinkTek",
+  "excerpt": "Qualify dual SIM iPhone and CarPlay workflows. Separate voice identity, mobile-data selection and display connectivity before promising business-line support.",
+  "image": "/assets/blog/dual-sim-iphone-carplay-compatibility.png",
+  "imageAlt": "Unbranded smartphone between cyan and blue glass towers connected by a light conduit to a blank portable automotive display on navy plinths",
+  "contentPath": "/content/blog-articles/dual-sim-iphone-carplay-compatibility.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "dual SIM iPhone CarPlay compatibility",
+  "secondaryKeywords": [
+    "cellular data switching",
+    "business and personal phone lines",
+    "outgoing caller identity",
+    "CarPlay mobile data",
+    "dual SIM call continuity"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Automotive accessory distributors, commercial installers and fleet product managers qualifying business and personal phone-line workflows",
+  "intro": "Qualify voice identity, mobile-data policy and projection continuity separately before describing a dual SIM iPhone workflow as compatible.",
+  "relatedLinks": [
+    [
+      "CarPlay Internet and Mobile Data",
+      "https://trolink-tek.com/blog/does-wireless-carplay-adapter-need-internet-mobile-data/"
+    ],
+    [
+      "Portable Screen Offline Navigation",
+      "https://trolink-tek.com/blog/portable-carplay-screen-offline-navigation/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Phone and vehicle qualification",
+    "title": "Match the product to the complete phone-line workflow",
+    "body": "Share the phone, receiver, intended voice and data policy, and critical call sequence for a focused product compatibility discussion.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-26T09:01:42+08:00",
+  "updatedAt": "2026-11-26T09:01:42+08:00",
+  "faq": [
+    [
+      "Does dual SIM create two CarPlay connections?",
+      "No. Two cellular subscriptions on one iPhone do not create two independent CarPlay sessions. Qualify the intended phone, line configuration and connected display as one workflow."
+    ],
+    [
+      "Does the adapter decide which SIM supplies mobile data?",
+      "For ordinary iPhone CarPlay projection, the phone's cellular configuration governs its mobile service. The adapter does not provide a second phone subscription or override the user's carrier policy."
+    ],
+    [
+      "Why does online navigation behave differently during a call?",
+      "Investigate the active voice line, selected data line, permitted switching and carrier conditions. Separately check whether projection remains connected. An online-service interruption alone does not identify an accessory defect."
+    ],
+    [
+      "Can an installer guarantee both numbers stay reachable?",
+      "Reachability depends on the phone and provider configuration as well as enabled features. Establish the phone-only behavior, confirm the required service conditions and document the evaluated outcome instead of making a universal guarantee."
+    ],
+    [
+      "What should a distributor include in a sample request?",
+      "Include the phone and receiver versions, candidate accessory, masked line labels, intended voice and data policy, and the required call sequence. State the acceptance scope and who can authorize settings changes."
+    ]
+  ]
+},
+{
   "slug": "oem-odm-dormant-tooling-restart-replenishment",
   "title": "OEM/ODM Dormant Tooling Restart: When Can You Promise Replenishment?",
   "category": "OEM / ODM",
