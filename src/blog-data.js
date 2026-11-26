@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-distributor-co-marketing-funds",
+  "title": "Automotive Electronics Distributor Co-Marketing Funds: Reimburse Activity, Verify Demand Separately",
+  "category": "Market strategy",
+  "categoryLabel": "Market strategy",
+  "date": "November 26, 2026",
+  "automationRun": "2026-11-26-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Distributor Co-Marketing Funds for Electronics | TrolinkTek",
+  "excerpt": "Approve automotive electronics distributor co-marketing funds with campaign evidence, eligible costs and a separate decision on demand and renewal.",
+  "image": "/assets/blog/automotive-electronics-distributor-co-marketing-funds.png",
+  "imageAlt": "Unbranded portable automotive display on a navy plinth beside a spotlight, blank rolled poster and transparent envelope containing blank evidence cards",
+  "contentPath": "/content/blog-articles/automotive-electronics-distributor-co-marketing-funds.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "automotive electronics distributor co-marketing funds",
+  "secondaryKeywords": [
+    "market development funds",
+    "campaign reimbursement",
+    "proof of performance",
+    "channel promotion approval",
+    "incremental demand"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Channel directors, private-label importers and distributor marketing managers approving shared promotional spending",
+  "intro": "Authorize the activity, reconcile its delivery evidence and costs, then assess demand and renewal as a separate decision.",
+  "relatedLinks": [
+    [
+      "Distributor Incentive Programs",
+      "https://trolink-tek.com/blog/automotive-electronics-distributor-incentive-program/"
+    ],
+    [
+      "Distributor Sell-Through Reporting",
+      "https://trolink-tek.com/blog/automotive-electronics-distributor-sell-through-reporting/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "A supportable offer before promotion",
+    "title": "Align the product kit with your channel campaign",
+    "body": "Share the target market, assortment, partner roles and buyer questions to discuss product scope and localized assets before funding promotion.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-26T19:10:35+08:00",
+  "updatedAt": "2026-11-26T19:10:35+08:00",
+  "faq": [
+    [
+      "Is a co-marketing fund the same as a distributor rebate?",
+      "No. A co-marketing arrangement funds specified promotional work or eligible expenditure. A rebate usually depends on a defined transaction or performance event. State the actual eligibility and evidence rules instead of relying on the program name."
+    ],
+    [
+      "Does an approved invoice prove a campaign generated sales?",
+      "No. An invoice supports a cost claim when matched to the agreed delivery evidence and terms. Sales reporting and any incremental-impact assessment require separate evidence, definitions and treatment of uncertainty."
+    ],
+    [
+      "Should reimbursement always depend on a sales target?",
+      "No. Define the payment condition before authorization. If the purpose is to fund a delivered activity, evaluate that obligation separately from renewal. A performance-linked arrangement needs its own agreed recognition event and verification method."
+    ],
+    [
+      "Can a small pilot claim incremental demand from a before-and-after comparison?",
+      "Not from that comparison alone. Stock, timing, other promotions and customer differences may explain the movement. Report observed results and limitations unless the study design and evidence support a causal conclusion."
+    ],
+    [
+      "What should an importer bring to an OEM/ODM discussion?",
+      "Bring the target audience, product configuration, approved claims, campaign deliverables, partner support role and unresolved buyer questions. These inputs help define a supportable kit and asset scope before the channel spends on promotion."
+    ]
+  ]
+},
+{
   "slug": "quality-record-corrections-automotive-electronics",
   "title": "Quality Record Corrections in Automotive Electronics: Preserve Evidence Before Revising Release",
   "category": "Quality control",
