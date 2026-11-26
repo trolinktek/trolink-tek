@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "quality-record-corrections-automotive-electronics",
+  "title": "Quality Record Corrections in Automotive Electronics: Preserve Evidence Before Revising Release",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 26, 2026",
+  "automationRun": "2026-11-26-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Quality Record Corrections in Electronics | TrolinkTek",
+  "excerpt": "Correct automotive electronics quality records while preserving original evidence, amendment approval and the history of product release decisions.",
+  "image": "/assets/blog/quality-record-corrections-automotive-electronics.png",
+  "imageAlt": "Blank translucent original and revised record sheets in a graphite tray beside an archival glass panel and an unbranded automotive display enclosure",
+  "contentPath": "/content/blog-articles/quality-record-corrections-automotive-electronics.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "automotive electronics quality record corrections",
+  "secondaryKeywords": [
+    "inspection report amendment",
+    "original observation retention",
+    "quality record audit trail",
+    "release decision history",
+    "superseded inspection report"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importers, supplier-quality engineers and private-label quality managers reviewing amended production and inspection records",
+  "intro": "Preserve original evidence, review the amendment and authorize any changed release decision as separate steps.",
+  "relatedLinks": [
+    [
+      "Production Traceability System",
+      "https://trolink-tek.com/blog/automotive-electronics-production-traceability-system/"
+    ],
+    [
+      "Controlled Retest Decisions",
+      "https://trolink-tek.com/blog/automotive-electronics-controlled-retest-decision-rules/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Evidence-focused sample review",
+    "title": "Define the evidence package alongside the sample",
+    "body": "Share the device family, target configuration and report expectations to discuss sample evaluation and record-review responsibilities.",
+    "label": "Request a Sample",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-26T14:01:58+08:00",
+  "updatedAt": "2026-11-26T14:01:58+08:00",
+  "faq": [
+    [
+      "Can a supplier simply replace an incorrect PDF?",
+      "A replacement should identify the superseded report and retain a retrievable link to the original, the reason for amendment, the supporting evidence and approval. Assess whether recipients or release decisions also require follow-up."
+    ],
+    [
+      "Is a passing retest a record correction?",
+      "No. A retest is a new observation with its own conditions and identity. Preserve the earlier result and apply the approved decision rule before deciding which evidence supports disposition."
+    ],
+    [
+      "Does a corrected spelling mistake require shipment quarantine?",
+      "Not automatically. Review whether the field affects identity, interpretation or acceptance. The quality owner should document the impact and determine the appropriate product status from the evidence."
+    ],
+    [
+      "Can a spreadsheet support controlled amendments?",
+      "It can form part of a controlled process when original versions, access, change explanations, review and retrieval are reliable. A file format alone does not establish trustworthy record governance."
+    ],
+    [
+      "What should a buyer request before sample approval?",
+      "Request a redacted original-to-amended record example, the ownership of technical and release reviews, the proposed evidence format and the route for communicating superseded reports."
+    ]
+  ]
+},
+{
   "slug": "dual-sim-iphone-carplay-compatibility",
   "title": "Dual SIM iPhone and CarPlay: Which Line Handles Calls and Mobile Data?",
   "category": "Compatibility",
