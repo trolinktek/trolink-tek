@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "carplay-ai-box-drm-vs-codec-streaming-support",
+  "title": "CarPlay AI Box DRM vs Codec Support: What Proves Streaming Compatibility?",
+  "category": "Technical insight",
+  "categoryLabel": "Technical insight",
+  "date": "November 27, 2026",
+  "automationRun": "2026-11-27-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "CarPlay AI Box DRM vs Codec Support | TrolinkTek",
+  "excerpt": "Separate CarPlay AI Box codec capability from protected streaming eligibility. Use a claim-release worksheet to evaluate apps, DRM and the vehicle display route.",
+  "image": "/assets/blog/carplay-ai-box-drm-vs-codec-streaming-support.png",
+  "imageAlt": "Unbranded automotive AI box and dark display beside two translucent optical channels and a frosted glass gateway in navy lighting",
+  "contentPath": "/content/blog-articles/carplay-ai-box-drm-vs-codec-streaming-support.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "CarPlay AI Box DRM vs codec support",
+  "secondaryKeywords": [
+    "protected streaming playback",
+    "Widevine capability",
+    "Android media codecs",
+    "streaming app eligibility",
+    "vehicle display route"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer engineers and private-label product managers approving AI Box streaming claims",
+  "intro": "Release streaming claims against configuration-specific evidence that separates media decoding, DRM capability and service eligibility.",
+  "relatedLinks": [
+    [
+      "AI Box vs Tablet for Parked Entertainment",
+      "https://trolink-tek.com/blog/carplay-ai-box-vs-tablet-parked-entertainment/"
+    ],
+    [
+      "AI Box App Update Signature Conflicts",
+      "https://trolink-tek.com/blog/carplay-ai-box-app-update-signature-conflicts/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Approve a bounded playback claim",
+    "title": "Build evidence for your AI Box viewing configuration",
+    "body": "Share the intended service, market, vehicle display route and proposed sales wording to define a configuration-specific evidence plan.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-27T14:06:53+08:00",
+  "updatedAt": "2026-11-27T14:06:53+08:00",
+  "faq": [
+    [
+      "Does video codec support prove that a streaming app will work?",
+      "No. Decoding a selected media format does not establish protected playback eligibility. Confirm the service, app, account conditions, DRM implementation and delivered display route separately."
+    ],
+    [
+      "Does Widevine L1 guarantee Netflix HD on a CarPlay AI Box?",
+      "No. Netflix's cited guidance concerns Android phones and tablets and includes additional troubleshooting even for devices reporting L1. It does not establish support for a particular automotive AI Box."
+    ],
+    [
+      "Can a local video demonstration replace a protected playback demonstration?",
+      "No. It can establish playback of that file on the recorded configuration. A protected-service claim requires its own supported evidence and clearly stated conditions."
+    ],
+    [
+      "What should engineers record when the app opens but video is black?",
+      "Record the hardware, firmware, app source and version, head-unit route, content session conditions and exact error or observed behavior. Preserve the evidence and escalate without assuming a single cause or bypassing protection."
+    ],
+    [
+      "When should a distributor review an approved streaming claim?",
+      "Review it after relevant firmware, application, provider-requirement or delivered-configuration changes. Assign an owner who can update the evidence and withdraw unsupported wording from packaging and dealer material."
+    ]
+  ]
+},
+{
   "slug": "motorcycle-carplay-touchscreen-vs-handlebar-controller",
   "title": "Motorcycle CarPlay Touchscreen vs Handlebar Controller: Which Kit Should You Stock?",
   "category": "Product comparison",
