@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "motorcycle-carplay-touchscreen-vs-handlebar-controller",
+  "title": "Motorcycle CarPlay Touchscreen vs Handlebar Controller: Which Kit Should You Stock?",
+  "category": "Product comparison",
+  "categoryLabel": "Product comparison",
+  "date": "November 27, 2026",
+  "automationRun": "2026-11-27-09",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Motorcycle CarPlay Touch vs Controller | TrolinkTek",
+  "excerpt": "Compare motorcycle CarPlay touchscreen-only and handlebar-controller kits by required commands, glove response, installation and distributor support scope.",
+  "image": "/assets/blog/motorcycle-carplay-touchscreen-vs-handlebar-controller.png",
+  "imageAlt": "Unbranded motorcycle display and three-button accessory controller mounted on a curved handlebar above dark riding gloves in navy studio lighting",
+  "contentPath": "/content/blog-articles/motorcycle-carplay-touchscreen-vs-handlebar-controller.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "motorcycle CarPlay touchscreen vs handlebar controller",
+  "secondaryKeywords": [
+    "motorcycle display remote control",
+    "touchscreen riding gloves",
+    "handlebar controller command map",
+    "motorcycle display accessory bundle",
+    "controller replacement compatibility"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Motorcycle accessory distributors, importers and installers selecting standard display bundles and optional controllers",
+  "intro": "Choose the control bundle around demonstrated customer tasks, installed access and service scope rather than accessory count.",
+  "relatedLinks": [
+    [
+      "Motorcycle Display Fitment Guide",
+      "https://trolink-tek.com/blog/motorcycle-carplay-display-compatibility-fitment/"
+    ],
+    [
+      "Helmet Intercom Audio Compatibility",
+      "https://trolink-tek.com/blog/motorcycle-carplay-helmet-intercom-audio-compatibility/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Choose a useful control package",
+    "title": "Match the motorcycle display kit to your customer tasks",
+    "body": "Share the target motorcycles, required commands, gloves, phone setup and helmet audio route to shortlist a documented display and accessory configuration.",
+    "label": "Request a Product Shortlist",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-27T09:10:37+08:00",
+  "updatedAt": "2026-11-27T09:10:37+08:00",
+  "faq": [
+    [
+      "Is a handlebar controller necessary for every motorcycle CarPlay display?",
+      "No. Choose it when the approved accessory completes required tasks and fits the installation. A touchscreen-only package can be appropriate when its documented stopped workflow meets the customer's needs."
+    ],
+    [
+      "Will any Bluetooth remote work with a motorcycle display?",
+      "Do not assume so. Confirm the exact supported accessory, command map, connection sequence and firmware scope with the display supplier before including it in a customer offer."
+    ],
+    [
+      "Does touchscreen-compatible glove labeling guarantee reliable operation?",
+      "No. Evaluate the actual gloves and display together using the supplier's instructions. Fit, fingertip contact and screen behavior can affect the result; phone compatibility alone does not establish display compatibility."
+    ],
+    [
+      "Does adding a controller retain the motorcycle's factory buttons?",
+      "No. An added accessory controller and factory control retention are separate architectures. Any claim about original switches requires its own documented interface and configuration-specific verification."
+    ],
+    [
+      "What should a distributor request before choosing the standard bundle?",
+      "Request the complete package contents, accessory identity, supported command map, installation constraints, configuration-specific demonstration and replacement instructions. Select the bundle around required customer tasks and record unresolved functions as exclusions."
+    ]
+  ]
+},
+{
   "slug": "automotive-electronics-distributor-co-marketing-funds",
   "title": "Automotive Electronics Distributor Co-Marketing Funds: Reimburse Activity, Verify Demand Separately",
   "category": "Market strategy",
