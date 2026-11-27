@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "oem-odm-firmware-shared-platform-vs-dedicated-branch",
+  "title": "OEM/ODM Firmware Customization: Shared Platform or Dedicated Branch?",
+  "category": "OEM / ODM",
+  "categoryLabel": "OEM / ODM",
+  "date": "November 27, 2026",
+  "automationRun": "2026-11-27-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "OEM/ODM Firmware: Shared Platform vs Branch | TrolinkTek",
+  "excerpt": "Choose shared-platform configuration or a dedicated firmware branch for private-label AI Boxes. Compare maintenance, validation and funding before authorization.",
+  "image": "/assets/blog/oem-odm-firmware-shared-platform-vs-dedicated-branch.png",
+  "imageAlt": "Unbranded automotive AI box beside a cyan-lit Y junction connecting a shared rail of blank modules and a separate solitary module",
+  "contentPath": "/content/blog-articles/oem-odm-firmware-shared-platform-vs-dedicated-branch.md",
+  "readTime": "12 min read",
+  "primaryKeyword": "OEM ODM firmware customization",
+  "secondaryKeywords": [
+    "shared firmware platform",
+    "dedicated firmware branch",
+    "private-label AI Box",
+    "firmware maintenance cost",
+    "customization authorization"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Private-label product managers and procurement committees authorizing automotive electronics firmware customization",
+  "intro": "Choose the smallest maintainable software customization that meets the buyer outcome, with explicit continuing validation and support.",
+  "relatedLinks": [
+    [
+      "Software Support Terms in an RFQ",
+      "https://trolink-tek.com/blog/automotive-electronics-rfq-software-support-commitments/"
+    ],
+    [
+      "SKU and Variant Planning",
+      "https://trolink-tek.com/blog/private-label-wireless-carplay-adapter-sku-variant-planning/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Authorize maintainable differentiation",
+    "title": "Scope the firmware your brand needs to maintain",
+    "body": "Share your intended user journey, product baseline and requested differences to compare configuration, application and platform customization.",
+    "label": "Discuss an OEM/ODM Project",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-27T19:05:06+08:00",
+  "updatedAt": "2026-11-27T19:05:06+08:00",
+  "faq": [
+    [
+      "Does private-label branding require a dedicated firmware branch?",
+      "Not necessarily. Ask whether supported configuration, resources or an application layer can deliver the branding and preserve it through the approved reset and update routes. Decide from the implementation evidence rather than the label private label."
+    ],
+    [
+      "Is a dedicated branch the same as owning the source code?",
+      "No. A separate maintenance line describes how development and releases are managed. Ownership, access, permitted use and transfer rights require their own explicit agreement."
+    ],
+    [
+      "Can a shared platform still have customer-specific update packages?",
+      "Yes, depending on the implementation. Ask how the supplier controls configuration differences and proves that each package follows the maintained baseline. Different packages alone do not establish independent branches."
+    ],
+    [
+      "What should procurement compare beyond the initial engineering fee?",
+      "Compare continuing maintenance scope, applicable-fix review, validation, release support, buyer effort and eventual migration or retirement under the same planning assumptions. Ask suppliers to identify exclusions and unpriced dependencies."
+    ],
+    [
+      "When should a buyer approve a dedicated branch?",
+      "Approve it when a valuable requirement needs that maintenance model, alternatives have been evaluated, and engineering, funding, validation and support responsibilities are explicit. Defer approval when the continuing release path remains unclear."
+    ]
+  ]
+},
+{
   "slug": "carplay-ai-box-drm-vs-codec-streaming-support",
   "title": "CarPlay AI Box DRM vs Codec Support: What Proves Streaming Compatibility?",
   "category": "Technical insight",
