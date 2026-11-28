@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "portable-carplay-screen-factory-microphone-compatibility",
+  "title": "Can a Portable CarPlay Screen Use the Factory Microphone?",
+  "category": "Compatibility",
+  "categoryLabel": "Compatibility",
+  "date": "November 28, 2026",
+  "automationRun": "2026-11-28-09",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Portable CarPlay Screen Factory Microphone | TrolinkTek",
+  "excerpt": "Can a portable CarPlay screen use the factory microphone? Identify calls and voice-command input paths before promising retention or selecting an accessory.",
+  "image": "/assets/blog/portable-carplay-screen-factory-microphone-compatibility.png",
+  "imageAlt": "Independent portable dashboard display below a factory overhead microphone grille with two separated cyan light arcs in a navy vehicle cabin",
+  "contentPath": "/content/blog-articles/portable-carplay-screen-factory-microphone-compatibility.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "portable CarPlay screen factory microphone",
+  "secondaryKeywords": [
+    "factory microphone retention",
+    "portable display voice input",
+    "CarPlay call microphone",
+    "external microphone compatibility",
+    "Siri input route"
+  ],
+  "funnel": "TOFU/MOFU",
+  "targetBuyer": "Automotive accessory distributors and installers qualifying factory-microphone retention before portable-screen purchase",
+  "intro": "Prove the voice-input route before promising factory-microphone retention, and document acceptable alternatives.",
+  "relatedLinks": [
+    [
+      "Portable Screen Audio Routing",
+      "https://trolink-tek.com/blog/portable-carplay-screen-audio-routing-guide/"
+    ],
+    [
+      "Factory Steering-Wheel Control Compatibility",
+      "https://trolink-tek.com/blog/portable-carplay-screen-factory-steering-wheel-controls/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Define the voice-input requirement",
+    "title": "Match the screen to the calling arrangement",
+    "body": "Share your vehicle, radio, phone setup and microphone-retention requirement to discuss a configuration-specific product shortlist.",
+    "label": "Request a Compatibility Review",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-28T09:01:40+08:00",
+  "updatedAt": "2026-11-28T09:01:40+08:00",
+  "faq": [
+    [
+      "Does hearing calls through the car speakers prove the factory microphone is active?",
+      "No. Playback and voice input are separate paths. Identify the microphone and calling route in the exact supported configuration before approving a retention claim."
+    ],
+    [
+      "Can an AUX cable make the portable screen use the roof microphone?",
+      "The radio AUX playback connection described here does not establish a return path from the roof microphone. Request a separate documented voice-input route rather than inferring one from successful playback."
+    ],
+    [
+      "Can the phone stay paired to the original radio for calls?",
+      "Some proposed arrangements may use that route, but it must be supported for the particular phone, screen and radio combination. Ask for connection instructions and evidence covering calls, projection coexistence and reconnection."
+    ],
+    [
+      "Can any external microphone be plugged into a screen with a microphone socket?",
+      "Do not assume that. Confirm the approved microphone part, connection requirements and supported functions with the supplier. A matching-looking plug is not sufficient compatibility evidence."
+    ],
+    [
+      "What should an installer request before promising factory-microphone retention?",
+      "Request the exact configuration, a supported connection map, identification of the input for calls and required voice commands, and recorded recovery behavior. Keep unverified functions outside the approved sales promise."
+    ]
+  ]
+},
+{
   "slug": "oem-odm-firmware-shared-platform-vs-dedicated-branch",
   "title": "OEM/ODM Firmware Customization: Shared Platform or Dedicated Branch?",
   "category": "OEM / ODM",
