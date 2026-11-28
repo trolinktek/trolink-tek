@@ -1,5 +1,72 @@
 export const blogPosts=[
 {
+  "slug": "automotive-electronics-supplier-customer-references",
+  "title": "Automotive Electronics Supplier Customer References: What Should Buyers Verify?",
+  "category": "Buyer guide",
+  "categoryLabel": "Buyer guide",
+  "date": "November 28, 2026",
+  "automationRun": "2026-11-28-19",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Automotive Electronics Supplier References | TrolinkTek",
+  "excerpt": "Verify automotive electronics supplier customer references with relevant interviews, evidence boundaries and a procurement committee worksheet before award.",
+  "image": "/assets/blog/automotive-electronics-supplier-customer-references.png",
+  "imageAlt": "Unbranded conference speakerphone, automotive electronics module and blank display beside three connected glass conversation shapes on a navy desk",
+  "contentPath": "/content/blog-articles/automotive-electronics-supplier-customer-references.md",
+  "readTime": "10 min read",
+  "primaryKeyword": "automotive electronics supplier customer references",
+  "secondaryKeywords": [
+    "supplier reference interview",
+    "customer testimonial verification",
+    "supplier due diligence",
+    "procurement committee evidence",
+    "reference relevance"
+  ],
+  "funnel": "BOFU",
+  "targetBuyer": "Automotive electronics importer sourcing managers and private-label procurement committees verifying supplier experience before award",
+  "intro": "Verify relevant firsthand experience and its limits before using customer references in a supplier award decision.",
+  "relatedLinks": [
+    [
+      "Supplier Selection Matrix",
+      "https://trolink-tek.com/blog/supplier-selection-matrix-automotive-electronics/"
+    ],
+    [
+      "Supplier Quality-System Evidence Review",
+      "https://trolink-tek.com/blog/automotive-electronics-supplier-quality-system-evidence-review/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Define the evidence behind the supplier profile",
+    "title": "Discuss a scoped supplier qualification review",
+    "body": "Share your product family, intended market and project responsibilities to discuss a factory profile and the evidence available for review. Customer reference permissions must be confirmed separately.",
+    "label": "Request a Factory Profile",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-28T19:08:48+08:00",
+  "updatedAt": "2026-11-28T19:08:48+08:00",
+  "faq": [
+    [
+      "Does a customer logo prove supplier approval?",
+      "No. Clarify the claimed relationship, project scope and permission. A logo does not establish current capability or endorsement of your proposed configuration."
+    ],
+    [
+      "Must the referee have purchased the identical product?",
+      "Not always. Match the experience to the behavior being verified and document differences. Technical suitability of your exact product still requires its own evaluation."
+    ],
+    [
+      "Is refusing a customer introduction a reason to reject a supplier?",
+      "Not automatically. Identify the confidentiality boundary and consider permitted alternative evidence. Hold an essential decision if the required claim remains unverified."
+    ],
+    [
+      "Should the supplier attend a reference interview?",
+      "Agree the format with the referee and your evaluation team. Identify each speaker's contribution and provide an authorized route for clarification so supplier explanations are not recorded as customer observations."
+    ],
+    [
+      "What should the procurement committee receive?",
+      "Provide the relevant claim, referee scope, firsthand example, limitations, corroboration status and proposed action. Keep sensitive identity and commercial details within the agreed access boundary."
+    ]
+  ]
+},
+{
   "slug": "defect-pareto-analysis-automotive-electronics",
   "title": "Defect Pareto Analysis for Automotive Electronics: Count Units, Events or Symptoms?",
   "category": "Quality control",
