@@ -1,5 +1,76 @@
 export const blogPosts=[
 {
+  "slug": "defect-pareto-analysis-automotive-electronics",
+  "title": "Defect Pareto Analysis for Automotive Electronics: Count Units, Events or Symptoms?",
+  "category": "Quality control",
+  "categoryLabel": "Quality control",
+  "date": "November 28, 2026",
+  "automationRun": "2026-11-28-14",
+  "author": "TrolinkTek Editorial Team",
+  "metaTitle": "Defect Pareto Analysis for Automotive Electronics | TrolinkTek",
+  "excerpt": "Define units, events and symptoms before ranking automotive electronics defects. Use a supplier-review worksheet to separate frequency, exposure and risk.",
+  "image": "/assets/blog/defect-pareto-analysis-automotive-electronics.png",
+  "imageAlt": "Five transparent trays with descending groups of black connector housings beside an unpowered automotive display and a gloved hand on a navy quality desk",
+  "contentPath": "/content/blog-articles/defect-pareto-analysis-automotive-electronics.md",
+  "readTime": "11 min read",
+  "primaryKeyword": "defect Pareto analysis automotive electronics",
+  "secondaryKeywords": [
+    "unique affected units",
+    "failure event counting",
+    "symptom coding dictionary",
+    "supplier quality prioritization",
+    "defect category share"
+  ],
+  "funnel": "MOFU",
+  "targetBuyer": "Importer quality leads, supplier-quality engineers and private-label product managers prioritizing automotive electronics investigations",
+  "intro": "Declare the counting basis before ranking defect categories, and review severity separately from frequency.",
+  "relatedLinks": [
+    [
+      "First-Pass Yield vs Final Yield",
+      "https://trolink-tek.com/blog/first-pass-yield-vs-final-yield-automotive-electronics/"
+    ],
+    [
+      "Quality Record Corrections",
+      "https://trolink-tek.com/blog/quality-record-corrections-automotive-electronics/"
+    ],
+    [
+      "Corrective Action Effectiveness",
+      "https://trolink-tek.com/blog/corrective-action-effectiveness-verification-automotive-electronics/"
+    ]
+  ],
+  "cta": {
+    "eyebrow": "Connect observations to evidence",
+    "title": "Define the checks behind your defect categories",
+    "body": "Share your proposed product, symptom groups and operating scope to discuss a configuration-specific test matrix and reporting requirements.",
+    "label": "Request a Test Matrix",
+    "href": "https://trolink-tek.com/#quote"
+  },
+  "publishAt": "2026-11-28T14:06:28+08:00",
+  "updatedAt": "2026-11-28T14:06:28+08:00",
+  "faq": [
+    [
+      "Should every defect Pareto count unique units?",
+      "No. Choose the measure for the decision. Unique units show affected-product breadth; qualified events, recorded time or documented cost can show other burdens. Label the measure and keep the views separate."
+    ],
+    [
+      "Can one unit belong to more than one category?",
+      "Yes, if the declared coding rule permits distinct symptoms. The summed category totals then count assignments and can exceed the number of affected units. Do not present the cumulative share as distinct-product coverage."
+    ],
+    [
+      "Does the largest category prove the main root cause?",
+      "No. A symptom category identifies observed burden under the chosen rule. Confirm causes through investigation and preserve the link between the original observation, evidence and conclusion."
+    ],
+    [
+      "Should the least frequent issue wait until the largest is fixed?",
+      "Not automatically. Review severity and escalation obligations separately. An unresolved serious concern can require action even when its bar is small."
+    ],
+    [
+      "What should a buyer request with a supplier Pareto report?",
+      "Request the cohort definition, measure, coding dictionary, duplicate rules, source reconciliation, exposure context and named next actions. Ask for a traceable example rather than accepting the chart image alone."
+    ]
+  ]
+},
+{
   "slug": "portable-carplay-screen-factory-microphone-compatibility",
   "title": "Can a Portable CarPlay Screen Use the Factory Microphone?",
   "category": "Compatibility",
